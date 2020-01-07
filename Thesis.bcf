@@ -2130,23 +2130,17 @@
     <bcf:datasource type="file" datatype="bibtex">Bibliography.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">bertolazzi2005symbolic</bcf:citekey>
-    <bcf:citekey order="2">bertolazzi2006symbolic</bcf:citekey>
-    <bcf:citekey order="3">biral2016notes</bcf:citekey>
-    <bcf:citekey order="4">cossalter2006motorcycle</bcf:citekey>
-    <bcf:citekey order="5">dal2019comparison</bcf:citekey>
-    <bcf:citekey order="6">guiggiani2014science</bcf:citekey>
-    <bcf:citekey order="7">lot2014curvilinear</bcf:citekey>
-    <bcf:citekey order="7">pacejka2006tyre</bcf:citekey>
-    <bcf:citekey order="8">pacejka2006tyre</bcf:citekey>
-    <bcf:citekey order="9">rao2009survey</bcf:citekey>
-    <bcf:citekey order="10">rodrigues2014optimal</bcf:citekey>
-    <bcf:citekey order="11">sharp2004advances</bcf:citekey>
-    <bcf:citekey order="12">sharp2014method</bcf:citekey>
-    <bcf:citekey order="13">bertolazzi2005symbolic</bcf:citekey>
-    <bcf:citekey order="14">biral2016notes</bcf:citekey>
-    <bcf:citekey order="15">rao2009survey</bcf:citekey>
-    <bcf:citekey order="16">rodrigues2014optimal</bcf:citekey>
+    <bcf:citekey order="1">maria1997introduction</bcf:citekey>
+    <bcf:citekey order="2">pacejka2006tyre</bcf:citekey>
+    <bcf:citekey order="3">cossalter2007influence</bcf:citekey>
+    <bcf:citekey order="4">pacejka2006tyre</bcf:citekey>
+    <bcf:citekey order="5">bertolazzi2006symbolic</bcf:citekey>
+    <bcf:citekey order="6">bertolazzi2005symbolic</bcf:citekey>
+    <bcf:citekey order="7">biral2016notes</bcf:citekey>
+    <bcf:citekey order="8">rao2009survey</bcf:citekey>
+    <bcf:citekey order="9">rodrigues2014optimal</bcf:citekey>
+    <bcf:citekey order="10">bertolazzi2006symbolic</bcf:citekey>
+    <bcf:citekey order="11">biral2016notes</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

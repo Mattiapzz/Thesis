@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.21)  7 JAN 2020 09:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.21)  7 JAN 2020 15:32
 entering extended mode
 **./Thesis.tex
 (Thesis.tex
@@ -1786,30 +1786,25 @@ l.1 \chapter
 
 ]) (Chapter1.tex [5
 
-]
+] [6]
 Chapter 1.
-(Chapter1_1.tex [6
+(Chapter1_1.tex [7
 
-]) (Chapter1_2.tex) (Chapter1_3.tex)) (Chapter2.tex [7]
+]) (Chapter1_2.tex) (Chapter1_3.tex)) (Chapter2.tex [8]
+[9]
 Chapter 2.
 (Chapter2_1.tex) (Chapter2_2.tex) (Chapter2_3.tex)) (Chapter3.tex)
-(Chapter4.tex [8
+(Chapter4.tex [10
 
 ]
 Chapter 3.
-) (Conclusions.tex [9
+) (Conclusions.tex [11
 
-]) [10
+]) [12
 
-]
-Underfull \hbox (badness 1394) in paragraph at lines 33--33
-[]\OT1/cmr/m/n/10.95 H. S. Rodrig-ues, M. T. T. Mon-teiro and D. F. Torres, `  
-Op-
- []
+] (Appendix.tex [13
 
-[11
-
-] (Appendix.tex [12]) [13
+]) [14
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 38.
@@ -1825,22 +1820,22 @@ Package logreq Info: Writing requests to 'Thesis.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 38.
  ) 
 Here is how much of TeX's memory you used:
- 49476 strings out of 492453
- 904545 string characters out of 3129825
- 1347773 words of memory out of 3000000
- 53082 multiletter control sequences out of 15000+200000
+ 49466 strings out of 492453
+ 904083 string characters out of 3129825
+ 1348519 words of memory out of 3000000
+ 53075 multiletter control sequences out of 15000+200000
  545530 words of font info for 71 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,6n,69p,1133b,3374s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 63i,6n,69p,1133b,2407s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiK
 TeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/f
 onts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
 e1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Thesis.pdf (14 pages, 332237 bytes).
+Output written on Thesis.pdf (15 pages, 331881 bytes).
 PDF statistics:
- 251 PDF objects out of 1000 (max. 8388607)
- 49 named destinations out of 1000 (max. 500000)
+ 241 PDF objects out of 1000 (max. 8388607)
+ 46 named destinations out of 1000 (max. 500000)
  182 words of extra memory for PDF output out of 10000 (max. 10000000)
 

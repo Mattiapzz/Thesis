@@ -19,45 +19,102 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global}
-    \entry{bertolazzi2005symbolic}{article}{}
-      \name{author}{3}{}{%
-        {{hash=ac4c6ae9de832850afe8e78fb40431b5}{%
-           family={Bertolazzi},
-           familyi={B\bibinitperiod},
-           given={E},
-           giveni={E\bibinitperiod}}}%
-        {{hash=9f6b7e0315621cf691a529bc4f81c680}{%
-           family={Biral},
-           familyi={B\bibinitperiod},
-           given={F},
-           giveni={F\bibinitperiod}}}%
-        {{hash=d8732486fe03f08b8085c5699354c808}{%
-           family={Da\bibnamedelima Lio},
-           familyi={D\bibinitperiod\bibinitdelim L\bibinitperiod},
-           given={M},
-           giveni={M\bibinitperiod}}}%
+    \entry{maria1997introduction}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=dc1e9d37532b2744480b95eb03f5e0c5}{%
+           family={Maria},
+           familyi={M\bibinitperiod},
+           given={Anu},
+           giveni={A\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
-        {Springer}%
-      }
-      \strng{namehash}{f28576c6aa4a5d4ac7d2ec16ce93a5ae}
-      \strng{fullhash}{f28576c6aa4a5d4ac7d2ec16ce93a5ae}
-      \strng{bibnamehash}{f28576c6aa4a5d4ac7d2ec16ce93a5ae}
-      \strng{authorbibnamehash}{f28576c6aa4a5d4ac7d2ec16ce93a5ae}
-      \strng{authornamehash}{f28576c6aa4a5d4ac7d2ec16ce93a5ae}
-      \strng{authorfullhash}{f28576c6aa4a5d4ac7d2ec16ce93a5ae}
-      \field{extraname}{1}
+      \strng{namehash}{dc1e9d37532b2744480b95eb03f5e0c5}
+      \strng{fullhash}{dc1e9d37532b2744480b95eb03f5e0c5}
+      \strng{bibnamehash}{dc1e9d37532b2744480b95eb03f5e0c5}
+      \strng{authorbibnamehash}{dc1e9d37532b2744480b95eb03f5e0c5}
+      \strng{authornamehash}{dc1e9d37532b2744480b95eb03f5e0c5}
+      \strng{authorfullhash}{dc1e9d37532b2744480b95eb03f5e0c5}
       \field{sortinit}{1}
       \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Multibody System Dynamics}
-      \field{number}{2}
-      \field{title}{Symbolic--numeric indirect method for solving optimal control problems for large multibody systems}
-      \field{volume}{13}
-      \field{year}{2005}
-      \field{pages}{233\bibrangedash 252}
-      \range{pages}{20}
+      \field{booktitle}{Winter simulation conference}
+      \field{number}{1}
+      \field{title}{Introduction to modeling and simulation}
+      \field{volume}{29}
+      \field{year}{1997}
+      \field{pages}{7\bibrangedash 13}
+      \range{pages}{7}
+    \endentry
+    \entry{pacejka2006tyre}{book}{}
+      \name{author}{1}{}{%
+        {{hash=bbdf81df541036113919a207b5f8ee18}{%
+           family={Pacejka},
+           familyi={P\bibinitperiod},
+           given={H.B.},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Butterworth-Heinemann}%
+      }
+      \strng{namehash}{bbdf81df541036113919a207b5f8ee18}
+      \strng{fullhash}{bbdf81df541036113919a207b5f8ee18}
+      \strng{bibnamehash}{bbdf81df541036113919a207b5f8ee18}
+      \strng{authorbibnamehash}{bbdf81df541036113919a207b5f8ee18}
+      \strng{authornamehash}{bbdf81df541036113919a207b5f8ee18}
+      \strng{authorfullhash}{bbdf81df541036113919a207b5f8ee18}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780750669184}
+      \field{series}{Automotive engineering}
+      \field{title}{Tyre and Vehicle Dynamics}
+      \field{year}{2006}
+      \verb{urlraw}
+      \verb https://books.google.it/books?id=wHlkbBnu9FEC
+      \endverb
+      \verb{url}
+      \verb https://books.google.it/books?id=wHlkbBnu9FEC
+      \endverb
+    \endentry
+    \entry{cossalter2007influence}{article}{}
+      \name{author}{3}{}{%
+        {{hash=2d0088a7eb270f4e537ecf2e307bb5ae}{%
+           family={Cossalter},
+           familyi={C\bibinitperiod},
+           given={Vittore},
+           giveni={V\bibinitperiod}}}%
+        {{hash=3ba161ce3e4e70b6e0d27cf9bd7baa7e}{%
+           family={Lot},
+           familyi={L\bibinitperiod},
+           given={Roberto},
+           giveni={R\bibinitperiod}}}%
+        {{hash=0c4b898c588972971d8f193c7b34bb94}{%
+           family={Massaro},
+           familyi={M\bibinitperiod},
+           given={Matteo},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{2b5ac0d915ebdbc97c9806d67d86f4df}
+      \strng{fullhash}{2b5ac0d915ebdbc97c9806d67d86f4df}
+      \strng{bibnamehash}{2b5ac0d915ebdbc97c9806d67d86f4df}
+      \strng{authorbibnamehash}{2b5ac0d915ebdbc97c9806d67d86f4df}
+      \strng{authornamehash}{2b5ac0d915ebdbc97c9806d67d86f4df}
+      \strng{authorfullhash}{2b5ac0d915ebdbc97c9806d67d86f4df}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Vehicle System Dynamics}
+      \field{number}{4}
+      \field{title}{The influence of frame compliance and rider mobility on the scooter stability}
+      \field{volume}{45}
+      \field{year}{2007}
+      \field{pages}{313\bibrangedash 326}
+      \range{pages}{14}
     \endentry
     \entry{bertolazzi2006symbolic}{article}{}
       \name{author}{3}{}{%
@@ -86,9 +143,9 @@
       \strng{authorbibnamehash}{9a6ad67c673b310e183573a71186ae92}
       \strng{authornamehash}{9a6ad67c673b310e183573a71186ae92}
       \strng{authorfullhash}{9a6ad67c673b310e183573a71186ae92}
-      \field{extraname}{2}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{extraname}{1}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of computational and applied mathematics}
@@ -98,6 +155,46 @@
       \field{year}{2006}
       \field{pages}{404\bibrangedash 421}
       \range{pages}{18}
+    \endentry
+    \entry{bertolazzi2005symbolic}{article}{}
+      \name{author}{3}{}{%
+        {{hash=ac4c6ae9de832850afe8e78fb40431b5}{%
+           family={Bertolazzi},
+           familyi={B\bibinitperiod},
+           given={E},
+           giveni={E\bibinitperiod}}}%
+        {{hash=9f6b7e0315621cf691a529bc4f81c680}{%
+           family={Biral},
+           familyi={B\bibinitperiod},
+           given={F},
+           giveni={F\bibinitperiod}}}%
+        {{hash=d8732486fe03f08b8085c5699354c808}{%
+           family={Da\bibnamedelima Lio},
+           familyi={D\bibinitperiod\bibinitdelim L\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{f28576c6aa4a5d4ac7d2ec16ce93a5ae}
+      \strng{fullhash}{f28576c6aa4a5d4ac7d2ec16ce93a5ae}
+      \strng{bibnamehash}{f28576c6aa4a5d4ac7d2ec16ce93a5ae}
+      \strng{authorbibnamehash}{f28576c6aa4a5d4ac7d2ec16ce93a5ae}
+      \strng{authornamehash}{f28576c6aa4a5d4ac7d2ec16ce93a5ae}
+      \strng{authorfullhash}{f28576c6aa4a5d4ac7d2ec16ce93a5ae}
+      \field{extraname}{2}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Multibody System Dynamics}
+      \field{number}{2}
+      \field{title}{Symbolic--numeric indirect method for solving optimal control problems for large multibody systems}
+      \field{volume}{13}
+      \field{year}{2005}
+      \field{pages}{233\bibrangedash 252}
+      \range{pages}{20}
     \endentry
     \entry{biral2016notes}{article}{}
       \name{author}{3}{}{%
@@ -126,8 +223,8 @@
       \strng{authorbibnamehash}{c1dee4c016d83cf9526da7ce4fd4d05c}
       \strng{authornamehash}{c1dee4c016d83cf9526da7ce4fd4d05c}
       \strng{authorfullhash}{c1dee4c016d83cf9526da7ce4fd4d05c}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEJ Journal of Industry Applications}
@@ -137,179 +234,6 @@
       \field{year}{2016}
       \field{pages}{154\bibrangedash 166}
       \range{pages}{13}
-    \endentry
-    \entry{cossalter2006motorcycle}{book}{}
-      \name{author}{1}{}{%
-        {{hash=93de0a2f4a82b241a53ec275e906ba2f}{%
-           family={Cossalter},
-           familyi={C\bibinitperiod},
-           given={V.},
-           giveni={V\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Vittore Cossalter}%
-      }
-      \strng{namehash}{93de0a2f4a82b241a53ec275e906ba2f}
-      \strng{fullhash}{93de0a2f4a82b241a53ec275e906ba2f}
-      \strng{bibnamehash}{93de0a2f4a82b241a53ec275e906ba2f}
-      \strng{authorbibnamehash}{93de0a2f4a82b241a53ec275e906ba2f}
-      \strng{authornamehash}{93de0a2f4a82b241a53ec275e906ba2f}
-      \strng{authorfullhash}{93de0a2f4a82b241a53ec275e906ba2f}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{isbn}{9781430308614}
-      \field{title}{Motorcycle Dynamics}
-      \field{year}{2006}
-      \verb{urlraw}
-      \verb https://books.google.it/books?id=rJTQxITnkbgC
-      \endverb
-      \verb{url}
-      \verb https://books.google.it/books?id=rJTQxITnkbgC
-      \endverb
-    \endentry
-    \entry{dal2019comparison}{article}{}
-      \name{author}{4}{}{%
-        {{hash=3fafe720b78d3770fc27de7e6577b42f}{%
-           family={Dal\bibnamedelima Bianco},
-           familyi={D\bibinitperiod\bibinitdelim B\bibinitperiod},
-           given={Nicola},
-           giveni={N\bibinitperiod}}}%
-        {{hash=6466b7e2147720ebc732227019e70748}{%
-           family={Bertolazzi},
-           familyi={B\bibinitperiod},
-           given={Enrico},
-           giveni={E\bibinitperiod}}}%
-        {{hash=2dd1500321ec861e0b4c158eb33d63d0}{%
-           family={Biral},
-           familyi={B\bibinitperiod},
-           given={Francesco},
-           giveni={F\bibinitperiod}}}%
-        {{hash=0c4b898c588972971d8f193c7b34bb94}{%
-           family={Massaro},
-           familyi={M\bibinitperiod},
-           given={Matteo},
-           giveni={M\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Taylor \& Francis}%
-      }
-      \strng{namehash}{0e0d343ec04978f7b850ee53a933c09c}
-      \strng{fullhash}{cbc4c24a45b681f262c0a7012fdcf939}
-      \strng{bibnamehash}{cbc4c24a45b681f262c0a7012fdcf939}
-      \strng{authorbibnamehash}{cbc4c24a45b681f262c0a7012fdcf939}
-      \strng{authornamehash}{0e0d343ec04978f7b850ee53a933c09c}
-      \strng{authorfullhash}{cbc4c24a45b681f262c0a7012fdcf939}
-      \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Vehicle System Dynamics}
-      \field{number}{5}
-      \field{title}{Comparison of direct and indirect methods for minimum lap time optimal control problems}
-      \field{volume}{57}
-      \field{year}{2019}
-      \field{pages}{665\bibrangedash 696}
-      \range{pages}{32}
-    \endentry
-    \entry{guiggiani2014science}{book}{}
-      \name{author}{1}{}{%
-        {{hash=1692f2e721123a0138467b9bae0c332c}{%
-           family={Guiggiani},
-           familyi={G\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Springer Netherlands}%
-      }
-      \strng{namehash}{1692f2e721123a0138467b9bae0c332c}
-      \strng{fullhash}{1692f2e721123a0138467b9bae0c332c}
-      \strng{bibnamehash}{1692f2e721123a0138467b9bae0c332c}
-      \strng{authorbibnamehash}{1692f2e721123a0138467b9bae0c332c}
-      \strng{authornamehash}{1692f2e721123a0138467b9bae0c332c}
-      \strng{authorfullhash}{1692f2e721123a0138467b9bae0c332c}
-      \field{sortinit}{6}
-      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{isbn}{9789401785334}
-      \field{series}{SpringerLink : B{ü}cher}
-      \field{title}{The Science of Vehicle Dynamics: Handling, Braking, and Ride of Road and Race Cars}
-      \field{year}{2014}
-      \verb{urlraw}
-      \verb https://books.google.it/books?id=hQrGBAAAQBAJ
-      \endverb
-      \verb{url}
-      \verb https://books.google.it/books?id=hQrGBAAAQBAJ
-      \endverb
-    \endentry
-    \entry{lot2014curvilinear}{article}{}
-      \name{author}{2}{}{%
-        {{hash=3ba161ce3e4e70b6e0d27cf9bd7baa7e}{%
-           family={Lot},
-           familyi={L\bibinitperiod},
-           given={Roberto},
-           giveni={R\bibinitperiod}}}%
-        {{hash=2dd1500321ec861e0b4c158eb33d63d0}{%
-           family={Biral},
-           familyi={B\bibinitperiod},
-           given={Francesco},
-           giveni={F\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Elsevier}%
-      }
-      \strng{namehash}{7349ff32bf8abb33016317ced3bca464}
-      \strng{fullhash}{7349ff32bf8abb33016317ced3bca464}
-      \strng{bibnamehash}{7349ff32bf8abb33016317ced3bca464}
-      \strng{authorbibnamehash}{7349ff32bf8abb33016317ced3bca464}
-      \strng{authornamehash}{7349ff32bf8abb33016317ced3bca464}
-      \strng{authorfullhash}{7349ff32bf8abb33016317ced3bca464}
-      \field{sortinit}{7}
-      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{IFAC Proceedings Volumes}
-      \field{number}{3}
-      \field{title}{A curvilinear abscissa approach for the lap time optimization of racing vehicles}
-      \field{volume}{47}
-      \field{year}{2014}
-      \field{pages}{7559\bibrangedash 7565}
-      \range{pages}{7}
-    \endentry
-    \entry{pacejka2006tyre}{book}{}
-      \name{author}{1}{}{%
-        {{hash=bbdf81df541036113919a207b5f8ee18}{%
-           family={Pacejka},
-           familyi={P\bibinitperiod},
-           given={H.B.},
-           giveni={H\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Butterworth-Heinemann}%
-      }
-      \strng{namehash}{bbdf81df541036113919a207b5f8ee18}
-      \strng{fullhash}{bbdf81df541036113919a207b5f8ee18}
-      \strng{bibnamehash}{bbdf81df541036113919a207b5f8ee18}
-      \strng{authorbibnamehash}{bbdf81df541036113919a207b5f8ee18}
-      \strng{authornamehash}{bbdf81df541036113919a207b5f8ee18}
-      \strng{authorfullhash}{bbdf81df541036113919a207b5f8ee18}
-      \field{sortinit}{7}
-      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{isbn}{9780750669184}
-      \field{series}{Automotive engineering}
-      \field{title}{Tyre and Vehicle Dynamics}
-      \field{year}{2006}
-      \verb{urlraw}
-      \verb https://books.google.it/books?id=wHlkbBnu9FEC
-      \endverb
-      \verb{url}
-      \verb https://books.google.it/books?id=wHlkbBnu9FEC
-      \endverb
     \endentry
     \entry{rao2009survey}{article}{}
       \name{author}{1}{}{%
@@ -328,8 +252,8 @@
       \strng{authorbibnamehash}{008f904a1d9b7a9466f2e8466ab193b9}
       \strng{authornamehash}{008f904a1d9b7a9466f2e8466ab193b9}
       \strng{authorfullhash}{008f904a1d9b7a9466f2e8466ab193b9}
-      \field{sortinit}{9}
-      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Advances in the Astronautical Sciences}
@@ -364,81 +288,13 @@
       \strng{authorbibnamehash}{689c00cf706bc539a5a57b23ef0009a1}
       \strng{authornamehash}{689c00cf706bc539a5a57b23ef0009a1}
       \strng{authorfullhash}{689c00cf706bc539a5a57b23ef0009a1}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{arXiv preprint arXiv:1401.7279}
       \field{title}{Optimal control and numerical software: an overview}
       \field{year}{2014}
-    \endentry
-    \entry{sharp2004advances}{article}{}
-      \name{author}{3}{}{%
-        {{hash=98154559fec41af44240c448bc7cb19e}{%
-           family={Sharp},
-           familyi={S\bibinitperiod},
-           given={RS},
-           giveni={R\bibinitperiod}}}%
-        {{hash=acb0d343404fe7663f446752cde83088}{%
-           family={Evangelou},
-           familyi={E\bibinitperiod},
-           given={Simos},
-           giveni={S\bibinitperiod}}}%
-        {{hash=3020bdb1f01a9ac6648c4a1740d7a0e8}{%
-           family={Limebeer},
-           familyi={L\bibinitperiod},
-           given={David\bibnamedelima JN},
-           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Springer}%
-      }
-      \strng{namehash}{19a26b1bb0dde0fab5fbc80421503967}
-      \strng{fullhash}{19a26b1bb0dde0fab5fbc80421503967}
-      \strng{bibnamehash}{19a26b1bb0dde0fab5fbc80421503967}
-      \strng{authorbibnamehash}{19a26b1bb0dde0fab5fbc80421503967}
-      \strng{authornamehash}{19a26b1bb0dde0fab5fbc80421503967}
-      \strng{authorfullhash}{19a26b1bb0dde0fab5fbc80421503967}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Multibody system dynamics}
-      \field{number}{3}
-      \field{title}{Advances in the modelling of motorcycle dynamics}
-      \field{volume}{12}
-      \field{year}{2004}
-      \field{pages}{251\bibrangedash 283}
-      \range{pages}{33}
-    \endentry
-    \entry{sharp2014method}{article}{}
-      \name{author}{1}{}{%
-        {{hash=98154559fec41af44240c448bc7cb19e}{%
-           family={Sharp},
-           familyi={S\bibinitperiod},
-           given={RS},
-           giveni={R\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {American Society of Mechanical Engineers}%
-      }
-      \strng{namehash}{98154559fec41af44240c448bc7cb19e}
-      \strng{fullhash}{98154559fec41af44240c448bc7cb19e}
-      \strng{bibnamehash}{98154559fec41af44240c448bc7cb19e}
-      \strng{authorbibnamehash}{98154559fec41af44240c448bc7cb19e}
-      \strng{authornamehash}{98154559fec41af44240c448bc7cb19e}
-      \strng{authorfullhash}{98154559fec41af44240c448bc7cb19e}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Dynamic Systems, Measurement, and Control}
-      \field{number}{4}
-      \field{title}{A method for predicting minimum-time capability of a motorcycle on a racing circuit}
-      \field{volume}{136}
-      \field{year}{2014}
-      \field{pages}{041007}
-      \range{pages}{1}
     \endentry
   \enddatalist
 \endrefsection

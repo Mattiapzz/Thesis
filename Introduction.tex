@@ -1,21 +1,17 @@
 \chapter*{Introduction}
 \addcontentsline{toc}{chapter}{Introduction}
 
-Some citation btw.
-\cite{bertolazzi2005symbolic}
-\cite{bertolazzi2006symbolic}
-\cite{biral2016notes}
-\cite{cossalter2006motorcycle}
-\cite{dal2019comparison}
-\cite{guiggiani2014science}
-\cite{lot2014curvilinear,pacejka2006tyre}
-
-\cite{pacejka2006tyre}
-\cite{rao2009survey}
-\cite{rodrigues2014optimal}
-\cite{sharp2004advances}
-\cite{sharp2014method}
-
-
-
-
+The simulation of mechanical and mechatronical systems allow to test and validate the design in a safe and efficient environment withaut the need to build the physical object and measure the parameters. The simulation is based on digital tecnology with major benefis as cost and efficiency and the possibility of an easy reconfiguration and retesting of a system which is usally impossible or unfeasible for real model in terms of cost and time.\cite{maria1997introduction}\\
+A large number of vehicle model are avaiable in scientific litterature some are fairly complex and other are simple. Depending on the application and the time constraints a proper model shoul be chosen. Simple model are faster and therefore suitable for real time purposes while complex model are time consumin and are used in case where the model cannot be simplified or the goal of the study is to replicate in detail the behaviour of the analyzed system.\\
+The work of this thesis aims to derive three different models of racing motorcycle with increasing complexity taking into account the force exchange between tyre and ground using Pacejka's magic formula \cite{pacejka2006tyre}. The models will then be used to calculate controls and trajectory to achieve the minimum lap time of a specific circuit.\\
+In particular the first model of the moto will rapresent a vehicle with fixed suspensions meaning that the rear swingarm and the steering fork have respectively a fixed angle and a fixed length. The motorcycle is controlled whith the steering torque and the longitudinal slip of front and rear wheel.\\
+The second model has again fixed suspensions, however the vehicle is controlled with steering torue, braking torque at the front wheel and braking/traction torque at the rear.\\  
+The third model take into account the internal motion due to suspension deformation and the motorcycle is again controlled whith torques.\\
+All the model are derived with the multibody approach and symbolic formulation. In order to achieve this goal the model is defined using Maple, a software well known for its capability in symbolic computation. Moreover, the equation of motion are obtained using MBSymba which is a custom free library for Maple avaiable online at \url{http://www.multibody.net}.\\
+All three model are derived in a similar way as in the pubblication of Cossalter \textit{et al}\cite{cossalter2007influence}, without taking into account the lateral flexibility of the front torque and the torsional flexibility of the swingarm. The tyre forces are derived using the Pacejka's magic formula \cite{pacejka2006tyre} which is an empirical formula obtained from the assumption of similarity.\\
+The minimum time trajectory and control is computed formulating a custom optimal control problem using XOptima package for Maple and then solving with PINS (acronym for \textit{PINS Is Not a Solver}). The first is a library developed to transform the symbolic model of the vehicle (DAE), constraints, and target functions in C++ code that can be used by PINS. PINS is a software, free for academic purposes, developed at University of Trento by Prof. Bertolazzi, Prof. Biral and Prof. Bosetti that can solve optimal control problems (OCPs) with indirect method. As far as the author know, there are not other optimal control solvers that exploit Pontryagin maximum principle and calculus of variations to solve the problem with indirect method. \cite{bertolazzi2006symbolic}\\
+The thesis is organized in the following way. 
+In the first chapter there is a brief overview of the state of the art in optimal control, motorcycle dynamic model and minimum time application.
+In the second chapter there is a description of how the motorcycle models are derived and the optimal control problem.
+The third chapter confront the results of the three models.
+The thesis is ended with the conclusion, references and apendix.
