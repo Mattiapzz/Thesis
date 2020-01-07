@@ -1,0 +1,81 @@
+\section{State of the art on Optimal Control Problems} 
+
+Optimal control problem, also known as dynamic optimisation, are minimisation problem where the variables and parameters change with time. Dynamic systems are characterized by the states and often are controlled by a convenient choice of inputs (controls).\\
+Dynamic optimisation aims to compute those controls and states for a dynamic system over a time interval to minimise one or more performance indexes. In other words, the input is chosen to optimize (minimize) an objective function while complying to constraint equations.
+
+\subsection{Optimal Control Problems}
+Optimal control problems are challenging from the theoretical point of view and of practical interest. However due to dimensionality and complexity of system of equations the application in real problems and industrial environment is still not so widespread.\\
+In general, OPC can be continuous or discrete, linear or non-linear, time-variant or time-invariant. However, in this thesis are addressed only optimal control problems that are continuous time-variant and highly non-linear. Those properties will be discussed in the following sections. [Ch.1.3]\\%reference real not this
+In general, there are four main approaches to solve continuous-time OPC: state space approach, direct methods, indirect methods and differential dynamic programming.
+
+
+\subsubsection{State-space approaches}
+
+State-space approaches follow the principle of optimality for which each subarc of an optimal trajectory must be optimal. In literature, those are referred to as Hamilton-Jacobi-Bellman (HJB) equation. However, the problem needs numerical methods to be solved, moreover, a solution can be found only for small dimension problems due to \textit{course of dimensionality}. There is no pratical application of this method to solve higly non-linear problem as a dynamic optimisation of a motorcycle model.
+%citare fonti
+
+\subsubsection{Direct Method}
+
+Direct methods discretize the original optimal control problem into a  nonlinear programming problem (NLP). In other words, the OPC is transformed in a discrete-time system that can be solved using numerical schemes and  optimization techniques, namely Initial Value Solver (IVS) and Sequential Quadratic Programming (SQP) \cite{bertolazzi2005symbolic}
+The main advantage of direct methods is the possibility to use inequality constraints even in case of change in the constraints active set ( activation/deactivation)\cite{biral2016notes}\\
+Direct methods are easier to implement compared to the other three categories and this is one of the reasons why they are by far the most widespread. In fact, almost $90\%$ of the avaiable optimal control software rely on direct method. \cite{rao2009survey}\cite{rodrigues2014optimal}
+
+\if FALSE
+Brief descriptions
+of three of the direct methods – single shooting, multiple shooting, and collocation
+\fi
+
+% allargare la descrizione
+% cita molte + fonti
+% 
+
+
+
+\subsubsection{Indirect Method}
+
+\if false 
+Indirect Methods use the necessary conditions of optimality of the infinite
+problem to derive a boundary value problem (BVP) in ordinary differential
+equations (ODE). This BVP must numerically be solved, and the approach
+is often sketched as “first optimize, then discretize”, as the conditions of optimality
+are first written in continuous time for the given problem, and then
+discretized in one way or another in order for computng a numerical solution.
+The class of indirect methods encompasses also the well known calculus of variations
+and the Euler-Lagrange differential equations, and the so-called Pontryagin
+Maximum Principle. The numerical solution of the BVP is performed
+by shooting techniques or by collocation. The two major drawbacks are that
+the underlying differential equations are often difficult to solve due to strong
+nonlinearity and instability, and that changes in the control structure, i.e. the
+sequence of arcs where different constraints are active, are difficult to handle:
+they usually require a completely new problem setup. Moreover, on so called
+singular arcs, higher index differential-algebraic equations (DAE) arise which
+
+necessitate specialized solution techniques. This approach is briefly sketched
+in Chapter 12.
+\fi
+
+% completa ampia descrizione dei metodi indiretti
+% con esempi e citazioni di studi famosi
+% cita testi e paper OCP e Bertolazzi+Biral
+% Motivazioni per cui scegliere questo metodo
+% 
+
+
+
+
+\subsubsection{Differential Dynamic Programming}
+
+% breve descrizione dei methodi
+
+
+\subsection{Minimum time Optimal Control Problem}
+
+% Problemi di minimo tempo
+% Come sono stati risolti e con che methodi
+
+\subsection{PINS}
+
+% scegliere se mettrlo qui o nella parte con i metodi indiretti
+% cita manuale e studio di Bertolazzi + Biral
+% 
+

@@ -1,0 +1,78 @@
+%% PDF/A 1b
+\usepackage[a-1b]{pdfx}
+
+%% Languages
+\usepackage[USenglish,italian,UKenglish]{babel}
+\usepackage[utf8]{inputenc}
+
+
+%%
+\usepackage{makeidx} % for the ToC
+\renewcommand*\contentsname{Index}
+\makeindex
+\usepackage{graphicx}
+\graphicspath{{img/}} % set preferred path for figures
+\usepackage{epstopdf}
+\usepackage{environ}
+\usepackage{float}
+\usepackage{tikz} % for figures
+\usetikzlibrary{matrix,arrows.meta,positioning}
+
+%% Math
+\usepackage{amsfonts} % fonts
+\usepackage{amsmath} % fonts
+\usepackage{siunitx} % measurement units
+\usepackage{array} % arrays
+\usepackage{xparse}
+\usepackage{bm} % bold math
+\usepackage{amsthm}
+\usepackage{array,tabularx} % for tabulars
+\usepackage{amssymb}
+\usepackage{physics}
+
+
+%% Appereance
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    citecolor=blue,
+    linkcolor=black,
+    filecolor=red,      
+    urlcolor=blue,
+}
+\usepackage{multicol}
+\setlength{\columnsep}{0.8cm}
+\usepackage{chngcntr}
+\usepackage{titlesec}
+\usepackage[nottoc]{tocbibind}
+\usepackage{xspace}
+\usepackage{pifont,xcolor}
+\usepackage{listings}
+\counterwithin{figure}{section}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{placeins}
+\usepackage{pythonhighlight}
+\usepackage{breqn}
+\usepackage[final]{pdfpages}
+
+%% Bibliography
+\usepackage[autostyle,italian=guillemets]{csquotes}   %IT
+\usepackage[style=ieee,backend=biber]{biblatex}%numeric-comp
+\addbibresource{Bibliography.bib}
+
+%% New Commands
+\newcommand{\adj}{\mathop{\textrm{\textnormal{adj}}}}
+\newcommand*\diff{\mathop{}\!\mathrm{d}}
+\newcommand*\Diff[1]{\mathop{}\!\mathrm{d^#1}}
+\newcommand{\MATLAB}{\textsc{Matlab}\xspace}
+
+%% Matlab setup
+\usepackage{color}
+\sloppy
+%\definecolor{lightgray}{gray}{0.5}
+\setlength{\parindent}{0pt}
+\usepackage{listings}
+\lstset{language=Matlab}
+\lstset{tabsize=1}
+\lstset{flexiblecolumns=true}
