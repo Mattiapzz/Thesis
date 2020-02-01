@@ -1,0 +1,56 @@
+\section{Motorcycle model with fixed suspension controlling slip}
+
+There are multiple way to derive describe the behaviour of the motorcycle and to derive the equation of motion. Some use the lagrangian approach to use a minimum set of coordinates\cite{pacejka2006tyre}\cite{sharp2004advances}\cite{leonelli2019optimal}. Other derive the equation of motion using Newton-Euler equations.\\
+In this thesis the dynamic model of the motorcycle has been derived using a multi-body approach and assuming the ISO convention for the orientation of the $z$-axis (upward). To this end multiple reference frames, points, bodies, forces and torques are defined in the following sections. The model was derived symbolically using Maple and MBSymba that deals with rotation and transformation matrices using homogeneous coordinates. In particular, working on the model, the author chose to derive the kinematics using a combination of global and recursive approach in order to use a minimum set of coordinates while containing the size of the derived equations. 
+
+\section{Reference frames}
+
+A common choice is to start by defining a reference frame in movement with respect to the ground, or fixed, one. This reference frame have in general three linear and three angular velocities. However, for the purpose of this thesis, we consider only planar roads. This means that we need to define the movement of a frame in a plane, therefore only three degrees of freedom are needed (three velocities). The moving reference frame ia addressed as $RF_1$ and has velocities $u(t)$, $v(t)$ and $\Omega(t)$. This set of velocities, also called quasi-coordinates, are suitable to be used later in the definition of curvilinear coordinate. $RF_1$ has the $x$-axis aligned with the direction of motion of the motorcycle. \\
+The frame $RF_\phi$ is the reference frame attached to a plane rotated of an angle $\phi(t)$ commonly addressed as rolling angle around the moving $x$-axis and it is obtained recursively multiplying $RF_1$ for a rotation matrix.
+\begin{equation}
+    RF_\phi = RF_1 
+    \left[ \begin {array}{cccc} 1&0&0&0\\ \noalign{\medskip}0&\cos
+    \left( \phi \left( t \right)  \right) &-\sin \left( \phi \left( t
+    \right)  \right) &0\\ \noalign{\medskip}0&\sin \left( \phi \left( t
+    \right)  \right) &\cos \left( \phi \left( t \right)  \right) &0
+   \\ \noalign{\medskip}0&0&0&1\end {array} \right]   
+\end{equation}
+
+Then a reference frame attached to the joint between the swingarm and the rear frame is defined with a translation in the vertical direction of the rolled frame of a certain height $h(t)$ and a rotation around the rolled $y$-axis of an angle $\theta(t)$ plus the caster angle $\epsilon$. The new frame will be from here addressed as $RF_{Rear}$
+\begin{equation}
+    RF_{Rear} = RF_\phi 
+    \left[ \begin {array}{cccc} \cos \left( \theta \left( t \right) +
+    \epsilon \right) &0&-\sin \left( \theta \left( t \right) +\epsilon
+    \right) &0\\ \noalign{\medskip}0&1&0&0\\ \noalign{\medskip}\sin
+    \left( \theta \left( t \right) +\epsilon \right) &0&\cos \left( 
+    \theta \left( t \right) +\epsilon \right) &h \left( t \right) 
+    \\ \noalign{\medskip}0&0&0&1\end {array} \right] 
+\end{equation}
+From $RF_{Rear}$ frame one can define the reference frame attached to the swingarm and the one attached to the steering assembly. The first is obtained with a rotation around the $y$-direction of the previous reference frame of a relative angle $eta(t)$ and a translation of the length of the swingarm. The advantage of choosing this relative angle is that there are already define relationship between this rotation an the force of the suspension. The new reference frame is addressed as $RF_\eta$ and will coincide with the centre of the rear wheel.
+\begin{equation}
+    RF_{\eta} = RF_{Rear} 
+    \left[ \begin {array}{cccc} \cos \left( \eta \left( t \right) 
+    \right) &0&\sin \left( \eta \left( t \right)  \right) &-\cos \left( 
+    \eta \left( t \right)  \right) L_{{\it swa}}\\ \noalign{\medskip}0&1&0
+    &0\\ \noalign{\medskip}-\sin \left( \eta \left( t \right)  \right) &0&
+    \cos \left( \eta \left( t \right)  \right) &\sin \left( \eta \left( t
+    \right)  \right) L_{{\it swa}}\\ \noalign{\medskip}0&0&0&1
+    \end {array} \right]
+\end{equation}
+The second reference frame, the one attached to the steering assembly has already the $z$-axis with the same direction of the rotation axis of the steer. Therefore, $RF_\delta$ can be obtained with a translation of a fixed quantity in the $x$ direction and a rotation of an angle $\delta(t)$ around the rotation axis $z$. This steering angle is small for racing motorcycle and it is always smaller than $10$ degrees therefore can be linearised from here since the equation of motion are derived using Newton-Euler approach instead of Lagrange.
+\begin{equation}
+    RF_{\delta} = RF_{Rear} 
+    \left[ \begin {array}{cccc} 1&-\delta \left( t \right) &0&L_{b}
+    \\ \noalign{\medskip}\delta \left( t \right) &1&0&0
+    \\ \noalign{\medskip}0&0&1&0\\ \noalign{\medskip}0&0&0&1\end {array}
+     \right]    
+\end{equation}
+The reference frame attached to the centre of the front wheel is defined as $RF_{susp}$ and it is obtained with a translation in the negative vertical direction of a fixed quantity $s_{fs}$ plus a time-varying $s_f(t)$ which is the deformation of the suspension and a translation in the $x$ direction of $x_{off}$, an offset always present in the suspension fork.
+\begin{equation}
+    RF_{susp} = RF_\delta 
+    \left[ \begin {array}{cccc} 1&0&0&x_{{\it off}}\\ \noalign{\medskip}0
+    &1&0&0\\ \noalign{\medskip}0&0&1&-s_{{\it fs}}+s_{f} \left( t \right) 
+    \\ \noalign{\medskip}0&0&0&1\end {array} \right] 
+\end{equation}
+
+In order to have a simplified model one can introduce two new reference frames one for the front and one for the rear wheel starting from $RF_1$. $RF_{FW}$ is defined with a translation of the components $x_f(t)$, $y_f(t)$ and $z_f(t)$ and a rotation of an angle $\delta_f(t)$ around the vertical direction and then one around the new longitudinal direction of angle $\phi_f(t)$. 

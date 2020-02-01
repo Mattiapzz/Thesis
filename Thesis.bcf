@@ -2141,6 +2141,9 @@
     <bcf:citekey order="9">rodrigues2014optimal</bcf:citekey>
     <bcf:citekey order="10">bertolazzi2006symbolic</bcf:citekey>
     <bcf:citekey order="11">biral2016notes</bcf:citekey>
+    <bcf:citekey order="12">pacejka2006tyre</bcf:citekey>
+    <bcf:citekey order="13">sharp2004advances</bcf:citekey>
+    <bcf:citekey order="14">leonelli2019optimal</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
