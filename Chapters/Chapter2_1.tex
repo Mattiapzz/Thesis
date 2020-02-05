@@ -118,9 +118,14 @@ P_r =   \left[ \begin {array}{c} 0\\ \noalign{\medskip}0\\ \noalign{\medskip}
 \end{equation}
 %
 \begin{equation}
-P_f =   \left[ \begin {array}{c} 0\\ \noalign{\medskip}0\\ \noalign{\medskip}
+P_f =   
+\left[ \begin{array}{c} 
+0\\
+0\\ 
 -{\it rf}+{\it rtf}-{\frac {{\it rtf}}{\cos \left( \phi_{f} \left( t
- \right)  \right) }}\\ \noalign{\medskip}1\end {array} \right]
+ \right)  \right) }}\\
+1
+\end{array} \right]
 \quad \text{in} \; RF_{FW}
 \end{equation}
 %
@@ -151,16 +156,6 @@ Where $rr$, $rf$, $rtr$, $rtf$ are respectively the radius of the rear and front
 
 DISEGNI DEI PUNTI % ###
 
-%
-\subsection{CoM of all bodies in play}
-%
-From all the above reference frames there is a corresponding body. Therefore one can define the centre of mass (CoM) of each one starting by the convenient reference frame. The data of the motorcycle are take primary from FastBike a fortran code for real time simulation of motorcycles.\cite{cossalter2002motorcycle,cossalter2003multibody}\\
-%
-
-Disegni e descrizione dei centri di massa % ###
-
-%
-
 \subsection{Kinematic solution}
 %
 Not all the variable introduced are state variable nor are needed for the final purpose of this thesis. Those have been introduced just to simplify the formulation. However, they can be solved now by imposing some constraints.
@@ -168,7 +163,7 @@ $x_f(t)$, $y_f(t)$ and $z_f(t)$ can be solved by imposing that the point of the 
 %
 \footnotesize
 \begin{equation}
-    \left[ \begin {array}{l} 
+    \begin{array}{l} 
         x_{f} \left( t \right) = \left( L_{b}+x_{{
         \it off}} \right) \cos \left( \theta \left( t \right) +\epsilon
          \right) +\sin \left( \theta \left( t \right) +\epsilon \right) 
@@ -193,7 +188,7 @@ $x_f(t)$, $y_f(t)$ and $z_f(t)$ can be solved by imposing that the point of the 
          \left( t \right) \sin \left( \phi \left( t \right)  \right) x_{{\it 
         off}}+\cos \left( \phi \left( t \right)  \right) h \left( t \right) 
         \end{split}
-    \end {array} \right]         
+    \end{array}       
 \end{equation}
 \normalsize
 %
@@ -201,7 +196,7 @@ The same can be said for the rear wheel. The origin of $RF_{\eta}$ is the same p
 %
 \footnotesize
 \begin{equation}
-    \left[ \begin {array}{l} x_{r} \left( t \right) = \left( \cos \left( 
+    \begin{array}{l} x_{r} \left( t \right) = \left( \cos \left( 
         \theta \left( t \right) +\epsilon \right) \cos \left( \eta \left( t
          \right)  \right) +\sin \left( \theta \left( t \right) +\epsilon
          \right) \sin \left( \eta \left( t \right)  \right)  \right) L_{{\it 
@@ -215,7 +210,7 @@ The same can be said for the rear wheel. The origin of $RF_{\eta}$ is the same p
         swa}}\,\sin \left( \eta \left( t \right)  \right) \cos \left( \theta
          \left( t \right) +\epsilon \right) -L_{{\it swa}}\,\cos \left( \eta
          \left( t \right)  \right) \sin \left( \theta \left( t \right) +
-        \epsilon \right) +h \left( t \right)  \right) \end {array} \right]
+        \epsilon \right) +h \left( t \right)  \right) \end{array}
 \end{equation}
 \normalsize
 %
@@ -223,7 +218,7 @@ The rotation angles $\delta_f(t)$ and $\phi_f(t)$ can be solved as a function of
 The constrain equation can be multiple and each formulation are equal. One can impose orthogonality between reference frames unit vectors or can impose the equality of such vectors. Both ways lead to the following solution.
 %
 \begin{equation}
-\left[ \begin {array}{l} \phi_{f} \left(t \right)=-\arcsin \left(
+\begin{array}{l} \phi_{f} \left(t \right)=-\arcsin \left(
 \cos \left(\phi \left(t \right)\right)~\sin \left(\theta \left(t 
 \right)+\epsilon \right)~\delta \left(t \right)-\sin \left(\phi \left(
 t \right)\right)\right)\\ 
@@ -232,20 +227,20 @@ t \right)\right)\right)\\
 =\frac{\cos \left(\theta \left(t \right)+\epsilon \right)~\delta 
 \left(t \right)}{\sin \left(\phi \left(t \right)\right)~\sin \left(
 \theta \left(t \right)+\epsilon \right)~\delta \left(t \right)+\cos 
-\left(\phi \left(t \right)\right)}\end {array} \right]
+\left(\phi \left(t \right)\right)}\end{array}
 \end{equation} 
 %
 This can be further simplified keeping in mind that we are considering small angles for $delta(t)$.
 %
 \begin{equation}
-    \left[ \begin {array}{l} \phi_{f} \left( t \right) =-\delta \left( t
+    \begin{array}{l} \phi_{f} \left( t \right) =-\delta \left( t
     \right) \sin \left( \theta \left( t \right) +\epsilon \right) +\phi
     \left( t \right) \\ 
     \displaystyle
     \delta_{f} \left( t \right) ={
-   \frac {\cos \left( \theta \left( t \right) +\epsilon \right) \delta
+    \frac {\cos \left( \theta \left( t \right) +\epsilon \right) \delta
     \left( t \right) }{\cos \left( \phi \left( t \right)  \right) }}
-   \end {array} \right] 
+   \end{array} 
 \end{equation}
 %
 The values obtained will be later substituted in the equation of motion.
@@ -256,6 +251,7 @@ As previously introduced in this thesis, the contact with ground is modelled as 
 The penetration can be obtained by evaluating the vector joining the origin of the $RF_1$ supposed on ground and the two points $C_f$ and $C_r$ at the surface of the torus. The $z$ component of those vectors give a measure of how much the tyre is deformed.
 %
 \begin{equation}
+    \label{eq:penetration}
     \begin{array}{l}
         p_r(t) = - \mathrm{comp\_Z}(O_{RF1}C_r,RF_1)\\
         p_f(t) = - \mathrm{comp\_Z}(O_{RF1}C_f,RF_1)
@@ -274,7 +270,7 @@ The lateral slips are the arctangent of the ratio between longitudinal and later
 \begin{equation}
     \begin{array}{l}
         \displaystyle \alpha_r(t) = -\arctan( \frac{ \mathrm{comp\_Y}(VP_r,RF_1) }{\mathrm{comp\_X}(VP_r,RF_1)} )\\
-        \displaystyle \alpha_f(t) = -\arctan( \frac{\mathrm{comp\_Y}(VP_f,RF_1\cdot R_\delta)}{\mathrm{comp\_X}(VP_f,RF_1\cdot R_\delta)} )
+        \displaystyle \alpha_f(t) = -\arctan( \frac{\mathrm{comp\_Y}(VP_f,RF_1\cdot R_{\delta_f})}{\mathrm{comp\_X}(VP_f,RF_1\cdot R_{\delta_f})} )
     \end{array}
 \end{equation}
 %
@@ -283,11 +279,11 @@ The longitudinal slip, instead, is defines as the difference between longitudina
 \begin{equation}
     \begin{array}{l}
         \displaystyle \lambda_r(t) = - \frac{( \mathrm{comp\_X,RF_1}(VP_r)  - \omega_r(t) rr )}{\mathrm{comp\_X}(VP_r,RF_1)}\\  
-        \displaystyle \lambda_f(t) = - \frac{( \mathrm{comp\_X}(VP_f,RF_1\cdot R_\delta)  - \omega_f(t) rf )}{\mathrm{comp\_X}(VP_f,RF_1\cdot R_\delta)}
+        \displaystyle \lambda_f(t) = - \frac{( \mathrm{comp\_X}(VP_f,RF_1\cdot R_{\delta_f})  - \omega_f(t) rf )}{\mathrm{comp\_X}(VP_f,RF_1\cdot R_{\delta_f})}
     \end{array}
 \end{equation}
 %
 $\omega_r(t)$ and $\omega_f(t)$ are the angular velocities of the wheels also addressed as the time derivative of angles $\theta_r(t)$ and $\theta_f(t)$. $VP_r$ and $VP_r$ are the time derivative of $P_r$ and $P_r$. 
 It is important to notice that for the front wheel one should project the velocity vector in the reference frame rotated of the angle $\delta_f(t)$ with respect to the reference frame $RF_1$. 
-The results are not reported here because too long to display ($RF_1\cdot R_\delta$). 
+The results are not reported here because too long to display ($RF_1\cdot R_{\delta_f}$). 
 %

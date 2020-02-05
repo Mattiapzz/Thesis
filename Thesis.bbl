@@ -52,6 +52,10 @@ J.~Baumgarte, ``Stabilization of constraints and integrals of motion in
   dynamical systems,'' {\em Computer methods in applied mechanics and
   engineering}, vol.~1, no.~1, pp.~1--16, 1972.
 
+\bibitem{lot2004motorcycle}
+R.~Lot, ``A motorcycle tire model for dynamic simulations: Theoretical and
+  experimental aspects,'' {\em Meccanica}, vol.~39, no.~3, pp.~207--220, 2004.
+
 \bibitem{cossalter2002motorcycle}
 V.~Cossalter and R.~Lot, ``A motorcycle multi-body model for real time
   simulations based on the natural coordinates approach,'' {\em Vehicle system
@@ -61,9 +65,5 @@ V.~Cossalter and R.~Lot, ``A motorcycle multi-body model for real time
 V.~Cossalter, R.~Lot, and F.~Maggio, ``A multibody code for motorcycle handling
   and stability analysis with validation and examples of application,'' tech.
   rep., SAE Technical Paper, 2003.
-
-\bibitem{lot2004motorcycle}
-R.~Lot, ``A motorcycle tire model for dynamic simulations: Theoretical and
-  experimental aspects,'' {\em Meccanica}, vol.~39, no.~3, pp.~207--220, 2004.
 
 \end{thebibliography}

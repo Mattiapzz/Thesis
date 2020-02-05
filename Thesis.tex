@@ -1,16 +1,23 @@
-%\documentclass[a4paper,12pt]{report}
-\documentclass[epsfig,a4paper,11pt,titlepage,twoside,openany]{book}
+% \documentclass[a4paper,12pt]{report}
+% \documentclass[epsfig,a4paper,11pt,titlepage,twoside,openany]{book}
+\documentclass[epsfig,a4paper,11pt,titlepage,twoside,openright]{book}
 %%%% Setup the document
 \input{Setup/Setup.tex}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     %%%% Title page
+    \pagenumbering{gobble}
     \input{Setup/Frontmatter.tex}
+    %\clearpage
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     %%%% Acknowledgements
     \input{Setup/Acknowledgements.tex}
+    \clearpage
     \newpage
+    %\pagestyle{plain}
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \mainmatter
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     %%%% Contents (index)
     \tableofcontents
@@ -18,6 +25,11 @@
     %%%% List of figures and tables
     %\listoffigures
     %\listoftables
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    % \titleformat{\chapter}{\normalfont\Huge\bfseries}{\thechapter}{1em}{}
+    % \titlespacing*{\chapter}{0pt}{0.59in}{0.02in}
+    % \titlespacing*{\section}{0pt}{0.20in}{0.02in}
+    % \titlespacing*{\subsection}{0pt}{0.10in}{0.02in}
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     %%%% Chapters
    	\input{Chapters/Introduction.tex}    
