@@ -1,4 +1,5 @@
-\documentclass[a4paper,11pt]{report}
+%\documentclass[a4paper,12pt]{report}
+\documentclass[epsfig,a4paper,11pt,titlepage,twoside,openany]{book}
 %%%% Setup the document
 \input{Setup/Setup.tex}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -15,7 +16,8 @@
     \tableofcontents
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     %%%% List of figures and tables
-    \listoftables
+    %\listoffigures
+    %\listoftables
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     %%%% Chapters
    	\input{Chapters/Introduction.tex}    
@@ -26,11 +28,12 @@
 	\input{Chapters/Conclusions.tex}
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     %%%% References
-%    \bibliographystyle{ieeetr}
-%    \bibliography{Bibliography}
-    \small{
-    \printbibliography
-    }
+    \bibliographystyle{ieeetr}
+    %\bibliographystyle{plain}
+    \bibliography{Bibliography}
+    % \small{
+    % \printbibliography
+    % }
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     %%%% Appendix
 	\input{Chapters/Appendix.tex}

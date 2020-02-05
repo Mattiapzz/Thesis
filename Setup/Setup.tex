@@ -1,18 +1,30 @@
 %% PDF/A 1b
 \usepackage[a-1b]{pdfx}
 
+\usepackage{epsfig}
+\usepackage{plain}
+\usepackage{setspace}
+% \usepackage[paperheight=29.7cm,paperwidth=21cm,outer=1.5cm,inner=2.5cm,top=2cm,bottom=2cm]{geometry}
+\usepackage[a4paper,top=35mm,bottom=30mm,width=150mm,bindingoffset=6mm]{geometry}
+\usepackage{titlesec} % per formato custom dei titoli dei capitoli
+
 %% Languages
-\usepackage[USenglish,italian,UKenglish]{babel}
+\usepackage[UKenglish]{babel}
 \usepackage[utf8]{inputenc}
 
+%\usepackage[a4paper,top=25mm,bottom=25mm,left=25mm,right=25mm,bindingoffset=6mm]{geometry}
+% \usepackage[a4paper,top=25mm,bottom=25mm,width=150mm,bindingoffset=6mm]{geometry}
+% \usepackage{fancyhdr}
+%\pagestyle{fancy}
 
 %%
+\usepackage{cite} %do not work
 \usepackage{makeidx} % for the ToC
 \renewcommand*\contentsname{Index}
 \makeindex
 \usepackage{graphicx}
 \graphicspath{{img/}} % set preferred path for figures
-\usepackage{epstopdf}
+% \usepackage{epstopdf}
 \usepackage{environ}
 \usepackage{float}
 \usepackage{tikz} % for figures
@@ -56,10 +68,11 @@
 \usepackage{breqn}
 \usepackage[final]{pdfpages}
 
+
 %% Bibliography
-\usepackage[autostyle,italian=guillemets]{csquotes}   %IT
-\usepackage[style=ieee,backend=biber]{biblatex}%numeric-comp
-\addbibresource{Bibliography.bib}
+% \usepackage[autostyle,italian=guillemets]{csquotes}   %IT
+% \usepackage[style=ieee,backend=biber]{biblatex}%numeric-comp
+% \addbibresource{Bibliography.bib}
 
 %% New Commands
 \newcommand{\adj}{\mathop{\textrm{\textnormal{adj}}}}

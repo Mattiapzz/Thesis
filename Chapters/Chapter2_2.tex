@@ -1,1 +1,91 @@
-\section{Motorcycle model with fixed suspension controlling torque}
+\section{Dynamic Model}
+%
+In the previous section all variables describing the motion have been introduced. One can globally consider how many degrees of freedom the motorcycle will have in the space. The vehicle as a body will have 6 DoF. The first 3 are translations identified in the quasi-coordinate $u(t)$, $v(t)$ (longitudinal and lateral velocity) and the vertical translation $h(t)$. The other DoF are the rotation around 3 axis. The first is around the $z$ direction and identified by the quasi-coordinate $\Omega(t)$ (yaw rate) while the others are angle $\phi(t)$ (roll) and $\theta(t)$(pitch).\\
+In addition to those "external" degrees of freedom, the motorcycle is described by a set of "internal" variables. The word internal is used because the variables describe a motion between parts of the motorcycle. Fist of all the degree of freedom of the steer ($\delta(t)$). Then there is the motion of the front suspension $s_f(t)$ and the one of the rear suspension ($\eta(t)$). Finally the two DoF of the spinning wheels, $\omega_r(t)$ and $\omega_f(t)$.\\
+From the previous description about DoF it is clear that the motorcycle model have $11$ degrees of freedom, therefore $11$ equation of motion are needed.\\
+%
+\section{Bodies}
+Description of CoM of each body
+TO BE IMPLEMENTED 
+%
+\subsection{Motorcycle rigid body}
+One techniques to write equation of motion in an efficient way is to define a body that describe the whole motorcycle as a rigid body and then add only the dynamic contribute of the internal motion of the other bodies.\\
+The motorcycle as a rigid body is composed by the following bodies:
+\begin{itemize}
+    \item the rear frame (main body),
+    \item the driver,
+    \item the steering  assembly (fork),
+    \item the unsprung mass at the end of the front suspension,
+    \item the swingarm,
+    \item the front wheel,
+    \item the rear wheel
+\end{itemize}
+%
+In order to describe the motorcycle all the internal degrees of freedom should be fixed. This means that the following substitution should be made for the next calculations.
+%
+\begin{equation*}
+    \theta \left( t \right) =\theta_{00},\;h
+    \left( t \right) =h_{00},\;\delta \left( t \right) =0,\;\eta \left( t
+    \right) =\eta_{00},\;s_{f} \left( t \right) =s_{f_{00}},\;\theta_{f}
+    \left( t \right) =\theta_{f_{00}},\;\theta_{r} \left( t \right) =\theta
+   _{r_{00}}   
+\end{equation*}
+%
+\subsubsection{Centre of Mass of the motorcycle}
+%
+The CoM of the motorcycle can be simply computed as the weighted average sum of the masses of all the parts. This mean yields a vector of 3 components that can be projected in the rolled reference frame $RF_\phi$. Once substituted the relationship of the previous paragraph for the freezed DoF, the values of the vector are the coordinate of the CoM of the motorcycle in the rolled reference frame. 
+\begin{equation}
+    G_{moto} = 
+    \left[ \begin{array}{l}
+        XG\\
+        YG\\
+        ZG
+    \end{array} \right]
+\end{equation}
+However, the definition of $YG$ is simple and evaluated is equal to zero. This is due to the assumption that the motorcycle is always symmetric with respect to the rolled plane.
+%
+\subsubsection{Moment of Inertia of the motorcycle}
+%
+The moment of inertia of the whole motorcycle, can be computed in a similar way as the CoM.
+The fist thing to derive is the angular velocity of the rolled reference frame $RF_\phi$. This will not contain angle $\theta$ because is considered as freezed.\\
+The three components of the angular velocity are 
+%
+\begin{equation}
+    \label{eq:ang_vel}
+\left[ \begin {array}{c} 
+\displaystyle \omega_{x} \left( t \right) ={\frac {\rm d}{
+{\rm d}t}}\phi \left( t \right) \\
+\displaystyle \omega_{y} \left( t \right) =\Omega \left( t \right) \sin \left( \phi \left( t
+ \right)  \right) \\ 
+ \displaystyle \omega_{z} \left( t \right) =\Omega \left( t \right) \cos \left( \phi \left( t \right)  \right) 
+\end {array} \right] 
+\end{equation}
+%
+Proceeding with the equation derivation the angular momentum of the whole motorcycle ic computed. The angular momentum is additive, therefore it can be calculated as the sum of all the angular momentums. Those should be calculated using as a pole the CoM of the motorcycle. The obtained vector is projected in the rolled reference frame to get rid off almost all the contribute of 
+$\phi$ and evaluated considering the freezeed DoF.\\
+At this point the previous relationship \ref{eq:ang_vel} can be exploited and substituted. Therefore the angular momentum can be used to generate the inertia matrix collecting $\omega_{x}$, $\omega_{y}$ and $\omega_{z}$.
+%
+\begin{equation}
+    \mathbf{A_M} = I_{tot} 
+    \left[ \begin{array}{l}
+        \omega_x\\
+        \omega_y\\
+        \omega_z
+    \end{array} \right]
+    + \mathbf{res}
+\end{equation}
+%
+where $I_{tot}$ is the matrix of inertia of the whole motorcycle, $\mathbf{A_M}$ is the vector of the angular momentum and $\mathbf{res}$ is the vector of residual from the matrix generation. This should be checked to be equal to zero and it is.
+%
+\subsection{Dummy bodies}
+%
+TO BE IMPLEMENTED 
+%
+\subsection{Forces}
+%
+TO BE IMPLEMENTED 
+%
+\subsection{Torques}
+%
+TO BE IMPLEMENTED 
+%

@@ -11,14 +11,14 @@ In general, there are four main approaches to solve continuous-time OPC: state s
 
 \subsubsection{State-space approaches}
 
-State-space approaches follow the principle of optimality for which each subarc of an optimal trajectory must be optimal. In literature, those are referred to as Hamilton-Jacobi-Bellman (HJB) equation. However, the problem needs numerical methods to be solved, moreover, a solution can be found only for small dimension problems due to \textit{course of dimensionality}. There is no practical application of this method to solve highly non-linear problem as a dynamic optimisation of a motorcycle model.
+State-space approaches follow the principle of optimality for which each sub-arc of an optimal trajectory must be optimal. In literature, those are referred to as Hamilton-Jacobi-Bellman (HJB) equation. However, the problem needs numerical methods to be solved, moreover, a solution can be found only for small dimension problems due to \textit{course of dimensionality}. There is no practical application of this method to solve highly non-linear problem as a dynamic optimisation of a motorcycle model.
 %citare fonti
 
 \subsubsection{Direct Method}
 
-Direct methods discretize the original optimal control problem into a  nonlinear programming problem (NLP). In other words, the OPC is transformed in a discrete-time system that can be solved using numerical schemes and  optimization techniques, namely Initial Value Solver (IVS) and Sequential Quadratic Programming (SQP) \cite{bertolazzi2005symbolic}
+Direct methods discretise the original optimal control problem into a  non linear programming problem (NLP). In other words, the OPC is transformed in a discrete-time system that can be solved using numerical schemes and  optimization techniques, namely Initial Value Solver (IVS) and Sequential Quadratic Programming (SQP) \cite{bertolazzi2005symbolic}
 The main advantage of direct methods is the possibility to use inequality constraints even in case of change in the constraints active set ( activation/deactivation)\cite{biral2016notes}\\
-Direct methods are easier to implement compared to the other three categories and this is one of the reasons why they are by far the most widespread. In fact, almost $90\%$ of the avaiable optimal control software rely on direct method. \cite{rao2009survey}\cite{rodrigues2014optimal}
+Direct methods are easier to implement compared to the other three categories and this is one of the reasons why they are by far the most widespread. In fact, almost $90\%$ of the available optimal control software rely on direct method. \cite{rao2009survey,rodrigues2014optimal}
 
 \if FALSE
 Brief descriptions
@@ -33,12 +33,12 @@ of three of the direct methods – single shooting, multiple shooting, and collo
 
 \subsubsection{Indirect Method}
 
-Indirect methods exploits the necessary condition of optimality to derive a boundary value problem (BVP) in ordinary differential equations(ODE). Therefore the BVP can be solved numerically as a non linear problem. The indirect method allow to first optimize and then discretize meaning that the problem con be firstly written in continuous time and discretized later using different discretization techniques.
+Indirect methods exploits the necessary condition of optimality to derive a boundary value problem (BVP) in ordinary differential equations(ODE). Therefore the BVP can be solved numerically as a non linear problem. The indirect method allow to first optimize and then discretise meaning that the problem con be firstly written in continuous time and discretised later using different discretisation techniques.
 The class of indirect methods exploits the well known calculus of variations
 and the Euler-Lagrange differential equations, and the so-called Pontryagin
 Maximum Principle.\cite{bertolazzi2006symbolic} \\
 The numerical solution can be computed either by shooting techniques (single/multiple shooting) or by collocation.
-The major drawbacks of indirect methods are that the problem could be difficult to solve or unstable due to the nature of the underlying differential equations (nonlinearity and instability) and the changes in control structure (active constraints in specific arcs). Moreover, in some arcs, singularity arises therefore the DAE index increase leading to the necessity of specialized solution techniques. \cite{biral2016notes}
+The major drawbacks of indirect methods are that the problem could be difficult to solve or unstable due to the nature of the underlying differential equations (non linearity and instability) and the changes in control structure (active constraints in specific arcs). Moreover, in some arcs, singularity arises therefore the DAE index increase leading to the necessity of specialized solution techniques. \cite{biral2016notes}
 
 
 % completa ampia descrizione dei metodi indiretti
@@ -47,10 +47,6 @@ The major drawbacks of indirect methods are that the problem could be difficult 
 % Motivazioni per cui scegliere questo metodo
 % 
 
-
-
-
-\subsubsection{Differential Dynamic Programming}
 
 % breve descrizione dei methodi
 

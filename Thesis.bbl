@@ -1,0 +1,69 @@
+\begin{thebibliography}{10}
+
+\bibitem{maria1997introduction}
+A.~Maria, ``Introduction to modeling and simulation,'' in {\em Winter
+  simulation conference}, vol.~29, pp.~7--13, 1997.
+
+\bibitem{pacejka2006tyre}
+H.~Pacejka, {\em Tyre and Vehicle Dynamics}.
+\newblock Automotive engineering, Butterworth-Heinemann, 2006.
+
+\bibitem{cossalter2007influence}
+V.~Cossalter, R.~Lot, and M.~Massaro, ``The influence of frame compliance and
+  rider mobility on the scooter stability,'' {\em Vehicle System Dynamics},
+  vol.~45, no.~4, pp.~313--326, 2007.
+
+\bibitem{bertolazzi2006symbolic}
+E.~Bertolazzi, F.~Biral, and M.~Da~Lio, ``Symbolic-numeric efficient solution
+  of optimal control problems for multibody systems,'' {\em Journal of
+  computational and applied mathematics}, vol.~185, no.~2, pp.~404--421, 2006.
+
+\bibitem{bertolazzi2005symbolic}
+E.~Bertolazzi, F.~Biral, and M.~Da~Lio, ``Symbolic--numeric indirect method for
+  solving optimal control problems for large multibody systems,'' {\em
+  Multibody System Dynamics}, vol.~13, no.~2, pp.~233--252, 2005.
+
+\bibitem{biral2016notes}
+F.~Biral, E.~Bertolazzi, and P.~Bosetti, ``Notes on numerical methods for
+  solving optimal control problems,'' {\em IEEJ Journal of Industry
+  Applications}, vol.~5, no.~2, pp.~154--166, 2016.
+
+\bibitem{rao2009survey}
+A.~V. Rao, ``A survey of numerical methods for optimal control,'' {\em Advances
+  in the Astronautical Sciences}, vol.~135, no.~1, pp.~497--528, 2009.
+
+\bibitem{rodrigues2014optimal}
+H.~S. Rodrigues, M.~T.~T. Monteiro, and D.~F. Torres, ``Optimal control and
+  numerical software: an overview,'' {\em arXiv preprint arXiv:1401.7279},
+  2014.
+
+\bibitem{sharp2004advances}
+R.~Sharp, S.~Evangelou, and D.~J. Limebeer, ``Advances in the modelling of
+  motorcycle dynamics,'' {\em Multibody system dynamics}, vol.~12, no.~3,
+  pp.~251--283, 2004.
+
+\bibitem{leonelli2019optimal}
+L.~Leonelli and D.~Limebeer, ``Optimal control of a road racing motorcycle on a
+  three-dimensional closed track,'' {\em Vehicle System Dynamics}, pp.~1--25,
+  2019.
+
+\bibitem{baumgarte1972stabilization}
+J.~Baumgarte, ``Stabilization of constraints and integrals of motion in
+  dynamical systems,'' {\em Computer methods in applied mechanics and
+  engineering}, vol.~1, no.~1, pp.~1--16, 1972.
+
+\bibitem{cossalter2002motorcycle}
+V.~Cossalter and R.~Lot, ``A motorcycle multi-body model for real time
+  simulations based on the natural coordinates approach,'' {\em Vehicle system
+  dynamics}, vol.~37, no.~6, pp.~423--447, 2002.
+
+\bibitem{cossalter2003multibody}
+V.~Cossalter, R.~Lot, and F.~Maggio, ``A multibody code for motorcycle handling
+  and stability analysis with validation and examples of application,'' tech.
+  rep., SAE Technical Paper, 2003.
+
+\bibitem{lot2004motorcycle}
+R.~Lot, ``A motorcycle tire model for dynamic simulations: Theoretical and
+  experimental aspects,'' {\em Meccanica}, vol.~39, no.~3, pp.~207--220, 2004.
+
+\end{thebibliography}

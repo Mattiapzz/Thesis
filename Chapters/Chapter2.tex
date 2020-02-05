@@ -1,4 +1,7 @@
-\chapter{Motorcycle dynamic model with Pacejka's tyre model}
-		\input{Chapters/Chapter2_1}
-		\input{Chapters/Chapter2_2}
-		\input{Chapters/Chapter2_3}
+\chapter{Motorcycle model} 
+There are multiple way to derive describe the behaviour of the motorcycle and to derive the equation of motion. Some use the lagrangian approach to use a minimum set of coordinates\cite{pacejka2006tyre,sharp2004advances,leonelli2019optimal}. Other derive the equation of motion using Newton-Euler equations.\\
+In this thesis the dynamic model of the motorcycle has been derived using a multi-body approach and assuming the ISO convention for the orientation of the $z$-axis (upward). To this end multiple reference frames, points, bodies, forces and torques are defined in the following sections. The model was derived symbolically using Maple and MBSymba that deals with rotation and transformation matrices using homogeneous coordinates. In particular, working on the model, the author chose to derive the kinematics using a combination of global and recursive approach in order to use a minimum set of coordinates while containing the size of the derived equations.\\
+% 
+\input{Chapters/Chapter2_1}
+\input{Chapters/Chapter2_2}
+\input{Chapters/Chapter2_3}

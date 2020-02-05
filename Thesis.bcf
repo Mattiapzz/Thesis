@@ -2144,6 +2144,14 @@
     <bcf:citekey order="12">pacejka2006tyre</bcf:citekey>
     <bcf:citekey order="13">sharp2004advances</bcf:citekey>
     <bcf:citekey order="14">leonelli2019optimal</bcf:citekey>
+    <bcf:citekey order="15">baumgarte1972stabilization</bcf:citekey>
+    <bcf:citekey order="16">leonelli2019optimal</bcf:citekey>
+    <bcf:citekey order="17">cossalter2002motorcycle</bcf:citekey>
+    <bcf:citekey order="18">cossalter2003multibody</bcf:citekey>
+    <bcf:citekey order="19">sharp2004advances</bcf:citekey>
+    <bcf:citekey order="20">leonelli2019optimal</bcf:citekey>
+    <bcf:citekey order="21">lot2004motorcycle</bcf:citekey>
+    <bcf:citekey order="22">pacejka2006tyre</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
