@@ -25,7 +25,11 @@
 \contentsline {subsubsection}{Torques}{16}{equation.2.2.35}% 
 \contentsline {section}{\numberline {2.3}Equations of motion}{17}{section.2.3}% 
 \contentsline {section}{\numberline {2.4}Reduction to Single Track model}{19}{section.2.4}% 
-\contentsline {chapter}{\numberline {3}Optimal Control Problem}{21}{chapter.3}% 
-\contentsline {chapter}{\numberline {4}Analysis of results}{23}{chapter.4}% 
-\contentsline {chapter}{Conclusions}{25}{chapter*.4}% 
-\contentsline {chapter}{Bibliography}{27}{chapter*.5}% 
+\contentsline {chapter}{\numberline {3}Magic Formula Pacejka}{21}{chapter.3}% 
+\contentsline {chapter}{\numberline {4}Static conditions and Steady State}{23}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}Static condition}{23}{section.4.1}% 
+\contentsline {section}{\numberline {4.2}Steady state}{23}{section.4.2}% 
+\contentsline {chapter}{\numberline {5}Optimal Control Problem}{25}{chapter.5}% 
+\contentsline {chapter}{\numberline {6}Analysis of results}{27}{chapter.6}% 
+\contentsline {chapter}{Conclusions}{29}{chapter*.4}% 
+\contentsline {chapter}{Bibliography}{31}{chapter*.5}% 
