@@ -1,1 +1,73 @@
 \section{Equations of motion}
+%
+The MBSymba library\cite{multibod60:online} allow to derive the newton euler equations of motion. As previously highlighted, the equation of motion needed are 11.
+The first six are derived from the Newton and Euler equation of the whole system that is composed of all bodies, all anti-bodies and all forces at play. Th equation are projected in $RF_1$ and use the origin of $RF_1$ as a pole for the momentum equilibrium.\\ 
+The equation are huge and it is pointless to show them if not in a simplified case. For instance with the internal degrees of freedom freezed and some other set to zero. Specifically the imposed values are:
+%
+\begin{equation}
+    \label{eq:simplifyEQMotion}
+    \phi(t) = 0, \eta(t)=\eta_00, \Omega(t) = 0, \delta(t) = 0, \theta(t) = \theta_00, s_f(t)=s_{f_{00}}
+\end{equation}
+%
+The DoF set to zero are the roll angle of the motorcycle, the steering angle and the yaw rate. The motorcycle is in up-straight static condition. 
+This yields a simplified version of the Newton equation such as:
+%
+\begin{equation}
+\begin{array}{c}
+\left( u \left( t \right)  \right) ^{2}{\it Ca}+M_{{\it tot}}\,{\frac {\rm d}{{\rm d}t}}u \left( t \right) -{\it Fxf} \left( t \right) -{\it Fxr} \left( t \right) = 0 \\
+M_{{\it tot}}\,{\frac {\rm d}{{\rm d}t}}v \left( t \right) -{\it Fyf} \left( t \right) -{\it Fyr} \left( t \right) = 0\\
+\displaystyle \left( m_{m}+m_{{\it rdr}}+m_{\delta}+m_{{\it swa}}+m_{{\it wf}}+m_{{\it wr}} \right) {\frac {{\rm d}^{2}}{{\rm d}{t}^{2}}}h \left( t \right) +M_{{\it tot}}\,g-{\it Fzf} \left( t \right) -{\it Fzr} \left( t \right) = 0
+\end{array}
+\end{equation}
+%
+The simplification performed transform the complex formulas of the dynamic of the motorcycle in something equal to the single track model of car.\\
+The Euler equation are too complex to show even with such greater simplifications.\\
+The equation of motion that should be derived from the steering dynamic is only one. It is the Euler equation around the $z$ axis of $RF_\delta$ and it is projected in this reference frame. As well as in the other cases the equation is long an complex. However the simplified version (with relationship in \ref{eq:simplifyEQMotion}) can be displayed.
+%
+\footnotesize
+\begin{equation}
+\displaystyle
+\left( m_{{\it wf}}\,x_{{\it off}}+m_{\delta}\,x_{\delta} \right) {\frac {\rm d}{{\rm d}t}}v \left( t \right) + \left( {\it rf}\,\sin \left( \theta_{0}+\epsilon \right) -x_{{\it off}} \right) {\it Fyf} \left( t \right) -{\it Mzf} \left( t \right) \cos \left( \theta_{0}+\epsilon \right) +{\it Mxf} \left( t \right) \sin \left( \theta_{0}+\epsilon \right) -\tau \left( t \right)  = 0 
+\end{equation}
+\normalsize
+%
+
+The Euler equation of the rotation of the system composed by rear swingarm and rear wheel is derived using as pole the joint between rear frame and swingarm and it is projected in $RF_{Rear}$.
+As for the previous the equation simplified is reported here.
+%
+\footnotesize
+\begin{equation}
+\begin{split}
+\left( \left(  \left( L_{{\it swa}}-x_{{\it Swing}} \right) m_{{\it swa}}+L_{{\it swa}}\,m_{{\it wr}} \right) \cos \left( -\eta_{0}+\theta_{0}+\epsilon \right) +z_{{\it Swing}}\,m_{{\it swa}}\,\sin \left( -\eta_{0}+\theta_{0}+\epsilon \right) \right) {\frac {{\rm d}^{2}}{{\rm d}{t}^{2}}}h \left( t \right) \dots \\
+\dots + \left( z_{{\it Swing}}\,m_{{\it swa}}\,\cos\left( -\eta_{0}+\theta_{0}+\epsilon \right) + \left( m_{{\it swa}}\,\left( -L_{{\it swa}}+x_{{\it Swing}} \right) -L_{{\it swa}}\,m_{{\it wr}} \right) \sin \left( -\eta_{0}+\theta_{0}+\epsilon \right) \right) {\frac {\rm d}{{\rm d}t}}u \left( t \right) + \dots \\
+\dots + \left( -L_{{\it swa}}\,{\it Fzr} \left( t \right) - \left( m_{{\it swa}}\, \left( -L_{{\it swa}}+x_{{\it Swing}} \right) -L_{{\it swa}}\,m_{{\it wr}} \right) g \right) \cos \left( -\eta_{0}+\theta_{0}+\epsilon \right) + \dots\\
+\dots + \left( z_{{\it Swing}}\,m_{{\it swa}}\,g+L_{{\it swa}}\,{\it Fxr} \left( t \right)  \right) \sin \left( -\eta_{0}+\theta_{0}+\epsilon \right) +\eta_{0}\,a_{1}\,k_{{\it rs}}+{\it Fxr} \left( t \right) {\it rr} +{\it Iy}_{{\it wr}}\,{\frac {{\rm d}^{2}}{{\rm d}{t}^{2}}}\theta_{r} \left( t \right)  = 0
+\end{split}   
+\end{equation}
+\normalsize
+%
+The equation of motion describing the dynamic of front suspension is the $z$ component of the Newton equations of the system unsprung suspension plus front wheel. It is projected in $RF_\delta$
+As for the previous the equation simplified is reported here.
+%
+\footnotesize
+\begin{equation}
+\cos \left( \theta_{0}+\epsilon \right) \left( {\frac {{\rm d}^{2}}{{\rm d}{t}^{2}}}h \left( t \right) \right) m_{{\it wf}}+ \left( gm_{{\it wf}}-{\it Fzf} \left( t\right)  \right) \cos \left( \theta_{0}+\epsilon \right) + \left( -\left( {\frac {\rm d}{{\rm d}t}}u \left( t \right)  \right) m_{{\it wf}}+{\it Fxf} \left( t \right)  \right) \sin \left( \theta_{0}+\epsilon \right) +s_{f_{0}}\,k_{{\it fs}} = 0
+\end{equation}
+\normalsize
+%
+The only two equation left out are the one describing the rotational dynamic of the rear and front wheels. Those are derived considering only the wheels and the forces applied on those. The Euler equations are projected respectively in $RF_{FW}$ and $RF_{RW}$. The simplified version for the front is the following
+%
+\begin{equation}
+    {\it Iy}_{{\it wf}}\,{\frac {{\rm d}^{2}}{{\rm d}{t}^{2}}}\theta_{f}
+    \left( t \right) +{\it Fxf} \left( t \right) {\it rf}-{\it Myf}
+    \left( t \right)    
+\end{equation}
+%
+While for the rear we have
+%
+\begin{equation}
+    {\it Iy}_{{\it wr}}\,{\frac {{\rm d}^{2}}{{\rm d}{t}^{2}}}\theta_{r}
+    \left( t \right) +{\it Fxr} \left( t \right) {\it rr}-{\it Myr}
+    \left( t \right)        
+\end{equation}
+%
