@@ -4,6 +4,32 @@
 A.~Maria, ``Introduction to modeling and simulation,'' in {\em Winter
   simulation conference}, vol.~29, pp.~7--13, 1997.
 
+\bibitem{sharp2014method}
+R.~Sharp, ``A method for predicting minimum-time capability of a motorcycle on
+  a racing circuit,'' {\em Journal of Dynamic Systems, Measurement, and
+  Control}, vol.~136, no.~4, p.~041007, 2014.
+
+\bibitem{leonelli2019optimal}
+L.~Leonelli and D.~Limebeer, ``Optimal control of a road racing motorcycle on a
+  three-dimensional closed track,'' {\em Vehicle System Dynamics}, pp.~1--25,
+  2019.
+
+\bibitem{cossalter1999general}
+V.~Cossalter, M.~Da~Lio, R.~Lot, and L.~Fabbri, ``A general method for the
+  evaluation of vehicle manoeuvrability with special emphasis on motorcycles,''
+  {\em Vehicle system dynamics}, vol.~31, no.~2, pp.~113--135, 1999.
+
+\bibitem{simon2008application}
+B.~Simon, C.~Vittore, M.~Matteo, and P.~Martino, ``Application of the
+  “optimal maneuver method” for enhancing racing motorcycle performance,''
+  {\em SAE International Journal of Passenger Cars-Mechanical Systems}, vol.~1,
+  no.~2008-01-2965, pp.~1311--1318, 2008.
+
+\bibitem{bertolazzi2006symbolic}
+E.~Bertolazzi, F.~Biral, and M.~Da~Lio, ``Symbolic-numeric efficient solution
+  of optimal control problems for multibody systems,'' {\em Journal of
+  computational and applied mathematics}, vol.~185, no.~2, pp.~404--421, 2006.
+
 \bibitem{pacejka2006tyre}
 H.~Pacejka, {\em Tyre and Vehicle Dynamics}.
 \newblock Automotive engineering, Butterworth-Heinemann, 2006.
@@ -13,10 +39,9 @@ V.~Cossalter, R.~Lot, and M.~Massaro, ``The influence of frame compliance and
   rider mobility on the scooter stability,'' {\em Vehicle System Dynamics},
   vol.~45, no.~4, pp.~313--326, 2007.
 
-\bibitem{bertolazzi2006symbolic}
-E.~Bertolazzi, F.~Biral, and M.~Da~Lio, ``Symbolic-numeric efficient solution
-  of optimal control problems for multibody systems,'' {\em Journal of
-  computational and applied mathematics}, vol.~185, no.~2, pp.~404--421, 2006.
+\bibitem{pacejka2012tire}
+H.~Pacejka and I.~Besselink, {\em Tire and Vehicle Dynamics}.
+\newblock Elsevier Science, 2012.
 
 \bibitem{bertolazzi2005symbolic}
 E.~Bertolazzi, F.~Biral, and M.~Da~Lio, ``Symbolic--numeric indirect method for
@@ -41,11 +66,6 @@ H.~S. Rodrigues, M.~T.~T. Monteiro, and D.~F. Torres, ``Optimal control and
 R.~Sharp, S.~Evangelou, and D.~J. Limebeer, ``Advances in the modelling of
   motorcycle dynamics,'' {\em Multibody system dynamics}, vol.~12, no.~3,
   pp.~251--283, 2004.
-
-\bibitem{leonelli2019optimal}
-L.~Leonelli and D.~Limebeer, ``Optimal control of a road racing motorcycle on a
-  three-dimensional closed track,'' {\em Vehicle System Dynamics}, pp.~1--25,
-  2019.
 
 \bibitem{baumgarte1972stabilization}
 J.~Baumgarte, ``Stabilization of constraints and integrals of motion in

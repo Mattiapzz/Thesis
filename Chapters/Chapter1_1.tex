@@ -9,7 +9,7 @@ In general, OPC can be continuous or discrete, linear or non-linear, time-varian
 In general, there are four main approaches to solve continuous-time OPC: state space approach, direct methods, indirect methods and differential dynamic programming.
 
 
-\subsubsection{State-space approaches}
+\subsubsection{State-space Approaches}
 
 State-space approaches follow the principle of optimality for which each sub-arc of an optimal trajectory must be optimal. In literature, those are referred to as Hamilton-Jacobi-Bellman (HJB) equation. However, the problem needs numerical methods to be solved, moreover, a solution can be found only for small dimension problems due to \textit{course of dimensionality}. There is no practical application of this method to solve highly non-linear problem as a dynamic optimisation of a motorcycle model.
 %citare fonti
@@ -31,7 +31,7 @@ of three of the direct methods – single shooting, multiple shooting, and collo
 
 
 
-\subsubsection{Indirect Method}
+\subsubsection{Indirect Methods}
 
 Indirect methods exploits the necessary condition of optimality to derive a boundary value problem (BVP) in ordinary differential equations(ODE). Therefore the BVP can be solved numerically as a non linear problem. The indirect method allow to first optimize and then discretise meaning that the problem con be firstly written in continuous time and discretised later using different discretisation techniques.
 The class of indirect methods exploits the well known calculus of variations
@@ -48,19 +48,6 @@ The major drawbacks of indirect methods are that the problem could be difficult 
 % 
 
 
-% breve descrizione dei methodi
-
-
-\subsection{Minimum time Optimal Control Problem}
-
-% Problemi di minimo tempo
-% Come sono stati risolti e con che methodi
-
-\subsection{PINS}
-
-% scegliere se mettrlo qui o nella parte con i metodi indiretti
-% cita manuale e studio di Bertolazzi + Biral
-% 
 
 \if false
 Some citation btw.
