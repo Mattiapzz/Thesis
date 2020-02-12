@@ -1,68 +1,66 @@
 \section{State of the art on Optimal Control Problems} 
-
+%
 Optimal control problem, also known as dynamic optimisation, are minimisation problem where the variables and parameters change with time. Dynamic systems are characterized by the states and often are controlled by a convenient choice of inputs (controls).\\
 Dynamic optimisation aims to compute those controls and states for a dynamic system over a time interval to minimise one or more performance indexes. In other words, the input is chosen to optimize (minimize) an objective function while complying to constraint equations.
-
+%
 \subsection{Optimal Control Problems}
 Optimal control problems are challenging from the theoretical point of view and of practical interest. However due to dimensionality and complexity of system of equations the application in real problems and industrial environment is still not so widespread.\\
-In general, OPC can be continuous or discrete, linear or non-linear, time-variant or time-invariant. However, in this thesis are addressed only optimal control problems that are continuous time-variant and highly non-linear. Those properties will be discussed in the following sections. %[Ch.1.3]\\%reference real not this
+In general, OPC can be continuous or discrete, linear or non-linear, time-variant or time-invariant. However, in this thesis are addressed only optimal control problems that are continuous time-variant and highly non-linear. Those properties will be discussed in the following sections.\\
 In general, there are four main approaches to solve continuous-time OPC: state space approach, direct methods, indirect methods and differential dynamic programming.
-
-
+%
 \subsubsection{State-space Approaches}
-
+%
 State-space approaches follow the principle of optimality for which each sub-arc of an optimal trajectory must be optimal. In literature, those are referred to as Hamilton-Jacobi-Bellman (HJB) equation. However, the problem needs numerical methods to be solved, moreover, a solution can be found only for small dimension problems due to \textit{course of dimensionality}. There is no practical application of this method to solve highly non-linear problem as a dynamic optimisation of a motorcycle model.
 %citare fonti
-
+%
 \subsubsection{Direct Method}
-
+%
 Direct methods discretise the original optimal control problem into a  non linear programming problem (NLP). In other words, the OPC is transformed in a discrete-time system that can be solved using numerical schemes and  optimization techniques, namely Initial Value Solver (IVS) and Sequential Quadratic Programming (SQP) \cite{bertolazzi2005symbolic}
 The main advantage of direct methods is the possibility to use inequality constraints even in case of change in the constraints active set ( activation/deactivation)\cite{biral2016notes}\\
 Direct methods are easier to implement compared to the other three categories and this is one of the reasons why they are by far the most widespread. In fact, almost $90\%$ of the available optimal control software rely on direct method. \cite{rao2009survey,rodrigues2014optimal}
-
+%
+%%%
 \if FALSE
 Brief descriptions
 of three of the direct methods – single shooting, multiple shooting, and collocation
 \fi
-
-% allargare la descrizione
-% cita molte + fonti
-% 
-
-
-
+%
+% %PICCININI
+% Direct optimal control techniques transform the OC problem into a minimization
+% task (direct transcription) that can be solved with non linear programming (NLP)
+% methods. Similarly to indirect approaches, even the direct technique may discretize
+% only controls, or controls and states (full collocation). Patterson and Rao [2014]
+% developed a tool, named GPOPS-II, capable of effciently solving minimum time
+% OC problems using a direct approach. A proof of the effectiveness of this method is
+% Limebeer et al. [2014], that used GPOPS-II to solve a minimum lap time problem
+% involving the optimization of a Formula One vehicle energy recovery system. A
+% popular solver for the solution of the non linear systems of equations deriving from
+% full collocation direct approaches is IPOPT (seeWachter and Biegler [2006]), which
+% implements an interior point algorithm.
+%
 \subsubsection{Indirect Methods}
-
-Indirect methods exploits the necessary condition of optimality to derive a boundary value problem (BVP) in ordinary differential equations(ODE). Therefore the BVP can be solved numerically as a non linear problem. The indirect method allow to first optimize and then discretise meaning that the problem con be firstly written in continuous time and discretised later using different discretisation techniques.
-The class of indirect methods exploits the well known calculus of variations
-and the Euler-Lagrange differential equations, and the so-called Pontryagin
-Maximum Principle.\cite{bertolazzi2006symbolic} \\
+%
+Indirect methods exploits the necessary condition of optimality to derive a boundary value problem (BVP) in ordinary differential equations(ODE). Therefore the BVP can be solved numerically as a non linear problem. The indirect method allow to first optimize and then discretise meaning that the problem con be firstly written in continuous time and discretised later using different discretisation techniques.\\
+The class of indirect methods exploits the well known calculus of variations and the Euler-Lagrange differential equations, and the so-called Pontryagin Maximum Principle.\cite{bertolazzi2006symbolic} \\
 The numerical solution can be computed either by shooting techniques (single/multiple shooting) or by collocation.
 The major drawbacks of indirect methods are that the problem could be difficult to solve or unstable due to the nature of the underlying differential equations (non linearity and instability) and the changes in control structure (active constraints in specific arcs). Moreover, in some arcs, singularity arises therefore the DAE index increase leading to the necessity of specialized solution techniques. \cite{biral2016notes}
-
-
-% completa ampia descrizione dei metodi indiretti
-% con esempi e citazioni di studi famosi
-% cita testi e paper OCP e Bertolazzi+Biral
-% Motivazioni per cui scegliere questo metodo
-% 
-
-
-
-\if false
-Some citation btw.
-\cite{bertolazzi2005symbolic}
-\cite{bertolazzi2006symbolic}
-\cite{biral2016notes}
-\cite{cossalter2006motorcycle}
-\cite{dal2019comparison}
-\cite{guiggiani2014science}
-\cite{lot2014curvilinear,pacejka2006tyre}
-
-\cite{pacejka2006tyre}
-\cite{rao2009survey}
-\cite{rodrigues2014optimal}
-\cite{sharp2004advances}
-\cite{sharp2014method}
-
-\fi
+%
+% %PICCININI
+% Indirect optimal control methods are based on the Pontryagin Maximum Principle
+% (developed by Pontryagin [1987]), that provides a necessary condition for optimality
+% and allows to build a boundary value problem (BVP), while the control law is
+% obtained with a minimization process. The BVP may be solved in different ways,
+% for instance using single/multiple shooting methods (in which only controls are
+% discretized), or by means of full collocation, for which states and controls are
+% discretized. Biral et al. [2016] implemented a collection of libraries, named PINS,
+% making use of nite difference to transform the BVP into a non linear system of
+% equations, which is solved with a dumped Newton method. Dal Bianco et al. [2017]
+% effciently solved a minimum time OC problem with this technique, basing on a 14
+% degrees of freedom vehicle model.
+%
+\subsubsection{Differential Dynamic Programming}
+%
+Differential Dynamic Programming (DDP) is a technique developed to overcome the limitation of the dynamic programming approach. The simple approach was developed firstly by Bellman and Dreyfus and it is based on Bellman's principle of optimality.\cite{bellman2015applied}\\
+The DDP is a second order shooting method where the cost function is approximated around a reference with a quadratic function.\cite{mayne1966second}\\ 
+This approach is well known and date back to 1966. A remarkable result has been obtained by Huang \textit{et al.}\cite{huang2014trajectory} where they use DDP approach to compute the trajectory of an autonomous vehicle with simple kinematics. However, as far as the author know, it has never been used to solve optimal control problem with complex dynamic models. Further more, there is no trace, in literature, of OCP concerning motorcycles solved using DDP.
+%

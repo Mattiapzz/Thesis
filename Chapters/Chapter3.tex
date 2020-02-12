@@ -5,14 +5,14 @@ The model used in this thesis for the forces is the same proposed for motorcycle
 %
 \section{Longitudinal force}
 %
-\begin{figure}[hbt]
+\begin{figure}%[hbt]
     \begin{subfigure}{.5\linewidth}
-        \includegraphics[width=\linewidth]{MotoModel_tex/MotoModelplot2d1.eps}
+        \includegraphics[width=\linewidth]{Pacejka/LongFrontFz.pdf}
         \caption{}
         \label{fig:long1a}
     \end{subfigure}%
     \begin{subfigure}{.5\linewidth}
-        \includegraphics[width=\linewidth]{MotoModel_tex/MotoModelplot2d2.eps}
+        \includegraphics[width=\linewidth]{Pacejka/LongRearFz.pdf}
         \caption{}
         \label{fig:long1b}
     \end{subfigure}
@@ -93,24 +93,24 @@ As one can appreciate from figure \ref{fig:long1a} and \ref{fig:long1b} the long
 %
 \section{Lateral force}
 %
-\begin{figure}[hbt!]
+\begin{figure}%[hbt]
     \begin{subfigure}{.5\textwidth}
-        \includegraphics[width=\linewidth]{MotoModel_tex/MotoModelplot2d3.eps}
+        \includegraphics[width=\linewidth]{Pacejka/LatFrontFz.pdf}
         \caption{}
         \label{fig:lat1a}
     \end{subfigure}%
     \begin{subfigure}{.5\textwidth}
-        \includegraphics[width=\linewidth]{MotoModel_tex/MotoModelplot2d4.eps}
+        \includegraphics[width=\linewidth]{Pacejka/LatRearFz.pdf}
         \caption{}
         \label{fig:lat1b}
     \end{subfigure}\\
     \begin{subfigure}{.5\textwidth}
-        \includegraphics[width=\linewidth]{MotoModel_tex/MotoModelplot2d5.eps}
+        \includegraphics[width=\linewidth]{Pacejka/LatFrontPhi.pdf}
         \caption{}
         \label{fig:lat1c}
     \end{subfigure}%
     \begin{subfigure}{.5\textwidth}
-        \includegraphics[width=\linewidth]{MotoModel_tex/MotoModelplot2d6.eps}
+        \includegraphics[width=\linewidth]{Pacejka/LatRearPhi.pdf}
         \caption{}
         \label{fig:lat1d}
     \end{subfigure}
@@ -207,6 +207,31 @@ In figure \ref{fig:lat1a} and \ref{fig:lat1b} the effect of vertical load $Fz$ o
 %
 \section{Self-aligning moment}
 %
+\begin{figure}%[hbt]
+    \begin{subfigure}{.5\textwidth}
+        \includegraphics[width=\linewidth]{Pacejka/SelfAliFrontFz.pdf}
+        \caption{}
+        \label{fig:sa1a}
+    \end{subfigure}%
+    \begin{subfigure}{.5\textwidth}
+        \includegraphics[width=\linewidth]{Pacejka/SelfAliRearFz.pdf}
+        \caption{}
+        \label{fig:sa1b}
+    \end{subfigure}\\
+    \begin{subfigure}{.5\textwidth}
+        \includegraphics[width=\linewidth]{Pacejka/SelfAliFrontPhi.pdf}
+        \caption{}
+        \label{fig:sa1c}
+    \end{subfigure}%
+    \begin{subfigure}{.5\textwidth}
+        \includegraphics[width=\linewidth]{Pacejka/SelfAliRearPhi.pdf}
+        \caption{}
+        \label{fig:sa1d}
+    \end{subfigure}
+    \caption{Graphs of the self-aligning moments for front and rear wheel}
+\end{figure}
+%
+%
 The self-aligning moment depends on the lateral slips and chamber angle. As well as fot the other forces previously defined, the time dependency is dropped out to simplify the notation.  
 %
 \begin{equation}
@@ -280,32 +305,6 @@ All coefficient are defined hereafter.
 \end{equation}
 %
 In figure \ref{fig:sa1a} and \ref{fig:sa1b} the effect of vertical load $Fz$ on self aligning moment is show for both wheels. As expected from the model definition, the peak of the moment scale with the applied load. Figure \ref{fig:sa1c} and \ref{fig:sa1d}, instead, represent the effect of the different chamber angles on the aligning moment. It is clear that this angle plays a major role in the range between $-60$ and $60$ degrees. 
-%
-\begin{figure}
-    \begin{subfigure}{.5\textwidth}
-        \includegraphics[width=\linewidth]{MotoModel_tex/MotoModelplot2d11.eps}
-        \caption{}
-        \label{fig:sa1a}
-    \end{subfigure}%
-    \begin{subfigure}{.5\textwidth}
-        \includegraphics[width=\linewidth]{MotoModel_tex/MotoModelplot2d12.eps}
-        \caption{}
-        \label{fig:sa1b}
-    \end{subfigure}\\
-    \begin{subfigure}{.5\textwidth}
-        \includegraphics[width=\linewidth]{MotoModel_tex/MotoModelplot2d13.eps}
-        \caption{}
-        \label{fig:sa1c}
-    \end{subfigure}%
-    \begin{subfigure}{.5\textwidth}
-        \includegraphics[width=\linewidth]{MotoModel_tex/MotoModelplot2d14.eps}
-        \caption{}
-        \label{fig:sa1d}
-    \end{subfigure}
-    \caption{Graphs of the self-aligning moments for front and rear wheel}
-\end{figure}
-%
-
 %
 \section{Overturning moment}
 %

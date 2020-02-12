@@ -1,37 +1,38 @@
 \babel@toc {UKenglish}{}
-\contentsline {chapter}{Introduction}{3}{chapter*.3}% 
-\contentsline {chapter}{\numberline {1}State of the Art}{5}{chapter.1}% 
-\contentsline {section}{\numberline {1.1}State of the art on Optimal Control Problems}{5}{section.1.1}% 
-\contentsline {subsection}{\numberline {1.1.1}Optimal Control Problems}{5}{subsection.1.1.1}% 
-\contentsline {subsubsection}{State-space Approaches}{5}{subsection.1.1.1}% 
-\contentsline {subsubsection}{Direct Method}{6}{subsection.1.1.1}% 
-\contentsline {subsubsection}{Indirect Methods}{6}{subsection.1.1.1}% 
-\contentsline {section}{\numberline {1.2}Optimal Control with Motorcycle Dynamics}{6}{section.1.2}% 
-\contentsline {chapter}{\numberline {2}Motorcycle model}{7}{chapter.2}% 
-\contentsline {section}{\numberline {2.1}Kinematic model}{7}{section.2.1}% 
-\contentsline {subsection}{\numberline {2.1.1}Reference frames}{7}{subsection.2.1.1}% 
-\contentsline {subsection}{\numberline {2.1.2}Kinematic solution}{10}{subsection.2.1.2}% 
-\contentsline {subsection}{\numberline {2.1.3}Tyre-Ground penetration}{11}{subsection.2.1.3}% 
-\contentsline {subsection}{\numberline {2.1.4}Longitudinal and lateral slips}{11}{subsection.2.1.4}% 
-\contentsline {section}{\numberline {2.2}Dynamic Model}{12}{section.2.2}% 
-\contentsline {subsection}{\numberline {2.2.1}Motorcycle rigid body}{12}{subsection.2.2.1}% 
-\contentsline {subsubsection}{Bodies}{12}{subsection.2.2.1}% 
-\contentsline {subsubsection}{Centre of Mass of the motorcycle}{14}{equation.2.2.26}% 
-\contentsline {subsubsection}{Moment of Inertia of the motorcycle}{14}{equation.2.2.27}% 
-\contentsline {subsection}{\numberline {2.2.2}Dummy bodies}{14}{subsection.2.2.2}% 
-\contentsline {subsubsection}{Forces}{15}{subsection.2.2.2}% 
-\contentsline {subsubsection}{Torques}{16}{equation.2.2.35}% 
-\contentsline {section}{\numberline {2.3}Equations of motion}{17}{section.2.3}% 
-\contentsline {section}{\numberline {2.4}Reduction to Single Track model}{19}{section.2.4}% 
-\contentsline {chapter}{\numberline {3}Magic Formula Pacejka}{21}{chapter.3}% 
-\contentsline {section}{\numberline {3.1}Longitudinal force}{21}{section.3.1}% 
-\contentsline {section}{\numberline {3.2}Lateral force}{22}{section.3.2}% 
-\contentsline {section}{\numberline {3.3}Self-aligning moment}{23}{section.3.3}% 
-\contentsline {section}{\numberline {3.4}Overturning moment}{24}{section.3.4}% 
-\contentsline {chapter}{\numberline {4}Static conditions and Steady State}{27}{chapter.4}% 
-\contentsline {section}{\numberline {4.1}Static condition}{27}{section.4.1}% 
-\contentsline {section}{\numberline {4.2}Steady state}{27}{section.4.2}% 
-\contentsline {chapter}{\numberline {5}Optimal Control Problem}{29}{chapter.5}% 
-\contentsline {chapter}{\numberline {6}Analysis of results}{31}{chapter.6}% 
-\contentsline {chapter}{Conclusions}{33}{chapter*.7}% 
-\contentsline {chapter}{Bibliography}{35}{chapter*.8}% 
+\contentsline {chapter}{Introduction}{3}{chapter*.3}%
+\contentsline {chapter}{\numberline {1}State of the Art}{5}{chapter.1}%
+\contentsline {section}{\numberline {1.1}State of the art on Optimal Control Problems}{5}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Optimal Control Problems}{5}{subsection.1.1.1}%
+\contentsline {subsubsection}{State-space Approaches}{5}{subsection.1.1.1}%
+\contentsline {subsubsection}{Direct Method}{6}{subsection.1.1.1}%
+\contentsline {subsubsection}{Indirect Methods}{6}{subsection.1.1.1}%
+\contentsline {subsubsection}{Differential Dynamic Programming}{6}{subsection.1.1.1}%
+\contentsline {section}{\numberline {1.2}Optimal Control with Motorcycle Dynamics}{7}{section.1.2}%
+\contentsline {chapter}{\numberline {2}Motorcycle model}{9}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Kinematic model}{9}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Reference frames}{9}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Kinematic solution}{13}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Tyre-Ground penetration}{14}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}Longitudinal and lateral slips}{14}{subsection.2.1.4}%
+\contentsline {section}{\numberline {2.2}Dynamic Model}{15}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Motorcycle rigid body}{15}{subsection.2.2.1}%
+\contentsline {subsubsection}{Bodies}{16}{subsection.2.2.1}%
+\contentsline {subsubsection}{Centre of Mass of the motorcycle}{17}{equation.2.2.26}%
+\contentsline {subsubsection}{Moment of Inertia of the motorcycle}{18}{equation.2.2.27}%
+\contentsline {subsection}{\numberline {2.2.2}Dummy bodies}{18}{subsection.2.2.2}%
+\contentsline {subsubsection}{Forces}{19}{subsection.2.2.2}%
+\contentsline {subsubsection}{Torques}{21}{equation.2.2.35}%
+\contentsline {section}{\numberline {2.3}Equations of motion}{22}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Reduction to Single Track model}{23}{section.2.4}%
+\contentsline {chapter}{\numberline {3}Magic Formula Pacejka}{25}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Longitudinal force}{25}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Lateral force}{26}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Self-aligning moment}{28}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Overturning moment}{30}{section.3.4}%
+\contentsline {chapter}{\numberline {4}Static conditions and Steady State}{33}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Static condition}{33}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Steady state}{33}{section.4.2}%
+\contentsline {chapter}{\numberline {5}Optimal Control Problem}{35}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Analysis of results}{37}{chapter.6}%
+\contentsline {chapter}{Conclusions}{39}{chapter*.7}%
+\contentsline {chapter}{Bibliography}{41}{chapter*.8}%

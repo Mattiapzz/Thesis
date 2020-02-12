@@ -62,6 +62,37 @@ H.~S. Rodrigues, M.~T.~T. Monteiro, and D.~F. Torres, ``Optimal control and
   numerical software: an overview,'' {\em arXiv preprint arXiv:1401.7279},
   2014.
 
+\bibitem{bellman2015applied}
+R.~E. Bellman and S.~E. Dreyfus, {\em Applied dynamic programming}.
+\newblock Princeton university press, 2015.
+
+\bibitem{mayne1966second}
+D.~Mayne, ``A second-order gradient method for determining optimal trajectories
+  of non-linear discrete-time systems,'' {\em International Journal of
+  Control}, vol.~3, no.~1, pp.~85--95, 1966.
+
+\bibitem{huang2014trajectory}
+W.~Huang, X.~Wu, Q.~Zhang, N.~Wu, and Z.~Song, ``Trajectory optimization of
+  autonomous driving by differential dynamic programming,'' in {\em 2014 13th
+  International Conference on Control Automation Robotics \& Vision (ICARCV)},
+  pp.~1758--1763, IEEE, 2014.
+
+\bibitem{dal2019comparison}
+N.~Dal~Bianco, E.~Bertolazzi, F.~Biral, and M.~Massaro, ``Comparison of direct
+  and indirect methods for minimum lap time optimal control problems,'' {\em
+  Vehicle System Dynamics}, vol.~57, no.~5, pp.~665--696, 2019.
+
+\bibitem{cossalter2010investigation}
+V.~Cossalter, M.~Peretto, and S.~Bobbo, ``Investigation of the influences of
+  tyre—road friction and engine power on motorcycle racing performance by
+  means of the optimal manoeuvre method,'' {\em Proceedings of the Institution
+  of Mechanical Engineers, Part D: Journal of Automobile Engineering},
+  vol.~224, no.~4, pp.~503--519, 2010.
+
+\bibitem{lot2008advanced}
+R.~Lot, M.~Massaro, and R.~Sartori, ``Advanced motorcycle virtual rider,'' {\em
+  Vehicle System Dynamics}, vol.~46, no.~S1, pp.~215--224, 2008.
+
 \bibitem{sharp2004advances}
 R.~Sharp, S.~Evangelou, and D.~J. Limebeer, ``Advances in the modelling of
   motorcycle dynamics,'' {\em Multibody system dynamics}, vol.~12, no.~3,
