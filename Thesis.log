@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300) (preloaded format=pdflatex 2020.2.12)  12 FEB 2020 14:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300) (preloaded format=pdflatex 2020.2.12)  12 FEB 2020 15:50
 entering extended mode
 **c:/EMPTY-DESKTOP/TESI/ThesisTex/Thesis.tex
 (c:/EMPTY-DESKTOP/TESI/ThesisTex/Thesis.tex
@@ -1049,7 +1049,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 7.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (Setup/Frontmatter.tex
-<img/logo.png, id=121, 1204.5pt x 1204.5pt>
+<img/logo.png, id=133, 1204.5pt x 1204.5pt>
 File: img/logo.png Graphic file (type png)
 <use img/logo.png>
 Package pdftex.def Info: img/logo.png  used on input line 3.
@@ -1094,14 +1094,12 @@ l.20     \mainmatter
 
 ] [4]
 Chapter 1.
-(Chapters/Chapter1_1.tex [5
+(Chapters/Chapter1_1.tex
+Underfull \vbox (badness 6220) has occurred while \output is active []
 
-]) (Chapters/Chapter1_2.tex [6])
-Underfull \hbox (badness 10000) in paragraph at lines 4--8
+ [5
 
- []
-
-[7]) (Chapters/Chapter2.tex [8]
+]) (Chapters/Chapter1_2.tex [6]) [7]) (Chapters/Chapter2.tex [8]
 Chapter 2.
 (Chapters/Chapter2_1.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1148,12 +1146,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--1
 
 [24]
 Chapter 3.
-<img/Pacejka/LongFrontFz.pdf, id=422, 794.97pt x 614.295pt>
+<img/Pacejka/LongFrontFz.pdf, id=455, 794.97pt x 614.295pt>
 File: img/Pacejka/LongFrontFz.pdf Graphic file (type pdf)
 <use img/Pacejka/LongFrontFz.pdf>
 Package pdftex.def Info: img/Pacejka/LongFrontFz.pdf  used on input line 10.
 (pdftex.def)             Requested size: 227.62204pt x 175.89137pt.
-<img/Pacejka/LongRearFz.pdf, id=423, 794.97pt x 614.295pt>
+<img/Pacejka/LongRearFz.pdf, id=456, 794.97pt x 614.295pt>
 File: img/Pacejka/LongRearFz.pdf Graphic file (type pdf)
 <use img/Pacejka/LongRearFz.pdf>
 Package pdftex.def Info: img/Pacejka/LongRearFz.pdf  used on input line 15.
@@ -1161,22 +1159,22 @@ Package pdftex.def Info: img/Pacejka/LongRearFz.pdf  used on input line 15.
 [25
 
 ]
-<img/Pacejka/LatFrontFz.pdf, id=434, 794.97pt x 614.295pt>
+<img/Pacejka/LatFrontFz.pdf, id=467, 794.97pt x 614.295pt>
 File: img/Pacejka/LatFrontFz.pdf Graphic file (type pdf)
 <use img/Pacejka/LatFrontFz.pdf>
 Package pdftex.def Info: img/Pacejka/LatFrontFz.pdf  used on input line 98.
 (pdftex.def)             Requested size: 227.62204pt x 175.89137pt.
-<img/Pacejka/LatRearFz.pdf, id=435, 794.97pt x 614.295pt>
+<img/Pacejka/LatRearFz.pdf, id=468, 794.97pt x 614.295pt>
 File: img/Pacejka/LatRearFz.pdf Graphic file (type pdf)
 <use img/Pacejka/LatRearFz.pdf>
 Package pdftex.def Info: img/Pacejka/LatRearFz.pdf  used on input line 103.
 (pdftex.def)             Requested size: 227.62204pt x 175.89137pt.
-<img/Pacejka/LatFrontPhi.pdf, id=436, 794.97pt x 614.295pt>
+<img/Pacejka/LatFrontPhi.pdf, id=469, 794.97pt x 614.295pt>
 File: img/Pacejka/LatFrontPhi.pdf Graphic file (type pdf)
 <use img/Pacejka/LatFrontPhi.pdf>
 Package pdftex.def Info: img/Pacejka/LatFrontPhi.pdf  used on input line 108.
 (pdftex.def)             Requested size: 227.62204pt x 175.89137pt.
-<img/Pacejka/LatRearPhi.pdf, id=437, 794.97pt x 614.295pt>
+<img/Pacejka/LatRearPhi.pdf, id=470, 794.97pt x 614.295pt>
 File: img/Pacejka/LatRearPhi.pdf Graphic file (type pdf)
 <use img/Pacejka/LatRearPhi.pdf>
 Package pdftex.def Info: img/Pacejka/LatRearPhi.pdf  used on input line 113.
@@ -1185,22 +1183,22 @@ Package pdftex.def Info: img/Pacejka/LatRearPhi.pdf  used on input line 113.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [26 <./img/Pacejka/LongFrontFz.pdf> <./img/Pacejka/LongRearFz.pdf>] [27 <./img/Pacejka/LatFrontFz.pdf> <./img/Pacejka/LatRearFz.pdf> <./img/Pacejka/LatFrontPhi.pdf> <./img/Pacejka/LatRearPhi.pdf>]
-<img/Pacejka/SelfAliFrontFz.pdf, id=466, 794.97pt x 614.295pt>
+<img/Pacejka/SelfAliFrontFz.pdf, id=499, 794.97pt x 614.295pt>
 File: img/Pacejka/SelfAliFrontFz.pdf Graphic file (type pdf)
 <use img/Pacejka/SelfAliFrontFz.pdf>
 Package pdftex.def Info: img/Pacejka/SelfAliFrontFz.pdf  used on input line 212.
 (pdftex.def)             Requested size: 227.62204pt x 175.89137pt.
-<img/Pacejka/SelfAliRearFz.pdf, id=467, 794.97pt x 614.295pt>
+<img/Pacejka/SelfAliRearFz.pdf, id=500, 794.97pt x 614.295pt>
 File: img/Pacejka/SelfAliRearFz.pdf Graphic file (type pdf)
 <use img/Pacejka/SelfAliRearFz.pdf>
 Package pdftex.def Info: img/Pacejka/SelfAliRearFz.pdf  used on input line 217.
 (pdftex.def)             Requested size: 227.62204pt x 175.89137pt.
-<img/Pacejka/SelfAliFrontPhi.pdf, id=468, 794.97pt x 614.295pt>
+<img/Pacejka/SelfAliFrontPhi.pdf, id=501, 794.97pt x 614.295pt>
 File: img/Pacejka/SelfAliFrontPhi.pdf Graphic file (type pdf)
 <use img/Pacejka/SelfAliFrontPhi.pdf>
 Package pdftex.def Info: img/Pacejka/SelfAliFrontPhi.pdf  used on input line 222.
 (pdftex.def)             Requested size: 227.62204pt x 175.89137pt.
-<img/Pacejka/SelfAliRearPhi.pdf, id=469, 794.97pt x 614.295pt>
+<img/Pacejka/SelfAliRearPhi.pdf, id=502, 794.97pt x 614.295pt>
 File: img/Pacejka/SelfAliRearPhi.pdf Graphic file (type pdf)
 <use img/Pacejka/SelfAliRearPhi.pdf>
 Package pdftex.def Info: img/Pacejka/SelfAliRearPhi.pdf  used on input line 227.
@@ -1227,7 +1225,7 @@ Chapter 6.
 
 ]) (Thesis.bbl [39] [40
 
-] [41]) (Chapters/Appendix.tex [42] [43] [44
+] [41] [42]) (Chapters/Appendix.tex [43] [44
 
 ]) [45]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 55.
@@ -1236,25 +1234,21 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 55.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 55.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 55.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 41D05A2118E853E2D04F0985A0ADB206;1977.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+(rerunfilecheck)             Checksum: 700F66BD8EF888019E129F40DD980CDE;2172.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 55.
  ) 
 Here is how much of TeX's memory you used:
- 33265 strings out of 481565
- 595240 string characters out of 2921140
+ 33283 strings out of 481565
+ 595604 string characters out of 2921140
  1003017 words of memory out of 3000000
- 47619 multiletter control sequences out of 15000+200000
+ 47628 multiletter control sequences out of 15000+200000
  552286 words of font info for 95 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,19n,69p,889b,2460s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 63i,19n,69p,907b,2460s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\T75\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmex9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Thesis.pdf (49 pages, 1012829 bytes).
+Output written on Thesis.pdf (49 pages, 1020687 bytes).
 PDF statistics:
- 700 PDF objects out of 1000 (max. 8388607)
- 163 named destinations out of 1000 (max. 500000)
- 304 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 734 PDF objects out of 1000 (max. 8388607)
+ 172 named destinations out of 1000 (max. 500000)
+ 328 words of extra memory for PDF output out of 10000 (max. 10000000)
 

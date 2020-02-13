@@ -62,6 +62,29 @@ H.~S. Rodrigues, M.~T.~T. Monteiro, and D.~F. Torres, ``Optimal control and
   numerical software: an overview,'' {\em arXiv preprint arXiv:1401.7279},
   2014.
 
+\bibitem{patterson2014gpops}
+M.~A. Patterson and A.~V. Rao, ``Gpops-ii: A matlab software for solving
+  multiple-phase optimal control problems using hp-adaptive gaussian quadrature
+  collocation methods and sparse nonlinear programming,'' {\em ACM Transactions
+  on Mathematical Software (TOMS)}, vol.~41, no.~1, pp.~1--37, 2014.
+
+\bibitem{Houska2011a}
+B.~Houska, H.~Ferreau, and M.~Diehl, ``{ACADO} {T}oolkit -- {A}n {O}pen
+  {S}ource {F}ramework for {A}utomatic {C}ontrol and {D}ynamic
+  {O}ptimization,'' {\em Optimal Control Applications and Methods}, vol.~32,
+  no.~3, pp.~298--312, 2011.
+
+\bibitem{Andersson2019}
+J.~A.~E. Andersson, J.~Gillis, G.~Horn, J.~B. Rawlings, and M.~Diehl,
+  ``{CasADi} -- {A} software framework for nonlinear optimization and optimal
+  control,'' {\em Mathematical Programming Computation}, vol.~11, no.~1,
+  pp.~1--36, 2019.
+
+\bibitem{wachter2006implementation}
+A.~W{\"a}chter and L.~T. Biegler, ``On the implementation of an interior-point
+  filter line-search algorithm for large-scale nonlinear programming,'' {\em
+  Mathematical programming}, vol.~106, no.~1, pp.~25--57, 2006.
+
 \bibitem{bellman2015applied}
 R.~E. Bellman and S.~E. Dreyfus, {\em Applied dynamic programming}.
 \newblock Princeton university press, 2015.
@@ -92,6 +115,17 @@ V.~Cossalter, M.~Peretto, and S.~Bobbo, ``Investigation of the influences of
 \bibitem{lot2008advanced}
 R.~Lot, M.~Massaro, and R.~Sartori, ``Advanced motorcycle virtual rider,'' {\em
   Vehicle System Dynamics}, vol.~46, no.~S1, pp.~215--224, 2008.
+
+\bibitem{cossalter2013optimization}
+V.~Cossalter, R.~Lot, and D.~Tavernini, ``Optimization of the centre of mass
+  position of a racing motorcycle in dry and wet track by means of the
+  “optimal maneuver method”,'' in {\em 2013 IEEE International Conference
+  on Mechatronics (ICM)}, pp.~412--417, IEEE, 2013.
+
+\bibitem{massaro2010virtual}
+M.~Massaro and R.~Lot, ``A virtual rider for two-wheeled vehicles,'' in {\em
+  49th IEEE Conference on Decision and Control (CDC)}, pp.~5586--5591, IEEE,
+  2010.
 
 \bibitem{sharp2004advances}
 R.~Sharp, S.~Evangelou, and D.~J. Limebeer, ``Advances in the modelling of
