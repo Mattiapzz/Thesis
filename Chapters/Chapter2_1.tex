@@ -1,8 +1,14 @@
 \section{Kinematic model}
 %
+\begin{figure}[htb]
+    \includegraphics[width=\linewidth]{Coordinates/moto_with_symbols.pdf}
+    \caption{Motorcycle representation with some of the Degrees of Freedom}
+    \label{fig:MotoLean}
+\end{figure}[htb]
+%
 \subsection{Reference frames}
 %
-A common choice is to start by defining a reference frame in movement with respect to the ground, or fixed, one. This reference frame have in general three linear and three angular velocities. However, for the purpose of this thesis, we consider only planar roads. This means that we need to define the movement of a frame in a plane, therefore only three degrees of freedom are needed (three velocities). The moving reference frame ia addressed as $RF_1$ and has velocities $u(t)$, $v(t)$ and $\Omega(t)$. This set of velocities, also called quasi-coordinates, are suitable to be used later in the definition of curvilinear coordinate. $RF_1$ has the $x$-axis aligned with the direction of motion of the motorcycle. \\
+A common choice is to start by defining a reference frame in movement with respect to the ground, or fixed, one. This reference frame have in general three linear and three angular velocities. However, for the purpose of this thesis, we consider only planar roads. This means that we need to define the movement of a frame in a plane, therefore only three degrees of freedom are needed (three velocities). The moving reference frame ia addressed as $RF_1$ and has velocities $u(t)$, $v(t)$ and $\Omega(t)$ as can be appreciated from figure \ref{fig:MotoLean}. This set of velocities, also called quasi-coordinates, are suitable to be used later in the definition of curvilinear coordinate. $RF_1$ has the $x$-axis aligned with the direction of motion of the motorcycle. \\
 The frame $RF_\phi$ is the reference frame attached to a plane rotated of an angle $\phi(t)$ commonly addressed as rolling angle around the moving $x$-axis and it is obtained recursively multiplying $RF_1$ for a rotation matrix.
 %
 \begin{equation}
@@ -14,7 +20,15 @@ The frame $RF_\phi$ is the reference frame attached to a plane rotated of an ang
    \\ \noalign{\medskip}0&0&0&1\end {array} \right]   
 \end{equation}
 %
-Then a reference frame attached to the joint between the swingarm and the rear frame is defined with a translation in the vertical direction of the rolled frame of a certain height $h(t)$ and a rotation around the rolled $y$-axis of an angle $\theta(t)$ plus the caster angle $\epsilon$. The new frame will be from here addressed as $RF_{Rear}$.
+%
+\begin{figure}[htb]
+    \includegraphics[width=\linewidth]{Coordinates/flankangles.pdf}
+    \caption{Motorcycle representation with some of the Degrees of Freedom}
+    \label{fig:MotoFlank}
+\end{figure}[htb]
+%
+%
+Then a reference frame attached to the joint between the swingarm and the rear frame is defined with a translation in the vertical direction of the rolled frame of a certain height $h(t)$ and a rotation around the rolled $y$-axis of an angle $\theta(t)$ plus the caster angle $\epsilon$ (Figure \ref{fig:MotoFlank}). The new frame will be from here addressed as $RF_{Rear}$.
 %
 \begin{equation}
     RF_{Rear} = RF_\phi 

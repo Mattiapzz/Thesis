@@ -10,28 +10,28 @@
 \contentsline {chapter}{\numberline {2}Motorcycle model}{9}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Kinematic model}{9}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}Reference frames}{9}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Kinematic solution}{13}{subsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.1.3}Tyre-Ground penetration}{14}{subsection.2.1.3}%
-\contentsline {subsection}{\numberline {2.1.4}Longitudinal and lateral slips}{14}{subsection.2.1.4}%
-\contentsline {section}{\numberline {2.2}Dynamic Model}{15}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Motorcycle rigid body}{15}{subsection.2.2.1}%
-\contentsline {subsubsection}{Bodies}{16}{subsection.2.2.1}%
-\contentsline {subsubsection}{Centre of Mass of the motorcycle}{17}{equation.2.2.26}%
-\contentsline {subsubsection}{Moment of Inertia of the motorcycle}{18}{equation.2.2.27}%
-\contentsline {subsection}{\numberline {2.2.2}Dummy bodies}{18}{subsection.2.2.2}%
-\contentsline {subsubsection}{Forces}{19}{subsection.2.2.2}%
-\contentsline {subsubsection}{Torques}{21}{equation.2.2.35}%
-\contentsline {section}{\numberline {2.3}Equations of motion}{22}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Reduction to Single Track model}{23}{section.2.4}%
-\contentsline {chapter}{\numberline {3}Magic Formula Pacejka}{25}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Longitudinal force}{25}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Lateral force}{26}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Self-aligning moment}{28}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Overturning moment}{30}{section.3.4}%
-\contentsline {chapter}{\numberline {4}Static conditions and Steady State}{33}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Static condition}{33}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Steady state}{33}{section.4.2}%
-\contentsline {chapter}{\numberline {5}Optimal Control Problem}{35}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Analysis of results}{37}{chapter.6}%
-\contentsline {chapter}{Conclusions}{39}{chapter*.7}%
-\contentsline {chapter}{Bibliography}{41}{chapter*.8}%
+\contentsline {subsection}{\numberline {2.1.2}Kinematic solution}{14}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Tyre-Ground penetration}{15}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}Longitudinal and lateral slips}{15}{subsection.2.1.4}%
+\contentsline {section}{\numberline {2.2}Dynamic Model}{16}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Motorcycle rigid body}{16}{subsection.2.2.1}%
+\contentsline {subsubsection}{Bodies}{17}{subsection.2.2.1}%
+\contentsline {subsubsection}{Centre of Mass of the motorcycle}{18}{equation.2.2.26}%
+\contentsline {subsubsection}{Moment of Inertia of the motorcycle}{19}{equation.2.2.27}%
+\contentsline {subsection}{\numberline {2.2.2}Dummy bodies}{19}{subsection.2.2.2}%
+\contentsline {subsubsection}{Forces}{20}{subsection.2.2.2}%
+\contentsline {subsubsection}{Torques}{22}{equation.2.2.35}%
+\contentsline {section}{\numberline {2.3}Equations of motion}{23}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Reduction to Single Track model}{24}{section.2.4}%
+\contentsline {chapter}{\numberline {3}Magic Formula Pacejka}{27}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Longitudinal force}{27}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Lateral force}{28}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Self-aligning moment}{30}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Overturning moment}{32}{section.3.4}%
+\contentsline {chapter}{\numberline {4}Static conditions and Steady State}{35}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Static condition}{35}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Steady state}{35}{section.4.2}%
+\contentsline {chapter}{\numberline {5}Optimal Control Problem}{37}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Analysis of results}{39}{chapter.6}%
+\contentsline {chapter}{Conclusions}{41}{chapter*.9}%
+\contentsline {chapter}{Bibliography}{43}{chapter*.10}%
