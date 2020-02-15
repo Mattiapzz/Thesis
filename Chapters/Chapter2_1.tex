@@ -1,10 +1,11 @@
 \section{Kinematic model}
 %
 \begin{figure}[htb]
+    \centering
     \includegraphics[width=\linewidth]{Coordinates/moto_with_symbols.pdf}
     \caption{Motorcycle representation with some of the Degrees of Freedom}
     \label{fig:MotoLean}
-\end{figure}[htb]
+\end{figure}
 %
 \subsection{Reference frames}
 %
@@ -22,6 +23,7 @@ The frame $RF_\phi$ is the reference frame attached to a plane rotated of an ang
 %
 %
 \begin{figure}[htb]
+    \centering
     \includegraphics[width=\linewidth]{Coordinates/flankangles.pdf}
     \caption{Motorcycle representation with some of the Degrees of Freedom}
     \label{fig:MotoFlank}
@@ -167,9 +169,13 @@ C_f =  \left[ \begin {array}{c} 0\\
 %
 Where $rr$, $rf$, $rtr$, $rtf$ are respectively the radius of the rear and front wheel and the radii of the section.
 %
-
-DISEGNI DEI PUNTI % ###
-
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.5\linewidth]{Coordinates/whellbehind.pdf}
+    \caption{Contact point and pont of application of the forces}
+    \label{fig:PandC}
+\end{figure}
+%
 \subsection{Kinematic solution}
 %
 Not all the variable introduced are state variable nor are needed for the final purpose of this thesis. Those have been introduced just to simplify the formulation. However, they can be solved now by imposing some constraints.

@@ -47,6 +47,13 @@ The rear frame (main body) is linked to the reference frame $RF_{Rear}$. The cen
     \; \text{in} \; RF_{rear}
 \end{equation}
 %
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.5\linewidth]{Coordinates/ONLYREAR.pdf}
+    \caption{CoM of the rear frame}
+    \label{fig:CoMRear}
+\end{figure}
+%
 \begin{equation}
     G_{rdr} =
     \left[
@@ -58,6 +65,13 @@ The rear frame (main body) is linked to the reference frame $RF_{Rear}$. The cen
     \right]
     \; \text{in} \; RF_{rear}
 \end{equation}
+%
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.5\linewidth]{Coordinates/ONLYRIDER.pdf}
+    \caption{CoM of the rider}
+    \label{fig:CoMrdr}
+\end{figure}
 %
 The body representing the steering assembly is defined starting from $RF_\delta$.
 %
@@ -73,6 +87,13 @@ The body representing the steering assembly is defined starting from $RF_\delta$
     \; \text{in} \; RF_{\delta}
 \end{equation}
 %
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.6\linewidth]{Coordinates/STEER.pdf}
+    \caption{CoM of the steering assembly}
+    \label{fig:CoMdelta}
+\end{figure}
+%
 where $z_{delta}$ in this case will be negative since the reference frame is define with the ISO convention.\\
 The body of the swingarm in define wth the following centre of gravity starting from $RF_\eta$.
 %
@@ -87,6 +108,13 @@ The body of the swingarm in define wth the following centre of gravity starting 
     \right]
     \; \text{in} \; RF_{\eta}
 \end{equation}
+%
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.6\linewidth]{Coordinates/SWINGARMONLY.pdf}
+    \caption{CoM of the swingarm}
+    \label{fig:CoMswa}
+\end{figure}
 %
 The two body of the wheels have their CoM in the origin of the attached spinning reference frame.
 %
@@ -116,10 +144,7 @@ The two body of the wheels have their CoM in the origin of the attached spinning
 %
 The last body is the unsprung front suspension. However, the mass of this element is small compared to the other and it can be eventually integrated in the mass of the front wheel. The body of the unsprung suspension has as a virtual centre of mass the centre of the front wheel, wont have mass (mass$=0$) and has no inertia. This is a modelling expedient to derive the equation of motions and to transmit the reaction forces.\\
 From all the previously defined centre of gravity one can define the six bodies at play with their inertial properties, mass and moment of inertia.\\
-In the following sections masses and moment of inertia belonging to bodies will appear. The notation used in this thesis follow the subsequent rule. Masses and inertia are indicated with symbols $m$ and $Ix$, $Iy$, $Iz$, $Cxy$, $Cxz$, $Cyz$ in general. When addressed to a specific one a suffix is added to represent the body or the reference frame. For instance the mass of the steering assembly will be $m_\delta$.\\
-%
-Drawings of CoM of each body\\
-TO BE IMPLEMENTED 
+In the following sections masses and moment of inertia belonging to bodies will appear. The notation used in this thesis follow the subsequent rule. Masses and inertia are indicated with symbols $m$ and $Ix$, $Iy$, $Iz$, $Cxy$, $Cxz$, $Cyz$ in general. When addressed to a specific one a suffix is added to represent the body or the reference frame. For instance the mass of the steering assembly will be $m_\delta$.
 %
 \subsubsection{Centre of Mass of the motorcycle}
 %
@@ -132,6 +157,7 @@ The CoM of the motorcycle can be simply computed as the weighted average sum of 
         YG\\
         ZG
     \end{array} \right]
+    \text{in} \; RF_1
 \end{equation}
 However, the definition of $YG$ is simple and evaluated is equal to zero. This is due to the assumption that the motorcycle is always symmetric with respect to the rolled plane.
 %
@@ -190,7 +216,7 @@ Here is reported a list of dummy bodies that have to be defined.
 %
 There is no need to create the antibody for the unsprung front suspension since it does not have mass nor inertia. If the model consider also mass and inertia of this body then an antibody must be created to be consistent.
 %
-\subsubsection{Forces}
+\subsection{Forces}
 %
 First of all the force of gravity is acting on all bodies and the acceleration of gravity is set as a vector in the negative $z$ direction due to convention choices.\\
 The other external forces acting on the motorcycle are the aerodynamic drag and the force exchanged by the tyre with the ground.\\
@@ -205,7 +231,7 @@ The drag is modelled with a simple law that scale with the squared of the longit
         0
     \end{array}
     \right ]
-    \text{in} RF_\phi
+    \text{in} \; RF_\phi
 \end{equation}
 %
 Where $C_a$ is this case is a constant, but in theory and reality it is not. This coefficient depend on multiple thermodynamic factors and more important for this application the resisting cross section of the motorcycle and the rider. The motorcycle profile is constant, but the pilot is moving leaning forward and opening the knee at curve entrance. 
@@ -221,7 +247,7 @@ Moreover, the drag force has an application point which is constant in this mode
         z_a
     \end{array}
     \right ]
-    \text{in} RF_{Rear}
+    \text{in} \; RF_{Rear}
 \end{equation}
 %
 The forces of the tyre are expressed in a reference frame with the tyre itself. For the rear wheel it coincide with $RF_1$, while for the front it is necessary to rotate of an angle $\delta_f$.
@@ -236,7 +262,7 @@ The force vector on the rear wheel is composed of $Fxr(t)$ the longitudinal forc
         Fzr(t)
     \end{array}
     \right ]
-    \text{in} RF_1
+    \text{in} \; RF_1
 \end{equation}
 and it is supposed as applied in the point $P_r$ and it is acting on the rear wheel. This is not true however some overturning moment will be introduced in the next section.\\
 The force vector on the rear wheel is composed of $Fxf(t)$ the longitudinal force, $Fyf(t)$ the lateral force and $Fzf(t)$ the vertical force.
@@ -250,7 +276,7 @@ The force vector on the rear wheel is composed of $Fxf(t)$ the longitudinal forc
         Fzf(t)
     \end{array}
     \right ]
-    \text{in} RF_1 \cdot R_{\delta_f}
+    \text{in} \; RF_1 \cdot R_{\delta_f}
 \end{equation}
 %
 and it is supposed as applied in the point $P_f$ and it is acting on the front wheel. This is not true however some overturning moment will be introduced in the next section.\\
@@ -279,12 +305,12 @@ There is another force present in the model and is the one of the front suspensi
         \displaystyle s_{f} \left( t \right) k_{{\it fs}}+ \left( {\frac {\rm d}{{\rm d}t}}s_{f} \left( t \right)  \right) c_{{\it fs}}
     \end{array}
     \right ]
-    \text{in} RF_\delta
+    \text{in} \; RF_\delta
 \end{equation}
 %
 For modelling purposes it is defined as acting on the origin of $RF_\delta$. However, since it is an internal force, the reacting body must be specified. In this case it is the unsprung suspension.
 %
-\subsubsection{Torques}
+\subsection{Torques}
 %
 The torques acting in this dynamic model are both external and internal.
 The external torques are the one acting on the wheels. Those are present for two reasons. The first is that we are considering a point of application which is not the real point of application of the forces. The contact is in fact on a patch where the distribution of forces is not known. The second reason is that the model of the magic formula \cite{pacejka2006tyre} takes into account the effect of trail and camber calculating forces and moments with respect to the point $P_r$ and $P_f$ previously defined.\\
@@ -299,7 +325,7 @@ The torques vector acting on the front wheel is:
         Mzr(t)
     \end{array}
     \right ]
-    \text{in} RF_1
+    \text{in} \; RF_1
 \end{equation}
 %
 while the momentum vector on the front wheel is:
@@ -313,7 +339,7 @@ while the momentum vector on the front wheel is:
         Mzf(t)
     \end{array}
     \right ]
-    \text{in} RF_1 \cdot R_{\delta_f}
+    \text{in} \; RF_1 \cdot R_{\delta_f}
 \end{equation}
 %
 Then there are other toques that are traction and braking torques. Those are acting in the $y$ direction of the reference frame attached to the wheels. Front wheel can only brake.
@@ -328,7 +354,7 @@ The traction is acting on the rear wheel and reacting on the swingarm.
         0
     \end{array}
     \right ]
-    \text{in} RF_{RW}
+    \text{in} \; RF_{RW}
 \end{equation}
 %
 The braking torque is acting on the front wheel and reacting on the unsprung suspension.
@@ -342,7 +368,7 @@ The braking torque is acting on the front wheel and reacting on the unsprung sus
         0
     \end{array}
     \right ]
-    \text{in} RF_{FW}
+    \text{in} \; RF_{FW}
 \end{equation}
 %
 The internal momentums are instead the torque of the steering damper, the torque applied by the rider and the torque of the rear suspension. 
@@ -357,7 +383,7 @@ The first is modelled as a viscous term.
         -C_{\delta}\,{\frac {\rm d}{{\rm d}t}}\delta \left( t \right) 
     \end{array}
     \right ]
-    \text{in} RF_{\delta}
+    \text{in} \; RF_{\delta}
 \end{equation}
 %
 It is acting on the steering frame and reacting on the motorcycle.\\
@@ -372,7 +398,7 @@ The rider torque has only component in the $z$ direction of the $RF_\delta$.
         \tau(t)
     \end{array}
     \right ]
-    \text{in} RF_{\delta}
+    \text{in} \; RF_{\delta}
 \end{equation}
 %
 It is acting on the steering assembly and reacting on the motorcycle rigid body.
@@ -388,8 +414,14 @@ The last internal torque is the rear suspension torque. It is actually a force o
         0
     \end{array}
     \right ]
-    \text{in} RF_{Rear}
+    \text{in} \; RF_{Rear}
 \end{equation}
 %
 It is acting on the swingarm and reacting on the motorcycle rigid body.
 %
+\begin{figure}[htb]
+    \centering
+    \includegraphics[width=\linewidth]{Coordinates/wheelforces.pdf}
+    \caption{Forces scheme}
+    \label{fig:WheelForces}
+\end{figure}
