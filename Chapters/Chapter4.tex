@@ -106,11 +106,147 @@ The last parameters computed are the inertial ones. As highlighted in chapter \r
 %
 
 Those values are fundamental in the next steps of this study. Furthermore, for now on they will be considered as data of the problem. 
-
 %
 \section{Steady state}
 %
+The computation of steady state values is done to achieve a reference state to use as a initial guess for the integration and for the optimal control problem. 
+%
 \subsection{Problem formulation}
+%
+The SS (Steady_State) is calculated using a similar formulation as in the static case.\\
+All time derivative are zero therefore all states are constant. In this case, the quasi-coordinate  ($u$, $v$, $\Omega$) are free and the equation defining the slips are taken into account. \\
+The substitution of the constant values yield a system o f algebraic equations $11$ comes from the ODE, $2$ from the definition of the vertical forces, $8$ from the definition of kinematic parameters ($\delta_f$, $x_f$, \textit{etc.}), $8$ from the definition of the tyre forces and $4$ from the definition of slips. This make a total of $33$ non linear algebraic equations while the variable at play are $36$. In fact, $3$ of them can be imposed as controls. From the statement of the problem the controls are the couple applied to front and rear wheel and the torque applied to the steer. However, in this case, one can conveniently choose which variable to chose as control.\\
+The author choose to impose the torque applied to the front wheel with value zero (not braking). This means that the front wheel is left free to run along with the vehicle. The other two imposed values are the rolling angle and the velocity. For the sake of model verification, here the author choose the following values.
+%
+\begin{equation}
+    \begin{array}{l}
+        u(t) = u = 10 \; [\si{\metre/\second}]\\
+        \phi(t) = \phi = 0 \; [\si{\radian}]
+    \end{array}
+\end{equation}
+%
+This means that the motorcycle is going straight with a slow speed of $36\;\si{\kilo\metre/\hour}$. 
+It is important to highlight that any other choice is possible providing feasible values. Moreover, any other two controls can be chosen.\\
+The problem will be still non linear and can not be solved analytically. However, it can be solved as a non linear problem with a quadratic minimisation of the algebraic equation under some constraints. Those will be the same as for the static case.\\
+As highlighted in the previous sections the solution is highly sensitive to initial conditions. A good choice for the first step will be to use as a guess the values computed in the static state. Not all variable are computed and those can be chosen, such as the slips and some forces.\\
+The results of the minimisation problem are reported in the following section.
 %
 \subsection{Solution}
 %
+All the parameters have been computed, even the redundant one such as $x_r$, $y_r$, $\delta_f$ \textit{etc.}. However those are not of great interest and are reported in appendix.\\ %%%
+The important ones are the forces and the values of the states of the dynamical system.\\
+First of all the vertical loads can be confronted with the one obtained in the static case.
+
+%
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{@{}cc@{}}
+    \toprule
+    \multicolumn{2}{c}{\textbf{Vertical Loads}} \\ \midrule
+    ${\it Fzf_{ss}}$  & $1291.135 \; [\si{\newton}]$ \\
+    ${\it Fzr_{ss}}$  & $1355.284 \; [\si{\newton}]$ \\ \bottomrule
+    \end{tabular}
+    \caption{Vertical load distribution in steady-state condition}
+    \label{tab:vertforceSS}
+\end{table}
+%
+As highlighted from table \ref{tab:vertforceSS} with respect to table \ref{tab:vertforce} there is a slight unload of the front wheel and therefore the load is transferred to the rear axis. It is small due to the small velocity of the vehicle.\\
+As expected and reported in table \ref{tab:QC-SS} the angular velocity and the lateral velocity are almost zero. They are not zero ($10^{-12}\approx 0$) in the table because the solution through the minimization yields result up to a certain precision.
+
+%
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{@{}cc@{}}
+    \toprule
+    \multicolumn{2}{c}{\textbf{Quasi-coordinates}} \\ \midrule
+    ${ v_{ss}    }$  & $-7.977\times10^{-12}  \; [\si{\metre/\second}]$ \\
+    ${\Omega_{ss}}$  & $ 2.901\times10^{-12}  \; [\si{\radian/\second}]$ \\ \bottomrule
+    \end{tabular}
+    \caption{Quasi-coordinate in steady-state condition}
+    \label{tab:QC-SS}
+\end{table}
+%
+
+The other states assumes the following values reported in table \ref{tab:StatesSS}.
+
+%
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{@{}ccccc@{}}
+    \toprule
+    \multicolumn{5}{c}{\textbf{States in SS}} \\ \midrule
+    ${  \eta_{ss}} \; [\si{\radian}]$ & ${ h_{ss}} \; [\si{\metre}]$ & ${ s_{f_{ss}}} \; [\si{\metre}]$ &  ${  \theta_{ss}} \; [\si{\radian}]$ & ${ \delta_{ss}} \; [\si{\radian}]$ \\
+    $0.0288  $ & $0.456  $ & $0.057 $ & $-0.115 $ & $1.041\times10^{-10}$ \\ \bottomrule
+    \end{tabular}
+    \caption{States value in steady-state}
+    \label{tab:StatesSS}
+\end{table}
+%
+
+The computed values are very similar to the static ones. This was expected since the velocity is small and there is no internal dynamic. The value of the steering angle $\delta_{ss}$ is very small and comparable to zero for the same reason as for yaw rate. This is due to the specific condition tracked here. In fact in straight running one can expect zero torque applied by the driver. This is confirmed by the results.
+%
+\begin{equation}
+    \tau_{ss}   = -1.363\times10^{-10} \; \si{\newton\metre}
+\end{equation}
+%
+The angular velocity of the two wheel is trivial. In steady-state there is almost no slip therefore the assumption of free rolling can be accepted. The minimisation problem yields
+%
+\begin{equation}
+    \begin{array}{l}
+        \omega_{f_{ss}}   = 34.247 \; \si{\radian/\second}\\       
+        \omega_{r_{ss}}   = 31.573 \; \si{\radian/\second}
+    \end{array}
+\end{equation}
+%
+This was expected since the radius of the wheel is around $0.3\; \si{\metre}$.\\
+The minimisation also yields the slips.
+
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{@{}cccc@{}}
+    \toprule
+    \multicolumn{4}{c}{\textbf{Slips in SS}}                         \\
+    \multicolumn{2}{c}{\textbf{Longitudinal} $[-]$} & \multicolumn{2}{c}{\textbf{Lateral} $[\si{\radian}]$} \\ \midrule
+    $\lambda_{f_{ss}}$ & $-2.162\times10^{-14}$ & $\alpha_{f_{ss}} $ & $-1.426\times10^{-12}$\\     
+    $\lambda_{r_{ss}}$ & $ 0.877\times10^{-3} $ & $\alpha_{r_{ss}} $ & $1.451\times10^{-13} $ \\ \bottomrule
+    \end{tabular}
+    \caption{Slips in steady-state}
+    \label{tab:slipsSS}
+\end{table}
+
+In table \ref{tab:slipsSS} it is clear that all lateral slips are zero along with the front longitudinal one. The longitudinal slip at the rear wheel is greater because in order to maintain a certain speed a couple must be applied at the rear. Therefore, the trust force needed derive from the Magic Formula and as a consequence some slip should be present.\\
+As previously stated, to keep a constant velocity a torque should be applied (air drag effect).
+%
+\begin{equation}
+    { \it Myr_{ss}  }   = 9.510 \; \si{\newton\metre}                
+\end{equation}
+%
+
+Force and torques applied at wheels are reported in the following table \ref{tab:FandTSS}.
+
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{@{}cccccccc@{}}
+    \toprule
+    \multicolumn{8}{c}{\textbf{Forces and Torques at wheels}}                         \\
+    \multicolumn{4}{c}{\textbf{Front}} & \multicolumn{4}{c}{\textbf{Rear}} \\ 
+    \multicolumn{2}{c}{\textbf{Force} $[\si{\newton}]$} & \multicolumn{2}{c}{\textbf{Torque} $[\si{\newton\metre}]$} & \multicolumn{2}{c}{\textbf{Force} $[\si{\newton}]$} & \multicolumn{2}{c}{\textbf{Torque} $[\si{\newton\metre}]$} \\ \midrule
+    ${\it Fxf_{ss}}$ & $-6.999\times10^{-10}$ & ${ \it Mxf_{ss}}$ & $2.578\times10^{-9}  $ & ${\it Fxr_{ss}}$ & $30.00             $ & ${\it Mxr_{ss}}$ & $-2.029\times10^{-307}$\\
+    ${\it Fyf_{ss}}$ & $4.353\times10^{-9}  $ & ${ \it Mzf_{ss}}$ & $-9.160\times10^{-10}$ & ${\it Fyr_{ss}}$ & $3.399\times10^{-9}$ & ${\it Mzr_{ss}}$ & $-7.867\times10^{-11} $\\ 
+    \bottomrule
+    \end{tabular}
+    \caption{Forces and torques in steady-state}
+    \label{tab:FandTSS}
+\end{table}
+
+In this steady state condition we are considering
+
+
+ 
+ 
+
+
+
+
+
+
