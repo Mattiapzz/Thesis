@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300) (preloaded format=pdflatex 2020.2.12)  20 FEB 2020 10:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300) (preloaded format=pdflatex 2020.2.12)  21 FEB 2020 12:19
 entering extended mode
 **c:/EMPTY-DESKTOP/TESI/ThesisTex/Thesis.tex
 (c:/EMPTY-DESKTOP/TESI/ThesisTex/Thesis.tex
@@ -1125,7 +1125,7 @@ LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 7
  ("C:\Program Files (x86)\MiKTeX 2.9\tex/latex/lm\ot1lmtt.fd"
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) (Setup/Frontmatter.tex
-<img/logo.png, id=177, 1204.5pt x 1204.5pt>
+<img/logo.png, id=185, 1204.5pt x 1204.5pt>
 File: img/logo.png Graphic file (type png)
 <use img/logo.png>
 Package pdftex.def Info: img/logo.png  used on input line 3.
@@ -1192,7 +1192,7 @@ Chapter 2.
 (Chapters/Chapter2_1.tex
 
 pdfTeX warning: pdflatex (file ./img/Coordinates/moto_with_symbols.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<img/Coordinates/moto_with_symbols.pdf, id=412, 845.0471pt x 597.50829pt>
+<img/Coordinates/moto_with_symbols.pdf, id=424, 845.0471pt x 597.50829pt>
 File: img/Coordinates/moto_with_symbols.pdf Graphic file (type pdf)
 <use img/Coordinates/moto_with_symbols.pdf>
 Package pdftex.def Info: img/Coordinates/moto_with_symbols.pdf  used on input line 5.
@@ -1205,7 +1205,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ]
 
 pdfTeX warning: pdflatex (file ./img/Coordinates/flankangles.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<img/Coordinates/flankangles.pdf, id=420, 845.0471pt x 597.50829pt>
+<img/Coordinates/flankangles.pdf, id=432, 845.0471pt x 597.50829pt>
 File: img/Coordinates/flankangles.pdf Graphic file (type pdf)
 <use img/Coordinates/flankangles.pdf>
 Package pdftex.def Info: img/Coordinates/flankangles.pdf  used on input line 27.
@@ -1225,7 +1225,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [17]
 
 pdfTeX warning: pdflatex (file ./img/Coordinates/whellbehind.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<img/Coordinates/whellbehind.pdf, id=495, 845.0471pt x 597.50829pt>
+<img/Coordinates/whellbehind.pdf, id=507, 845.0471pt x 597.50829pt>
 File: img/Coordinates/whellbehind.pdf Graphic file (type pdf)
 <use img/Coordinates/whellbehind.pdf>
 Package pdftex.def Info: img/Coordinates/whellbehind.pdf  used on input line 174.
@@ -1252,7 +1252,7 @@ File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 
 pdfTeX warning: pdflatex (file ./img/Coordinates/ONLYREAR.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<img/Coordinates/ONLYREAR.pdf, id=546, 845.0471pt x 597.50829pt>
+<img/Coordinates/ONLYREAR.pdf, id=558, 845.0471pt x 597.50829pt>
 File: img/Coordinates/ONLYREAR.pdf Graphic file (type pdf)
 <use img/Coordinates/ONLYREAR.pdf>
 Package pdftex.def Info: img/Coordinates/ONLYREAR.pdf  used on input line 52.
@@ -1263,7 +1263,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 pdfTeX warning: pdflatex (file ./img/Coordinates/ONLYRIDER.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<img/Coordinates/ONLYRIDER.pdf, id=547, 845.0471pt x 597.50829pt>
+<img/Coordinates/ONLYRIDER.pdf, id=559, 845.0471pt x 597.50829pt>
 File: img/Coordinates/ONLYRIDER.pdf Graphic file (type pdf)
 <use img/Coordinates/ONLYRIDER.pdf>
 Package pdftex.def Info: img/Coordinates/ONLYRIDER.pdf  used on input line 71.
@@ -1274,7 +1274,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [21]
 
 pdfTeX warning: pdflatex (file ./img/Coordinates/STEER.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<img/Coordinates/STEER.pdf, id=560, 845.0471pt x 597.50829pt>
+<img/Coordinates/STEER.pdf, id=572, 845.0471pt x 597.50829pt>
 File: img/Coordinates/STEER.pdf Graphic file (type pdf)
 <use img/Coordinates/STEER.pdf>
 Package pdftex.def Info: img/Coordinates/STEER.pdf  used on input line 92.
@@ -1285,7 +1285,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 pdfTeX warning: pdflatex (file ./img/Coordinates/SWINGARMONLY.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<img/Coordinates/SWINGARMONLY.pdf, id=561, 845.0471pt x 597.50829pt>
+<img/Coordinates/SWINGARMONLY.pdf, id=573, 845.0471pt x 597.50829pt>
 File: img/Coordinates/SWINGARMONLY.pdf Graphic file (type pdf)
 <use img/Coordinates/SWINGARMONLY.pdf>
 Package pdftex.def Info: img/Coordinates/SWINGARMONLY.pdf  used on input line 114.
@@ -1311,7 +1311,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [26] [27]
 
 pdfTeX warning: pdflatex (file ./img/Coordinates/wheelforces.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<img/Coordinates/wheelforces.pdf, id=703, 845.0471pt x 597.50829pt>
+<img/Coordinates/wheelforces.pdf, id=715, 845.0471pt x 597.50829pt>
 File: img/Coordinates/wheelforces.pdf Graphic file (type pdf)
 <use img/Coordinates/wheelforces.pdf>
 Package pdftex.def Info: img/Coordinates/wheelforces.pdf  used on input line 424.
@@ -1331,33 +1331,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--1
 
 ]
 Chapter 3.
-<img/Pacejka/LongFrontFz.pdf, id=772, 794.97pt x 614.295pt>
+<img/Pacejka/LongFrontFz.pdf, id=784, 794.97pt x 614.295pt>
 File: img/Pacejka/LongFrontFz.pdf Graphic file (type pdf)
 <use img/Pacejka/LongFrontFz.pdf>
 Package pdftex.def Info: img/Pacejka/LongFrontFz.pdf  used on input line 10.
 (pdftex.def)             Requested size: 227.62204pt x 175.89137pt.
-<img/Pacejka/LongRearFz.pdf, id=773, 794.97pt x 614.295pt>
+<img/Pacejka/LongRearFz.pdf, id=785, 794.97pt x 614.295pt>
 File: img/Pacejka/LongRearFz.pdf Graphic file (type pdf)
 <use img/Pacejka/LongRearFz.pdf>
 Package pdftex.def Info: img/Pacejka/LongRearFz.pdf  used on input line 15.
 (pdftex.def)             Requested size: 227.62204pt x 175.89137pt.
 [33]
-<img/Pacejka/LatFrontFz.pdf, id=785, 794.97pt x 614.295pt>
+<img/Pacejka/LatFrontFz.pdf, id=797, 794.97pt x 614.295pt>
 File: img/Pacejka/LatFrontFz.pdf Graphic file (type pdf)
 <use img/Pacejka/LatFrontFz.pdf>
 Package pdftex.def Info: img/Pacejka/LatFrontFz.pdf  used on input line 98.
 (pdftex.def)             Requested size: 227.62204pt x 175.89137pt.
-<img/Pacejka/LatRearFz.pdf, id=786, 794.97pt x 614.295pt>
+<img/Pacejka/LatRearFz.pdf, id=798, 794.97pt x 614.295pt>
 File: img/Pacejka/LatRearFz.pdf Graphic file (type pdf)
 <use img/Pacejka/LatRearFz.pdf>
 Package pdftex.def Info: img/Pacejka/LatRearFz.pdf  used on input line 103.
 (pdftex.def)             Requested size: 227.62204pt x 175.89137pt.
-<img/Pacejka/LatFrontPhi.pdf, id=787, 794.97pt x 614.295pt>
+<img/Pacejka/LatFrontPhi.pdf, id=799, 794.97pt x 614.295pt>
 File: img/Pacejka/LatFrontPhi.pdf Graphic file (type pdf)
 <use img/Pacejka/LatFrontPhi.pdf>
 Package pdftex.def Info: img/Pacejka/LatFrontPhi.pdf  used on input line 108.
 (pdftex.def)             Requested size: 227.62204pt x 175.89137pt.
-<img/Pacejka/LatRearPhi.pdf, id=788, 794.97pt x 614.295pt>
+<img/Pacejka/LatRearPhi.pdf, id=800, 794.97pt x 614.295pt>
 File: img/Pacejka/LatRearPhi.pdf Graphic file (type pdf)
 <use img/Pacejka/LatRearPhi.pdf>
 Package pdftex.def Info: img/Pacejka/LatRearPhi.pdf  used on input line 113.
@@ -1366,22 +1366,22 @@ Package pdftex.def Info: img/Pacejka/LatRearPhi.pdf  used on input line 113.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [34 <./img/Pacejka/LongFrontFz.pdf> <./img/Pacejka/LongRearFz.pdf>] [35 <./img/Pacejka/LatFrontFz.pdf> <./img/Pacejka/LatRearFz.pdf> <./img/Pacejka/LatFrontPhi.pdf> <./img/Pacejka/LatRearPhi.pdf>]
-<img/Pacejka/SelfAliFrontFz.pdf, id=814, 794.97pt x 614.295pt>
+<img/Pacejka/SelfAliFrontFz.pdf, id=826, 794.97pt x 614.295pt>
 File: img/Pacejka/SelfAliFrontFz.pdf Graphic file (type pdf)
 <use img/Pacejka/SelfAliFrontFz.pdf>
 Package pdftex.def Info: img/Pacejka/SelfAliFrontFz.pdf  used on input line 212.
 (pdftex.def)             Requested size: 227.62204pt x 175.89137pt.
-<img/Pacejka/SelfAliRearFz.pdf, id=815, 794.97pt x 614.295pt>
+<img/Pacejka/SelfAliRearFz.pdf, id=827, 794.97pt x 614.295pt>
 File: img/Pacejka/SelfAliRearFz.pdf Graphic file (type pdf)
 <use img/Pacejka/SelfAliRearFz.pdf>
 Package pdftex.def Info: img/Pacejka/SelfAliRearFz.pdf  used on input line 217.
 (pdftex.def)             Requested size: 227.62204pt x 175.89137pt.
-<img/Pacejka/SelfAliFrontPhi.pdf, id=816, 794.97pt x 614.295pt>
+<img/Pacejka/SelfAliFrontPhi.pdf, id=828, 794.97pt x 614.295pt>
 File: img/Pacejka/SelfAliFrontPhi.pdf Graphic file (type pdf)
 <use img/Pacejka/SelfAliFrontPhi.pdf>
 Package pdftex.def Info: img/Pacejka/SelfAliFrontPhi.pdf  used on input line 222.
 (pdftex.def)             Requested size: 227.62204pt x 175.89137pt.
-<img/Pacejka/SelfAliRearPhi.pdf, id=817, 794.97pt x 614.295pt>
+<img/Pacejka/SelfAliRearPhi.pdf, id=829, 794.97pt x 614.295pt>
 File: img/Pacejka/SelfAliRearPhi.pdf Graphic file (type pdf)
 <use img/Pacejka/SelfAliRearPhi.pdf>
 Package pdftex.def Info: img/Pacejka/SelfAliRearPhi.pdf  used on input line 227.
@@ -1397,49 +1397,57 @@ Underfull \vbox (badness 1838) has occurred while \output is active []
 ]
 Chapter 4.
 [41] [42] [43] [44]
-Overfull \hbox (15.56781pt too wide) in paragraph at lines 229--238
- [][] 
- []
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 ) (Chapters/Chapter5.tex [45] [46]
 Chapter 5.
-) (Chapters/Chapter6.tex [47
+(Chapters/Chapter5_1.tex
+Underfull \vbox (badness 3199) has occurred while \output is active []
 
-] [48
+ [47
 
-]
+]) (Chapters/Chapter5_2.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [48]) (Chapters/Chapter5_3.tex)) (Chapters/Chapter6.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [49] [50]
 Chapter 6.
-) (Chapters/Conclusions.tex [49] [50
+) (Chapters/Conclusions.tex [51
 
-]) (Thesis.bbl [51] [52
+] [52
 
-] [53] [54]) (Chapters/Appendix.tex [55] [56
+]) (Thesis.bbl [53] [54
 
-]) [57]
+] [55] [56]) (Chapters/Appendix.tex [57] [58
+
+]) [59]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 55.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 55.
  (Thesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 55.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 55.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 979792BD2F3BF24D849273826A791E64;2886.
+(rerunfilecheck)             Checksum: 75BC8C5B6E3077FF49B3C91EEEAF64C2;3018.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 55.
  ) 
 Here is how much of TeX's memory you used:
- 33638 strings out of 481565
- 602850 string characters out of 2921140
+ 33671 strings out of 481565
+ 603459 string characters out of 2921140
  1003823 words of memory out of 3000000
- 47888 multiletter control sequences out of 15000+200000
+ 47895 multiletter control sequences out of 15000+200000
  644980 words of font info for 101 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,19n,69p,915b,2463s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rmtt.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmro10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb>
-Output written on Thesis.pdf (61 pages, 3824401 bytes).
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rmtt.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmro10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on Thesis.pdf (63 pages, 3845996 bytes).
 PDF statistics:
- 1100 PDF objects out of 1200 (max. 8388607)
- 217 named destinations out of 1000 (max. 500000)
- 456 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1145 PDF objects out of 1200 (max. 8388607)
+ 234 named destinations out of 1000 (max. 500000)
+ 472 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,52 @@
+\section{General OCP}
+%
+In general the OCP problem is formulated in this way.
+%
+\begin{equation}
+    \begin{aligned}
+    &\underset{x(\cdot), u(\cdot)}{\operatorname{minimize}} \quad \mathcal{J}(x(t), u(t), t)\\
+    &\begin{aligned}
+        {\text { subject to }} \;
+        & \mathcal{F}(x^{\prime}(t)x(t),u(t),t)=0, \quad t \in[a, b] \quad \text{(Dynamic System)}\\
+        & b(x(a),x(b))=0, \quad \text{(Boundary Conditions)}\\
+        & h(x(t),u(t),t)=0, \quad \text{(Equality constraints)}\\
+        & g(x(t),u(t),t)>=0, \quad \text{(Inequality constraints)}\\
+        & x(t) \in \mathbb{R}^{n_s}, \; u(t) \in \mathbb{R}^{n_c}
+    \end{aligned}\\
+    \end{aligned}
+\end{equation}
+%
+where $\mathcal{J}x(\cdot)$ is the cost function that in general is written like the following.
+%
+\begin{equation}
+    \mathcal{J}(x(t), u(t), t)=\mathcal{M}(x(a), x(b))+\int_{a}^{b} \mathcal{L}(x(t), u(t), t) \mathrm{d} t
+\end{equation}
+%
+The aim of this study is to compute minimum time manoeuvre. Therefore the extremes of integration became $0$ and $T$ instead of $a$ and $b$. Moreover, the model constructed do not need any equality constraints. The lagrange function in this case is simple because of our interest in the minimum time problem.
+%
+\begin{equation}
+    \mathcal{L}(x(t), u(t), t) = 1
+\end{equation}
+%
+This combined with neglecting the Mayer therm $\mathcal{M}(\cdot)$ (most of the time in unnecessary) yields a cost function such as:
+%
+\begin{equation}
+    \mathcal{J}(x(t), u(t), t) = \mathcal{M}(x(a), x(b))+\int_{0}^{T}  \mathrm{d} t = T 
+\end{equation}
+%
+This lead to a simplified version of the problem
+%
+\begin{equation}
+    \begin{aligned}
+    &\underset{x(\cdot), u(\cdot)}{\operatorname{minimize}} \quad T \\
+    &\begin{aligned}
+        {\text { subject to }} \;
+        & \mathcal{F}(x^{\prime}(t)x(t),u(t),t)=0, \quad t \in[0, T] \quad \text{(Dynamic System)}\\
+        & b(x(0),x(T))=0, \quad \text{(Boundary Conditions)}\\
+        & g(x(t),u(t),t)>=0, \quad \text{(Inequality constraints)}\\
+        & x(t) \in \mathbb{R}^{n_s}, \; u(t) \in \mathbb{R}^{n_c}
+    \end{aligned}\\
+    \end{aligned}
+\end{equation}
+%
+$T$ is a parameter and the problem cannot be solved in this therm. However there are several techniques to obtain a solvable OCP. The transformation will be discussed in the following sections.

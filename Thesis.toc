@@ -38,9 +38,11 @@
 \contentsline {subsection}{\numberline {4.2.1}Problem formulation}{43}{subsection.4.2.1}%
 \contentsline {subsection}{\numberline {4.2.2}Solution}{44}{subsection.4.2.2}%
 \contentsline {chapter}{\numberline {5}Optimal Control Problem}{47}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Problem formulation}{47}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Minimum time}{47}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Additional dynamics}{47}{section.5.3}%
-\contentsline {chapter}{\numberline {6}Analysis of results}{49}{chapter.6}%
-\contentsline {chapter}{Conclusions}{51}{chapter*.27}%
-\contentsline {chapter}{Bibliography}{53}{chapter*.28}%
+\contentsline {section}{\numberline {5.1}General OCP}{47}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Curvilinear Coordinates}{48}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Coordinate change}{50}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Minimum time}{50}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Additional dynamics}{50}{section.5.5}%
+\contentsline {chapter}{\numberline {6}Analysis of results}{51}{chapter.6}%
+\contentsline {chapter}{Conclusions}{53}{chapter*.28}%
+\contentsline {chapter}{Bibliography}{55}{chapter*.29}%

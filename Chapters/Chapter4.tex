@@ -222,31 +222,37 @@ As previously stated, to keep a constant velocity a torque should be applied (ai
 \end{equation}
 %
 
-Force and torques applied at wheels are reported in the following table \ref{tab:FandTSS}.
+Force and torques applied at wheels are reported in the following table \ref{tab:FandTSSf} and \ref{tab:FandTSSr}.
 
 \begin{table}[h!]
     \centering
-    \begin{tabular}{@{}cccccccc@{}}
+    \begin{tabular}{@{}cccc@{}}
     \toprule
-    \multicolumn{8}{c}{\textbf{Forces and Torques at wheels}}                         \\
-    \multicolumn{4}{c}{\textbf{Front}} & \multicolumn{4}{c}{\textbf{Rear}} \\ 
-    \multicolumn{2}{c}{\textbf{Force} $[\si{\newton}]$} & \multicolumn{2}{c}{\textbf{Torque} $[\si{\newton\metre}]$} & \multicolumn{2}{c}{\textbf{Force} $[\si{\newton}]$} & \multicolumn{2}{c}{\textbf{Torque} $[\si{\newton\metre}]$} \\ \midrule
-    ${\it Fxf_{ss}}$ & $-6.999\times10^{-10}$ & ${ \it Mxf_{ss}}$ & $2.578\times10^{-9}  $ & ${\it Fxr_{ss}}$ & $30.00             $ & ${\it Mxr_{ss}}$ & $-2.029\times10^{-307}$\\
-    ${\it Fyf_{ss}}$ & $4.353\times10^{-9}  $ & ${ \it Mzf_{ss}}$ & $-9.160\times10^{-10}$ & ${\it Fyr_{ss}}$ & $3.399\times10^{-9}$ & ${\it Mzr_{ss}}$ & $-7.867\times10^{-11} $\\ 
+    \multicolumn{4}{c}{\textbf{Forces and Torques at front wheels}}                         \\
+    \multicolumn{2}{c}{\textbf{Force} $[\si{\newton}]$} & \multicolumn{2}{c}{\textbf{Torque} $[\si{\newton\metre}]$}  \\ \midrule
+    ${\it Fxf_{ss}}$ & $-6.999\times10^{-10}$ & ${ \it Mxf_{ss}}$ & $2.578\times10^{-9}  $\\
+    ${\it Fyf_{ss}}$ & $4.353\times10^{-9}  $ & ${ \it Mzf_{ss}}$ & $-9.160\times10^{-10}$\\ 
     \bottomrule
     \end{tabular}
-    \caption{Forces and torques in steady-state}
-    \label{tab:FandTSS}
+    \caption{Forces and torques in steady-state at front wheel}
+    \label{tab:FandTSSf}
 \end{table}
 
-In this steady state condition we are considering
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{@{}cccc@{}}
+    \toprule
+    \multicolumn{4}{c}{\textbf{Forces and Torques at rear wheel}}                         \\
+    \multicolumn{2}{c}{\textbf{Force} $[\si{\newton}]$} & \multicolumn{2}{c}{\textbf{Torque} $[\si{\newton\metre}]$} \\ \midrule
+    ${\it Fxr_{ss}}$ & $30.00             $ & ${\it Mxr_{ss}}$ & $-2.029\times10^{-307}$\\
+    ${\it Fyr_{ss}}$ & $3.399\times10^{-9}$ & ${\it Mzr_{ss}}$ & $-7.867\times10^{-11} $\\ 
+    \bottomrule
+    \end{tabular}
+    \caption{Forces and torques in steady-state at rear wheel}
+    \label{tab:FandTSSr}
+\end{table}
 
-
- 
- 
-
-
-
-
-
-
+In this steady state condition we are considering a motion with a dynamic somehow constrained in the vertical plane. This means that all moments and forces exerting "out of the plane" should be zero. This is in fact confirmed in table \ref{tab:FandTSSf} and \ref{tab:FandTSSr}.\\ 
+The only force different from zero is the longitudinal force of the rear wheel. As expected this is the driving force applied to keep the velocity of the vehicle constant.\\
+The computed steady-state will became a useful starting point for both the integration of the dynamic and the solution of the optimal control.
+%

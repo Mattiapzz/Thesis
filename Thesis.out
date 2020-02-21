@@ -34,9 +34,11 @@
 \BOOKMARK [2][-]{subsection.4.2.1}{Problem\040formulation}{section.4.2}% 34
 \BOOKMARK [2][-]{subsection.4.2.2}{Solution}{section.4.2}% 35
 \BOOKMARK [0][-]{chapter.5}{Optimal\040Control\040Problem}{}% 36
-\BOOKMARK [1][-]{section.5.1}{Problem\040formulation}{chapter.5}% 37
-\BOOKMARK [1][-]{section.5.2}{Minimum\040time}{chapter.5}% 38
-\BOOKMARK [1][-]{section.5.3}{Additional\040dynamics}{chapter.5}% 39
-\BOOKMARK [0][-]{chapter.6}{Analysis\040of\040results}{}% 40
-\BOOKMARK [0][-]{chapter*.27}{Conclusions}{}% 41
-\BOOKMARK [0][-]{chapter*.28}{Bibliography}{}% 42
+\BOOKMARK [1][-]{section.5.1}{General\040OCP}{chapter.5}% 37
+\BOOKMARK [1][-]{section.5.2}{Curvilinear\040Coordinates}{chapter.5}% 38
+\BOOKMARK [1][-]{section.5.3}{Coordinate\040change}{chapter.5}% 39
+\BOOKMARK [1][-]{section.5.4}{Minimum\040time}{chapter.5}% 40
+\BOOKMARK [1][-]{section.5.5}{Additional\040dynamics}{chapter.5}% 41
+\BOOKMARK [0][-]{chapter.6}{Analysis\040of\040results}{}% 42
+\BOOKMARK [0][-]{chapter*.28}{Conclusions}{}% 43
+\BOOKMARK [0][-]{chapter*.29}{Bibliography}{}% 44
