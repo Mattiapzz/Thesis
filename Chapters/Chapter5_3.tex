@@ -1,7 +1,75 @@
 \section{Coordinate change}
 %
-
-\section{Minimum time}
+There are multiple ways to transform equation \ref{eq:OCPminT} in a problem that can be solved.\\
+The most common one is to make a coordinate change passing from time domain to another convenient domain. In the first section (\ref{subsec:T21}) is explained a change of variable from the time to the unitary interval $[0,1]$. However, for the purpose of this study, it is convenient to perform a change from the time domain to the space one. It is similar to the latter, but it involves the definition of curvilinear coordinates. It is explained in the second subsection \ref{subsec:T2S}.
 %
-\section{Additional dynamics}
+\subsection{Time to unitary space transformation}
+\label{subsec:T21}
+%
+\begin{equation}
+    t = \zeta T(\zeta) 
+\end{equation}
+%
+with $\zeta \in [0,1]$
+$T(\zeta)$ is now a new state and need his own ODE. Since it is a constant his time derivative will be zero.
+%
+\begin{equation}
+    T^{\prime}(\zeta)=0
+\end{equation}
+%
+with its own initial condition
+%
+\begin{equation}
+    T(0)=0
+\end{equation}
+%
+The coordinate change transform the cost function 
+\begin{equation}
+    \mathcal{J}(x(t), u(t), t) = \int_{0}^{T}  \mathrm{d} t = \int_{0}^{1} T(\zeta) \mathrm{d} \zeta = \mathcal{J}(x(\zeta), u(\zeta), \zeta) 
+\end{equation}
+%
+The system of ODE is affected by the coordinate change as well. In fact, the differential part take into account the Jacobian of the changed coordinate. The states are now function of $\zeta$ which is a function of time $t$ thus 
+%
+\begin{equation}
+    \frac{\mathrm{d}}{\mathrm{d}t} x(\zeta(t)) = \frac{\mathrm{d}}{\mathrm{d}\zeta} x(\zeta(t)) \frac{\mathrm{d} \zeta }{\mathrm{d}t} = x^\prime(\zeta) \frac{1}{T(\zeta)}
+\end{equation}
+%
+This means that the system of ODE became
+%
+\begin{equation}
+    A(x(\zeta), \zeta) x^{\prime}(\zeta) = T(\zeta) f(x(\zeta), u(\zeta), \zeta)
+\end{equation}
+%
+\subsection{Time-Space Coordinate Change}
+\label{subsec:T2S}
+%
+The idea of the time-space coordinate change is to find the relationship between the time variable $t$ and the space coordinate $s$. Thus the differential $ds$ can be be expressed as
+%
+\begin{equation}
+    \mathrm{d} s =  \frac{\mathrm{d}s}{\mathrm{d}t} dt = \dot{s} dt
+\end{equation}
+%
+Where $\dot{s}$ is exactly the time differential of the curvilinear coordinate in the equation \ref{eq:CurvCoord}.
+%
+\begin{equation}
+    \dot{s} = \frac{u(t) \cos(\xi(t)) - v(t) \sin(\xi(t))}{1-\kappa(s(t)) n(t)}
+\end{equation}
+%
+Therefore the cost function with the substitution of the new variable an reassigning $\zeta$ as the space variable (only for notation consistence).
+% 
+\begin{equation}
+    \mathcal{J}(x(\zeta), u(\zeta), \zeta) = \int_{\zeta_i}^{\zeta_f} \frac{1}{\dot{s}} \mathrm{d}\zeta = \int_{\zeta_i}^{\zeta_f} \frac{1-\kappa(\zeta) n(\zeta)}{u(\zeta) \cos(\xi(\zeta)) - v(\zeta) \sin(\xi(\zeta))} \mathrm{d}\zeta
+\end{equation}
+%
+It is clear that the change of variable affect all the differential equations.
+%
+\begin{equation}
+    \frac{\mathrm{d}}{\mathrm{d}t} x(s(t)) = \frac{\mathrm{d}}{\mathrm{d}s} x(s(t)) \frac{\mathrm{d} s}{\mathrm{d}t} = x^\prime(s) \dot{s}
+\end{equation}
+%
+That with the substitution of $\zeta$ became
+%
+\begin{equation}
+    \frac{\mathrm{d}}{\mathrm{d}t} x(\zeta(t)) = x^\prime(\zeta) \frac{u(\zeta) \cos(\xi(\zeta)) - v(\zeta) \sin(\xi(\zeta))}{1-\kappa(\zeta) n(\zeta)}
+\end{equation}
 %

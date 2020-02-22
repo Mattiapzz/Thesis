@@ -1,8 +1,15 @@
 \section{Curvilinear Coordinates}
 %
+\begin{figure}[htb]
+    \centering
+    \includegraphics[width=\linewidth]{Coordinates/CurvCoord.pdf}
+    \caption{Curvilinear coordinates}
+    \label{fig:CurvCoord}
+\end{figure}
+%
 The curvilinear coordinate are a convenient set of coordinate to compute OCPs. This is a well known technique in literature. In this thesis the curvilinear coordinate used consider only a motion on plane (2D). However it can be extended to the three-dimensional space as did by Leonelli and Limebeer \cite{leonelli2019optimal}.\\
 %
-The curvilinear coordinates ($s(t)$, $n(t)$,$\xi(t)$) can be mapped to quasi states can be obtained defining a reference frame mobile. This is translated with respect to ground of coordinate $\it xm(t)$ and $\it ym(t)$ and rotated around the vertical direction $z$ of an angle $\theta(t)$.
+The curvilinear coordinates ($s(t)$, $n(t)$,$\xi(t)$) can be mapped to quasi states can be obtained defining a reference frame mobile. This is translated with respect to ground of coordinate $\it xm(t)$ and $\it ym(t)$ and rotated around the vertical direction $z$ of an angle $\theta(t)$ (Figure \ref{fig:CurvCoord}).
 %
 \begin{equation}
 \left[ \begin{array}{cccc} 
@@ -15,12 +22,15 @@ The curvilinear coordinates ($s(t)$, $n(t)$,$\xi(t)$) can be mapped to quasi sta
 %
 $\theta$ is different from the pitch angle of the previous chapter and will be dropped in the next few passages.\\
 From the reference frame previously defined one can define a moving reference frame with longitudinal velocity $\frac {\rm d}{{\rm d}t} s(t)$ and angular velocity $\frac {\rm d}{{\rm d}t} s(t) \kappa(t)$. The last term represent the linear velocity divided by the radius of curvature. In fact $\kappa$ is the curvature of the curvilinear coordinate. $\kappa$ is not a direct function of time. It depends on the curvilinear coordinate $s$, $\kappa(t)=\kappa(s)=\kappa(s(t))$.\\
-The velocity of this reference frame is the vector.
+The velocity of this reference frame are
 %
 \begin{equation}
     \left[ \begin{array}{c} 
+        \displaystyle
         {\frac {\rm d}{{\rm d}t}}s \left( t \right) -\cos \left( \theta \left( t \right)  \right) {\frac {\rm d}{{\rm d}t}}{\it xm} \left( t \right) -\sin \left( \theta \left( t \right) \right) {\frac {\rm d}{{\rm d}t}}{\it ym} \left( t \right) \\
+        \displaystyle
         \sin \left( \theta \left( t \right)  \right) {\frac {\rm d}{{\rm d}t}}{\it xm} \left( t \right) -\cos \left( \theta\left( t \right)  \right) {\frac {\rm d}{{\rm d}t}}{\it ym} \left( t\right) \\ 
+        \displaystyle
         \kappa \left( t \right) {\frac {\rm d}{{\rm d}t}}s \left( t \right) -{\frac {\rm d}{{\rm d}t}}\theta \left( t\right)
     \end{array} \right]    
 \end{equation}
@@ -52,23 +62,28 @@ with $\frac{\rm d}{{\rm d}t}\psi(t) = \Omega(t)$ and $\theta(t)=\theta(s(t))$. M
 The terms $\it xm(t)$, $\it ym(t)$ and $\theta(t)$ are no more in the expression and the final equations for the curvilinear coordinates are
 %
 \begin{equation}
-\left[ \begin{array}{c}  
+\begin{cases} 
+    \displaystyle
     \left( {\frac {\rm d}{{\rm d}t}}s \left( t\right)  \right)  \left( \kappa \left( s \left( t \right)  \right) n\left( t \right) -1 \right) +u \left( t \right) \cos \left( \xi\left( t \right)  \right) -v \left( t \right) \sin \left( \xi \left( t \right)  \right) \\ 
+    \displaystyle
     -{\frac {\rm d}{{\rm d}t}}n\left( t \right) +u \left( t \right) \sin \left( \xi \left( t\right)  \right) +v \left( t \right) \cos \left( \xi \left( t\right)  \right) \\ 
+    \displaystyle
     \Omega \left( t \right) -\kappa\left( s \left( t \right)  \right) {\frac {\rm d}{{\rm d}t}}s \left( t \right) -{\frac {\rm d}{{\rm d}t}}\xi \left( t \right) 
-\end{array}\right]
+\end{cases}
 \end{equation}
 %
 Collecting all the differential parts
 %
 \begin{equation}
-    \begin{array}{l} 
+    \begin{cases} 
     \displaystyle
-    {\frac {\rm d}{{\rm d}t}}s \left( t \right) =-{\frac {u \left( t \right) \cos \left( \xi \left( t \right) \right) -v \left( t \right) \sin \left( \xi \left( t \right) \right) }{\kappa \left( s \left( t \right)  \right) n \left( t\right) -1}}\\ 
+    {\frac {\rm d}{{\rm d}t}}s \left( t \right) =-{\frac {u \left( t \right) \cos \left( \xi \left( t \right) \right) -v \left( t \right) \sin \left( \xi \left( t \right) \right) }{\kappa \left( s \left( t \right)  \right) n \left( t\right) -1}}\\
+    \displaystyle 
     {\frac {\rm d}{{\rm d}t}}n \left( t\right) =u \left( t \right) \sin \left( \xi \left( t \right) \right) +v \left( t \right) \cos \left( \xi \left( t \right) \right) \\
     \displaystyle
     {\frac {\rm d}{{\rm d}t}}\xi \left( t \right) ={\frac {\kappa \left( s \left( t \right)  \right) u \left( t \right) \cos \left( \xi \left( t \right)  \right) -\kappa \left( s\left( t \right)  \right) v \left( t \right) \sin \left( \xi \left( t\right)  \right) +\kappa \left( s \left( t \right)  \right) n \left( t \right) \Omega \left( t \right) -\Omega \left( t \right) }{\kappa \left( s \left( t \right)  \right) n \left( t \right) -1}}
-    \end{array} 
+    \end{cases} 
+    \label{eq:CurvCoord}
 \end{equation}
 %
 The last two equation will be integrated in the system of ODE for the OCP while the first will have a central role in the following section.

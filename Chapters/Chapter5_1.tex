@@ -22,6 +22,15 @@ where $\mathcal{J}x(\cdot)$ is the cost function that in general is written like
     \mathcal{J}(x(t), u(t), t)=\mathcal{M}(x(a), x(b))+\int_{a}^{b} \mathcal{L}(x(t), u(t), t) \mathrm{d} t
 \end{equation}
 %
+$\mathcal{F}(x^{\prime}(t)x(t),u(t),t)=0$ is the general expression for the system of ODE that can also be written in the form
+%
+\begin{equation}
+    A(x(t), t) x^{\prime}(t)=f(x(t), u(t), t)
+\end{equation}
+%
+in which all derivatives of the states appear linearly. Consequently, one can collect the mass matrix $A(x(t), t)$ which is not always invertible. The system of ODE is implicit in this case. This make the direct method hard to use if not impossible.\\
+$x(t)$ is the vector of states of dimension $n_s$ and $u(t)$ is the vector of the controls of size $n_c$.
+%
 The aim of this study is to compute minimum time manoeuvre. Therefore the extremes of integration became $0$ and $T$ instead of $a$ and $b$. Moreover, the model constructed do not need any equality constraints. The lagrange function in this case is simple because of our interest in the minimum time problem.
 %
 \begin{equation}
@@ -47,6 +56,7 @@ This lead to a simplified version of the problem
         & x(t) \in \mathbb{R}^{n_s}, \; u(t) \in \mathbb{R}^{n_c}
     \end{aligned}\\
     \end{aligned}
+    \label{eq:OCPminT}
 \end{equation}
 %
 $T$ is a parameter and the problem cannot be solved in this therm. However there are several techniques to obtain a solvable OCP. The transformation will be discussed in the following sections.
