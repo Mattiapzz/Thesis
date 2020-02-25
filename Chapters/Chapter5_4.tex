@@ -1,18 +1,94 @@
-\section{Additional dynamics}
+\section{Constraints}
+%
+At the beginning of this chapter \ref{Ch:OCP} the structure of an OCP is presented in general. In the problem formulation two terms are present concerning constraints: equality constraints $h(x(\zeta),u(\zeta),\zeta)=0$ and inequality constraints $g(x(\zeta),u(\zeta),\zeta)>=0$. The first kind are not present due to how the problem has been structured. However, several inequality constraints are present both to satisfy feasible values, physically correct values and help the convergence of the problem. Here in this section are reported all the choice made.\\
+It is important to highlight the crucial role that constraints and bound plays in the solution of optimal control. Moreover, with indirect approach of OCP the constraints must be modelled with continuous functions for the penalties. This can help the solution or in some cases worsening the convergence.\\
+In this thesis four different models are presented. The difference between them are: the variable controlled, torque or slip, and the mobility of the suspensions. In the next section, the discussion will be as general as possible for all the models.
+%
+\subsection{Constraints for Feasible Values}
+%
+For all the models some variables are restricted in particular ranges. Those are due to physical or common sense restraints.
+%
+\subsubsection*{Steering Angle}
+The steering angle is restricted to small values. 
+%
+\begin{equation}
+    -\delta_{max} \le \delta(\zeta) \le \delta_{max}
+\end{equation}
+%
+where $\delta_{max}$ is in the order of $10 \si{\degree}$.\\
+This constraint in necessary to ensure the hypothesis made in the model of the motorcycle. In fact, in the derivation of the dynamic the steering angle is considered small. This is true up to $10 \si{\degree}$. In racing motorcycle the steering angles are always small.
+%
+\subsubsection*{Rolling angle}
+%
+The rolling angle is constrained in a finite range.
+%
+\begin{equation}
+    -\phi_{max} \le \phi(\zeta) \le \phi_{max}
+\end{equation}
+%
+where $\phi_{max}$ is the limiting value of the rolling angle.\\ 
+In this study $\phi_{max}$ is parametric and can be changed with whatever value. However, racing rider can lean up to $60$-$65 \si{\degree}$.
+%
+\subsubsection*{Slips}
+%
+The lateral slips have been constrained in some loose ranges that can be tuned. However, this is beyond the scope of this work.
+%
+\begin{equation}
+    \begin{array}{l}
+        -\alpha_{f_{max}} \le \alpha_{f}(\zeta) \le \alpha_{f_{max}}\\
+        -\alpha_{r_{max}} \le \alpha_{r}(\zeta) \le \alpha_{r_{max}}
+    \end{array}
+\end{equation}
+%
+In this case $\alpha_{f_{max}}$ and $\alpha_{r_{max}}$ are in the order of $90 \si{\degree}$ ($\pi/2$). This means that the constraint has almost no effect on the solutions.\\
+On the other hand the longitudinal slip is constrained in a convenient range.
+%
+\begin{equation}
+    \begin{array}{l}
+        -\lambda_{f_{max}} \le \lambda_{f}(\zeta) \le \lambda_{f_{max}}\\
+        -\lambda_{r_{max}} \le \lambda_{r}(\zeta) \le \lambda_{r_{max}}
+    \end{array}
+\end{equation}
+In this case $\lambda_{f_{max}}$ and $\lambda_{r_{max}}$ are values chosen specifically to keep the slip between zero and the peak of the traction curves represented in chapter \ref{Ch:MagicFormula}. In fact, as highlighted in figures the peak do not move. Therefore it can be chosen as $\lambda_{f_{max}} \in [0.11,0.15]$. %\ref{fig:long1a,fig:long1b} DO NOT WORK SOMEHOW
+%
+\subsubsection*{Braking Front Wheel}
+%
+In the next section the constraints on torque on wheel and the additional dynamics will be discussed. However, it is important to impose that the front wheel can only brake. This means that the torque applied on that body, namely ${\it Myf}(\zeta)$, is only negative.
+%
+\begin{equation}
+    {\it Myf}(\zeta) \le 0
+\end{equation}
+%
+\subsection{Contact force}
+%
+From the theoretical point of view there is no need to impose contact force. In fact one can chose to define the vertical forces with a regularized positive part. This, however, leads to instability and an ill-posed problem. In fact, in willie or stoppie condition the Magic Formula is no more consistent and moreover the OCP loses a degree of control. This can be solved introducing some other controls in the problem, such as the position of the driver. This, will further more, complicate the problem and it goes beyond the purpose of this study.\\
+For the above-mentioned reasons the vertical (contact) forces are constrained to be positive and greater of some small value.
+%
+\begin{equation}
+    \begin{array}{l}
+        {\it Fzf}(\zeta) \ge {\it Fzmin}\\
+        {\it Fzr}(\zeta) \ge {\it Fzmin}\\
+    \end{array}
+\end{equation}
+%
+where ${\it Fzmin}$ is a small vertical load in the order of $100 \si{\newton}$ ($\sim 10 \si{\kilogram}$), which is more or less the weight of a wheel.
+
+
+
+\subsection{Track}
+%
+The track or the road is defined according to curvilinear coordinates. As highlighted in the previous section, those are a particularly convenient set of coordinate. In fact, each road can be decomposed in pieces with a certain length, curvature and width. It is important to constraint the vehicle inside the road borders. Some function are defined inside XOptima, the interface between Maple and PINS, that allow to retrieve the maximum distance of the border from the centreline as a function of the curvilinear coordinate that, after the coordinate change, is $\zeta$.
+%
+\begin{equation}
+    \begin{array}{l}
+        n(\zeta) \le  {\it rightWidth}(\zeta)\\
+        n(\zeta) \ge -{\it leftWidth}(\zeta)
+    \end{array}
+\end{equation}
+%
+
+
 %
 \subsection{Torque}
 %
-\subsection{Slip}
-%
 
-\section{Constraints}
-%
-\subsection{Feasible Values}
-%
-\subsection{Track}
-%
-\subsection{Convergence and Unrealistic Manoeuvre}
-%
-
-\section{Minimum Time}
-%

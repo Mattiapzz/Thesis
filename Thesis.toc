@@ -43,14 +43,15 @@
 \contentsline {section}{\numberline {5.3}Coordinate change}{50}{section.5.3}%
 \contentsline {subsection}{\numberline {5.3.1}Time to unitary space transformation}{51}{subsection.5.3.1}%
 \contentsline {subsection}{\numberline {5.3.2}Time-Space Coordinate Change}{51}{subsection.5.3.2}%
-\contentsline {section}{\numberline {5.4}Additional dynamics}{52}{section.5.4}%
-\contentsline {subsection}{\numberline {5.4.1}Torque}{52}{subsection.5.4.1}%
-\contentsline {subsection}{\numberline {5.4.2}Slip}{52}{subsection.5.4.2}%
-\contentsline {section}{\numberline {5.5}Constraints}{52}{section.5.5}%
-\contentsline {subsection}{\numberline {5.5.1}Feasible Values}{52}{subsection.5.5.1}%
-\contentsline {subsection}{\numberline {5.5.2}Track}{52}{subsection.5.5.2}%
-\contentsline {subsection}{\numberline {5.5.3}Convergence and Unrealistic Manoeuvre}{52}{subsection.5.5.3}%
-\contentsline {section}{\numberline {5.6}Minimum Time}{52}{section.5.6}%
-\contentsline {chapter}{\numberline {6}Analysis of results}{53}{chapter.6}%
-\contentsline {chapter}{Conclusions}{55}{chapter*.29}%
-\contentsline {chapter}{Bibliography}{57}{chapter*.30}%
+\contentsline {section}{\numberline {5.4}Constraints}{52}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Constraints for Feasible Values}{52}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Contact force}{53}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4.3}Track}{54}{subsection.5.4.3}%
+\contentsline {subsection}{\numberline {5.4.4}Torque}{54}{subsection.5.4.4}%
+\contentsline {section}{\numberline {5.5}Additional dynamics}{54}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}Torque}{54}{subsection.5.5.1}%
+\contentsline {subsection}{\numberline {5.5.2}Slip}{54}{subsection.5.5.2}%
+\contentsline {section}{\numberline {5.6}Minimum Time}{54}{section.5.6}%
+\contentsline {chapter}{\numberline {6}Analysis of results}{55}{chapter.6}%
+\contentsline {chapter}{Conclusions}{57}{chapter*.30}%
+\contentsline {chapter}{Bibliography}{59}{chapter*.31}%
