@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300) (preloaded format=pdflatex 2020.2.26)  26 FEB 2020 17:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300) (preloaded format=pdflatex 2020.2.26)  27 FEB 2020 13:42
 entering extended mode
 **c:/EMPTY-DESKTOP/TESI/ThesisTex/Thesis.tex
 (c:/EMPTY-DESKTOP/TESI/ThesisTex/Thesis.tex
@@ -1468,14 +1468,11 @@ Chapter 6.
 
 ] [61] [62]) (Chapters/Appendix.tex [63] [64
 
-]
+] [65] [66]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[65] [66]) [67
+[67] [68]) [69
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 55.
@@ -1492,17 +1489,17 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 55.
  ) 
 Here is how much of TeX's memory you used:
- 33898 strings out of 481545
- 607109 string characters out of 2920469
- 1006156 words of memory out of 3000000
+ 33900 strings out of 481545
+ 607123 string characters out of 2920469
+ 1016156 words of memory out of 3000000
  48073 multiletter control sequences out of 15000+200000
  644980 words of font info for 101 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,19n,69p,915b,2463s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rmtt.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmro10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Thesis.pdf (71 pages, 4270528 bytes).
+Output written on Thesis.pdf (73 pages, 4276128 bytes).
 PDF statistics:
- 1370 PDF objects out of 1440 (max. 8388607)
- 284 named destinations out of 1000 (max. 500000)
+ 1380 PDF objects out of 1440 (max. 8388607)
+ 286 named destinations out of 1000 (max. 500000)
  607 words of extra memory for PDF output out of 10000 (max. 10000000)
 
