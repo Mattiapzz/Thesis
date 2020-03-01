@@ -34,12 +34,13 @@ where ${\it MaxTorque}(\omega_r)$ is a function of the angular velocity and repr
 When controlling the motorcycle in torque one can restrain the maximum momentum applied at each wheel directly in the dynamic equation. This will be highlighted in section \ref{sec:AddDyn}. The idea is the same as the one of the previous section. The front wheel can brake up to a certain value ${\it Myf_{maxB}}$ as well as the rear (${\it Myr_{maxB}}$).
 %
 \subsection{MaxTorque}
+\label{subsec:MaxT}
 %
 The ${\it MaxTorque}$ function is a spline roughly derived from empirical data of a racing motorcycle, an Aprilia RSV1000. The data tor torque of the motor at different $\it rpm$ is converted in $\si{\radian/\second}$. Then with the gear ratio data one can retrieve the torque at the wheel as a function of the angular velocity represented in the following graph (Figure \ref{fig:MaxTorque}).\\
 %
 \begin{figure}[htb]
     \centering
-    \includegraphics[width=\linewidth]{MaxTorque/maxT_wr.png}
+    \includegraphics[width=0.9\linewidth]{MaxTorque/maxT_wr.pdf}
     \caption{Maximum torque as a function of angular speed}
     \label{fig:MaxTorque}
 \end{figure}

@@ -1,11 +1,44 @@
 \section{Additional dynamics}
 \label{sec:AddDyn}
 %
+The solution of optimal control problem is, most of the time, unstable. For this reason one should not impose the controls directly, but try to smooth the transition with a first order dynamic. This is also more consistent with the real behaviour of the motorcycle and the driver.\\
+In the two model two different sets of equation are introduced to overcome the above mentioned difficulties.
+%
 \subsection{Torque Control}
 %
-% EQ
+In the model with torque control the controlled variables are the axial momentum of the two wheels ($\it Myf$ and $\it Myr$) and the streering torque ($\tau$). As previously mentioned, the real controlled variable will be filtered by a first order dynamic. 
+%
+\begin{equation}
+    \begin{cases}
+        \tau_{m_f} \dot{\it Myf}(\zeta) + {\it Myf}(\zeta) = {\it Myf_{maxB}} \; {\it myf}(\zeta)\\
+        \tau_{m_r} \dot{\it Myr}(\zeta) + {\it Myr}(\zeta) = {\it Myr_{maxB}} \; {\it negPart}({\it myf}(\zeta)) + {\it MaxTorque}(\omega_r(\zeta)) \; {\it posPart}({\it myf}(\zeta)) \\
+        \tau_{m_s} \dot{\tau}(\zeta) + \tau(\zeta) = \tau_{max} \tau_o(\zeta)
+    \end{cases}
+    \label{eq:AddDynaT}
+\end{equation}
+%
+In this study the author chose to express all the dynamic with parameters that can be change and with an easy interpretation. In fact, the controlled variables here became ${\it myf}$, ${\it myr}$ and $\tau_o$. Those are normalized controls meaning that the range of values that they can assume is restricted in $[-1,1]$. The same is true for the control $\tau_o$ that is the normalised steering torque ranging in $[-1,1]$. In this way, multiplying by $\tau_{max}$ one can limit the maximum exerted torque by the driver. This makes a great advantage in setting the tolerance on the control bounds.\\
+The maximum braking torque at front and rear wheel is supposed to be equal in first approximation with a value of $800 \; \si{\newton\metre}$. However, this can be tuned with different values. On the other hand, the maximum steer torque is limited to a value of $50 \; \si{\newton\metre}$. This is a typical value for rider steering torque, but in can be raised up to $100 \; \si{\newton\metre}$.\\
+The two function ${\it posPart}$ and ${\it negPart}$ are two custom regularized function that return respectively the ${\it max}(0,x)$ and ${\it min}(0,x)$. Those function are continuous but not derivable in $0$ and for this reason is necessary to express them in a regularized fashion. 
+The use of this two function is necessary due to the diversity between braking torque and traction torque at the rear wheel. In fact the maximum braking action can be thought as a constant characteristic of the disk/braking system, while the traction is limited by the internal combustion engine power. This has certain limits that are function of the angular velocity as highlighted in \ref{subsec:MaxT}. The same problem is not present in the front wheel since it is only braking and the assumption of maximum braking torque constant holds.\\
+The three time constant $\tau_{m_f}$, $\tau_{m_r}$, $\tau_{m_s}$ are assumed to be small in the order of $0.1 \; \si{\second}$.\\
+Adding the dynamic in \ref{eq:AddDynaT} means that the system of ODE is enlarged by the three equation, the set of state variable will be integrated with new states $\it Myf$, $\it Myr$ and $\tau$. In addition, the vector of controls have the new variables ${\it myf}$, ${\it myr}$ and $\tau_o$.
 %
 \subsection{Slip Control}
 %
-% EQ
+In the model with slip control the controlled variables are the slips of the two wheels ($\lambda_f$ $\lambda_r$) and the streering torque ($\tau$). As previously mentioned, the real controlled variable will be filtered by a first order dynamic to have a continuous variable in the dynamic of the motorcycle.
+%
+\begin{equation}
+    \begin{cases}
+        \tau_{s_f} \dot{\lambda_f}(\zeta) + {\lambda_f}(\zeta) = {\lambda_{f_{opt}}}(\zeta)\\
+        \tau_{s_r} \dot{\lambda_r}(\zeta) + {\lambda_r}(\zeta) = {\lambda_{r_{opt}}}(\zeta)\\
+        \tau_{s_s} \dot{\tau}(\zeta) + \tau(\zeta) = \tau_{max} \tau_o(\zeta)
+    \end{cases}
+    \label{eq:AddDynaS}
+\end{equation}
+%
+In this case the controlled variables became ${\lambda_{f_{opt}}}$, ${\lambda_{r_{opt}}}$ and $\tau_o$. the first two are the slips tha can be limited in the interval $[-\lambda_{peak},\lambda_{peak}]$. In this way we can ensure that the optimal control will chose values around the peak of the adherence curve. In this case, as for the torque control, the peak is around $0.1$. Therefore one can assume that as $\lambda_{peak}$.\\
+On the other hand, the control $\tau_o$ is the normalised steering torque that ranges in $[-1,1]$. In this way, multiplying by $\tau_{max}$ one can limit the maximum exerted torque by the driver.\\
+The three time constant $\tau_{s_f}$, $\tau_{s_r}$, $\tau_{s_s}$ are slightly different from the one assumed in the torque control section. In particular the dynamic of the slips is faster than the one of the torque. In this study the author chose tho consider $\tau_{s_s} = 0.1 \; \si{\second}$ as previously and a time constant one order of magnitude smaller for the slips.  $\tau_{s_f} = 0.01 \; \si{\second}$ and $\tau_{s_r} = 0.01 \; \si{\second}$\\
+Adding the dynamic in \ref{eq:AddDynaS} means that the system of ODE is enlarged by the three equation, the set of state variable will be integrated with new states $\lambda_f$, $\lambda_r$ and $\tau$. In addition, the vector of controls have the new variables $\lambda_{f_{opt}}$, $\lambda_{r_{opt}}$ and $\tau_o$.
 % 

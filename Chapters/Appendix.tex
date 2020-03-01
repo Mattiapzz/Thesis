@@ -1,32 +1,9 @@
 \appendix
+\chapter{Data and parameters}
+%\addcontentsline{toc}{chapter}{Appendix A}
 %
-\chapter*{Appendix A}
-\addcontentsline{toc}{chapter}{Appendix A}
-%
-\section*{Data and Parameters}
-%
-\subsection*{Motorcycle Data}
-%
-% \begin{longtable}{|l|l|l|l|}
-
-%     \caption{Motorcycle data} \label{tab:MotoData} \\
-
-%     \hline \multicolumn{1}{|c|}{\textbf{Symbol}} & \multicolumn{1}{c|}{\textbf{Value}} & \multicolumn{1}{c|}{\textbf{Units}} & \multicolumn{1}{c|}{\textbf{Meaning}} \\ \hline 
-%     \endfirsthead
-    
-%     \multicolumn{4}{c}%
-%     {{\bfseries \tablename\ \thetable{} -- continued from previous page}} \\
-%     hline \multicolumn{1}{|c|}{\textbf{Symbol}} & \multicolumn{1}{c|}{\textbf{Value}} & \multicolumn{1}{c|}{\textbf{Units}} & \multicolumn{1}{c|}{\textbf{Meaning}} \\ \hline 
-%     \endhead
-    
-%     \hline \multicolumn{3}{|r|}{{Continued on next page}} \\ \hline
-%     \endfoot
-    
-%     \hline \hline
-%     \endlastfoot
-%     a & b & c & d \\
-% \end{longtable}
-    
+\section{Motorcycle Data}
+%    
 \begin{longtable}{clcl}
     \caption{Motorcycle data} \label{tab:MotoData} \\
     \hline \multicolumn{1}{c}{\textbf{Symbol}} & \multicolumn{1}{c}{\textbf{Value}} & \multicolumn{1}{c}{\textbf{Units}} & \multicolumn{1}{c}{\textbf{Meaning}} \\ \hline
@@ -114,19 +91,79 @@ ${\it Cp}_r$ & $100     $ & $\si{\newton\second/\metre}$   & rear tyre radial da
 \end{longtable}
 
 %
-\subsection*{Tyre data}
+\section{Tyre data}
 %
-\subsection*{Torque data}
+\begin{longtable}{cccccc}
+    \caption{Tyre data} \label{tab:TyreData} \\
+    \hline \multicolumn{2}{c}{\textbf{Rear}} & \multicolumn{2}{c}{\textbf{Front}} & \multicolumn{2}{c}{\textbf{Common}}\\
+    \multicolumn{1}{c}{\textbf{Symbol}} & \multicolumn{1}{c}{\textbf{Value}} & \multicolumn{1}{c}{\textbf{Symbol}} & \multicolumn{1}{c}{\textbf{Value}} & \multicolumn{1}{c}{\textbf{Symbol}} & \multicolumn{1}{c}{\textbf{Value}} \\ \hline
+    \endfirsthead
+
+    \hline \multicolumn{2}{c}{\textbf{Rear}} & \multicolumn{2}{c}{\textbf{Front}} & \multicolumn{2}{c}{\textbf{Common}}\\
+    \multicolumn{1}{c}{\textbf{Symbol}} & \multicolumn{1}{c}{\textbf{Value}} & \multicolumn{1}{c}{\textbf{Symbol}} & \multicolumn{1}{c}{\textbf{Value}} & \multicolumn{1}{c}{\textbf{Symbol}} & \multicolumn{1}{c}{\textbf{Value}} \\ \hline
+    \endhead
+
+    \hline \multicolumn{6}{r}{{Continued on next page}} \\ \hline
+    \endfoot
+
+    \hline \hline
+    \endlastfoot
+$pCx1_f       $        &  $1.6064 $  &  $pCx1_r        $        &  $1.6064 $ & $\it Fz0$ & $1600 \; [\si{\newton}]$ \\
+$\lambda_{C_{x_f}} $   &  $1.0    $  &  $\lambda_{C_{x_r}}  $   &  $1.0    $ & & \\
+$pDx1_f       $        &  $1.2017 $  &  $pDx1_r        $        &  $1.0    $ & & \\
+$pDx2_f       $        &  $-0.0922$  &  $pDx2_r        $        &  $0      $ & & \\
+$\lambda_{\mu_{x_f}}$  &  $1.0    $  &  $\lambda_{\mu_{x_r}} $  &  $1.0    $ & & \\
+$pEx1_f       $        &  $0.0263 $  &  $pEx1_r        $        &  $0.0263 $ & & \\
+$pEx2_f       $        &  $0.27056$  &  $pEx2_r        $        &  $0.27056$ & & \\
+$pEx3_f       $        &  $-0.0769$  &  $pEx3_r        $        &  $-0.0769$ & & \\
+$pEx4_f       $        &  $1.1268 $  &  $pEx4_r        $        &  $1.1268 $ & & \\
+$\lambda_{E_{x_f}} $   &  $1.0    $  &  $\lambda_{E_{x_r}}  $   &  $1.0    $ & & \\
+$pKx1_f       $        &  $25.94  $  &  $pKx1_r        $        &  $25.94  $ & & \\
+$pKx2_f       $        &  $-4.233 $  &  $pKx2_r        $        &  $-4.233 $ & & \\
+$pKx3_f       $        &  $0.3369 $  &  $pKx3_r        $        &  $0.3369 $ & & \\
+$\lambda_{K_{x_f}} $   &  $1.0    $  &  $\lambda_{K_{x_r}}  $   &  $1.0    $ & & \\
+$\epsilon_{x_f}  $     &  $0      $  &  $\epsilon_{x_r}   $     &  $0      $ & & \\
+$\lambda_{M_{y_f}} $   &  $0      $  &  $\lambda_{M_{y_r}}  $   &  $0      $ & & \\
+$\lambda_{V_{x_f}} $   &  $0      $  &  $\lambda_{V_{x_r}}  $   &  $0      $ & & \\
+$d1_f$ & $14     $   &  $d1_r$ & $13     $ &  $d8   $ & $1.6 $ \\    
+$d2_f$ & $9      $   &  $d2_r$ & $4      $ &  $e4   $ & $10  $ \\    
+$d3_f$ & $0.8    $   &  $d3_r$ & $0.8    $ &  $e5   $ & $2   $ \\    
+$f1_f$ & $0.00015$   &  $f1_r$ & $0.00015$ &  $e6   $ & $1.5 $ \\    
+$e1_f$ & $0.4    $   &  $e1_r$ & $0.4    $ &  $e7   $ & $50  $ \\    
+$e2_f$ & $0.04   $   &  $e2_r$ & $0.07   $ &  $e8   $ & $1.1 $ \\    
+$e3_f$ & $0.08   $   &  $e3_r$ & $0.1    $ &  $e9   $ & $20  $ \\    
+$f2_f$ & $0.0001 $   &  $f2_r$ & $0.0001 $ &  $e10  $ & $1   $ \\    
+$d4_f$ & $1.2    $   &  $d4_r$ & $1.2    $ &  $Fz0_f$ & $1700$ \\    
+$d5_f$ & $0.15   $   &  $d5_r$ & $0.4    $ &  $Fz0_r$ & $2000$ \\    
+$d6_f$ & $0.1    $   &  $d6_r$ & $0.1    $ &          &        \\ 
+$d7_f$ & $0.15   $   &  $d7_r$ & $0.15   $ &          &        \\
+\end{longtable}
 %
 
+%
+\section{Torque data}
+%
+%
+\begin{table}[h!]
+    \centering
+    \caption{Gear ratios}
+    \label{tab:wheelcoordinates}
+    \begin{tabular}{@{}ccccccc@{}}
+    \toprule
+    \multicolumn{7}{c}{\textbf{Gear Ratio} $[\;]$} \\ \midrule
+        $4.82$ & $2.5$ & $1.75$ & $1.368$ & $1.09$ & $0.956$ & $0.851$\\
+    \bottomrule
+    \end{tabular}
+\end{table}
+%
 %
 \begin{table}[h!]
     \centering
     \caption{Torque vs Angular velocity}
     \label{tab:wheelcoordinates}
-    \begin{tabular}{@{}ll@{}}
+    \begin{tabular}{@{}cc@{}}
     \toprule
-    \multicolumn{1}{l}{\textbf{Torque} $[\si{\newton\metre}]$} & \multicolumn{1}{l}{\textbf{Angular velocity $[\it rpm]$}} \\ \midrule
+    \multicolumn{1}{c}{\textbf{Torque} $[\si{\newton\metre}]$} & \multicolumn{1}{c}{\textbf{Angular velocity} $[\it rpm]$} \\ \midrule
     $2.00  $  &  $0    $ \\
     $47.088$  &  $3000 $ \\
     $62.784$  &  $3500 $ \\
@@ -154,54 +191,10 @@ ${\it Cp}_r$ & $100     $ & $\si{\newton\second/\metre}$   & rear tyre radial da
 \end{table}
 %
 
-%
-\begin{table}[h!]
-    \centering
-    \caption{Gear ratios}
-    \label{tab:wheelcoordinates}
-    \begin{tabular}{@{}ccccccc@{}}
-    \toprule
-    \multicolumn{7}{c}{\textbf{Gear Ratio} $[\;]$} \\ \midrule
-        $4.82$ & $2.5$ & $1.75$ & $1.368$ & $1.09$ & $0.956$ & $0.851$\\
-    \bottomrule
-    \end{tabular}
-\end{table}
-%
-
-
-
-%gr_data := [4.82, 2.5, 1.75, 1.368, 1.09, 0.956, 0.851]:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 %
-\chapter*{Appendix B}
-\addcontentsline{toc}{chapter}{Appendix B}
+\chapter{Results}
+% \addcontentsline{toc}{chapter}{Appendix B}
 %
-\section*{Results}
+\section{Plots}
 %

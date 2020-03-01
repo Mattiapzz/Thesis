@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300) (preloaded format=pdflatex 2020.2.26)  27 FEB 2020 13:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300) (preloaded format=pdflatex 2020.2.26)  29 FEB 2020 18:10
 entering extended mode
 **c:/EMPTY-DESKTOP/TESI/ThesisTex/Thesis.tex
 (c:/EMPTY-DESKTOP/TESI/ThesisTex/Thesis.tex
@@ -998,14 +998,7 @@ File: lstlang1.sty 2019/09/10 1.8c listings language file
 LaTeX Warning: Unused global option(s):
     [epsfig].
 
-(Thesis.aux
-
-LaTeX Warning: Label `tab:wheelcoordinates' multiply defined.
-
-
-LaTeX Warning: Label `tab:wheelcoordinates' multiply defined.
-
-)
+No file Thesis.aux.
 \openout1 = `Thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
@@ -1027,7 +1020,7 @@ LaTeX Font Info:    ... okay on input line 7.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 7.
 LaTeX Font Info:    ... okay on input line 7.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 7.
- ("C:\Program Files (x86)\MiKTeX 2.9\tex/latex/lm\ot1lmr.fd"
+("C:\Program Files (x86)\MiKTeX 2.9\tex/latex/lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) ABD: EveryShipout initializing macros ("C:\Program Files (x86)\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1060,7 +1053,6 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 7.
 LaTeX Info: Redefining \pageref on input line 7.
 LaTeX Info: Redefining \nameref on input line 7.
- (Thesis.out) (Thesis.out)
 \@outlinefile=\write6
 \openout6 = `Thesis.out'.
 
@@ -1153,7 +1145,7 @@ LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 7
  ("C:\Program Files (x86)\MiKTeX 2.9\tex/latex/lm\ot1lmtt.fd"
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) (Setup/Frontmatter.tex
-<img/logo.png, id=245, 1204.5pt x 1204.5pt>
+<img/logo.png, id=9, 1204.5pt x 1204.5pt>
 File: img/logo.png Graphic file (type png)
 <use img/logo.png>
 Package pdftex.def Info: img/logo.png  used on input line 3.
@@ -1188,43 +1180,194 @@ l.20     \mainmatter
                      [4
 
 
-] (Thesis.toc [1
-
-])
+]
 \tf@toc=\write7
 \openout7 = `Thesis.toc'.
 
- [2] (Thesis.lof)
+ [1
+
+] [2
+
+]
 \tf@lof=\write8
 \openout8 = `Thesis.lof'.
 
- [3
+ [3] [4
 
-] [4
-
-] (Thesis.lot)
+]
 \tf@lot=\write9
 \openout9 = `Thesis.lot'.
 
  (Chapters/Introduction.tex [5] [6
 
-]) (Chapters/Chapter1.tex [7] [8]
+]
+
+LaTeX Warning: Citation `maria1997introduction' on page 7 undefined on input line 4.
+
+
+LaTeX Warning: Citation `sharp2014method' on page 7 undefined on input line 9.
+
+
+LaTeX Warning: Citation `leonelli2019optimal' on page 7 undefined on input line 9.
+
+
+LaTeX Warning: Citation `cossalter1999general' on page 7 undefined on input line 9.
+
+
+LaTeX Warning: Citation `simon2008application' on page 7 undefined on input line 9.
+
+
+LaTeX Warning: Citation `bertolazzi2006symbolic' on page 7 undefined on input line 10.
+
+
+LaTeX Warning: Citation `leonelli2019optimal' on page 7 undefined on input line 11.
+
+
+LaTeX Warning: Citation `pacejka2006tyre' on page 7 undefined on input line 13.
+
+
+LaTeX Warning: Citation `cossalter2007influence' on page 7 undefined on input line 23.
+
+
+LaTeX Warning: Citation `pacejka2006tyre' on page 7 undefined on input line 23.
+
+
+LaTeX Warning: Citation `bertolazzi2006symbolic' on page 7 undefined on input line 24.
+
+
+LaTeX Warning: Reference `Ch:StateArt' on page 7 undefined on input line 26.
+
+
+LaTeX Warning: Reference `Ch:MotorcycleModel' on page 7 undefined on input line 27.
+
+
+LaTeX Warning: Reference `Ch:MagicFormula' on page 7 undefined on input line 28.
+
+
+LaTeX Warning: Citation `pacejka2012tire' on page 7 undefined on input line 28.
+
+
+LaTeX Warning: Reference `Ch:SS' on page 7 undefined on input line 29.
+
+
+LaTeX Warning: Reference `Ch:OCP' on page 7 undefined on input line 29.
+
+
+LaTeX Warning: Reference `Ch:Results' on page 7 undefined on input line 30.
+
+) (Chapters/Chapter1.tex [7] [8]
 Chapter 1.
 (Chapters/Chapter1_1.tex
+
+LaTeX Warning: Citation `bertolazzi2005symbolic' on page 9 undefined on input line 16.
+
+
+LaTeX Warning: Citation `biral2016notes' on page 9 undefined on input line 17.
+
+
+LaTeX Warning: Citation `rao2009survey' on page 9 undefined on input line 18.
+
+
+LaTeX Warning: Citation `rodrigues2014optimal' on page 9 undefined on input line 18.
+
+
+LaTeX Warning: Citation `patterson2014gpops' on page 9 undefined on input line 19.
+
+
+LaTeX Warning: Citation `Houska2011a' on page 9 undefined on input line 19.
+
+
+LaTeX Warning: Citation `Andersson2019' on page 9 undefined on input line 19.
+
+
+LaTeX Warning: Citation `wachter2006implementation' on page 9 undefined on input line 20.
+
+
 Underfull \vbox (badness 6220) has occurred while \output is active []
 
  [9
 
-]) (Chapters/Chapter1_2.tex [10]) [11]) (Chapters/Chapter2.tex [12]
+]
+
+LaTeX Warning: Citation `bertolazzi2006symbolic' on page 10 undefined on input line 31.
+
+
+LaTeX Warning: Citation `biral2016notes' on page 10 undefined on input line 33.
+
+
+LaTeX Warning: Citation `biral2016notes' on page 10 undefined on input line 34.
+
+
+LaTeX Warning: Citation `bellman2015applied' on page 10 undefined on input line 38.
+
+
+LaTeX Warning: Citation `mayne1966second' on page 10 undefined on input line 39.
+
+
+LaTeX Warning: Citation `huang2014trajectory' on page 10 undefined on input line 40.
+
+) (Chapters/Chapter1_2.tex [10]
+
+LaTeX Warning: Citation `dal2019comparison' on page 11 undefined on input line 4.
+
+
+LaTeX Warning: Citation `sharp2014method' on page 11 undefined on input line 8.
+
+
+LaTeX Warning: Citation `cossalter2010investigation' on page 11 undefined on input line 8.
+
+
+LaTeX Warning: Citation `lot2008advanced' on page 11 undefined on input line 8.
+
+
+LaTeX Warning: Citation `simon2008application' on page 11 undefined on input line 8.
+
+
+LaTeX Warning: Citation `cossalter2010investigation' on page 11 undefined on input line 8.
+
+
+LaTeX Warning: Citation `bertolazzi2005symbolic' on page 11 undefined on input line 9.
+
+
+LaTeX Warning: Citation `biral2016notes' on page 11 undefined on input line 9.
+
+
+LaTeX Warning: Citation `cossalter2013optimization' on page 11 undefined on input line 10.
+
+
+LaTeX Warning: Citation `massaro2010virtual' on page 11 undefined on input line 10.
+
+
+LaTeX Warning: Citation `leonelli2019optimal' on page 11 undefined on input line 11.
+
+
+LaTeX Warning: Citation `pacejka2012tire' on page 11 undefined on input line 11.
+
+
+LaTeX Warning: Citation `patterson2014gpops' on page 11 undefined on input line 11.
+
+) [11]) (Chapters/Chapter2.tex [12]
 Chapter 2.
+
+LaTeX Warning: Citation `pacejka2006tyre' on page 13 undefined on input line 4.
+
+
+LaTeX Warning: Citation `sharp2004advances' on page 13 undefined on input line 4.
+
+
+LaTeX Warning: Citation `leonelli2019optimal' on page 13 undefined on input line 4.
+
 (Chapters/Chapter2_1.tex
 
 pdfTeX warning: pdflatex (file ./img/Coordinates/moto_with_symbols.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<img/Coordinates/moto_with_symbols.pdf, id=511, 845.0471pt x 597.50829pt>
+<img/Coordinates/moto_with_symbols.pdf, id=96, 845.0471pt x 597.50829pt>
 File: img/Coordinates/moto_with_symbols.pdf Graphic file (type pdf)
 <use img/Coordinates/moto_with_symbols.pdf>
 Package pdftex.def Info: img/Coordinates/moto_with_symbols.pdf  used on input line 5.
 (pdftex.def)             Requested size: 455.24408pt x 321.89293pt.
+
+LaTeX Warning: Reference `fig:MotoLean' on page 13 undefined on input line 12.
+
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1233,11 +1376,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ]
 
 pdfTeX warning: pdflatex (file ./img/Coordinates/flankangles.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<img/Coordinates/flankangles.pdf, id=519, 845.0471pt x 597.50829pt>
+<img/Coordinates/flankangles.pdf, id=106, 845.0471pt x 597.50829pt>
 File: img/Coordinates/flankangles.pdf Graphic file (type pdf)
 <use img/Coordinates/flankangles.pdf>
 Package pdftex.def Info: img/Coordinates/flankangles.pdf  used on input line 27.
 (pdftex.def)             Requested size: 455.24408pt x 321.89293pt.
+
+LaTeX Warning: Reference `fig:MotoFlank' on page 14 undefined on input line 33.
+
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1248,12 +1394,19 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [16]
+
+LaTeX Warning: Citation `baumgarte1972stabilization' on page 17 undefined on input line 125.
+
+
+LaTeX Warning: Citation `leonelli2019optimal' on page 17 undefined on input line 126.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [17]
 
 pdfTeX warning: pdflatex (file ./img/Coordinates/whellbehind.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<img/Coordinates/whellbehind.pdf, id=594, 845.0471pt x 597.50829pt>
+<img/Coordinates/whellbehind.pdf, id=179, 845.0471pt x 597.50829pt>
 File: img/Coordinates/whellbehind.pdf Graphic file (type pdf)
 <use img/Coordinates/whellbehind.pdf>
 Package pdftex.def Info: img/Coordinates/whellbehind.pdf  used on input line 174.
@@ -1273,14 +1426,34 @@ Package amsmath Warning: Cannot use `split' here;
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [18 <./img/Coordinates/whellbehind.pdf>] [19]) (Chapters/Chapter2_2.tex [20]
+ [18 <./img/Coordinates/whellbehind.pdf>]
+
+LaTeX Warning: Citation `sharp2004advances' on page 19 undefined on input line 270.
+
+
+LaTeX Warning: Citation `leonelli2019optimal' on page 19 undefined on input line 270.
+
+
+LaTeX Warning: Citation `lot2004motorcycle' on page 19 undefined on input line 287.
+
+
+LaTeX Warning: Citation `pacejka2006tyre' on page 19 undefined on input line 287.
+
+[19]) (Chapters/Chapter2_2.tex [20]
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 13.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex/latex/lm\ts1lmr.fd"
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 
+LaTeX Warning: Citation `cossalter2002motorcycle' on page 21 undefined on input line 35.
+
+
+LaTeX Warning: Citation `cossalter2003multibody' on page 21 undefined on input line 35.
+
+
+
 pdfTeX warning: pdflatex (file ./img/Coordinates/ONLYREAR.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<img/Coordinates/ONLYREAR.pdf, id=645, 845.0471pt x 597.50829pt>
+<img/Coordinates/ONLYREAR.pdf, id=229, 845.0471pt x 597.50829pt>
 File: img/Coordinates/ONLYREAR.pdf Graphic file (type pdf)
 <use img/Coordinates/ONLYREAR.pdf>
 Package pdftex.def Info: img/Coordinates/ONLYREAR.pdf  used on input line 52.
@@ -1291,7 +1464,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 pdfTeX warning: pdflatex (file ./img/Coordinates/ONLYRIDER.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<img/Coordinates/ONLYRIDER.pdf, id=646, 845.0471pt x 597.50829pt>
+<img/Coordinates/ONLYRIDER.pdf, id=230, 845.0471pt x 597.50829pt>
 File: img/Coordinates/ONLYRIDER.pdf Graphic file (type pdf)
 <use img/Coordinates/ONLYRIDER.pdf>
 Package pdftex.def Info: img/Coordinates/ONLYRIDER.pdf  used on input line 71.
@@ -1302,7 +1475,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [21]
 
 pdfTeX warning: pdflatex (file ./img/Coordinates/STEER.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<img/Coordinates/STEER.pdf, id=659, 845.0471pt x 597.50829pt>
+<img/Coordinates/STEER.pdf, id=241, 845.0471pt x 597.50829pt>
 File: img/Coordinates/STEER.pdf Graphic file (type pdf)
 <use img/Coordinates/STEER.pdf>
 Package pdftex.def Info: img/Coordinates/STEER.pdf  used on input line 92.
@@ -1313,7 +1486,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 pdfTeX warning: pdflatex (file ./img/Coordinates/SWINGARMONLY.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<img/Coordinates/SWINGARMONLY.pdf, id=660, 845.0471pt x 597.50829pt>
+<img/Coordinates/SWINGARMONLY.pdf, id=242, 845.0471pt x 597.50829pt>
 File: img/Coordinates/SWINGARMONLY.pdf Graphic file (type pdf)
 <use img/Coordinates/SWINGARMONLY.pdf>
 Package pdftex.def Info: img/Coordinates/SWINGARMONLY.pdf  used on input line 114.
@@ -1333,18 +1506,44 @@ Underfull \vbox (badness 6808) has occurred while \output is active []
  [23 <./img/Coordinates/STEER.pdf> <./img/Coordinates/SWINGARMONLY.pdf
 
 pdfTeX warning: pdflatex (file ./img/Coordinates/SWINGARMONLY.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] [24] [25]
+>]
+
+LaTeX Warning: Reference `eq:ang_vel' on page 24 undefined on input line 183.
+
+
+LaTeX Warning: Reference `eq:CoM' on page 24 undefined on input line 198.
+
+[24] [25]
+
+LaTeX Warning: Citation `pacejka2006tyre' on page 26 undefined on input line 283.
+
+
+LaTeX Warning: Reference `eq:penetration' on page 26 undefined on input line 284.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [26] [27]
+ [26]
+
+LaTeX Warning: Citation `pacejka2006tyre' on page 27 undefined on input line 316.
+
+[27]
 
 pdfTeX warning: pdflatex (file ./img/Coordinates/wheelforces.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<img/Coordinates/wheelforces.pdf, id=802, 845.0471pt x 597.50829pt>
+<img/Coordinates/wheelforces.pdf, id=386, 845.0471pt x 597.50829pt>
 File: img/Coordinates/wheelforces.pdf Graphic file (type pdf)
 <use img/Coordinates/wheelforces.pdf>
 Package pdftex.def Info: img/Coordinates/wheelforces.pdf  used on input line 424.
 (pdftex.def)             Requested size: 455.24408pt x 321.89293pt.
-) (Chapters/Chapter2_3.tex [28]
+) (Chapters/Chapter2_3.tex
+
+LaTeX Warning: Citation `multibod60:online' on page 28 undefined on input line 3.
+
+[28]
+
+LaTeX Warning: Reference `eq:simplifyEQMotion' on page 29 undefined on input line 25.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [29 <./img/Coordinates/wheelforces.pdf>]) (Chapters/Chapter2_4.tex
@@ -1352,8 +1551,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [30]
 
+LaTeX Warning: Reference `eq:vertForces' on page 31 undefined on input line 21.
+
+
+
 pdfTeX warning: pdflatex (file ./img/Coordinates/SingleTrackRed.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<img/Coordinates/SingleTrackRed.pdf, id=859, 845.0471pt x 597.50829pt>
+<img/Coordinates/SingleTrackRed.pdf, id=442, 845.0471pt x 597.50829pt>
 File: img/Coordinates/SingleTrackRed.pdf Graphic file (type pdf)
 <use img/Coordinates/SingleTrackRed.pdf>
 Package pdftex.def Info: img/Coordinates/SingleTrackRed.pdf  used on input line 25.
@@ -1362,33 +1565,54 @@ Package pdftex.def Info: img/Coordinates/SingleTrackRed.pdf  used on input line 
 
 ]
 Chapter 3.
-<img/Pacejka/LongFrontFz.pdf, id=900, 794.97pt x 614.295pt>
+
+LaTeX Warning: Citation `pacejka2012tire' on page 33 undefined on input line 4.
+
+
+LaTeX Warning: Citation `sharp2004advances' on page 33 undefined on input line 4.
+
+
+LaTeX Warning: Citation `sharp2014method' on page 33 undefined on input line 4.
+
+<img/Pacejka/LongFrontFz.pdf, id=481, 794.97pt x 614.295pt>
 File: img/Pacejka/LongFrontFz.pdf Graphic file (type pdf)
 <use img/Pacejka/LongFrontFz.pdf>
 Package pdftex.def Info: img/Pacejka/LongFrontFz.pdf  used on input line 10.
 (pdftex.def)             Requested size: 227.62204pt x 175.89137pt.
-<img/Pacejka/LongRearFz.pdf, id=901, 794.97pt x 614.295pt>
+<img/Pacejka/LongRearFz.pdf, id=482, 794.97pt x 614.295pt>
 File: img/Pacejka/LongRearFz.pdf Graphic file (type pdf)
 <use img/Pacejka/LongRearFz.pdf>
 Package pdftex.def Info: img/Pacejka/LongRearFz.pdf  used on input line 15.
 (pdftex.def)             Requested size: 227.62204pt x 175.89137pt.
+
+LaTeX Warning: Citation `pacejka2012tire' on page 33 undefined on input line 32.
+
+
+LaTeX Warning: Citation `pacejka2006tyre' on page 33 undefined on input line 32.
+
+
+LaTeX Warning: Reference `fig:long1a' on page 33 undefined on input line 92.
+
+
+LaTeX Warning: Reference `fig:long1b' on page 33 undefined on input line 92.
+
 [33]
-<img/Pacejka/LatFrontFz.pdf, id=913, 794.97pt x 614.295pt>
+<img/Pacejka/LatFrontFz.pdf, id=492, 794.97pt x 614.295pt>
 File: img/Pacejka/LatFrontFz.pdf Graphic file (type pdf)
 <use img/Pacejka/LatFrontFz.pdf>
 Package pdftex.def Info: img/Pacejka/LatFrontFz.pdf  used on input line 98.
 (pdftex.def)             Requested size: 227.62204pt x 175.89137pt.
-<img/Pacejka/LatRearFz.pdf, id=914, 794.97pt x 614.295pt>
+<img/Pacejka/LatRearFz.pdf, id=493, 794.97pt x 614.295pt>
 File: img/Pacejka/LatRearFz.pdf Graphic file (type pdf)
 <use img/Pacejka/LatRearFz.pdf>
 Package pdftex.def Info: img/Pacejka/LatRearFz.pdf  used on input line 103.
 (pdftex.def)             Requested size: 227.62204pt x 175.89137pt.
-<img/Pacejka/LatFrontPhi.pdf, id=915, 794.97pt x 614.295pt>
+<img/Pacejka/LatFrontPhi.pdf, id=494, 794.97pt x 614.295pt>
 File: img/Pacejka/LatFrontPhi.pdf Graphic file (type pdf)
 <use img/Pacejka/LatFrontPhi.pdf>
 Package pdftex.def Info: img/Pacejka/LatFrontPhi.pdf  used on input line 108.
 (pdftex.def)             Requested size: 227.62204pt x 175.89137pt.
-<img/Pacejka/LatRearPhi.pdf, id=916, 794.97pt x 614.295pt>
+<img/Pacejka/LatRearPhi.pdf, id=495, 794.97pt x 614.295pt>
 File: img/Pacejka/LatRearPhi.pdf Graphic file (type pdf)
 <use img/Pacejka/LatRearPhi.pdf>
 Package pdftex.def Info: img/Pacejka/LatRearPhi.pdf  used on input line 113.
@@ -1397,109 +1621,277 @@ Package pdftex.def Info: img/Pacejka/LatRearPhi.pdf  used on input line 113.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [34 <./img/Pacejka/LongFrontFz.pdf> <./img/Pacejka/LongRearFz.pdf>] [35 <./img/Pacejka/LatFrontFz.pdf> <./img/Pacejka/LatRearFz.pdf> <./img/Pacejka/LatFrontPhi.pdf> <./img/Pacejka/LatRearPhi.pdf>]
-<img/Pacejka/SelfAliFrontFz.pdf, id=942, 794.97pt x 614.295pt>
+
+LaTeX Warning: Reference `fig:lat1a' on page 36 undefined on input line 206.
+
+
+LaTeX Warning: Reference `fig:lat1b' on page 36 undefined on input line 206.
+
+
+LaTeX Warning: Reference `fig:lat1c' on page 36 undefined on input line 206.
+
+
+LaTeX Warning: Reference `fig:lat1d' on page 36 undefined on input line 206.
+
+<img/Pacejka/SelfAliFrontFz.pdf, id=520, 794.97pt x 614.295pt>
 File: img/Pacejka/SelfAliFrontFz.pdf Graphic file (type pdf)
 <use img/Pacejka/SelfAliFrontFz.pdf>
 Package pdftex.def Info: img/Pacejka/SelfAliFrontFz.pdf  used on input line 212.
 (pdftex.def)             Requested size: 227.62204pt x 175.89137pt.
-<img/Pacejka/SelfAliRearFz.pdf, id=943, 794.97pt x 614.295pt>
+<img/Pacejka/SelfAliRearFz.pdf, id=521, 794.97pt x 614.295pt>
 File: img/Pacejka/SelfAliRearFz.pdf Graphic file (type pdf)
 <use img/Pacejka/SelfAliRearFz.pdf>
 Package pdftex.def Info: img/Pacejka/SelfAliRearFz.pdf  used on input line 217.
 (pdftex.def)             Requested size: 227.62204pt x 175.89137pt.
-<img/Pacejka/SelfAliFrontPhi.pdf, id=944, 794.97pt x 614.295pt>
+<img/Pacejka/SelfAliFrontPhi.pdf, id=522, 794.97pt x 614.295pt>
 File: img/Pacejka/SelfAliFrontPhi.pdf Graphic file (type pdf)
 <use img/Pacejka/SelfAliFrontPhi.pdf>
 Package pdftex.def Info: img/Pacejka/SelfAliFrontPhi.pdf  used on input line 222.
 (pdftex.def)             Requested size: 227.62204pt x 175.89137pt.
-<img/Pacejka/SelfAliRearPhi.pdf, id=945, 794.97pt x 614.295pt>
+<img/Pacejka/SelfAliRearPhi.pdf, id=523, 794.97pt x 614.295pt>
 File: img/Pacejka/SelfAliRearPhi.pdf Graphic file (type pdf)
 <use img/Pacejka/SelfAliRearPhi.pdf>
 Package pdftex.def Info: img/Pacejka/SelfAliRearPhi.pdf  used on input line 227.
 (pdftex.def)             Requested size: 227.62204pt x 175.89137pt.
 
+LaTeX Warning: Reference `Ch:MotorcycleModel' on page 36 undefined on input line 246.
+
+
+LaTeX Warning: Citation `pacejka2012tire' on page 36 undefined on input line 247.
+
+
 Underfull \vbox (badness 5787) has occurred while \output is active []
 
- [36] [37 <./img/Pacejka/SelfAliFrontFz.pdf> <./img/Pacejka/SelfAliRearFz.pdf> <./img/Pacejka/SelfAliFrontPhi.pdf> <./img/Pacejka/SelfAliRearPhi.pdf>]) (Chapters/Chapter4.tex
+ [36] [37 <./img/Pacejka/SelfAliFrontFz.pdf> <./img/Pacejka/SelfAliRearFz.pdf> <./img/Pacejka/SelfAliFrontPhi.pdf> <./img/Pacejka/SelfAliRearPhi.pdf>]
+
+LaTeX Warning: Reference `fig:sa1a' on page 38 undefined on input line 307.
+
+
+LaTeX Warning: Reference `fig:sa1b' on page 38 undefined on input line 307.
+
+
+LaTeX Warning: Reference `fig:sa1c' on page 38 undefined on input line 307.
+
+
+LaTeX Warning: Reference `fig:sa1d' on page 38 undefined on input line 307.
+
+
+LaTeX Warning: Citation `pacejka2012tire' on page 38 undefined on input line 311.
+
+
+LaTeX Warning: Citation `sharp2014method' on page 38 undefined on input line 311.
+
+) (Chapters/Chapter4.tex
 Underfull \vbox (badness 1838) has occurred while \output is active []
 
  [38] [39] [40
 
 ]
 Chapter 4.
-[41] [42] [43] [44]
+[41]
+
+LaTeX Warning: Reference `tab:vertforce' on page 42 undefined on input line 17.
+
+
+LaTeX Warning: Reference `Ch:MotorcycleModel' on page 42 undefined on input line 33.
+
+
+LaTeX Warning: Reference `tab:wheelcoordinates' on page 42 undefined on input line 33.
+
+
+LaTeX Warning: Reference `Ch:MotorcycleModel' on page 42 undefined on input line 51.
+
+
+LaTeX Warning: Reference `Ch:MotorcycleModel' on page 42 undefined on input line 60.
+
+
+LaTeX Warning: Reference `tab:CoMPosition' on page 42 undefined on input line 60.
+
+
+LaTeX Warning: Reference `tab:DoFFreezed' on page 42 undefined on input line 76.
+
+[42]
+
+LaTeX Warning: Reference `Ch:MotorcycleModel' on page 43 undefined on input line 92.
+
+[43]
+
+LaTeX Warning: Reference `tab:vertforceSS' on page 44 undefined on input line 153.
+
+
+LaTeX Warning: Reference `tab:vertforce' on page 44 undefined on input line 153.
+
+
+LaTeX Warning: Reference `tab:QC-SS' on page 44 undefined on input line 154.
+
+
+LaTeX Warning: Reference `tab:StatesSS' on page 44 undefined on input line 170.
+
+[44]
+
+LaTeX Warning: Reference `tab:slipsSS' on page 45 undefined on input line 217.
+
+
+LaTeX Warning: Reference `tab:FandTSSf' on page 45 undefined on input line 225.
+
+
+LaTeX Warning: Reference `tab:FandTSSr' on page 45 undefined on input line 225.
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `tab:FandTSSf' on page 45 undefined on input line 255.
+
+
+LaTeX Warning: Reference `tab:FandTSSr' on page 45 undefined on input line 255.
 
 ) (Chapters/Chapter5.tex [45] [46]
 Chapter 5.
+
+LaTeX Warning: Citation `bertolazzi2006symbolic' on page 47 undefined on input line 4.
+
 (Chapters/Chapter5_1.tex [47
 
 ]) (Chapters/Chapter5_2.tex
 
 pdfTeX warning: pdflatex (file ./img/Coordinates/CurvCoord.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<img/Coordinates/CurvCoord.pdf, id=1043, 845.0471pt x 597.50829pt>
+<img/Coordinates/CurvCoord.pdf, id=618, 845.0471pt x 597.50829pt>
 File: img/Coordinates/CurvCoord.pdf Graphic file (type pdf)
 <use img/Coordinates/CurvCoord.pdf>
 Package pdftex.def Info: img/Coordinates/CurvCoord.pdf  used on input line 5.
 (pdftex.def)             Requested size: 455.24408pt x 321.89293pt.
+
+LaTeX Warning: Citation `leonelli2019optimal' on page 48 undefined on input line 10.
+
+
+LaTeX Warning: Reference `fig:CurvCoord' on page 48 undefined on input line 12.
+
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [48]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [49 <./img/Coordinates/CurvCoord.pdf>]) (Chapters/Chapter5_3.tex [50] [51]) (Chapters/Chapter5_4.tex [52] [53]) (Chapters/Chapter5_5.tex [54]
-<img/MaxTorque/maxT_wr.png, id=1148, 1003.75pt x 620.3175pt>
-File: img/MaxTorque/maxT_wr.png Graphic file (type png)
-<use img/MaxTorque/maxT_wr.png>
-Package pdftex.def Info: img/MaxTorque/maxT_wr.png  used on input line 42.
-(pdftex.def)             Requested size: 455.24408pt x 281.3457pt.
-) (Chapters/Chapter5_6.tex)) (Chapters/Chapter6.tex [55 <./img/MaxTorque/maxT_wr.png (PNG copy)>] [56]
+ [49 <./img/Coordinates/CurvCoord.pdf>]
+
+LaTeX Warning: Reference `eq:refcurv' on page 50 undefined on input line 50.
+
+) (Chapters/Chapter5_3.tex
+
+LaTeX Warning: Reference `eq:OCPminT' on page 50 undefined on input line 3.
+
+
+LaTeX Warning: Reference `subsec:T21' on page 50 undefined on input line 4.
+
+
+LaTeX Warning: Reference `subsec:T2S' on page 50 undefined on input line 4.
+
+[50]
+
+LaTeX Warning: Reference `eq:CurvCoord' on page 51 undefined on input line 52.
+
+[51]) (Chapters/Chapter5_4.tex
+
+LaTeX Warning: Reference `Ch:OCP' on page 52 undefined on input line 3.
+
+[52]
+
+LaTeX Warning: Reference `Ch:MagicFormula' on page 53 undefined on input line 52.
+
+[53]) (Chapters/Chapter5_5.tex [54]
+
+LaTeX Warning: Reference `sec:AddDyn' on page 55 undefined on input line 34.
+
+
+LaTeX Warning: Reference `fig:MaxTorque' on page 55 undefined on input line 39.
+
+<img/MaxTorque/maxT_wr.pdf, id=723, 419.52483pt x 312.35081pt>
+File: img/MaxTorque/maxT_wr.pdf Graphic file (type pdf)
+<use img/MaxTorque/maxT_wr.pdf>
+Package pdftex.def Info: img/MaxTorque/maxT_wr.pdf  used on input line 43.
+(pdftex.def)             Requested size: 409.71689pt x 305.0627pt.
+) (Chapters/Chapter5_6.tex [55 <./img/MaxTorque/maxT_wr.pdf>]
+
+LaTeX Warning: Reference `subsec:MaxT' on page 56 undefined on input line 23.
+
+
+LaTeX Warning: Reference `eq:AddDynaT' on page 56 undefined on input line 25.
+
+[56]
+
+LaTeX Warning: Reference `eq:AddDynaS' on page 57 undefined on input line 43.
+
+)) (Chapters/Chapter6.tex [57] [58
+
+]
 Chapter 6.
-) (Chapters/Conclusions.tex [57
+) (Chapters/Conclusions.tex [59] [60
 
-] [58
+])
+No file Thesis.bbl.
+(Chapters/Appendix.tex [61] [62
 
-]) (Thesis.bbl [59] [60
+]
+Appendix A.
+[63] [64]
 
-] [61] [62]) (Chapters/Appendix.tex [63] [64
+Package longtable Warning: Column widths have changed
+(longtable)                in table A.1 on input line 91.
 
-] [65] [66]
+[65]
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table A.2 on input line 140.
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[67] [68]) [69
+[66] [67] [68
 
 ]
+Appendix B.
+) [69]
+
+Package longtable Warning: Table widths have changed. Rerun LaTeX.
+
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 55.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 55.
- (Thesis.aux)
+(Thesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 55.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 55.
-Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 656383E4C157AA38F700D44158D2214A;4042.
 
 
-LaTeX Warning: There were multiply-defined labels.
+Package rerunfilecheck Warning: File `Thesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Thesis.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  E9D0F71D7A437B3A18D07B8FDC352454;4235.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 55.
  ) 
 Here is how much of TeX's memory you used:
- 33900 strings out of 481545
- 607123 string characters out of 2920469
+ 33806 strings out of 481545
+ 605284 string characters out of 2920469
  1016156 words of memory out of 3000000
- 48073 multiletter control sequences out of 15000+200000
+ 48018 multiletter control sequences out of 15000+200000
  644980 words of font info for 101 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,19n,69p,915b,2463s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 63i,19n,69p,915b,2445s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rmtt.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmro10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Thesis.pdf (73 pages, 4276128 bytes).
+Output written on Thesis.pdf (73 pages, 4191208 bytes).
 PDF statistics:
- 1380 PDF objects out of 1440 (max. 8388607)
- 286 named destinations out of 1000 (max. 500000)
- 607 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1005 PDF objects out of 1200 (max. 8388607)
+ 261 named destinations out of 1000 (max. 500000)
+ 135 words of extra memory for PDF output out of 10000 (max. 10000000)
 

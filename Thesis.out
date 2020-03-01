@@ -54,6 +54,9 @@
 \BOOKMARK [1][-]{section.6.1}{Torque\040Control}{chapter.6}% 54
 \BOOKMARK [1][-]{section.6.2}{Slip\040Control}{chapter.6}% 55
 \BOOKMARK [0][-]{chapter*.31}{Conclusions}{}% 56
-\BOOKMARK [0][-]{chapter*.32}{Bibliography}{}% 57
-\BOOKMARK [0][-]{appendix*.33}{Appendix\040A}{}% 58
-\BOOKMARK [0][-]{appendix*.36}{Appendix\040B}{}% 59
+\BOOKMARK [0][-]{appendix.A}{Data\040and\040parameters}{}% 57
+\BOOKMARK [1][-]{section.A.1}{Motorcycle\040Data}{appendix.A}% 58
+\BOOKMARK [1][-]{section.A.2}{Tyre\040data}{appendix.A}% 59
+\BOOKMARK [1][-]{section.A.3}{Torque\040data}{appendix.A}% 60
+\BOOKMARK [0][-]{appendix.B}{Results}{}% 61
+\BOOKMARK [1][-]{section.B.1}{Plots}{appendix.B}% 62
