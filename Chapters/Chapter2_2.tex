@@ -6,7 +6,8 @@ From the previous description about DoF it is clear that the motorcycle model ha
 %
 \subsection{Motorcycle rigid body}
 %
-One techniques to write equation of motion in an efficient way is to define a body that describe the whole motorcycle as a rigid body and then add only the dynamic contribute of the internal motion of the other bodies.\\
+One techniques to write equation of motion in an efficient ("smart") way is to define a body that describe the whole motorcycle as a rigid body and then add only the dynamic contribute of the internal motion of the other bodies.\\
+A simple example with a double pendulum is reported in appendix \ref{app:AntiBody} to demonstrate the advantages of this method.\\
 The motorcycle as a rigid body is composed by the following bodies:
 \begin{itemize}
     \setlength{\itemsep}{0pt}
@@ -32,7 +33,7 @@ In order to describe the motorcycle all the internal degrees of freedom should b
 \subsubsection{Bodies}
 %
 Before computing the centre of mass of the complete rigid body we should define the centre of gravity of each body.\\
-All the bodies at play are defined starting from the convenient reference frames defined in the precious section. The data  and convention in of length and physical values of the motorcycle are take primary from FastBike a fortran code for real time simulation of motorcycles.\cite{cossalter2002motorcycle,cossalter2003multibody}\\
+All the bodies at play are defined starting from the convenient reference frames defined in the precious section. The data  and convention in of length and physical values of the motorcycle are take primary from FastBike a fortran code for real time simulation of motorcycles and are reported in table \ref{tab:MotoData} in appendix \ref{app:MotoData}.\cite{cossalter2002motorcycle,cossalter2003multibody}\\
 The rear frame (main body) is linked to the reference frame $RF_{Rear}$. The centre of gravity of this body will be in a point $G_{Rear}$ that has only $x$ and $z$ components. This comes directly from the assumption that the vehicle is symmetrical and the reference frame lays on the symmetric plane of the body. The same is true for the body of the rider. The condition on the position of the rider wil be relaxed later. In fact the rider is not static with respect to the motorcycle but can move, lean forward and laterally.
 %
 \begin{equation}
@@ -198,10 +199,11 @@ where $I_{tot}$ is the matrix of inertia of the whole motorcycle, $\mathbf{A_M}$
 With the previously computed data a body can be created. This have the centre of gravity in the point of equation \ref{eq:CoM}, mass equal to the sum of all masses ($M_{tot}$) and the moment of inertia $I_{tot}$.  
 %
 \subsection{Dummy bodies}
+\label{subsec:Dummy}
 %
 The moment of inertia and the masses of the different parts of the motorcycle are already inside the definition of the rigid body of the previous section. Therefore in the derivation of the equation of motion we should only consider the effect of the motion of the parts. In fact in the rigid body all the pats are frezed and considered as static. However, the dynamic component plays a great role in the motion.\\ 
-One solution is to take into account only those components is to introduce a set of dummy bodies also known as anti-bodies. This bodies are defined for each moving component of the motorcycle. The dummy body has as a centre of gravity the body they are referred to, but evaluated with the internal DoF freezed. The anti-bodies, as the name suggest, has inertial properties that are the one of the real body with changed sign. This means that all dummy bodies have negative mass and negative inertia. 
-The concept of negative mass and negative inertia have no meaning in physical and real life. However, is a modelling trick to simplify the resulting equations of motion.\\
+One solution is to take into account only those components is to introduce a set of dummy bodies also known as anti-bodies. This bodies are defined for each moving component of the motorcycle. The dummy body has as a centre of gravity the body they are referred to, but evaluated with the internal DoF freezed. The anti-bodies, as the name suggest, has inertial properties that are the one of the real body with changed sign. This means that all dummy bodies have negative mass and negative inertia. \\
+The concept of negative mass and negative inertia have no meaning in physical and real life. However, is a modelling trick to simplify the resulting equations of motion. A simple example with a double pendulum is reported in appendix \ref{app:AntiBody} to demonstrate the advantages of this method.\\
 Here is reported a list of dummy bodies that have to be defined.
 %
 \begin{itemize}

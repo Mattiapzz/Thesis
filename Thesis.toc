@@ -1,66 +1,73 @@
 \babel@toc {UKenglish}{}
-\contentsline {chapter}{List of Figures}{3}{chapter*.3}%
-\contentsline {chapter}{List of Tables}{5}{chapter*.4}%
-\contentsline {chapter}{Introduction}{7}{chapter*.5}%
-\contentsline {chapter}{\numberline {1}State of the Art}{9}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Optimal Control Problems}{9}{section.1.1}%
-\contentsline {subsection}{\numberline {1.1.1}State-space Approaches}{9}{subsection.1.1.1}%
-\contentsline {subsection}{\numberline {1.1.2}Direct Method}{10}{subsection.1.1.2}%
-\contentsline {subsection}{\numberline {1.1.3}Indirect Methods}{10}{subsection.1.1.3}%
-\contentsline {subsection}{\numberline {1.1.4}Differential Dynamic Programming}{10}{subsection.1.1.4}%
-\contentsline {section}{\numberline {1.2}Optimal Control with Motorcycle Dynamics}{11}{section.1.2}%
-\contentsline {chapter}{\numberline {2}Motorcycle model}{13}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Kinematic model}{13}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Reference frames}{13}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Kinematic solution}{18}{subsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.1.3}Tyre-Ground penetration}{19}{subsection.2.1.3}%
-\contentsline {subsection}{\numberline {2.1.4}Longitudinal and lateral slips}{20}{subsection.2.1.4}%
-\contentsline {section}{\numberline {2.2}Dynamic Model}{20}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Motorcycle rigid body}{20}{subsection.2.2.1}%
-\contentsline {subsubsection}{Bodies}{21}{subsection.2.2.1}%
-\contentsline {subsubsection}{Centre of Mass of the motorcycle}{24}{equation.2.2.26}%
-\contentsline {subsubsection}{Moment of Inertia of the motorcycle}{24}{equation.2.2.27}%
-\contentsline {subsection}{\numberline {2.2.2}Dummy bodies}{25}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Forces}{25}{subsection.2.2.3}%
-\contentsline {subsection}{\numberline {2.2.4}Torques}{27}{subsection.2.2.4}%
-\contentsline {section}{\numberline {2.3}Equations of motion}{28}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Reduction to Single Track model}{30}{section.2.4}%
-\contentsline {chapter}{\numberline {3}Magic Formula Pacejka}{33}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Longitudinal force}{33}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Lateral force}{34}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Self-aligning moment}{36}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Overturning moment}{38}{section.3.4}%
-\contentsline {chapter}{\numberline {4}Static conditions and Steady State}{41}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Static condition}{41}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Problem formulation}{41}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Solution}{42}{subsection.4.1.2}%
-\contentsline {section}{\numberline {4.2}Steady state}{43}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Problem formulation}{43}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Solution}{44}{subsection.4.2.2}%
-\contentsline {chapter}{\numberline {5}Optimal Control Problem}{47}{chapter.5}%
-\contentsline {section}{\numberline {5.1}General OCP}{47}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Curvilinear Coordinates}{48}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Coordinate change}{50}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}Time to unitary space transformation}{51}{subsection.5.3.1}%
-\contentsline {subsection}{\numberline {5.3.2}Time-Space Coordinate Change}{51}{subsection.5.3.2}%
-\contentsline {section}{\numberline {5.4}Constraints}{52}{section.5.4}%
-\contentsline {subsection}{\numberline {5.4.1}Constraints for Feasible Values}{52}{subsection.5.4.1}%
-\contentsline {subsection}{\numberline {5.4.2}Contact force}{53}{subsection.5.4.2}%
-\contentsline {subsection}{\numberline {5.4.3}Track}{54}{subsection.5.4.3}%
-\contentsline {section}{\numberline {5.5}Maximum Torque}{54}{section.5.5}%
-\contentsline {subsection}{\numberline {5.5.1}Slip}{54}{subsection.5.5.1}%
-\contentsline {subsection}{\numberline {5.5.2}Torque}{55}{subsection.5.5.2}%
-\contentsline {subsection}{\numberline {5.5.3}MaxTorque}{55}{subsection.5.5.3}%
-\contentsline {section}{\numberline {5.6}Additional dynamics}{56}{section.5.6}%
-\contentsline {subsection}{\numberline {5.6.1}Torque Control}{56}{subsection.5.6.1}%
-\contentsline {subsection}{\numberline {5.6.2}Slip Control}{57}{subsection.5.6.2}%
-\contentsline {chapter}{\numberline {6}Analysis of results}{59}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Torque Control}{59}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Slip Control}{59}{section.6.2}%
-\contentsline {chapter}{Conclusions}{61}{chapter*.31}%
-\contentsline {chapter}{\numberline {A}Data and parameters}{63}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Motorcycle Data}{63}{section.A.1}%
-\contentsline {section}{\numberline {A.2}Tyre data}{65}{section.A.2}%
-\contentsline {section}{\numberline {A.3}Torque data}{66}{section.A.3}%
-\contentsline {chapter}{\numberline {B}Results}{69}{appendix.B}%
-\contentsline {section}{\numberline {B.1}Plots}{69}{section.B.1}%
+\contentsline {chapter}{List of Figures}{5}{chapter*.3}%
+\contentsline {chapter}{List of Tables}{7}{chapter*.4}%
+\contentsline {chapter}{Introduction}{9}{chapter*.5}%
+\contentsline {chapter}{\numberline {1}State of the Art}{11}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Optimal Control Problems}{11}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}State-space Approaches}{11}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Direct Method}{12}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.3}Indirect Methods}{12}{subsection.1.1.3}%
+\contentsline {subsection}{\numberline {1.1.4}Differential Dynamic Programming}{12}{subsection.1.1.4}%
+\contentsline {section}{\numberline {1.2}Optimal Control with Motorcycle Dynamics}{13}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Past works on the topic}{13}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Recent developments}{14}{subsection.1.2.2}%
+\contentsline {section}{\numberline {1.3}Unexplored problems}{14}{section.1.3}%
+\contentsline {chapter}{\numberline {2}Motorcycle model}{17}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Kinematic model}{17}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Reference frames}{17}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Kinematic solution}{22}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Tyre-Ground penetration}{24}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}Longitudinal and lateral slips}{24}{subsection.2.1.4}%
+\contentsline {section}{\numberline {2.2}Dynamic Model}{24}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Motorcycle rigid body}{25}{subsection.2.2.1}%
+\contentsline {subsubsection}{Bodies}{25}{subsection.2.2.1}%
+\contentsline {subsubsection}{Centre of Mass of the motorcycle}{28}{equation.2.2.26}%
+\contentsline {subsubsection}{Moment of Inertia of the motorcycle}{29}{equation.2.2.27}%
+\contentsline {subsection}{\numberline {2.2.2}Dummy bodies}{29}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Forces}{30}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Torques}{31}{subsection.2.2.4}%
+\contentsline {section}{\numberline {2.3}Equations of motion}{33}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Reduction to Single Track model}{35}{section.2.4}%
+\contentsline {chapter}{\numberline {3}Magic Formula Pacejka}{37}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Longitudinal force}{37}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Lateral force}{38}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Self-aligning moment}{41}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Overturning moment}{42}{section.3.4}%
+\contentsline {chapter}{\numberline {4}Static conditions and Steady State}{43}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Static condition}{43}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Problem formulation}{43}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Solution}{44}{subsection.4.1.2}%
+\contentsline {section}{\numberline {4.2}Steady state}{45}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Problem formulation}{45}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Solution}{46}{subsection.4.2.2}%
+\contentsline {chapter}{\numberline {5}Optimal Control Problem}{49}{chapter.5}%
+\contentsline {section}{\numberline {5.1}General OCP}{49}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Curvilinear Coordinates}{50}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Coordinate change}{52}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Time to unitary space transformation}{53}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Time-Space Coordinate Change}{53}{subsection.5.3.2}%
+\contentsline {section}{\numberline {5.4}Constraints}{54}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Constraints for Feasible Values}{54}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Contact force}{55}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4.3}Track}{56}{subsection.5.4.3}%
+\contentsline {section}{\numberline {5.5}Maximum Torque}{56}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}Slip}{56}{subsection.5.5.1}%
+\contentsline {subsection}{\numberline {5.5.2}Torque}{57}{subsection.5.5.2}%
+\contentsline {subsection}{\numberline {5.5.3}MaxTorque}{57}{subsection.5.5.3}%
+\contentsline {section}{\numberline {5.6}Additional dynamics}{58}{section.5.6}%
+\contentsline {subsection}{\numberline {5.6.1}Torque Control}{58}{subsection.5.6.1}%
+\contentsline {subsection}{\numberline {5.6.2}Slip Control}{59}{subsection.5.6.2}%
+\contentsline {chapter}{\numberline {6}Analysis of results}{61}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Torque Control}{61}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Slip Control}{61}{section.6.2}%
+\contentsline {chapter}{Conclusions}{63}{chapter*.31}%
+\contentsline {chapter}{Bibliography}{65}{chapter*.32}%
+\contentsline {chapter}{\numberline {A}Data and parameters}{69}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Motorcycle Data}{69}{section.A.1}%
+\contentsline {section}{\numberline {A.2}Tyre data}{71}{section.A.2}%
+\contentsline {section}{\numberline {A.3}Torque data}{72}{section.A.3}%
+\contentsline {chapter}{\numberline {B}Antibody example with a double pendulum}{75}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Straight forward derivation}{75}{section.B.1}%
+\contentsline {section}{\numberline {B.2}Dummy body techniques}{75}{section.B.2}%
+\contentsline {chapter}{\numberline {C}Results}{77}{appendix.C}%
+\contentsline {section}{\numberline {C.1}Plots}{77}{section.C.1}%

@@ -1,11 +1,12 @@
 \chapter{Magic Formula Pacejka}
 \label{Ch:MagicFormula}
 %
-The model used in this thesis for the forces is the same proposed for motorcycles by Hans Pacejka.\cite{pacejka2012tire} The data for the tyre are taken from the example chapter 12 of "Vehicle and Tyre Dynamics" and other publications.\cite{sharp2004advances,sharp2014method}
+The model used in this thesis for the forces is the same proposed for motorcycles by Hans Pacejka.\cite{pacejka2012tire} The data for the tyre are taken from the example chapter 12 of "Vehicle and Tyre Dynamics" and other publications.\cite{sharp2004advances,sharp2014method}\\
+All the values of the parameter used here are reported in table \ref{tab:TyreData}.
 %
 \section{Longitudinal force}
 %
-\begin{figure}%[hbt]
+\begin{figure}[hbt]
     \begin{subfigure}{.5\linewidth}
         \includegraphics[width=\linewidth]{Pacejka/LongFrontFz.pdf}
         \caption{}
@@ -89,7 +90,8 @@ Dx}_{i} ={\it Fzi} \left(t \right)~\mu_{x_{i}} \\
 \end{equation}
 %
 where $i$ is everywhere in place of $r$ or $f$, rear and front wheel.\\
-As one can appreciate from figure \ref{fig:long1a} and \ref{fig:long1b} the longitudinal force scale linearly with the vertical load. This is the expected behaviour in traction and braking conditions. In order to get the minimum time performance the optimal control should be able to reach the peak either positive or negative while on traction or on braking manoeuvre. 
+As one can appreciate from figure \ref{fig:long1a} and \ref{fig:long1b} the longitudinal force scale linearly with the vertical load. This is the expected behaviour in traction and braking conditions. In order to get the minimum time performance the optimal control should be able to reach the peak either positive or negative while on traction or on braking manoeuvre.\\
+All the parameter necessary to define the longitudinal force are reported in the first half of table \ref{tab:TyreData} in appendix \ref{app:TyreData}. The longitudinal data are taken from a publication of sharp.\cite{sharp2014method}
 %
 \section{Lateral force}
 %
@@ -118,7 +120,9 @@ As one can appreciate from figure \ref{fig:long1a} and \ref{fig:long1b} the long
 \end{figure}
 %
 %
-The lateral force depends on the lateral slip, namely $\alpha_f$ and $\alpha_r$. They are both function of time even if here the time dependency is dropped out to simplify the notation. In straight motion there is no lateral velocity therefore the lateral slip is null along with the lateral forces. Lateral forces also depends on camber angle that in the case of motorcycle coincide with the roll angle. The rear wheel has a camber angle that is exactly $\phi$ while the front wheel is affected also by the steering angle and therefore his camber is equal to $\phi_f$. 
+The lateral force depends on the lateral slip, namely $\alpha_f$ and $\alpha_r$. They are both function of time even if here the time dependency is dropped out to simplify the notation.\\
+In straight motion there is no lateral velocity therefore the lateral slip is null along with the lateral forces. Lateral forces also depends on camber angle that in the case of motorcycle coincide with the roll angle. The rear wheel has a camber angle that is exactly $\phi$ while the front wheel is affected also by the steering angle and therefore his camber is equal to $\phi_f$.\\ 
+The definition of $\phi_f$ has been defined in the previous chapters.
 %
 \begin{equation}
     \begin{array}{l}
@@ -203,11 +207,12 @@ All coefficient are defined hereafter.
 %
 where $i$ is everywhere in place of $r$ or $f$, rear and front wheel.\\
 In the previous definitions $\gamma_i$ is actually the camber angle $\phi$ or $\phi_f$ depending on the addressed wheel. The angle $alpha_i$ is the side slip angle and is used to calculate the equivalent side slip $\alpha_{Feq_i}$.\\
+All the parameter necessary to define the lateral force are reported in the second half of table \ref{tab:TyreData} in appendix \ref{app:TyreData}. The lateral data are taken from a the vehicle dynamic book of H. Pacejka.\cite{pacejka2012tire}\\
 In figure \ref{fig:lat1a} and \ref{fig:lat1b} the effect of vertical load $Fz$ on lateral force is show for both wheels. As expected from the model definition, the lateral force scale with the applied load. Figure \ref{fig:lat1c} and \ref{fig:lat1d}, instead, represent the effect of the different chamber angles on lateral loads. It is clear that this angle plays a major role in the range between $-60$ and $60$ degrees. 
 %
 \section{Self-aligning moment}
 %
-\begin{figure}%[hbt]
+\begin{figure}[hbt]
     \begin{subfigure}{.5\textwidth}
         \includegraphics[width=\linewidth]{Pacejka/SelfAliFrontFz.pdf}
         \caption{}
@@ -304,7 +309,8 @@ All coefficient are defined hereafter.
     \end{array} \right]    
 \end{equation}
 %
-In figure \ref{fig:sa1a} and \ref{fig:sa1b} the effect of vertical load $Fz$ on self aligning moment is show for both wheels. As expected from the model definition, the peak of the moment scale with the applied load. Figure \ref{fig:sa1c} and \ref{fig:sa1d}, instead, represent the effect of the different chamber angles on the aligning moment. It is clear that this angle plays a major role in the range between $-60$ and $60$ degrees. 
+In figure \ref{fig:sa1a} and \ref{fig:sa1b} the effect of vertical load $Fz$ on self aligning moment is show for both wheels. As expected from the model definition, the peak of the moment scale with the applied load. Figure \ref{fig:sa1c} and \ref{fig:sa1d}, instead, represent the effect of the different chamber angles on the aligning moment. It is clear that this angle plays a major role in the range between $-60$ and $60$ degrees.\\
+All the parameter necessary to define the the self aligning moment are reported in the second half of table \ref{tab:TyreData} in appendix \ref{app:TyreData}. The parameters are taken from a the vehicle dynamic book of H. Pacejka.\cite{pacejka2012tire}\\
 %
 \section{Overturning moment}
 %

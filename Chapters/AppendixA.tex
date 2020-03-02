@@ -1,0 +1,193 @@
+\chapter{Data and parameters}
+%
+\section{Motorcycle Data}
+\label{app:MotoData}
+%    
+\begin{longtable}{clcl}
+    \caption{Motorcycle data} \label{tab:MotoData} \\
+    \hline \multicolumn{1}{c}{\textbf{Symbol}} & \multicolumn{1}{c}{\textbf{Value}} & \multicolumn{1}{c}{\textbf{Units}} & \multicolumn{1}{c}{\textbf{Meaning}} \\ \hline
+    \endfirsthead
+
+    \multicolumn{4}{c}{{\bfseries \tablename\ \thetable{} -- continued from previous page}} \\
+    \hline \multicolumn{1}{c}{\textbf{Symbol}} & \multicolumn{1}{c}{\textbf{Value}} & \multicolumn{1}{c}{\textbf{Units}} & \multicolumn{1}{c}{\textbf{Meaning}} \\ \hline
+    \endhead
+
+    \hline \multicolumn{4}{r}{{Continued on next page}} \\ \hline
+    \endfoot
+
+    \hline \hline
+    \endlastfoot
+$g$         &   $9.801$  &  $\si{\metre/\second^2}$ & gravity acceleration      \\
+$\epsilon $ &   $0.428$  &  $\si{\radian}$          & caster angle              \\
+$L_b $      &   $0.730$  &  $\si{\metre}$           & distance swingarm-steer   \\
+$L_{swa}  $ &   $0.535$  &  $\si{\metre}$           & length swingarm           \\
+$x_{off}  $ &   $0.034$  &  $\si{\metre}$           & offset of the front wheel \\
+$ \it rf  $ &   $0.292 $ &  $\si{\metre}$           & radius front wheel        \\
+$ \it rtf $ &   $0.0624$ &  $\si{\metre}$           & radius front wheel section\\
+$ \it rr  $ &   $0.317 $ &  $\si{\metre}$           & radius rear wheel         \\
+$ \it rtr $ &   $0.097 $ &  $\si{\metre}$           & radius rear wheel section \\         
+$x_{Rear} $ &   $0.230$  &  $\si{\metre}$           & CoM rear frame in $\it RF_{Rear}$  \\  
+$z_{Rear }$ &   $0.068 $ &  $\si{\metre}$           & CoM rear frame in $\it RF_{Rear}$  \\
+$x_{rdr  }$ &   $0.313 $ &  $\si{\metre}$           & CoM rider in $\it RF_{Rear}$       \\
+$z_{rdr  }$ &   $0.504 $ &  $\si{\metre}$           & CoM rider in $\it RF_{Rear}$       \\ 
+$x_{Swing}$ &   $0.275 $ &  $\si{\metre}$           & CoM swingarm in ${\it RF}_{\eta}$  \\
+$z_{Swing}$ &   $0.052 $ &  $\si{\metre}$           & CoM swingarm in ${\it RF}_{\eta}$  \\
+$x_{delta}$ &   $0.0230$ &  $\si{\metre}$           & CoM steering in ${\it RF}_{\delta}$\\
+$z_{delta}$ &   $-0.098$ &  $\si{\metre}$           & CoM steering in ${\it RF}_{\delta}$\\
+$m_m      $  &  $154.4 $ &   $\si{\kilogram}$               &  rear frame mass     \\
+$\it Ix_m $  &  $10.4  $ &   $\si{\kilogram\metre^2}$       &  rear frame inertia  \\
+$\it Iy_m $  &  $27.0  $ &   $\si{\kilogram\metre^2}$       &  rear frame inertia  \\
+$\it Iz_m $  &  $16.0  $ &   $\si{\kilogram\metre^2}$       &  rear frame inertia  \\
+$\it Cyz_m$  &  $0     $ &   $\si{\kilogram\metre^2}$       &  rear frame inertia  \\
+$\it Cxz_m$  &  $0     $ &   $\si{\kilogram\metre^2}$       &  rear frame inertia  \\
+$\it Cxy_m$  &  $0     $ &   $\si{\kilogram\metre^2}$       &  rear frame inertia  \\
+$\it m_{rdr}  $  &  $68.5  $ &   $\si{\kilogram}$           &  rider mass          \\
+$\it Ix_{rdr} $  &  $4.946 $ &   $\si{\kilogram\metre^2}$   &  rider inertia       \\
+$\it Iy_{rdr} $  &  $5.908 $ &   $\si{\kilogram\metre^2}$   &  rider inertia       \\
+$\it Iz_{rdr} $  &  $3.304 $ &   $\si{\kilogram\metre^2}$   &  rider inertia       \\
+$\it Cyz_{rdr}$  &  $0     $ &   $\si{\kilogram\metre^2}$   &  rider inertia       \\
+$\it Cxz_{rdr}$  &  $0     $ &   $\si{\kilogram\metre^2}$   &  rider inertia       \\
+$\it Cxy_{rdr}$  &  $0     $ &   $\si{\kilogram\metre^2}$   &  rider inertia       \\
+$\it m_{swa}  $  &  $10.0  $ &   $\si{\kilogram}$           &  swingarm mass       \\
+$\it Ix_{swa} $  &  $0.020 $ &   $\si{\kilogram\metre^2}$   &  swingarm inertia    \\    
+$\it Iy_{swa} $  &  $0.800 $ &   $\si{\kilogram\metre^2}$   &  swingarm inertia    \\    
+$\it Iz_{swa} $  &  $0.800 $ &   $\si{\kilogram\metre^2}$   &  swingarm inertia    \\    
+$\it Cyz_{swa}$  &  $0     $ &   $\si{\kilogram\metre^2}$   &  swingarm inertia    \\    
+$\it Cxz_{swa}$  &  $0     $ &   $\si{\kilogram\metre^2}$   &  swingarm inertia    \\    
+$\it Cxy_{swa}$  &  $0     $ &   $\si{\kilogram\metre^2}$   &  swingarm inertia    \\    
+${\it m}_{\delta}  $  &  $8.7500$ &   $\si{\kilogram}$      &  steer mass          \\    
+${\it Ix}_{\delta} $  &  $0.2870$ &   $\si{\kilogram\metre^2}$    &  steer inertia       \\
+${\it Iy}_{\delta} $  &  $0.143 $ &   $\si{\kilogram\metre^2}$    &  steer inertia       \\
+${\it Iz}_{\delta} $  &  $0.2063$ &   $\si{\kilogram\metre^2}$    &  steer inertia       \\
+${\it Cyz}_{\delta}$  &  $0     $ &   $\si{\kilogram\metre^2}$    &  steer inertia       \\
+${\it Cxz}_{\delta}$  &  $0     $ &   $\si{\kilogram\metre^2}$    &  steer inertia       \\
+${\it Cxy}_{\delta}$  &  $0     $ &   $\si{\kilogram\metre^2}$    &  steer inertia       \\ 
+$\it m_{wf} $  &  $12    $ &   $\si{\kilogram}$          &  front wheel mass             \\ 
+$\it Iy_{wf}$  &  $0.4683$ &   $\si{\kilogram\metre^2}$  &  front wheel axial inertia    \\
+$\it Id_{wf}$  &  $0.2160$ &   $\si{\kilogram\metre^2}$  &  front wheel diametral inertia\\
+$\it Id_{wf}$  &  $0.2160$ &   $\si{\kilogram\metre^2}$  &  front wheel diametral inertia\\
+$\it m_{wr} $  &  $16.2  $ &   $\si{\kilogram}$          &  rear wheel mass              \\
+$\it Iy_{wr}$  &  $0.664 $ &   $\si{\kilogram\metre^2}$  &  rear wheel axial inertia     \\
+$\it Id_{wr}$  &  $0.333 $ &   $\si{\kilogram\metre^2}$  &  rear wheel diametral inertia \\
+$\it Id_{wr}$  &  $0.333 $ &   $\si{\kilogram\metre^2}$  &  rear wheel diametral inertia \\
+$k_{fs}  $   & $19620   $ & $\si{\newton/\metre}$          & stiffness front suspension          \\
+$c_{fs}  $   & $1679.7  $ & $\si{\newton\second/\metre}$   & damping front suspension            \\
+$s_{fs}  $   & $0.490   $ & $\si{\metre}$                  & steering length without deformation \\
+$k_{rs}  $   & $147360  $ & $\si{\newton/\metre}$          & stiffness rear suspension           \\
+$c_{rs}  $   & $12000   $ & $\si{\newton\second/\metre}$   & damping rear suspension             \\
+$\eta_{rs}$  & $0       $ & $\si{\radian}$                 & angle of relaxed suspension         \\
+$\eta_{max}$ & $-0.165  $ & $\si{\radian}$                 & maximum rotation swingarm           \\
+$a_1    $    & $+0.13526$ & $\si{\metre/\radian}$          & ratio angular on spring deformation \\
+$C_\delta$   & $10      $ & $\si{\newton\second/\radian}$  & steering damping                    \\
+$K_\delta$   & $0       $ & $\si{\newton/\radian}$         & steering stiffness                  \\
+$x_a    $    & $0       $ & $\si{\metre}$                  & $x$ position aerodynamic point      \\
+$z_a    $    & $0.8776  $ & $\si{\metre}$                  & $z$ position aerodynamic point      \\
+$\it Ca $    & $0.3     $ & $\si{\newton\metre^2/\second^2}$ & aerodynamic drag coefficient      \\
+${\it Kp}_f$ & $100000  $ & $\si{\newton/\metre}$          & front tyre radial stiffness         \\
+${\it Cp}_f$ & $70      $ & $\si{\newton\second/\metre}$   & front tyre radial damping           \\
+${\it Kp}_r$ & $130000  $ & $\si{\newton/\metre}$          & rear tyre radial stiffness          \\
+${\it Cp}_r$ & $100     $ & $\si{\newton\second/\metre}$   & rear tyre radial damping            \\
+\end{longtable}
+
+%
+\section{Tyre data}
+\label{app:TyreData}
+%
+\begin{longtable}{cccccc}
+    \caption{Tyre data} \label{tab:TyreData} \\
+    \hline \multicolumn{2}{c}{\textbf{Rear}} & \multicolumn{2}{c}{\textbf{Front}} & \multicolumn{2}{c}{\textbf{Common}}\\
+    \multicolumn{1}{c}{\textbf{Symbol}} & \multicolumn{1}{c}{\textbf{Value}} & \multicolumn{1}{c}{\textbf{Symbol}} & \multicolumn{1}{c}{\textbf{Value}} & \multicolumn{1}{c}{\textbf{Symbol}} & \multicolumn{1}{c}{\textbf{Value}} \\ \hline
+    \endfirsthead
+
+    \hline \multicolumn{2}{c}{\textbf{Rear}} & \multicolumn{2}{c}{\textbf{Front}} & \multicolumn{2}{c}{\textbf{Common}}\\
+    \multicolumn{1}{c}{\textbf{Symbol}} & \multicolumn{1}{c}{\textbf{Value}} & \multicolumn{1}{c}{\textbf{Symbol}} & \multicolumn{1}{c}{\textbf{Value}} & \multicolumn{1}{c}{\textbf{Symbol}} & \multicolumn{1}{c}{\textbf{Value}} \\ \hline
+    \endhead
+
+    \hline \multicolumn{6}{r}{{Continued on next page}} \\ \hline
+    \endfoot
+
+    \hline \hline
+    \endlastfoot
+$pCx1_f       $        &  $1.6064 $  &  $pCx1_r        $        &  $1.6064 $ & $\it Fz0$ & $1600 \; [\si{\newton}]$ \\
+$\lambda_{C_{x_f}} $   &  $1.0    $  &  $\lambda_{C_{x_r}}  $   &  $1.0    $ & & \\
+$pDx1_f       $        &  $1.2017 $  &  $pDx1_r        $        &  $1.0    $ & & \\
+$pDx2_f       $        &  $-0.0922$  &  $pDx2_r        $        &  $0      $ & & \\
+$\lambda_{\mu_{x_f}}$  &  $1.0    $  &  $\lambda_{\mu_{x_r}} $  &  $1.0    $ & & \\
+$pEx1_f       $        &  $0.0263 $  &  $pEx1_r        $        &  $0.0263 $ & & \\
+$pEx2_f       $        &  $0.27056$  &  $pEx2_r        $        &  $0.27056$ & & \\
+$pEx3_f       $        &  $-0.0769$  &  $pEx3_r        $        &  $-0.0769$ & & \\
+$pEx4_f       $        &  $1.1268 $  &  $pEx4_r        $        &  $1.1268 $ & & \\
+$\lambda_{E_{x_f}} $   &  $1.0    $  &  $\lambda_{E_{x_r}}  $   &  $1.0    $ & & \\
+$pKx1_f       $        &  $25.94  $  &  $pKx1_r        $        &  $25.94  $ & & \\
+$pKx2_f       $        &  $-4.233 $  &  $pKx2_r        $        &  $-4.233 $ & & \\
+$pKx3_f       $        &  $0.3369 $  &  $pKx3_r        $        &  $0.3369 $ & & \\
+$\lambda_{K_{x_f}} $   &  $1.0    $  &  $\lambda_{K_{x_r}}  $   &  $1.0    $ & & \\
+$\epsilon_{x_f}  $     &  $0      $  &  $\epsilon_{x_r}   $     &  $0      $ & & \\
+$\lambda_{M_{y_f}} $   &  $0      $  &  $\lambda_{M_{y_r}}  $   &  $0      $ & & \\
+$\lambda_{V_{x_f}} $   &  $0      $  &  $\lambda_{V_{x_r}}  $   &  $0      $ & & \\
+$d1_f$ & $14     $   &  $d1_r$ & $13     $ &  $d8   $ & $1.6 $ \\    
+$d2_f$ & $9      $   &  $d2_r$ & $4      $ &  $e4   $ & $10  $ \\    
+$d3_f$ & $0.8    $   &  $d3_r$ & $0.8    $ &  $e5   $ & $2   $ \\    
+$f1_f$ & $0.00015$   &  $f1_r$ & $0.00015$ &  $e6   $ & $1.5 $ \\    
+$e1_f$ & $0.4    $   &  $e1_r$ & $0.4    $ &  $e7   $ & $50  $ \\    
+$e2_f$ & $0.04   $   &  $e2_r$ & $0.07   $ &  $e8   $ & $1.1 $ \\    
+$e3_f$ & $0.08   $   &  $e3_r$ & $0.1    $ &  $e9   $ & $20  $ \\    
+$f2_f$ & $0.0001 $   &  $f2_r$ & $0.0001 $ &  $e10  $ & $1   $ \\    
+$d4_f$ & $1.2    $   &  $d4_r$ & $1.2    $ &  $Fz0_f$ & $1700$ \\    
+$d5_f$ & $0.15   $   &  $d5_r$ & $0.4    $ &  $Fz0_r$ & $2000$ \\    
+$d6_f$ & $0.1    $   &  $d6_r$ & $0.1    $ &          &        \\ 
+$d7_f$ & $0.15   $   &  $d7_r$ & $0.15   $ &          &        \\
+\end{longtable}
+%
+
+%
+\section{Torque data}
+\label{app:TorqueData}
+%
+%
+\begin{table}[h!]
+    \centering
+    \caption{Gear ratios}
+    \label{tab:GearRatio}
+    \begin{tabular}{@{}ccccccc@{}}
+    \toprule
+    \multicolumn{7}{c}{\textbf{Gear Ratio} $[\;]$} \\ \midrule
+        $4.82$ & $2.5$ & $1.75$ & $1.368$ & $1.09$ & $0.956$ & $0.851$\\
+    \bottomrule
+    \end{tabular}
+\end{table}
+%
+%
+\begin{table}[h!]
+    \centering
+    \caption{Torque vs Angular velocity}
+    \label{tab:TorqueVsRpm}
+    \begin{tabular}{@{}cc@{}}
+    \toprule
+    \multicolumn{1}{c}{\textbf{Torque} $[\si{\newton\metre}]$} & \multicolumn{1}{c}{\textbf{Angular velocity} $[\it rpm]$} \\ \midrule
+    $2.00  $  &  $0    $ \\
+    $47.088$  &  $3000 $ \\
+    $62.784$  &  $3500 $ \\
+    $70.632$  &  $4000 $ \\
+    $78.48 $  &  $4500 $ \\
+    $84.366$  &  $5000 $ \\
+    $85.347$  &  $5500 $ \\
+    $83.385$  &  $6000 $ \\
+    $81.423$  &  $6500 $ \\
+    $90.252$  &  $7000 $ \\
+    $92.214$  &  $7500 $ \\
+    $87.309$  &  $8000 $ \\
+    $85.347$  &  $8500 $ \\
+    $84.366$  &  $9000 $ \\
+    $80.442$  &  $9500 $ \\
+    $79.461$  &  $10000$ \\
+    $73.575$  &  $10500$ \\
+    $63.765$  &  $11000$ \\
+    $49.05 $  &  $11500$ \\
+    $29.43 $  &  $12000$ \\
+    $19.62 $  &  $12500$ \\
+    $2.00  $  &  $13000$ \\ 
+    \bottomrule
+    \end{tabular}
+\end{table}
+%
