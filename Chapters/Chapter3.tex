@@ -1,7 +1,8 @@
 \chapter{Magic Formula Pacejka}
 \label{Ch:MagicFormula}
 %
-The model used in this thesis for the forces is the same proposed for motorcycles by Hans Pacejka.\cite{pacejka2012tire} The data for the tyre are taken from the example chapter 12 of "Vehicle and Tyre Dynamics" and other publications.\cite{sharp2004advances,sharp2014method}\\
+The model used in this thesis for the forces is the same proposed for motorcycles by Hans Pacejka.\cite{pacejka2012tire} The model used is a simplified version of the combined slip.
+The data for the tyre are taken from the example chapter 12 of "Vehicle and Tyre Dynamics" and other publications.\cite{sharp2004advances,sharp2014method}\\
 All the values of the parameter used here are reported in table \ref{tab:TyreData}.
 %
 \section{Longitudinal force}
@@ -16,6 +17,16 @@ All the values of the parameter used here are reported in table \ref{tab:TyreDat
         \includegraphics[width=\linewidth]{Pacejka/LongRearFz.pdf}
         \caption{}
         \label{fig:long1b}
+    \end{subfigure}\\
+    \begin{subfigure}{.5\linewidth}
+        \includegraphics[width=\linewidth]{Pacejka/LongFrontAlpha.pdf}
+        \caption{}
+        \label{fig:long1c}
+    \end{subfigure}%
+    \begin{subfigure}{.5\linewidth}
+        \includegraphics[width=\linewidth]{Pacejka/LongRearAlpha.pdf}
+        \caption{}
+        \label{fig:long1d}
     \end{subfigure}
     \caption{Graphs of the longitudinal force for front and rear wheel}
 \end{figure}
@@ -24,54 +35,18 @@ All the values of the parameter used here are reported in table \ref{tab:TyreDat
 The longitudinal forces are described by the following relationship where $\lambda$ represent the longitudinal slip defined in the previous chapters. Usually longitudinal slip is small or at list constrained to be small to have good performances.
 %
 \begin{equation}
-    \begin{array}{l}
-        Fxf = Dx_f  \sin( Cx_f  \arctan(Bx_f  \lambda_{x_f} + SHx_f  ) ) + SVx_f\\
-        Fxr = Dx_r  \sin( Cx_r  \arctan(Bx_r  \lambda_{x_r} + SHx_r  ) ) + SVx_r
-    \end{array}
+\begin{cases}
+{\it Fxf} = {\it Gx}_{\alpha_f} ({\it Dx_f} \sin( {\it Cx_f} \arctan({\it Bx_f}  \lambda_{x_f} + {\it SHx_f}  ) ) + {\it SVx_f})\\
+{\it Fxr} = {\it Gx}_{\alpha_r} ({\it Dx_r} \sin( {\it Cx_r} \arctan({\it Bx_r}  \lambda_{x_r} + {\it SHx_r}  ) ) + {\it SVx_r} )
+\end{cases}
 \end{equation}
 %
 Here, the time dependency is being dropped to have a lighter notation. This formula comes from the book "Tire and Vehicle Dynamics" $3^{rd}$ edition\cite{pacejka2012tire} which is more compact with respect to the one of the older version\cite{pacejka2006tyre}.
 All parameters inside are function of other variables with the following definition.
 %
-% \begin{equation}
-%     \left[ \begin {array}{c} {\it dfz}_{f} =\frac{{\it Fzf} \left(t 
-% \right)-{\it Fz0} }{{\it Fz0} }\\ \lambda_{x_{f}} =
-% \lambda_{f} \left(t \right)+{\it SHx}_{f} \\ {\it Cx
-% }_{f} =\lambda_{C_{x_{f}}} ~{\it pCx1}_{f} \\ {\it 
-% Dx}_{f} ={\it Fzf} \left(t \right)~\mu_{x_{f}} \\ 
-% \mu_{x_{f}} =\left({\it dfz}_{f} ~{\it pDx2}_{f} +{\it pDx1}_{f} 
-% \right)~\lambda_{\mu_{x_{f}}} \\ {\it Ex}_{f} =
-% \lambda_{E_{x_{f}}} ~\left(1-{\it pEx4}_{f} \right)~\left({\it dfz}_{f
-% } ^{2}~{\it pEx3}_{f} +{\it dfz}_{f} ~{\it pEx2}_{f} +{\it pEx1}_{f} 
-% \right)\\ {\it Kx}_{\lambda_{f}} =\lambda_{K_{x_{f}}
-% } ~e^{{\it dfz}_{f} ~{\it pKx3}_{f} }~\left({\it dfz}_{f} ~{\it pKx2}_
-% {f} +{\it pKx1}_{f} \right)~{\it Fzf} \left(t \right)
-% \\ {\it Bx}_{f} =\frac{{\it Kx}_{\lambda_{f}} }{{
-% \it Dx}_{f} ~{\it Cx}_{f} +\epsilon_{x_{f}} }\\ {
-% \it SHx}_{f} =0\\ {\it SVx}_{f} =0\end {array}
-%  \right] 
-% \end{equation}
-% %
-% \begin{equation}
-%     \left[ \begin {array}{c} {\it dfz}_{r}={\frac {{\it Fzr} \left( t
-%  \right) -{\it Fz0}}{{\it Fz0}}}\\ \lambda_{x_{r}}=
-% \lambda_{r} \left( t \right) +{\it SHx}_{r}\\ {\it 
-% Cx}_{r}=\lambda_{C_{x_{r}}}\,{\it pCx1}_{r}\\ {\it 
-% Dx}_{r}={\it Fzr} \left( t \right) \mu_{x_{r}}\\ \mu
-% _{x_{r}}= \left( {\it dfz}_{r}\,{\it pDx2}_{r}+{\it pDx1}_{r} \right) 
-% \lambda_{\mu_{x_{r}}}\\ {\it Ex}_{r}=\lambda_{E_{x_{
-% r}}}\, \left( 1-{\it pEx4}_{r} \right)  \left( {{\it dfz}_{r}}^{2}{
-% \it pEx3}_{r}+{\it dfz}_{r}\,{\it pEx2}_{r}+{\it pEx1}_{r} \right) 
-% \\ {\it Kx}_{\lambda_{r}}=\lambda_{K_{x_{r}}}\,{
-% {\rm e}^{{\it dfz}_{r}\,{\it pKx3}_{r}}} \left( {\it dfz}_{r}\,{\it 
-% pKx2}_{r}+{\it pKx1}_{r} \right) {\it Fzr} \left( t \right) 
-% \\ {\it Bx}_{r}={\frac {{\it Kx}_{\lambda_{r}}}{{
-% \it Cx}_{r}\,{\it Dx}_{r}+\epsilon_{x_{r}}}}\\ {\it 
-% SHx}_{r}=0\\ {\it SVx}_{r}=0\end {array} \right]
-% \end{equation}
-%
 \begin{equation}
-\left[ \begin {array}{c} \displaystyle {\it dfz}_{i} =\frac{{\it Fzi} \left(t 
+\left[ \begin{array}{c} 
+\displaystyle {\it dfz}_{i} =\frac{{\it Fzi} \left(t 
 \right)-{\it Fz0} }{{\it Fz0} }\\ \lambda_{x_{i}} =
 \lambda_{i} \left(t \right)+{\it SHx}_{i} \\ {\it Cx
 }_{i} =\lambda_{C_{x_{i}}} ~{\it pCx1}_{i} \\ {\it 
@@ -85,8 +60,11 @@ Dx}_{i} ={\it Fzi} \left(t \right)~\mu_{x_{i}} \\
 {i} +{\it pKx1}_{i} \right)~{\it Fzf} \left(t \right)
 \\ \displaystyle {\it Bx}_{i} =\frac{{\it Kx}_{\lambda_{i}} }{{
 \it Dx}_{i} ~{\it Cx}_{i} +\epsilon_{x_{i}} }\\ {
-\it SHx}_{i} =0\\ {\it SVx}_{i} =0\end {array}
- \right] 
+\it SHx}_{i} =0\\ {\it SVx}_{i} =0\\
+\displaystyle {\it Gx}_{\alpha_{i}}={\frac {\cos \left( {\it rCx1}_{i}\,\arctan\left( {\it Bx}_{\alpha_{i}}\, \left( \alpha_{i}+{\it SHx}_{\alpha_{i}} \right)  \right)  \right) }{\cos \left( {\it rCx1}_{i}\,\arctan\left( {\it Bx}_{\alpha_{i}}\,{\it SHx}_{\alpha_{i}} \right) \right) }}\\
+\displaystyle {\it Bx}_{\alpha_{i}}={\frac {\gamma_{i}\,{\it rBx3}_{i}+{\it rBx1}_{i}}{\sqrt {{\lambda_{i}}^{2}{{\it rBx2}_{i}}^{2}+1}}}\\
+{\it SHx}_{\alpha_{i}}={\it rHx1}_{i}
+\end{array}\right] 
 \end{equation}
 %
 where $i$ is everywhere in place of $r$ or $f$, rear and front wheel.\\
@@ -115,6 +93,16 @@ All the parameter necessary to define the longitudinal force are reported in the
         \includegraphics[width=\linewidth]{Pacejka/LatRearPhi.pdf}
         \caption{}
         \label{fig:lat1d}
+    \end{subfigure}\\
+    \begin{subfigure}{.5\textwidth}
+        \includegraphics[width=\linewidth]{Pacejka/LatFrontLambda.pdf}
+        \caption{}
+        \label{fig:lat1e}
+    \end{subfigure}%
+    \begin{subfigure}{.5\textwidth}
+        \includegraphics[width=\linewidth]{Pacejka/LatRearLambda.pdf}
+        \caption{}
+        \label{fig:lat1f}
     \end{subfigure}
     \caption{Graphs of the lateral force for front and rear wheel}
 \end{figure}
@@ -125,84 +113,41 @@ In straight motion there is no lateral velocity therefore the lateral slip is nu
 The definition of $\phi_f$ has been defined in the previous chapters.
 %
 \begin{equation}
-    \begin{array}{l}
-        Fyf = D_f \sin(C_f \arctan(B_f ( \alpha_{Feq_f} + SH_f))) + SV_f\\
-        Fyr = D_r \sin(C_r \arctan(B_r ( \alpha_{Feq_r} + SH_r))) + SV_r
-    \end{array}
+\begin{cases}
+{\it Fyf} = {\it Gy}_{\lambda_{f}}({\it D_f} \sin({\it C_f} \arctan({\it B_f} ( \alpha_{\it Feq_f} + {\it SH_f}))) + {\it SV_f})\\
+{\it Fyr} = {\it Gy}_{\lambda_{r}}({\it D_r} \sin({\it C_r} \arctan({\it B_r} ( \alpha_{\it Feq_r} + {\it SH_r}))) + {\it SV_r})
+\end{cases}
 \end{equation}
 %
 All coefficient are defined hereafter.
 %
-% \begin{equation}
-%     \left[ \begin {array}{c} {\it Fz}_{f} ={\it Fzf} \left(t \right)
-%     \\ {\it CF}_{\alpha_{f}} =\frac{{\it CF}_{\alpha0_{f
-%     }} }{{\it d5}_{f} ~\gamma_{f} ^{2}+1}\\ {\it CF}_{
-%     \alpha0_{f}} ={\it d1}_{f} ~{\it Fz0}_{f} +{\it d2}_{f} ~\left({\it Fz
-%     }_{f} -{\it Fz0}_{f} \right)\\ {\it CF}_{\gamma_{f}}
-%      ={\it d3}_{f} ~{\it Fz}_{f} \\ {\it CM}_{\alpha_{f}
-%     } ={\it e1}_{f} ~{\it Fz}_{f} \\ {\it CM}_{\gamma_{f
-%     }} ={\it e2}_{f} ~{\it Fz}_{f} \\ {\it CMx}_{\gamma_
-%     {f}} ={\it e3}_{f} ~{\it Fz}_{f} \\ {\it Fx}_{f} ={
-%     \it Fxf} \left(t \right)\\ C_{f} ={\it d8} 
-%     \\ K_{f} ={\it CF}_{\alpha_{f}} 
-%     \\ {\it D0}_{f} =\frac{{\it d4}_{f} ~{\it Fz}_{f} }{
-%     {\it d7}_{f} ~\gamma_{f} ^{2}+1}\\ D_{f} =\sqrt{{
-%     \it D0}_{f} ^{2}}\\ B_{f} =\frac{K_{f} }{C_{f} ~{
-%     \it D0}_{f} }\\ {\it SHf}_{f} =\frac{{\it CF}_{
-%     \gamma_{f}} ~\gamma_{f} }{{\it CF}_{\alpha_{f}} }\\ 
-%     {\it SV}_{f} =\frac{{\it d6}_{f} ~{\it Fz}_{f} ~\gamma_{f} ~D_{f} }{{
-%     \it D0}_{f} }\\ {\it SH}_{f} ={\it SHf}_{f} -\frac{{
-%     \it SV}_{f} }{{\it CF}_{\alpha_{f}} }\\ \alpha_{{
-%     \it Feq}_{f}} =\frac{{\it D0}_{f} ~\left(\alpha_{f} -{\it SHf}_{f} 
-%     \right)}{D_{f} }-{\it SHf}_{f} \end {array} \right]    
-% \end{equation}
-% %
-% \begin{equation}
-%     \left[ \begin {array}{c} {\it Fz}_{r}={\it Fzr} \left( t \right) 
-%     \\ {\it CF}_{\alpha_{r}}={\frac {{\it CF}_{\alpha0_{
-%     r}}}{{\it d5}_{r}\,{\gamma_{r}}^{2}+1}}\\ {\it CF}_{
-%     \alpha0_{r}}={\it d1}_{r}\,{\it Fz0}_{r}+{\it d2}_{r}\, \left( {\it Fz
-%     }_{r}-{\it Fz0}_{r} \right) \\ {\it CF}_{\gamma_{r}}
-%     ={\it d3}_{r}\,{\it Fz}_{r}\\ {\it CM}_{\alpha_{r}}=
-%     {\it e1}_{r}\,{\it Fz}_{r}\\ {\it CM}_{\gamma_{r}}={
-%     \it e2}_{r}\,{\it Fz}_{r}\\ {\it CMx}_{\gamma_{r}}={
-%     \it e3}_{r}\,{\it Fz}_{r}\\ {\it Fx}_{r}={\it Fxr}
-%      \left( t \right) \\ C_{r}={\it d8}
-%     \\ K_{r}={\it CF}_{\alpha_{r}}\\ {
-%     \it D0}_{r}={\frac {{\it Fz}_{r}\,{\it d4}_{r}}{{\it d7}_{r}\,{\gamma_
-%     {r}}^{2}+1}}\\ D_{r}=\sqrt {{{\it D0}_{r}}^{2}}
-%     \\ B_{r}={\frac {K_{r}}{{\it D0}_{r}\,C_{r}}}
-%     \\ {\it SHf}_{r}={\frac {\gamma_{r}\,{\it CF}_{
-%     \gamma_{r}}}{{\it CF}_{\alpha_{r}}}}\\ {\it SV}_{r}=
-%     {\frac {D_{r}\,\gamma_{r}\,{\it Fz}_{r}\,{\it d6}_{r}}{{\it D0}_{r}}}
-%     \\ {\it SH}_{r}={\it SHf}_{r}-{\frac {{\it SV}_{r}}{
-%     {\it CF}_{\alpha_{r}}}}\\ \alpha_{{\it Feq}_{r}}={
-%     \frac {{\it D0}_{r}\, \left( \alpha_{r}-{\it SHf}_{r} \right) }{D_{r}}
-%     }-{\it SHf}_{r}\end {array} \right]    
-% \end{equation}
-%
 \begin{equation}
-    \left[ \begin {array}{c} {\it Fz}_{i} ={\it Fzi} \left(t \right)
-    \\ \displaystyle {\it CF}_{\alpha_{i}} =\frac{{\it CF}_{\alpha0_{i
-    }} }{{\it d5}_{i} ~\gamma_{i} ^{2}+1}\\ {\it CF}_{
-    \alpha0_{i}} ={\it d1}_{i} ~{\it Fz0}_{i} +{\it d2}_{i} ~\left({\it Fz
-    }_{i} -{\it Fz0}_{i} \right)\\ {\it CF}_{\gamma_{i}}
-     ={\it d3}_{i} ~{\it Fz}_{i} \\ {\it CM}_{\alpha_{i}
-    } ={\it e1}_{i} ~{\it Fz}_{i} \\ {\it CM}_{\gamma_{i
-    }} ={\it e2}_{i} ~{\it Fz}_{i} \\ {\it CMx}_{\gamma_
-    {i}} ={\it e3}_{i} ~{\it Fz}_{i} \\ {\it Fx}_{i} ={
-    \it Fxi} \left(t \right)\\ C_{i} ={\it d8} 
-    \\ K_{i} ={\it CF}_{\alpha_{i}} 
-    \\ \displaystyle {\it D0}_{i} =\frac{{\it d4}_{i} ~{\it Fz}_{i} }{
-    {\it d7}_{i} ~\gamma_{i} ^{2}+1}\\ D_{i} =\sqrt{{
-    \it D0}_{i} ^{2}}\\ \displaystyle B_{i} =\frac{K_{i} }{C_{i} ~{
-    \it D0}_{i} }\\ \displaystyle {\it SHf}_{i} =\frac{{\it CF}_{
-    \gamma_{i}} ~\gamma_{i} }{{\it CF}_{\alpha_{i}} }\\ 
-    \displaystyle {\it SV}_{i} =\frac{{\it d6}_{i} ~{\it Fz}_{i} ~\gamma_{i} ~D_{i} }{{
-    \it D0}_{i} }\\ \displaystyle {\it SH}_{i} ={\it SHf}_{i} -\frac{{
-    \it SV}_{i} }{{\it CF}_{\alpha_{i}} }\\ \displaystyle \alpha_{{
-    \it Feq}_{i}} =\frac{{\it D0}_{i} ~\left(\alpha_{i} -{\it SHf}_{i} 
-    \right)}{D_{i} }-{\it SHf}_{i} \end {array} \right]    
+\left[ \begin{array}{c} 
+{\it Fz}_{i} ={\it Fzi} \left(t \right)
+\\ \displaystyle {\it CF}_{\alpha_{i}} =\frac{{\it CF}_{\alpha0_{i
+}} }{{\it d5}_{i} ~\gamma_{i} ^{2}+1}\\ {\it CF}_{
+\alpha0_{i}} ={\it d1}_{i} ~{\it Fz0}_{i} +{\it d2}_{i} ~\left({\it Fz
+}_{i} -{\it Fz0}_{i} \right)\\ {\it CF}_{\gamma_{i}}
+    ={\it d3}_{i} ~{\it Fz}_{i} \\ {\it CM}_{\alpha_{i}
+} ={\it e1}_{i} ~{\it Fz}_{i} \\ {\it CM}_{\gamma_{i
+}} ={\it e2}_{i} ~{\it Fz}_{i} \\ {\it CMx}_{\gamma_
+{i}} ={\it e3}_{i} ~{\it Fz}_{i} \\ {\it Fx}_{i} ={
+\it Fxi} \left(t \right)\\ C_{i} ={\it d8} 
+\\ K_{i} ={\it CF}_{\alpha_{i}} 
+\\ \displaystyle {\it D0}_{i} =\frac{{\it d4}_{i} ~{\it Fz}_{i} }{
+{\it d7}_{i} ~\gamma_{i} ^{2}+1}\\ D_{i} =\sqrt{{
+\it D0}_{i} ^{2}}\\ \displaystyle B_{i} =\frac{K_{i} }{C_{i} ~{
+\it D0}_{i} }\\ \displaystyle {\it SHf}_{i} =\frac{{\it CF}_{
+\gamma_{i}} ~\gamma_{i} }{{\it CF}_{\alpha_{i}} }\\ 
+\displaystyle {\it SV}_{i} =\frac{{\it d6}_{i} ~{\it Fz}_{i} ~\gamma_{i} ~D_{i} }{{
+\it D0}_{i} }\\ \displaystyle {\it SH}_{i} ={\it SHf}_{i} -\frac{{
+\it SV}_{i} }{{\it CF}_{\alpha_{i}} }\\ \displaystyle \alpha_{{
+\it Feq}_{i}} =\frac{{\it D0}_{i} ~\left(\alpha_{i} -{\it SHf}_{i} 
+\right)}{D_{i} }-{\it SHf}_{i} \\
+\displaystyle {\it Gy}_{\lambda_{i}}={\frac {\cos \left( \arctan \left(  \left( \lambda_{i}+{\it SHy}_{\lambda_{i}} \right) {\it By}_{\lambda_{i}}\right) {\it rCy1}_{i} \right) }{\cos \left( \arctan \left( {\it SHy}_{\lambda_{i}}\,{\it By}_{\lambda_{i}} \right) {\it rCy1}_{i} \right) }}\\
+\displaystyle{\it By}_{\lambda_{i}}={\frac {{\it rBy1}_{i}}{\sqrt {1+ \left( \tan \left( \alpha_{i} \right) -{\it rBy3}_{i} \right) ^{2}{{\it rBy2}_{i}}^{2}}}}\\
+\displaystyle{\it SHy}_{\lambda_{i}}={\it rHy1}_{i}+{\frac {{\it rHy2}_{i}\,\left( {\it Fz}_{i}-{\it Fz0}_{i} \right) }{{\it Fz0}_{i}}}
+\end{array} \right]     
 \end{equation}
 %
 where $i$ is everywhere in place of $r$ or $f$, rear and front wheel.\\
@@ -240,12 +185,12 @@ In figure \ref{fig:lat1a} and \ref{fig:lat1b} the effect of vertical load $Fz$ o
 The self-aligning moment depends on the lateral slips and chamber angle. As well as fot the other forces previously defined, the time dependency is dropped out to simplify the notation.  
 %
 \begin{equation}
-    \begin{array}{l} 
+    \begin{cases} 
         {\it Mzf}  =-{\it Fy}_{
         \alpha_{f}}\,t_{\alpha_{f}}+{\it Mzr}_{f}-\tan \left( \gamma_{f}
          \right) {\it Fx}_{f}\,{\it rtf}\\ {\it Mzr} =-{\it Fy}_{\alpha_{r}}\,t_{\alpha_{r}}+{\it Mzr}_{r}-\tan
          \left( \gamma_{r} \right) {\it Fx}_{r}\,{\it rtr}
-    \end{array}          
+    \end{cases}          
 \end{equation}
 %
 The self-aligning moments depend on three components. The first is the product of the lateral force by a trail ($t$). In fact the lateral force is not acting on the point $P$ defined in chapter \ref{Ch:MotorcycleModel}, this was a modelling expedient. However, there is no such thing as a precise contact point. The force exchange between tyre and ground occurs in a contact patch with an unknown distribution. In fact, this distribution depends on the side slip.\\
@@ -253,41 +198,6 @@ The second component of the self-aligning moment depends on the combined effect 
 All coefficient are defined hereafter.
 %
 %
-% \begin{equation}
-%     \left[ \begin {array}{c} t_{\alpha0_{f}} =\frac{{\it CM}_{\alpha_{f}}
-%     }{{\it CF}_{\alpha0_{f}} }\\ \alpha_{{\it eq0}_{f}}
-%     =\frac{\alpha_{f} ~{\it D0}_{f} }{D_{f} }\\ {\it Fy
-%    }_{\alpha_{f}} =\sin \left(\arctan \left(\alpha_{{\it eq0}_{f}} ~B_{f}
-%     \right)~C_{f} \right)~D_{f} \\ B_{t_{f}} ={\it e7} 
-%    \\ C_{t_{f}} ={\it e8} \\ B_{r_{f}
-%    } =\frac{{\it e9} }{\gamma_{f} ^{2}~{\it e4} +1}\\ C
-%    _{r_{f}} =\frac{{\it e10} }{\gamma_{f} ^{2}~{\it e5} +1}
-%    \\ t_{\alpha_{f}} =\frac{\cos \left(\arctan \left(
-%    \alpha_{{\it eq0}_{f}} ~B_{t_{f}} \right)~C_{r_{f}} \right)~t_{\alpha0
-%    _{f}} }{\gamma_{f} ^{2}~{\it e5} +1}\\ {\it Mzr0}_{f
-%    } =\frac{\arctan \left(\gamma_{f} ~{\it e6} \right)~{\it CM}_{\gamma_{
-%    f}} }{{\it e6} }\\ {\it Mzr}_{f} =\cos \left(
-%    \arctan \left(\alpha_{{\it eq0}_{f}} ~B_{r_{f}} \right)~C_{r_{f}} 
-%    \right)~{\it Mzr0}_{f} \end {array} \right]    
-% \end{equation}
-% %
-% \begin{equation}
-%     \left[ \begin {array}{c} t_{\alpha0_{r}}={\frac {{\it CM}_{\alpha_{r}
-%     }}{{\it CF}_{\alpha0_{r}}}}\\ \alpha_{{\it eq0}_{r}}
-%     ={\frac {\alpha_{r}\,{\it D0}_{r}}{D_{r}}}\\ {\it Fy
-%     }_{\alpha_{r}}=\sin \left( \arctan \left( \alpha_{{\it eq0}_{r}}\,B_{r
-%     } \right) C_{r} \right) D_{r}\\ B_{t_{r}}={\it e7}
-%     \\ C_{t_{r}}={\it e8}\\ B_{r_{r}}=
-%     {\frac {{\it e9}}{{\it e4}\,{\gamma_{r}}^{2}+1}}\\ C
-%     _{r_{r}}={\frac {{\it e10}}{{\it e5}\,{\gamma_{r}}^{2}+1}}
-%     \\ t_{\alpha_{r}}={\frac {\cos \left( \arctan
-%      \left( \alpha_{{\it eq0}_{r}}\,B_{t_{r}} \right) C_{r_{r}} \right) t_
-%     {\alpha0_{r}}}{{\it e5}\,{\gamma_{r}}^{2}+1}}\\ {
-%     \it Mzr0}_{r}={\frac {\arctan \left( \gamma_{r}\,{\it e6} \right) {
-%     \it CM}_{\gamma_{r}}}{{\it e6}}}\\ {\it Mzr}_{r}=
-%     \cos \left( \arctan \left( \alpha_{{\it eq0}_{r}}\,B_{r_{r}} \right) C
-%     _{r_{r}} \right) {\it Mzr0}_{r}\end {array} \right]     
-% \end{equation}
 %
 \begin{equation}
     \left[ \begin{array}{c} 
@@ -325,4 +235,24 @@ The overturning moment is added to complete the modelling. In fact, as previousl
 \end{equation}
 %
 where $rtf$ and $rtr$ are the radii of the toroidal section. In straight condition both chamber angles $\phi$ and $\phi_f$ are null and therefore there is no overturning moment. 
+%
+%
+\section{Combined behaviour}
+%
+One can also graph the normalized force ellipse at various value of the longitudinal and lateral slip for the front and the rear wheel. In figure \ref{fig:EllFront} and \ref{fig:EllRear} are reported the ellipses obtained for a roll angle of $50\si{\degree}$. It is clear that the front wheel is the more effected since the radius of the cross section is smaller.\\
+The colour gradient indicate in shades of green the variation of the longitudinal slip in a range of $[-0.4,0.4]$. On the other hand, the purple gradient indicate the change of lateral slip again in the range of $[-0.4,0.4]$.
+
+%
+\begin{figure}[hbt]
+    \includegraphics[width=\linewidth]{Pacejka/EllipseFront50Degrees.pdf}
+    \caption{Front force ellipse}
+    \label{fig:EllFront}
+\end{figure}
+%
+%
+\begin{figure}[hbt]
+    \includegraphics[width=\linewidth]{Pacejka/EllipseRear50Degrees.pdf}
+    \caption{Rear force ellipse}
+    \label{fig:EllRear}
+\end{figure}
 %

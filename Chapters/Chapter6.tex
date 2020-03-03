@@ -1,7 +1,12 @@
 \chapter{Analysis of results}
 \label{Ch:Results}
+In this section several results of simulation are presented for both torque control and slip control with increasing complexity of the manoeuvres. The same approach is not effective in each situation. In fact, the following problems are characterized by high non-linearity and high sensitivity on boundary conditions. Therefore, each time, a convergence strategy is developed making large use of the continuation techniques.\\
+The continuation is a simple, but rather smart expedient implemented in PINS. The general idea is to use weights and parameters inside the cost function to initially solve a problem slightly different from the minimum time. This simpler problem, usually, is fast converging and yield a solution that can be used as guess in the next problem (next step of the continuation). In a second time the weights and parameters are changed to the desired values to solve, at the end, the real OCP.    
 %
-\section{Torque Control}
-%
-\section{Slip Control}
+\input{Chapters/Chapter6_1.tex}
+\input{Chapters/Chapter6_2.tex}
+\input{Chapters/Chapter6_3.tex}
+\input{Chapters/Chapter6_4.tex}
+\input{Chapters/Chapter6_5.tex}
+\input{Chapters/Chapter6_6.tex}
 %
