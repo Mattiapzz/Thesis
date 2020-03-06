@@ -1,9 +1,41 @@
-\section{Torque Control}
+\section{Mayer term}
 %
-\begin{figure}[ht!]
-    \centering
-    %\includegraphics[width=\linewidth]{}
-    \caption{}
-    \label{fig:TorqueControl}
-\end{figure}
+In the optimal control problem \ref{eq:GenOCP} the cost function is composed of two part: the mayer term and the integral, also known as lagrange term. In this section is discussed the role of the mayer term. Referring always to equation \ref{eq:GenOCP} one can recall $b(x(a),x(b))=0$ as the set of boundary conditions. In the next subsection those will be used to describe the role of the mayer term $\mathcal{M}(\cdot)$.
+%
+\subsection{Initial and final condition}
+%
+In scientific literature the boundary condition for an optimal control problem are referred to a set of equation of type $b(x(a),x(b))=0$ where $a$ and $b$ represent the left and right border of the boundary condition. In some publication they can be referred to as initial and final condition. However, since the studied problem is translated from the time domain the two borders will be addressed as $\zeta_L$ and $\zeta_R$, with $\zeta$ the space variable.\\
+In optimal control the boundary condition can be set as $b(x(\zeta_L),x(\zeta_R))=0$ making those as constraints. Sometimes, imposing some initial and final values produce a problem that is not feasible or that is solvable but produce unexpected behaviours of the system. This is the case of large non linear optimal control problems.\\
+A possible solution is imposing the boundary condition as soft constraints in the mayer term. This can be done minimising the quadratic distance  of a state from the wanted initial condition.\\
+Let $\mathbf{x}(\zeta)$ be the vector of the states one can write
+%
+\begin{equation}
+    \mathcal{M}(\zeta_L,\zeta_R) = (\mathbf{x}(\zeta_L)-\mathbf{x_L})^T \mathbf{W_{L}} (\mathbf{x}(\zeta_L)-\mathbf{x_L}) + (\mathbf{x}(\zeta_R)-\mathbf{x_R})^T \mathbf{W_{R}} (\mathbf{x}(\zeta_R)-\mathbf{x_R})
+\end{equation}
+%
+where $\mathbf{x_L}$ are the initial conditions and $\mathbf{x_R}$ the final. $\mathbf{W_{L}}$ and $\mathbf{W_{R}}$ are two weighting matrices.\\
+The role of the weighting matrix is crucial. In fact, some states differs by order of magnitudes with respect to the others. For instance the state $u$ (longitudinal velocity) is in the order of $10\si{\metre/\second}$ while a the steer angle $\delta$ is smaller than $0.18 \si{\radian}$ ($\simeq 10\si{\degree}$).\\
+All the conditions should play more or less the same role in the cost function. Therefore the weights should be chosen to normalize each quadratic difference.\\
+Even if it is not mathematically rigorous one can think of assuming the same values for $\mathbf{W_{L}}$ and $\mathbf{W_{R}}$.
+%
+\subsection{Cyclic condition}
+%
+For some manoeuvres is necessary to impose that the initial and final condition coincide. For instance in a circuit the minimum lap time problem should yield a trajectory, control and state profile that can be followed at each time. In this case the initial and final conditions should be left free. This condition can be mathematically described in two ways. The first is imposing equality of initial and final state as constraints. The second, instead, is to soften the constraints imposing those boundary condition in the mayer term. This is done by minimising the squared distance of the initial and final states.
+%
+\begin{equation}
+    \mathcal{M}(\zeta_L,\zeta_R) = (\mathbf{x}(\zeta_L)-\mathbf{x}(\zeta_R))^T \mathbf{W_{LR}} (\mathbf{x}(\zeta_L)-\mathbf{x}(\zeta_R)) 
+\end{equation}
+%
+This distance is weighted by the matrix $\mathbf{W_{LR}}$ which elements should be chosen carefully since the states differs of order of magnitude. Therefore the role of the weights is to normalize this squared distance.\\
+It should be highlighted that the cyclic condition as they are do not prevent the imposition of initial and final values. In fact, those can be added either as hard constraints or in another part of the mayer term.
+%
+\subsection{Penalty on border conditions}
+%
+In order to prevent some strange behaviour at the beginning or at the end of the optimal control problem one can impose initial and final condition of other function. In the optimal control definition could be present some custom function that depends on the states, control and the independent variable $\zeta$. Let $\mathbf{f}$ be a vector of functions depending on states $\mathbf{x}(\zeta)$ and controls $\mathbf{u}(\zeta)$: $\mathbf{f} = \mathbf{f}(\mathbf{x}(\zeta),\mathbf{u}(\zeta),\zeta)=\mathbf{f}(\zeta)$. In general one can penalize the quadratic difference from some reference values.
+%
+\begin{equation}
+    \mathcal{M}(\zeta_L,\zeta_R) = (\mathbf{f}(\zeta_L)-\mathbf{f_L})^T \mathbf{W_{pL}} (\mathbf{f}(\zeta_L)-\mathbf{f_L}) + (\mathbf{f}(\zeta_R)-\mathbf{f_R})^T \mathbf{W_{pR}} (\mathbf{f}(\zeta_R)-\mathbf{f_R})
+\end{equation}
+%
+where $\mathbf{f_L}$ and $\mathbf{f_R}$ are the reference values for the initial and file boundary while $\mathbf{W_{pL}}$ and $\mathbf{W_{pR}}$ are two matrices whose weights normalize the quadratic difference.
 %

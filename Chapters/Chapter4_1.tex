@@ -1,0 +1,42 @@
+\section{General minimisation problem}
+%
+Up to this point the system is modelled with a set of ODE and another set of algebraic equation that contains the model of the force, slips and other kinematic parameters (CoM,Inertia,$x_r$, \textit{etc.}). The problem can not be solved analytically, however, it can be solved as a non linear problem with a quadratic minimisation with some variables bounded with physical feasible constraints. The problem is non-linear and multiple local minimum can be found. For this reason one should restrict the allowable region for the NLP. Furthermore, the convergence of the solution is highly dependent on initial point or initial guess.\\
+The problem can be mathematically formulated by considering the two set of equations in a compact notation such as
+%
+\begin{equation}
+    \mathbf{F}(\mathbf{q}_I,\dot{\mathbf{q}}_I,\ddot{\mathbf{q}}_I,\mathbf{q}_e,\dot{\mathbf{q}}_e,\mathbf{q}_a)=0
+\end{equation}
+%
+where $\mathbf{q}_I$ is the set of internal variables such as 
+%
+\begin{equation}
+    \mathbf{q}_I = [\phi,h,s_f,\eta,\theta,\delta ] 
+\end{equation}
+%
+$\mathbf{q}_e$ is the set of external variables such as 
+%
+\begin{equation}
+    \mathbf{q}_e = [u,v,\Omega,\omega_f,\omega_r ] 
+\end{equation}
+%
+and $\mathbf{q}_a$ are all the other algebraic quantity that in principle can be substituted directly in the equation. In fact, $\mathbf{q}_a=\mathbf{q}_a(\mathbf{q}_I,\dot{\mathbf{q}}_I,\ddot{\mathbf{q}}_I,\mathbf{q}_e,\dot{\mathbf{q}}_e)$.\\
+%
+In general the system of equations $\mathbf{F}()$ cannot be solved analytically. therefore one can chose to solve it with a minimisation problem with argument the residual. In this case:
+%
+\begin{equation}
+    \begin{aligned}
+    &\underset{\mathbf{q}_{I_0}, \mathbf{q}_{e_0}, \mathbf{q}_{a_0}}{\operatorname{minimize}} \quad \mathbf{F}^T [\mathbf{W}]  \mathbf{F} \\
+    &\begin{aligned}
+        {\text { subject to }} \;
+        & \dot{\mathbf{q}}_I=0\\
+        & \ddot{\mathbf{q}}_I=0\\
+        & \dot{\mathbf{q}}_e=0\\
+        & \mathbf{g}(\mathbf{q}_I, \mathbf{q}_e, \mathbf{q}_a)>=0, \quad \text{(Inequality constraints)}
+    \end{aligned}\\
+    \end{aligned}
+\end{equation}
+%
+where $\mathbf{F}^T [\mathbf{W}] \mathbf{F}$ is a term defining the squared minimisation of the residuals weighted for some matrix $[\mathbf{W}]$ that in this case will be the identity for simplicity.\\
+The function $\mathbf{g}()$ bound some values of the internal and external variables.\\
+$\dot{\mathbf{q}}_I=0$, $\ddot{\mathbf{q}}_I=0$ and $\dot{\mathbf{q}}_e=0$ transform the system of ODE in an algebraic system. In fact, our purpose is to derive the static condition and the steady state condition.
+%

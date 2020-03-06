@@ -1,0 +1,106 @@
+\section{Static condition}
+%
+The evaluation of static condition of the motorcycle is a necessary to compute the inertial values and the coordinate of the CoM of the whole rigid body. Up to this point ${\it XG}$, ${\it YG}$ and ${\it ZG}$ are function of the freeze DoF (which correspond to the value of the variable in static condition). Moreover, the only inertial value known is the total mass that can be easily calculated as a sum of all the other masses. The rest of inertial unknowns are, as well as the CoM coordinates, function of the freezed DoF.  
+%
+\subsection{Problem formulation}
+%
+In static condition all time derivative are zero which is equivalent to impose a constant value to all variables. This will drive to zero most of the equation. Moreover, static conditions means no velocity, therefore all the quasi-coordinate ($u$, $v$, $\Omega$) are set to zero. The equation defining the slips are discarded due to singularity in static condition. In fact, whenever the longitudinal velocity is equal to zero the values of the longitudinal and lateral slips are not defined. Since our interest is in finding the static values of the variables, one should consider an equilibrium condition. Therefore both $\phi$ and $\delta$ are set to zero. The problem will be still undetermined and can not be solved analytically. Furthermore, it can be solved as a non linear problem with a quadratic minimisation.\\
+The minimisation problem is solved using a specific tool in Maple from the Optimisation package.
+The objective function to be minimised in the sum of the square of all the ordinary differential equations with the addition of the algebraic definition of some quantities (CoM,Inertia,$x_r$, \textit{etc.}). Actually the ODE system has no more differential parts since we are considering static condition. Therefore the system is composed of algebraic equations. The values of some angles are bounded with value consistent with physical system. The algebraic system, in fact, is non-linear and multiple local minimum can be found. For this reason one should restrict the allowable region for the NLP. Furthermore, the convergence of the solution is highly dependent on initial point or initial guess.\\
+The results of the minimisation problem are reported in the following section.
+%
+\subsection{Solution}
+%
+The solution of the minimisation problem yields first of all the vertical forces in table \ref{tab:vertforce}. The overall force distribution is fairly balanced between front and rear axle.
+
+%
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{@{}cc@{}}
+    \toprule
+    \multicolumn{2}{c}{\textbf{Vertical Loads}} \\ \midrule
+    ${\it Fzf}_{00}$  & $1320.980 \; [\si{\newton}]$ \\
+    ${\it Fzr}_{00}$  & $1325.438 \; [\si{\newton}]$ \\ \bottomrule
+    \end{tabular}
+    \caption{Vertical load distribution in static condition}
+    \label{tab:vertforce}
+\end{table}
+%
+
+The position of the two wheels defined in chapter \ref{Ch:MotorcycleModel} with the variables $x_r$, $y_r$, $z_r$, $x_f$, $y_f$ and $z_f$ are reported here. The results are not really interesting, however it is a check that everything works as it is supposed to. As highlighted in table \ref{tab:wheelcoordinates} the $y$ coordinate of both wheels is at zero, the $z$ coordinate represent exactly the radii of front and rear wheel. The $x$ coordinate gives the position of the contact point that in this case overlaps the point of application of the forces.
+
+%
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{@{}cccc@{}}
+    \toprule
+    \multicolumn{4}{c}{\textbf{Wheel Coordinates}}                         \\
+    \multicolumn{2}{c}{\textbf{Front} $[\si{\metre}]$} & \multicolumn{2}{c}{\textbf{Rear} $[\si{\metre}]$} \\ \midrule
+    $x_{f_{00}}$  &  $ 0.8594                  $ & $x_{r_{00}}$  &  $ 0.5138                  $ \\     
+    $y_{f_{00}}$  &  $-{ 6.449\times 10^{-308}}$ & $y_{r_{00}}$  &  $-{ 1.905\times 10^{-308}}$ \\  
+    $z_{f_{00}}$  &  $ 0.2788                  $ & $z_{r_{00}}$  &  $ 0.3068                  $ \\ \bottomrule
+    \end{tabular}
+    \caption{Wheels centre coordinates}
+    \label{tab:wheelcoordinates}
+\end{table}
+%
+
+For obvious reasons and trivially from their definition in chapter \ref{Ch:MotorcycleModel} the angles of the front wheel in static case ere both zero.
+%
+\begin{equation*}
+    \begin{array}{l}
+        \delta_{f_{00}}=0\\
+        \phi_{f_{00}}=0
+    \end{array}
+\end{equation*}
+%
+As defined in chapter \ref{Ch:MotorcycleModel} the motorcycle CoM is define with the 3 coordinate ${\it XG}$, ${\it YG}$ and ${\it ZG}$. ${\it YG}$ is zero for the assumption of symmetry while the other two are computed in the NLP and yields the following values.(Table \ref{tab:CoMPosition})
+
+%
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{@{}ccc@{}}
+    \toprule
+    \multicolumn{3}{c}{\textbf{CoM position}} \\ \midrule
+    ${\it XG} \; [\si{\metre}]$ & ${\it YG} \; [\si{\metre}]$ & ${\it ZG} \; [\si{\metre}]$ \\
+    $0.1717$              &  $0$                  & $0.6661$              \\ \bottomrule
+    \end{tabular}
+    \caption{CoM position with respect to $RF_\phi$}
+    \label{tab:CoMPosition}
+\end{table}
+%
+
+The most interesting result are the values of the freezed DoF in table \ref{tab:DoFFreezed}. The computed values are the one expected from the definition of the variables in the model derivation. In particular front ar rear suspension are in compression state. As one can notice the relative angle of the swing arm ($\eta$) is very small due to the rigidity of the rear suspension. On the other hand, the front suspension is more compliant and the deflection in greater. This deformation reflects directly on the pitch angle $t\theta$. Since the rear deformation is almost null it is trivial to show that there is a rigid rotation around the $y$ axis of the motorcycle.
+
+%
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{@{}cccc@{}}
+    \toprule
+    \multicolumn{4}{c}{\textbf{DoF freezed}} \\ \midrule
+    $\eta_{00} \; [\si{\radian}]$ & $h_{00} \; [\si{\metre}]$ & $s_{f_{00}} \; [\si{\metre}]$ &  $\theta_{00} \; [\si{\radian}]$ \\
+    $0.0288  $ & $0.4558  $ & $0.0584  $ & $-0.1169 $ \\ \bottomrule
+    \end{tabular}
+    \caption{Freezed DoF values in static condition}
+    \label{tab:DoFFreezed}
+\end{table}
+%
+
+The last parameters computed are the inertial ones. As highlighted in chapter \ref{Ch:MotorcycleModel} the motorcycle is consider as symmetric and therefore most of the off diagonal moment of inertia are zero. In particular, the only moment of inertia needed are ${\it IX}$, ${\it IY}$, ${\it IZ}$ and ${\it CXZ}$
+
+%
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{@{}ccccc@{}}
+    \toprule
+    \multicolumn{5}{c}{\textbf{Inertial Values}} \\ \midrule
+    $M_{{\it tot}} \; [\si{\kilogram}]$ & ${\it IX} \; [\si{\kilogram\metre^2}]$ & ${\it IY} \; [\si{\kilogram\metre^2}]$ & ${\it IZ} \; [\si{\kilogram\metre^2}]$ & ${\it CXZ} \; [\si{\kilogram\metre^2}]$\\
+    $269.85$ & $31.121$ & $67.723$ & $38.681$ & $1.772$\\ \bottomrule
+    \end{tabular}
+    \caption{Inertial properties of the motorcycle rigid body}
+    \label{tab:Inertia}
+\end{table}
+%
+
+Those values are fundamental in the next steps of this study. Furthermore, for now on they will be considered as data of the problem. 
+%

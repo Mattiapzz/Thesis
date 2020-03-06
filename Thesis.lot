@@ -3,23 +3,24 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Vertical load distribution in static condition\relax }}{38}{table.caption.20}%
-\contentsline {table}{\numberline {4.2}{\ignorespaces Wheels centre coordinates\relax }}{38}{table.caption.21}%
-\contentsline {table}{\numberline {4.3}{\ignorespaces CoM position with respect to $RF_\phi $\relax }}{38}{table.caption.22}%
-\contentsline {table}{\numberline {4.4}{\ignorespaces Freezed DoF values in static condition\relax }}{39}{table.caption.23}%
-\contentsline {table}{\numberline {4.5}{\ignorespaces Inertial properties of the motorcycle rigid body\relax }}{39}{table.caption.24}%
-\contentsline {table}{\numberline {4.6}{\ignorespaces Vertical load distribution in steady-state condition\relax }}{40}{table.caption.25}%
-\contentsline {table}{\numberline {4.7}{\ignorespaces Quasi-coordinate in steady-state condition\relax }}{40}{table.caption.26}%
-\contentsline {table}{\numberline {4.8}{\ignorespaces States value in steady-state\relax }}{41}{table.caption.27}%
-\contentsline {table}{\numberline {4.9}{\ignorespaces Slips in steady-state\relax }}{41}{table.caption.28}%
-\contentsline {table}{\numberline {4.10}{\ignorespaces Forces and torques in steady-state at front wheel\relax }}{42}{table.caption.29}%
-\contentsline {table}{\numberline {4.11}{\ignorespaces Forces and torques in steady-state at rear wheel\relax }}{42}{table.caption.30}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces Vertical load distribution in static condition\relax }}{41}{table.caption.20}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Wheels centre coordinates\relax }}{41}{table.caption.21}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces CoM position with respect to $RF_\phi $\relax }}{42}{table.caption.22}%
+\contentsline {table}{\numberline {4.4}{\ignorespaces Freezed DoF values in static condition\relax }}{42}{table.caption.23}%
+\contentsline {table}{\numberline {4.5}{\ignorespaces Inertial properties of the motorcycle rigid body\relax }}{42}{table.caption.24}%
+\contentsline {table}{\numberline {4.6}{\ignorespaces Vertical load distribution in steady-state condition\relax }}{43}{table.caption.25}%
+\contentsline {table}{\numberline {4.7}{\ignorespaces Quasi-coordinate in steady-state condition\relax }}{44}{table.caption.26}%
+\contentsline {table}{\numberline {4.8}{\ignorespaces States value in steady-state\relax }}{44}{table.caption.27}%
+\contentsline {table}{\numberline {4.9}{\ignorespaces Slips in steady-state\relax }}{44}{table.caption.28}%
+\contentsline {table}{\numberline {4.10}{\ignorespaces Forces and torques in steady-state at front wheel\relax }}{45}{table.caption.29}%
+\contentsline {table}{\numberline {4.11}{\ignorespaces Forces and torques in steady-state at rear wheel\relax }}{45}{table.caption.30}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {A.1}{\ignorespaces Motorcycle data\relax }}{63}{table.A.1}%
-\contentsline {table}{\numberline {A.2}{\ignorespaces Tyre data\relax }}{65}{table.A.2}%
-\contentsline {table}{\numberline {A.3}{\ignorespaces Gear ratios\relax }}{66}{table.caption.41}%
-\contentsline {table}{\numberline {A.4}{\ignorespaces Torque vs Angular velocity\relax }}{67}{table.caption.42}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {A.1}{\ignorespaces Motorcycle data\relax }}{81}{table.A.1}%
+\contentsline {table}{\numberline {A.2}{\ignorespaces Tyre data\relax }}{83}{table.A.2}%
+\contentsline {table}{\numberline {A.3}{\ignorespaces Gear ratios\relax }}{84}{table.caption.48}%
+\contentsline {table}{\numberline {A.4}{\ignorespaces Torque vs Angular velocity\relax }}{85}{table.caption.49}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }

@@ -155,4 +155,9 @@ V.~Cossalter, R.~Lot, and F.~Maggio, ``A multibody code for motorcycle handling
 ``multibody.net.'' \url{http://www.multibody.net/}.
 \newblock (Accessed on 02/05/2020).
 
+\bibitem{effati2011solving}
+S.~Effati and H.~S. Nik, ``Solving a class of linear and non-linear optimal
+  control problems by homotopy perturbation method,'' {\em IMA journal of
+  mathematical control and information}, vol.~28, no.~4, pp.~539--553, 2011.
+
 \end{thebibliography}

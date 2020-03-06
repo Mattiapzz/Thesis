@@ -1,9 +1,11 @@
-\section{Straight running}
+\section{Continuation (Homotopy)} 
+\label{sec:Continuation}   
 %
-\begin{figure}[ht!]
-    \centering
-    %\includegraphics[width=\linewidth]{}
-    \caption{}
-    \label{fig:Straight}
-\end{figure}
+In Optimal Control Problem the initialization of state, control and parameters play a major role. In fact, most of the time the convergence of the solution is highly dependent on boundary conditions and lagrange multipliers. Moreover, a convergence strategy working on a particular case could be ineffective in another set up.\\
+A way to avoid and or mitigate this effect is to use continuation that in literature is also known as homotopy.\cite{effati2011solving}\\
+The continuation is a simple, but rather smart expedient implemented in PINS and other software like in IPOPT. In the last one, the continuation can be performed only on parameters, while in PINS it can be performed also on penalties, weights and tolerances.\\
+The general idea is to use weights and parameters inside the cost function to initially solve a problem slightly different from the minimum time. This simpler problem, usually, is fast converging and yield a solution that can be used as guess in the next problem (next step of the continuation). This gives much more information than the one imposed at the beginning. In particular, after the first convergence, the solution yields states, controls but also values of the lagrange multiplier. Those are initialized as null at the first iteration because unknown.\\
+This first convergence solution can be used as guess solution in the next problem in which some parameters can be changed slowly pushing the problem to the minimum time one.\\
+The idea is that once a solution is found, the solution of the next problem is just a perturbation of the previous. Hence, the initial complex OCP is transformed in a series of fast converging OCPs.\cite{effati2011solving}\\
+
 %

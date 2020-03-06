@@ -45,6 +45,7 @@ Here, the time dependency is being dropped to have a lighter notation. This form
 All parameters inside are function of other variables with the following definition.
 %
 \begin{equation}
+\label{eq:ParamLong}
 \left[ \begin{array}{c} 
 \displaystyle {\it dfz}_{i} =\frac{{\it Fzi} \left(t 
 \right)-{\it Fz0} }{{\it Fz0} }\\ \lambda_{x_{i}} =
@@ -122,6 +123,7 @@ The definition of $\phi_f$ has been defined in the previous chapters.
 All coefficient are defined hereafter.
 %
 \begin{equation}
+\label{eq:ParamLat}
 \left[ \begin{array}{c} 
 {\it Fz}_{i} ={\it Fzi} \left(t \right)
 \\ \displaystyle {\it CF}_{\alpha_{i}} =\frac{{\it CF}_{\alpha0_{i
@@ -255,4 +257,34 @@ The colour gradient indicate in shades of green the variation of the longitudina
     \caption{Rear force ellipse}
     \label{fig:EllRear}
 \end{figure}
+%
+\section{Ellipse simplification}
+%
+The problem can be simplified for the optimal control purpose by considering pure longitudinal and lateral slip with formulation
+%
+\begin{equation}
+    \begin{cases}
+    {\it Fxf} = {\it Dx_f}\sin({\it Cx_f}\arctan({\it Bx_f}\lambda_{x_f}+{\it SHx_f}))+{\it SVx_f}\\
+    {\it Fxr} = {\it Dx_r}\sin({\it Cx_r}\arctan({\it Bx_r}\lambda_{x_r}+{\it SHx_r}))+{\it SVx_r}\\
+    {\it Fyf} = {\it D_f}\sin({\it C_f}\arctan({\it B_f}(\alpha_{\it Feq_f}+{\it SH_f})))+{\it SV_f}\\
+    {\it Fyr} = {\it D_r}\sin({\it C_r}\arctan({\it B_r}(\alpha_{\it Feq_r}+{\it SH_r})))+{\it SV_r}
+    \end{cases}
+\end{equation}
+%
+And limit the maximum force with an ellipse
+%
+\begin{equation}
+    (\frac{{\it Fx}}{a})^2 + (\frac{{\it Fy}}{b})^2 \le 1
+\end{equation}
+%
+where $a$ and $b$ are the two arm of the ellipse that in this case should be the peak value of the forces. From \ref{eq:ParamLong} and \ref{eq:ParamLat} and referring to the magic formula construction the peak is identified by the parameter $D$ which is a function of the vertical load and other coefficients. Therefore the ellipses front and rear became
+%
+\begin{equation}
+    \begin{cases}
+        (\frac{{\it Fxf}}{{\it Dx}_{f} })^2 + (\frac{{\it Fyf}}{{\it Dy}_{f} })^2 \le 1\\
+        (\frac{{\it Fxr}}{{\it Dx}_{r} })^2 + (\frac{{\it Fyr}}{{\it Dy}_{r} })^2 \le 1
+    \end{cases}
+\end{equation}
+%
+This concept is used to compose an optimal control problem that shows a faster convergence to the solution. Moreover, the data of combined tyre model makes the pneumatic non symmetric. This mean that the driver, even in straight, should apply a small torque to keep the motorcycle still.
 %

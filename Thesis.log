@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300) (preloaded format=pdflatex 2020.2.26)  3 MAR 2020 17:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300) (preloaded format=pdflatex 2020.2.26)  6 MAR 2020 11:54
 entering extended mode
 **c:/EMPTY-DESKTOP/TESI/ThesisTex/Thesis.tex
 (c:/EMPTY-DESKTOP/TESI/ThesisTex/Thesis.tex
@@ -998,7 +998,11 @@ File: lstlang1.sty 2019/09/10 1.8c listings language file
 LaTeX Warning: Unused global option(s):
     [epsfig].
 
-(Thesis.aux)
+(Thesis.aux
+
+LaTeX Warning: Label `eq:zetadot' multiply defined.
+
+)
 \openout1 = `Thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
@@ -1146,7 +1150,7 @@ LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 7
  ("C:\Program Files (x86)\MiKTeX 2.9\tex/latex/lm\ot1lmtt.fd"
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) (Setup/Frontmatter.tex
-<img/logo.png, id=309, 1204.5pt x 1204.5pt>
+<img/logo.png, id=417, 1204.5pt x 1204.5pt>
 File: img/logo.png Graphic file (type png)
 <use img/logo.png>
 Package pdftex.def Info: img/logo.png  used on input line 3.
@@ -1189,8 +1193,12 @@ l.33 ...rline {3.2}Lateral force}{30}{section.3.2}
                                                   % [5]pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.68 ...ne {chapter}{Conclusions}{57}{chapter*.39}
-                                                  % [6])
+l.69 ...rline {6.2}Lagrange term}{61}{section.6.2}
+                                                  % [6]pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.105 ...}{\numberline {C}Results}{91}{appendix.C}
+                                                  % [7])
 \tf@toc=\write7
 \openout7 = `Thesis.toc'.
 
@@ -1198,13 +1206,13 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has be
 <to be read again> 
                    \relax 
 l.26     \listoffigures
-                        [7]pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
+                        [8] (Thesis.lofpdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.26     \listoffigures
-                        [8
+l.40 ...nk 1 and 2\relax }}{88}{figure.caption.50}
+                                                  % [9
 
-] (Thesis.lof)
+])
 \tf@lof=\write8
 \openout8 = `Thesis.lof'.
 
@@ -1212,13 +1220,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has be
 <to be read again> 
                    \relax 
 l.27     \listoftables
-                       [9]pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.27     \listoftables
-                       [10
-
-] (Thesis.lot)
+                       [10] (Thesis.lot)
 \tf@lot=\write9
 \openout9 = `Thesis.lot'.
 
@@ -1226,7 +1228,9 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has be
 <to be read again> 
                    \relax 
 l.29     \mainmatter
-                     [11]pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
+                     [11
+
+]pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.29     \mainmatter
@@ -1257,7 +1261,7 @@ Chapter 2.
 (Chapters/Chapter2_1.tex
 
 pdfTeX warning: pdflatex (file ./img/Coordinates/moto_with_symbols.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<img/Coordinates/moto_with_symbols.pdf, id=624, 845.0471pt x 597.50829pt>
+<img/Coordinates/moto_with_symbols.pdf, id=773, 845.0471pt x 597.50829pt>
 File: img/Coordinates/moto_with_symbols.pdf Graphic file (type pdf)
 <use img/Coordinates/moto_with_symbols.pdf>
 Package pdftex.def Info: img/Coordinates/moto_with_symbols.pdf  used on input line 5.
@@ -1265,7 +1269,7 @@ Package pdftex.def Info: img/Coordinates/moto_with_symbols.pdf  used on input li
 [9]
 
 pdfTeX warning: pdflatex (file ./img/Coordinates/flankangles.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<img/Coordinates/flankangles.pdf, id=632, 845.0471pt x 597.50829pt>
+<img/Coordinates/flankangles.pdf, id=781, 845.0471pt x 597.50829pt>
 File: img/Coordinates/flankangles.pdf Graphic file (type pdf)
 <use img/Coordinates/flankangles.pdf>
 Package pdftex.def Info: img/Coordinates/flankangles.pdf  used on input line 27.
@@ -1285,7 +1289,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [13]
 
 pdfTeX warning: pdflatex (file ./img/Coordinates/whellbehind.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<img/Coordinates/whellbehind.pdf, id=705, 845.0471pt x 597.50829pt>
+<img/Coordinates/whellbehind.pdf, id=854, 845.0471pt x 597.50829pt>
 File: img/Coordinates/whellbehind.pdf Graphic file (type pdf)
 <use img/Coordinates/whellbehind.pdf>
 Package pdftex.def Info: img/Coordinates/whellbehind.pdf  used on input line 174.
@@ -1311,7 +1315,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [15 <./img/Coordinates/whellbehind.pdf>]) (Chapters/Chapter2_2.tex [16] [17]
 
 pdfTeX warning: pdflatex (file ./img/Coordinates/ONLYREAR.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<img/Coordinates/ONLYREAR.pdf, id=766, 845.0471pt x 597.50829pt>
+<img/Coordinates/ONLYREAR.pdf, id=915, 845.0471pt x 597.50829pt>
 File: img/Coordinates/ONLYREAR.pdf Graphic file (type pdf)
 <use img/Coordinates/ONLYREAR.pdf>
 Package pdftex.def Info: img/Coordinates/ONLYREAR.pdf  used on input line 53.
@@ -1319,7 +1323,7 @@ Package pdftex.def Info: img/Coordinates/ONLYREAR.pdf  used on input line 53.
 
 
 pdfTeX warning: pdflatex (file ./img/Coordinates/ONLYRIDER.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<img/Coordinates/ONLYRIDER.pdf, id=767, 845.0471pt x 597.50829pt>
+<img/Coordinates/ONLYRIDER.pdf, id=916, 845.0471pt x 597.50829pt>
 File: img/Coordinates/ONLYRIDER.pdf Graphic file (type pdf)
 <use img/Coordinates/ONLYRIDER.pdf>
 Package pdftex.def Info: img/Coordinates/ONLYRIDER.pdf  used on input line 72.
@@ -1330,7 +1334,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 pdfTeX warning: pdflatex (file ./img/Coordinates/STEER.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<img/Coordinates/STEER.pdf, id=768, 845.0471pt x 597.50829pt>
+<img/Coordinates/STEER.pdf, id=917, 845.0471pt x 597.50829pt>
 File: img/Coordinates/STEER.pdf Graphic file (type pdf)
 <use img/Coordinates/STEER.pdf>
 Package pdftex.def Info: img/Coordinates/STEER.pdf  used on input line 93.
@@ -1344,7 +1348,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [18 <./img/Coordinates/ONLYREAR.pdf>]
 
 pdfTeX warning: pdflatex (file ./img/Coordinates/SWINGARMONLY.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<img/Coordinates/SWINGARMONLY.pdf, id=801, 845.0471pt x 597.50829pt>
+<img/Coordinates/SWINGARMONLY.pdf, id=950, 845.0471pt x 597.50829pt>
 File: img/Coordinates/SWINGARMONLY.pdf Graphic file (type pdf)
 <use img/Coordinates/SWINGARMONLY.pdf>
 Package pdftex.def Info: img/Coordinates/SWINGARMONLY.pdf  used on input line 115.
@@ -1367,7 +1371,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [24]
 
 pdfTeX warning: pdflatex (file ./img/Coordinates/wheelforces.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<img/Coordinates/wheelforces.pdf, id=925, 845.0471pt x 597.50829pt>
+<img/Coordinates/wheelforces.pdf, id=1074, 845.0471pt x 597.50829pt>
 File: img/Coordinates/wheelforces.pdf Graphic file (type pdf)
 <use img/Coordinates/wheelforces.pdf>
 Package pdftex.def Info: img/Coordinates/wheelforces.pdf  used on input line 426.
@@ -1378,29 +1382,29 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [26]) (Chapters/Chapter2_4.tex
 
 pdfTeX warning: pdflatex (file ./img/Coordinates/SingleTrackRed.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<img/Coordinates/SingleTrackRed.pdf, id=974, 845.0471pt x 597.50829pt>
+<img/Coordinates/SingleTrackRed.pdf, id=1123, 845.0471pt x 597.50829pt>
 File: img/Coordinates/SingleTrackRed.pdf Graphic file (type pdf)
 <use img/Coordinates/SingleTrackRed.pdf>
 Package pdftex.def Info: img/Coordinates/SingleTrackRed.pdf  used on input line 25.
 (pdftex.def)             Requested size: 455.24408pt x 321.89293pt.
 )) (Chapters/Chapter3.tex [27] [28 <./img/Coordinates/SingleTrackRed.pdf>]
 Chapter 3.
-<img/Pacejka/LongFrontFz.pdf, id=1018, 557.08125pt x 346.29375pt>
+<img/Pacejka/LongFrontFz.pdf, id=1167, 557.08125pt x 346.29375pt>
 File: img/Pacejka/LongFrontFz.pdf Graphic file (type pdf)
 <use img/Pacejka/LongFrontFz.pdf>
 Package pdftex.def Info: img/Pacejka/LongFrontFz.pdf  used on input line 12.
 (pdftex.def)             Requested size: 227.62204pt x 141.48993pt.
-<img/Pacejka/LongRearFz.pdf, id=1019, 557.08125pt x 344.28625pt>
+<img/Pacejka/LongRearFz.pdf, id=1168, 557.08125pt x 344.28625pt>
 File: img/Pacejka/LongRearFz.pdf Graphic file (type pdf)
 <use img/Pacejka/LongRearFz.pdf>
 Package pdftex.def Info: img/Pacejka/LongRearFz.pdf  used on input line 17.
 (pdftex.def)             Requested size: 227.62204pt x 140.66971pt.
-<img/Pacejka/LongFrontAlpha.pdf, id=1020, 557.08125pt x 346.29375pt>
+<img/Pacejka/LongFrontAlpha.pdf, id=1169, 557.08125pt x 346.29375pt>
 File: img/Pacejka/LongFrontAlpha.pdf Graphic file (type pdf)
 <use img/Pacejka/LongFrontAlpha.pdf>
 Package pdftex.def Info: img/Pacejka/LongFrontAlpha.pdf  used on input line 22.
 (pdftex.def)             Requested size: 227.62204pt x 141.48993pt.
-<img/Pacejka/LongRearAlpha.pdf, id=1021, 557.08125pt x 344.28625pt>
+<img/Pacejka/LongRearAlpha.pdf, id=1170, 557.08125pt x 344.28625pt>
 File: img/Pacejka/LongRearAlpha.pdf Graphic file (type pdf)
 <use img/Pacejka/LongRearAlpha.pdf>
 Package pdftex.def Info: img/Pacejka/LongRearAlpha.pdf  used on input line 27.
@@ -1408,95 +1412,115 @@ Package pdftex.def Info: img/Pacejka/LongRearAlpha.pdf  used on input line 27.
 [29
 
  <./img/Pacejka/LongFrontFz.pdf> <./img/Pacejka/LongRearFz.pdf> <./img/Pacejka/LongFrontAlpha.pdf> <./img/Pacejka/LongRearAlpha.pdf>]
-<img/Pacejka/LatFrontFz.pdf, id=1041, 557.08125pt x 346.29375pt>
+<img/Pacejka/LatFrontFz.pdf, id=1190, 557.08125pt x 346.29375pt>
 File: img/Pacejka/LatFrontFz.pdf Graphic file (type pdf)
 <use img/Pacejka/LatFrontFz.pdf>
-Package pdftex.def Info: img/Pacejka/LatFrontFz.pdf  used on input line 78.
+Package pdftex.def Info: img/Pacejka/LatFrontFz.pdf  used on input line 79.
 (pdftex.def)             Requested size: 227.62204pt x 141.48993pt.
-<img/Pacejka/LatRearFz.pdf, id=1042, 557.08125pt x 344.28625pt>
+<img/Pacejka/LatRearFz.pdf, id=1191, 557.08125pt x 344.28625pt>
 File: img/Pacejka/LatRearFz.pdf Graphic file (type pdf)
 <use img/Pacejka/LatRearFz.pdf>
-Package pdftex.def Info: img/Pacejka/LatRearFz.pdf  used on input line 83.
+Package pdftex.def Info: img/Pacejka/LatRearFz.pdf  used on input line 84.
 (pdftex.def)             Requested size: 227.62204pt x 140.66971pt.
-<img/Pacejka/LatFrontPhi.pdf, id=1043, 557.08125pt x 346.29375pt>
+<img/Pacejka/LatFrontPhi.pdf, id=1192, 557.08125pt x 346.29375pt>
 File: img/Pacejka/LatFrontPhi.pdf Graphic file (type pdf)
 <use img/Pacejka/LatFrontPhi.pdf>
-Package pdftex.def Info: img/Pacejka/LatFrontPhi.pdf  used on input line 88.
+Package pdftex.def Info: img/Pacejka/LatFrontPhi.pdf  used on input line 89.
 (pdftex.def)             Requested size: 227.62204pt x 141.48993pt.
-<img/Pacejka/LatRearPhi.pdf, id=1044, 557.08125pt x 344.28625pt>
+<img/Pacejka/LatRearPhi.pdf, id=1193, 557.08125pt x 344.28625pt>
 File: img/Pacejka/LatRearPhi.pdf Graphic file (type pdf)
 <use img/Pacejka/LatRearPhi.pdf>
-Package pdftex.def Info: img/Pacejka/LatRearPhi.pdf  used on input line 93.
+Package pdftex.def Info: img/Pacejka/LatRearPhi.pdf  used on input line 94.
 (pdftex.def)             Requested size: 227.62204pt x 140.66971pt.
-<img/Pacejka/LatFrontLambda.pdf, id=1045, 557.08125pt x 346.29375pt>
+<img/Pacejka/LatFrontLambda.pdf, id=1194, 557.08125pt x 346.29375pt>
 File: img/Pacejka/LatFrontLambda.pdf Graphic file (type pdf)
 <use img/Pacejka/LatFrontLambda.pdf>
-Package pdftex.def Info: img/Pacejka/LatFrontLambda.pdf  used on input line 98.
+Package pdftex.def Info: img/Pacejka/LatFrontLambda.pdf  used on input line 99.
 (pdftex.def)             Requested size: 227.62204pt x 141.48993pt.
-<img/Pacejka/LatRearLambda.pdf, id=1046, 557.08125pt x 344.28625pt>
+<img/Pacejka/LatRearLambda.pdf, id=1195, 557.08125pt x 344.28625pt>
 File: img/Pacejka/LatRearLambda.pdf Graphic file (type pdf)
 <use img/Pacejka/LatRearLambda.pdf>
-Package pdftex.def Info: img/Pacejka/LatRearLambda.pdf  used on input line 103.
+Package pdftex.def Info: img/Pacejka/LatRearLambda.pdf  used on input line 104.
 (pdftex.def)             Requested size: 227.62204pt x 140.66971pt.
  [30] [31 <./img/Pacejka/LatFrontFz.pdf> <./img/Pacejka/LatRearFz.pdf> <./img/Pacejka/LatFrontPhi.pdf> <./img/Pacejka/LatRearPhi.pdf> <./img/Pacejka/LatFrontLambda.pdf> <./img/Pacejka/LatRearLambda.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [32]
-<img/Pacejka/SelfAliFrontFz.pdf, id=1083, 557.08125pt x 346.29375pt>
+<img/Pacejka/SelfAliFrontFz.pdf, id=1232, 557.08125pt x 346.29375pt>
 File: img/Pacejka/SelfAliFrontFz.pdf Graphic file (type pdf)
 <use img/Pacejka/SelfAliFrontFz.pdf>
-Package pdftex.def Info: img/Pacejka/SelfAliFrontFz.pdf  used on input line 162.
+Package pdftex.def Info: img/Pacejka/SelfAliFrontFz.pdf  used on input line 164.
 (pdftex.def)             Requested size: 227.62204pt x 141.48993pt.
-<img/Pacejka/SelfAliRearFz.pdf, id=1084, 557.08125pt x 344.28625pt>
+<img/Pacejka/SelfAliRearFz.pdf, id=1233, 557.08125pt x 344.28625pt>
 File: img/Pacejka/SelfAliRearFz.pdf Graphic file (type pdf)
 <use img/Pacejka/SelfAliRearFz.pdf>
-Package pdftex.def Info: img/Pacejka/SelfAliRearFz.pdf  used on input line 167.
+Package pdftex.def Info: img/Pacejka/SelfAliRearFz.pdf  used on input line 169.
 (pdftex.def)             Requested size: 227.62204pt x 140.66971pt.
-<img/Pacejka/SelfAliFrontPhi.pdf, id=1085, 557.08125pt x 346.29375pt>
+<img/Pacejka/SelfAliFrontPhi.pdf, id=1234, 557.08125pt x 346.29375pt>
 File: img/Pacejka/SelfAliFrontPhi.pdf Graphic file (type pdf)
 <use img/Pacejka/SelfAliFrontPhi.pdf>
-Package pdftex.def Info: img/Pacejka/SelfAliFrontPhi.pdf  used on input line 172.
+Package pdftex.def Info: img/Pacejka/SelfAliFrontPhi.pdf  used on input line 174.
 (pdftex.def)             Requested size: 227.62204pt x 141.48993pt.
-<img/Pacejka/SelfAliRearPhi.pdf, id=1086, 557.08125pt x 344.28625pt>
+<img/Pacejka/SelfAliRearPhi.pdf, id=1235, 557.08125pt x 344.28625pt>
 File: img/Pacejka/SelfAliRearPhi.pdf Graphic file (type pdf)
 <use img/Pacejka/SelfAliRearPhi.pdf>
-Package pdftex.def Info: img/Pacejka/SelfAliRearPhi.pdf  used on input line 177.
+Package pdftex.def Info: img/Pacejka/SelfAliRearPhi.pdf  used on input line 179.
 (pdftex.def)             Requested size: 227.62204pt x 140.66971pt.
  [33 <./img/Pacejka/SelfAliFrontFz.pdf> <./img/Pacejka/SelfAliRearFz.pdf> <./img/Pacejka/SelfAliFrontPhi.pdf> <./img/Pacejka/SelfAliRearPhi.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 220--225
+Underfull \hbox (badness 10000) in paragraph at lines 222--227
 
  []
 
 [34]
-<img/Pacejka/EllipseFront50Degrees.pdf, id=1119, 557.08125pt x 336.25626pt>
+<img/Pacejka/EllipseFront50Degrees.pdf, id=1268, 557.08125pt x 336.25626pt>
 File: img/Pacejka/EllipseFront50Degrees.pdf Graphic file (type pdf)
 <use img/Pacejka/EllipseFront50Degrees.pdf>
-Package pdftex.def Info: img/Pacejka/EllipseFront50Degrees.pdf  used on input line 247.
+Package pdftex.def Info: img/Pacejka/EllipseFront50Degrees.pdf  used on input line 249.
 (pdftex.def)             Requested size: 455.24408pt x 274.79297pt.
-<img/Pacejka/EllipseRear50Degrees.pdf, id=1120, 557.08125pt x 336.25626pt>
+<img/Pacejka/EllipseRear50Degrees.pdf, id=1269, 557.08125pt x 336.25626pt>
 File: img/Pacejka/EllipseRear50Degrees.pdf Graphic file (type pdf)
 <use img/Pacejka/EllipseRear50Degrees.pdf>
-Package pdftex.def Info: img/Pacejka/EllipseRear50Degrees.pdf  used on input line 254.
+Package pdftex.def Info: img/Pacejka/EllipseRear50Degrees.pdf  used on input line 256.
 (pdftex.def)             Requested size: 455.24408pt x 274.79297pt.
-) (Chapters/Chapter4.tex [35 <./img/Pacejka/EllipseFront50Degrees.pdf>] [36 <./img/Pacejka/EllipseRear50Degrees.pdf>]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [35 <./img/Pacejka/EllipseFront50Degrees.pdf>]) (Chapters/Chapter4.tex
+Underfull \vbox (badness 1859) has occurred while \output is active []
+
+ [36 <./img/Pacejka/EllipseRear50Degrees.pdf>] [37] [38
+
+]
 Chapter 4.
-[37
+(Chapters/Chapter4_1.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-] [38] [39] [40]
+ [39]) (Chapters/Chapter4_2.tex [40]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[41]) (Chapters/Chapter4_3.tex [42]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (Chapters/Chapter5.tex [41] [42]
+[43]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+)) (Chapters/Chapter5.tex [44] [45] [46
+
+]
 Chapter 5.
-(Chapters/Chapter5_1.tex [43
-
-]) (Chapters/Chapter5_2.tex
+(Chapters/Chapter5_1.tex [47]) (Chapters/Chapter5_2.tex
 
 pdfTeX warning: pdflatex (file ./img/Coordinates/CurvCoord.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<img/Coordinates/CurvCoord.pdf, id=1190, 845.0471pt x 597.50829pt>
+<img/Coordinates/CurvCoord.pdf, id=1364, 845.0471pt x 597.50829pt>
 File: img/Coordinates/CurvCoord.pdf Graphic file (type pdf)
 <use img/Coordinates/CurvCoord.pdf>
 Package pdftex.def Info: img/Coordinates/CurvCoord.pdf  used on input line 5.
@@ -1504,39 +1528,145 @@ Package pdftex.def Info: img/Coordinates/CurvCoord.pdf  used on input line 5.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [44]
+ [48]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [45 <./img/Coordinates/CurvCoord.pdf>]) (Chapters/Chapter5_3.tex [46] [47]) (Chapters/Chapter5_4.tex [48] [49]) (Chapters/Chapter5_5.tex [50]
-<img/MaxTorque/maxT_wr.pdf, id=1295, 419.52483pt x 312.35081pt>
+ [49 <./img/Coordinates/CurvCoord.pdf>]) (Chapters/Chapter5_3.tex [50] [51]) (Chapters/Chapter5_4.tex [52] [53]) (Chapters/Chapter5_5.tex [54]
+<img/MaxTorque/maxT_wr.pdf, id=1469, 419.52483pt x 312.35081pt>
 File: img/MaxTorque/maxT_wr.pdf Graphic file (type pdf)
 <use img/MaxTorque/maxT_wr.pdf>
 Package pdftex.def Info: img/MaxTorque/maxT_wr.pdf  used on input line 38.
 (pdftex.def)             Requested size: 409.71689pt x 305.0627pt.
-) (Chapters/Chapter5_6.tex [51 <./img/MaxTorque/maxT_wr.pdf>] [52])) (Chapters/Chapter6.tex [53] [54
-
-]
+) (Chapters/Chapter5_6.tex [55 <./img/MaxTorque/maxT_wr.pdf>] [56]) (Chapters/Chapter5_7.tex)) (Chapters/Chapter6.tex [57] [58]
 Chapter 6.
-(Chapters/Chapter6_1.tex) (Chapters/Chapter6_2.tex) (Chapters/Chapter6_3.tex) (Chapters/Chapter6_4.tex [55]) (Chapters/Chapter6_5.tex) (Chapters/Chapter6_6.tex)) (Chapters/Conclusions.tex [56]) (Thesis.bbl [57
+(Chapters/Chapter6_1.tex [59
 
-] [58
+] [60]) (Chapters/Chapter6_2.tex [61]) (Chapters/Chapter6_3.tex
+Underfull \hbox (badness 10000) in paragraph at lines 4--10
 
-] [59] [60]) (Chapters/Appendix.tex (Chapters/AppendixA.tex [61] [62
+ []
 
-]
-Appendix A.
-[63] [64] [65]
+[62]) (Chapters/Chapter6_4.tex [63]
+<img/OCI/Track_Problem0.pdf, id=1578, 375.0893pt x 127.60538pt>
+File: img/OCI/Track_Problem0.pdf Graphic file (type pdf)
+<use img/OCI/Track_Problem0.pdf>
+Package pdftex.def Info: img/OCI/Track_Problem0.pdf  used on input line 66.
+(pdftex.def)             Requested size: 455.24408pt x 154.8839pt.
+ [64 <./img/OCI/Track_Problem0.pdf>]
+<img/OCI/Track_Problem1.pdf, id=1596, 375.0893pt x 127.60538pt>
+File: img/OCI/Track_Problem1.pdf Graphic file (type pdf)
+<use img/OCI/Track_Problem1.pdf>
+Package pdftex.def Info: img/OCI/Track_Problem1.pdf  used on input line 86.
+(pdftex.def)             Requested size: 455.24408pt x 154.8839pt.
+ [65 <./img/OCI/Track_Problem1.pdf>]
+<img/OCI/Track_Problem2.pdf, id=1610, 375.0893pt x 127.60538pt>
+File: img/OCI/Track_Problem2.pdf Graphic file (type pdf)
+<use img/OCI/Track_Problem2.pdf>
+Package pdftex.def Info: img/OCI/Track_Problem2.pdf  used on input line 106.
+(pdftex.def)             Requested size: 455.24408pt x 154.8839pt.
+<img/OCI/Track_Problem3.pdf, id=1612, 375.0893pt x 127.60538pt>
+File: img/OCI/Track_Problem3.pdf Graphic file (type pdf)
+<use img/OCI/Track_Problem3.pdf>
+Package pdftex.def Info: img/OCI/Track_Problem3.pdf  used on input line 125.
+(pdftex.def)             Requested size: 455.24408pt x 154.8839pt.
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (Chapters/AppendixB.tex [66] [67] [68
+<img/OCI/Track_Problem4.pdf, id=1614, 375.0893pt x 127.60538pt>
+File: img/OCI/Track_Problem4.pdf Graphic file (type pdf)
+<use img/OCI/Track_Problem4.pdf>
+Package pdftex.def Info: img/OCI/Track_Problem4.pdf  used on input line 136.
+(pdftex.def)             Requested size: 455.24408pt x 154.8839pt.
+[66 <./img/OCI/Track_Problem2.pdf>]
+<img/OCI/Track_problemCompare.pdf, id=1628, 397.16321pt x 134.06339pt>
+File: img/OCI/Track_problemCompare.pdf Graphic file (type pdf)
+<use img/OCI/Track_problemCompare.pdf>
+Package pdftex.def Info: img/OCI/Track_problemCompare.pdf  used on input line 147.
+(pdftex.def)             Requested size: 397.16223pt x 134.06305pt.
+) (Chapters/Chapter6_5.tex
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (Chapters/Chapter6_6.tex)) (Chapters/Chapter7.tex [67 <./img/OCI/Track_Problem3.pdf> <./img/OCI/Track_Problem4.pdf
+
+pdfTeX warning: pdflatex (file ./img/OCI/Track_Problem4.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] [68 <./img/OCI/Track_problemCompare.pdf>]
+Chapter 7.
+(Chapters/Chapter7_1.tex
+<img/Straight/u_straight_confront.pdf, id=1668, 403.95448pt x 311.3pt>
+File: img/Straight/u_straight_confront.pdf Graphic file (type pdf)
+<use img/Straight/u_straight_confront.pdf>
+Package pdftex.def Info: img/Straight/u_straight_confront.pdf  used on input line 15.
+(pdftex.def)             Requested size: 227.62204pt x 175.40982pt.
+<img/Straight/s_f_straight_confront.pdf, id=1669, 411.90337pt x 311.3pt>
+File: img/Straight/s_f_straight_confront.pdf Graphic file (type pdf)
+<use img/Straight/s_f_straight_confront.pdf>
+Package pdftex.def Info: img/Straight/s_f_straight_confront.pdf  used on input line 20.
+(pdftex.def)             Requested size: 227.62204pt x 172.02779pt.
+ [69
+
+]
+<img/Straight/Fzf_straight_confront.pdf, id=1674, 413.39444pt x 311.3pt>
+File: img/Straight/Fzf_straight_confront.pdf Graphic file (type pdf)
+<use img/Straight/Fzf_straight_confront.pdf>
+Package pdftex.def Info: img/Straight/Fzf_straight_confront.pdf  used on input line 30.
+(pdftex.def)             Requested size: 227.62204pt x 171.40553pt.
+<img/Straight/Fzr_straight_confront.pdf, id=1675, 413.39444pt x 311.3pt>
+File: img/Straight/Fzr_straight_confront.pdf Graphic file (type pdf)
+<use img/Straight/Fzr_straight_confront.pdf>
+Package pdftex.def Info: img/Straight/Fzr_straight_confront.pdf  used on input line 35.
+(pdftex.def)             Requested size: 227.62204pt x 171.40553pt.
+<img/Straight/Fxf_straight_confront.pdf, id=1682, 421.17226pt x 311.3pt>
+File: img/Straight/Fxf_straight_confront.pdf Graphic file (type pdf)
+<use img/Straight/Fxf_straight_confront.pdf>
+Package pdftex.def Info: img/Straight/Fxf_straight_confront.pdf  used on input line 49.
+(pdftex.def)             Requested size: 227.62204pt x 168.24675pt.
+<img/Straight/Fxr_straight_confront.pdf, id=1683, 416.17224pt x 312.41954pt>
+File: img/Straight/Fxr_straight_confront.pdf Graphic file (type pdf)
+<use img/Straight/Fxr_straight_confront.pdf>
+Package pdftex.def Info: img/Straight/Fxr_straight_confront.pdf  used on input line 54.
+(pdftex.def)             Requested size: 227.62204pt x 170.87785pt.
+<img/Straight/Torque_straight_confront.pdf, id=1687, 416.7323pt x 311.86005pt>
+File: img/Straight/Torque_straight_confront.pdf Graphic file (type pdf)
+<use img/Straight/Torque_straight_confront.pdf>
+Package pdftex.def Info: img/Straight/Torque_straight_confront.pdf  used on input line 69.
+(pdftex.def)             Requested size: 364.19664pt x 272.55328pt.
+) (Chapters/Chapter7_2.tex [70 <./img/Straight/u_straight_confront.pdf> <./img/Straight/s_f_straight_confront.pdf
+
+pdfTeX warning: pdflatex (file ./img/Straight/s_f_straight_confront.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./img/Straight/Fzf_straight_confront.pdf
+
+pdfTeX warning: pdflatex (file ./img/Straight/Fzf_straight_confront.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./img/Straight/Fzr_straight_confront.pdf
+
+pdfTeX warning: pdflatex (file ./img/Straight/Fzr_straight_confront.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [71 <./img/Straight/Fxf_straight_confront.pdf> <./img/Straight/Fxr_straight_confront.pdf
+
+pdfTeX warning: pdflatex (file ./img/Straight/Fxr_straight_confront.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]) (Chapters/Chapter7_3.tex) (Chapters/Chapter7_4.tex [72 <./img/Straight/Torque_straight_confront.pdf>]) (Chapters/Chapter7_5.tex) (Chapters/Chapter7_6.tex)) (Chapters/Conclusions.tex [73] [74
+
+]) (Thesis.bbl [75] [76
+
+] [77] [78]) (Chapters/Appendix.tex (Chapters/AppendixA.tex [79] [80
+
+]
+Appendix A.
+[81] [82] [83]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (Chapters/AppendixB.tex [84] [85] [86
 
 ]
 Appendix B.
 
 
 pdfTeX warning: pdflatex (file ./img/Coordinates/DPendulum.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<img/Coordinates/DPendulum.pdf, id=1416, 845.0471pt x 597.50829pt>
+<img/Coordinates/DPendulum.pdf, id=1867, 845.0471pt x 597.50829pt>
 File: img/Coordinates/DPendulum.pdf Graphic file (type pdf)
 <use img/Coordinates/DPendulum.pdf>
 Package pdftex.def Info: img/Coordinates/DPendulum.pdf  used on input line 9.
@@ -1552,7 +1682,7 @@ Package amsmath Warning: Cannot use `split' here;
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [69]
+ [87]
 
 Package amsmath Warning: Cannot use `split' here;
 (amsmath)                trying to recover with `aligned' on input line 63.
@@ -1564,35 +1694,39 @@ Package amsmath Warning: Cannot use `split' here;
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [70 <./img/Coordinates/DPendulum.pdf>]
+ [88 <./img/Coordinates/DPendulum.pdf>]
 Underfull \vbox (badness 1430) has occurred while \output is active []
 
- [71]) (Chapters/AppendixC.tex [72]
+ [89]) (Chapters/AppendixC.tex [90]
 Appendix C.
-)) [73
+)) [91
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 57.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 57.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 58.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 58.
  (Thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 57.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 57.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 58.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 58.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 4099BBD76509EC19668888009EFC0A85;5147.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 57.
+(rerunfilecheck)             Checksum: 242D5DC5286BA7F1742755D5A0ED580C;7229.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 58.
  ) 
 Here is how much of TeX's memory you used:
- 34071 strings out of 481545
- 610871 string characters out of 2920469
+ 34320 strings out of 481545
+ 616838 string characters out of 2920469
  1016156 words of memory out of 3000000
- 48168 multiletter control sequences out of 15000+200000
+ 48295 multiletter control sequences out of 15000+200000
  644980 words of font info for 101 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,19n,69p,953b,2463s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rmtt.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmro10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Thesis.pdf (85 pages, 5064721 bytes).
+ 63i,21n,69p,999b,2463s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rmtt.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmro10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/T75/AppData/Roaming/MiKTeX/2.9/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on Thesis.pdf (103 pages, 5525264 bytes).
 PDF statistics:
- 1649 PDF objects out of 1728 (max. 8388607)
- 328 named destinations out of 1000 (max. 500000)
- 770 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2120 PDF objects out of 2487 (max. 8388607)
+ 400 named destinations out of 1000 (max. 500000)
+ 1051 words of extra memory for PDF output out of 10000 (max. 10000000)
 

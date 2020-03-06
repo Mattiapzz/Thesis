@@ -1,9 +1,51 @@
-\section{Slip Control}
+\section{Lagrange term}
 %
-\begin{figure}[ht!]
-    \centering
-    %\includegraphics[width=\linewidth]{}
-    \caption{}
-    \label{fig:SlipControl}
-\end{figure}
+The lagrange term of the cost function $\mathcal{J}$ in equation \ref{eq:GenOCP} address all time varying parts of the optimal control problem. In the following section possible argument of the lagrange term are explained and explored.
+%
+\subsection{Minimum time}
+%
+In the previous chapter \ref{Ch:OCIni} the time-space change of coordinate is explained yielding equation \ref{eq:zetadot}.
+%
+\begin{equation}
+    \label{eq:zetadot}
+    \dot{s} = \frac{u(t) \cos(\xi(t)) - v(t) \sin(\xi(t))}{1-\kappa(s(t)) n(t)}
+\end{equation}
+%
+with the lagrange integral part as 
+%
+\begin{equation}
+    \int_{\zeta_L}^{\zeta_R} \mathcal{L}(\zeta)\mathrm{d}\zeta = \int_{\zeta_L}^{\zeta_R} \frac{1}{\dot{s}} \mathrm{d}\zeta  
+\end{equation}
+%
+In this case one can introduce a scalar $w_t$ that weights the influence of the minimum time on the OCP yielding
+%
+\begin{equation}
+    \int_{\zeta_L}^{\zeta_R} \mathcal{L}(\zeta)\mathrm{d}\zeta = \int_{\zeta_L}^{\zeta_R} \frac{w_t}{\dot{s}} \mathrm{d}\zeta  
+\end{equation}
+%
+This could seem strange, but it is a useful expedient to yield a fast convergence in continuation. This will be explained later in this chapter a section \ref{sec:Continuation} and \ref{sec:Homotopy}.
+%
+\subsection{Penalty on unwanted dynamics}
+%
+In some optimal control problems unwanted dynamics or effect arises. Those could be not feasible or not physically consistent with what can happen in reality. For instance, even in extreme manoeuvres a real rider cannot and will not apply to fast change of couple or slip. This means that one can penalize this effect by penalising the square distance from a desired dynamic.\\
+Lets follow the example of the slip. As suggested by Leonelli and Limebeer \cite{leonelli2019optimal} one can penalise the dynamic of the steering and the slip ($\dot{\lambda}_f$, $\dot{\lambda}_r$ and $\tau$) having
+%
+\begin{equation}
+    \int_{\zeta_L}^{\zeta_R} \mathcal{L}(\zeta)\mathrm{d}\zeta = \int_{\zeta_L}^{\zeta_R} ( w_t + w_\delta \dot{\tau} + w_{\lambda_f} \dot{\lambda_f} + w_{\lambda_r} \dot{\lambda_r} ) \frac{1}{\dot{s}} \mathrm{d}\zeta  
+\end{equation}
+%
+The weights $w_\delta$, $w_{\lambda_f}$ and $w_{\lambda_f}$ should be chosen carefully to both take care of the order of magnitude of the associated dynamic and do not influence the OCP solution.
+%
+\subsection{Steady state tacking}
+%
+In the lagrange term other kind of minimisation effect can be introduced. For instance tracking a steady state. One can think of using the entire steady state condition or part of it to minimise the square difference from this reference. Lets define a vector of state values in steady state as $\mathbf{x_{ss}}$. Therefore the mayer term became
+%
+\begin{equation}
+    \int_{\zeta_L}^{\zeta_R} \mathcal{L}(\zeta)\mathrm{d}\zeta = \int_{\zeta_L}^{\zeta_R} [ w_t + (\mathbf{x}(\zeta)-\mathbf{x_{ss}})^T \mathbf{W_{ss}}  (\mathbf{x}(\zeta)-\mathbf{x_{ss}})  ] \frac{1}{\dot{s}} \mathrm{d}\zeta  
+\end{equation}
+%
+where $\mathbf{W_{ss}}$ is a weighting matrix with the purpose of normalizing all terms.\\
+Here the steady state is tracked, however any other reference state can be followed.\\
+This technique is particularly useful when dealing with problem that are hard, non linear, slow converging or not converging at all. In fact, simple but rather smart idea is to limit the dynamic, internal and external, to yield a smoother solution with few or absent oscillation. This solution is easier to find because it is more stable.\\
+This particular expedient will be investigate further in next sections.
 %
