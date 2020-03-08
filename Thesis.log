@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300) (preloaded format=pdflatex 2020.2.26)  6 MAR 2020 11:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300) (preloaded format=pdflatex 2020.2.26)  8 MAR 2020 11:04
 entering extended mode
 **c:/EMPTY-DESKTOP/TESI/ThesisTex/Thesis.tex
 (c:/EMPTY-DESKTOP/TESI/ThesisTex/Thesis.tex
@@ -1002,6 +1002,18 @@ LaTeX Warning: Unused global option(s):
 
 LaTeX Warning: Label `eq:zetadot' multiply defined.
 
+
+LaTeX Warning: Label `fig:FZFSCE' multiply defined.
+
+
+LaTeX Warning: Label `fig:FZFTCE' multiply defined.
+
+
+LaTeX Warning: Label `fig:FZFSCC' multiply defined.
+
+
+LaTeX Warning: Label `fig:FZFTCC' multiply defined.
+
 )
 \openout1 = `Thesis.aux'.
 
@@ -1150,7 +1162,7 @@ LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 7
  ("C:\Program Files (x86)\MiKTeX 2.9\tex/latex/lm\ot1lmtt.fd"
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) (Setup/Frontmatter.tex
-<img/logo.png, id=417, 1204.5pt x 1204.5pt>
+<img/logo.png, id=429, 1204.5pt x 1204.5pt>
 File: img/logo.png Graphic file (type png)
 <use img/logo.png>
 Package pdftex.def Info: img/logo.png  used on input line 3.
@@ -1197,7 +1209,7 @@ l.69 ...rline {6.2}Lagrange term}{61}{section.6.2}
                                                   % [6]pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.105 ...}{\numberline {C}Results}{91}{appendix.C}
+l.105 ...national Raceway results}{99}{appendix.C}
                                                   % [7])
 \tf@toc=\write7
 \openout7 = `Thesis.toc'.
@@ -1209,10 +1221,34 @@ l.26     \listoffigures
                         [8] (Thesis.lofpdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.40 ...nk 1 and 2\relax }}{88}{figure.caption.50}
+l.38 ...nce U-turn\relax }}{75}{figure.caption.46}
                                                   % [9
 
-])
+]
+Overfull \hbox (5.23132pt too wide) detected at line 65
+\OT1/lmr/m/n/10.95 C.1.10 
+ []
+
+
+Overfull \hbox (5.23132pt too wide) detected at line 75
+\OT1/lmr/m/n/10.95 C.2.10 
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.78 ... Yaw rate\relax }}{107}{figure.caption.87}
+                                                  % [10]
+Overfull \hbox (5.23132pt too wide) detected at line 85
+\OT1/lmr/m/n/10.95 C.3.10 
+ []
+
+
+Overfull \hbox (5.23132pt too wide) detected at line 95
+\OT1/lmr/m/n/10.95 C.4.10 
+ []
+
+)
 \tf@lof=\write8
 \openout8 = `Thesis.lof'.
 
@@ -1220,7 +1256,13 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has be
 <to be read again> 
                    \relax 
 l.27     \listoftables
-                       [10] (Thesis.lot)
+                       [11]pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.27     \listoftables
+                       [12
+
+] (Thesis.lot)
 \tf@lot=\write9
 \openout9 = `Thesis.lot'.
 
@@ -1228,13 +1270,11 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has be
 <to be read again> 
                    \relax 
 l.29     \mainmatter
-                     [11
-
-]pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
+                     [13]pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.29     \mainmatter
-                     [12
+                     [14
 
 ] (Chapters/Introduction.tex) (Chapters/Chapter1.tex [1
 
@@ -1261,7 +1301,7 @@ Chapter 2.
 (Chapters/Chapter2_1.tex
 
 pdfTeX warning: pdflatex (file ./img/Coordinates/moto_with_symbols.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<img/Coordinates/moto_with_symbols.pdf, id=773, 845.0471pt x 597.50829pt>
+<img/Coordinates/moto_with_symbols.pdf, id=903, 845.0471pt x 597.50829pt>
 File: img/Coordinates/moto_with_symbols.pdf Graphic file (type pdf)
 <use img/Coordinates/moto_with_symbols.pdf>
 Package pdftex.def Info: img/Coordinates/moto_with_symbols.pdf  used on input line 5.
@@ -1269,11 +1309,11 @@ Package pdftex.def Info: img/Coordinates/moto_with_symbols.pdf  used on input li
 [9]
 
 pdfTeX warning: pdflatex (file ./img/Coordinates/flankangles.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<img/Coordinates/flankangles.pdf, id=781, 845.0471pt x 597.50829pt>
+<img/Coordinates/flankangles.pdf, id=911, 845.0471pt x 597.50829pt>
 File: img/Coordinates/flankangles.pdf Graphic file (type pdf)
 <use img/Coordinates/flankangles.pdf>
 Package pdftex.def Info: img/Coordinates/flankangles.pdf  used on input line 27.
-(pdftex.def)             Requested size: 455.24408pt x 321.89293pt.
+(pdftex.def)             Requested size: 409.71689pt x 289.7pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1289,33 +1329,35 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [13]
 
 pdfTeX warning: pdflatex (file ./img/Coordinates/whellbehind.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<img/Coordinates/whellbehind.pdf, id=854, 845.0471pt x 597.50829pt>
+<img/Coordinates/whellbehind.pdf, id=985, 845.0471pt x 597.50829pt>
 File: img/Coordinates/whellbehind.pdf Graphic file (type pdf)
 <use img/Coordinates/whellbehind.pdf>
-Package pdftex.def Info: img/Coordinates/whellbehind.pdf  used on input line 174.
+Package pdftex.def Info: img/Coordinates/whellbehind.pdf  used on input line 175.
 (pdftex.def)             Requested size: 227.62204pt x 160.94646pt.
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 185.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 185.
-
-Package amsmath Warning: Cannot use `split' here;
-(amsmath)                trying to recover with `aligned' on input line 200.
-
-
-Package amsmath Warning: Cannot use `split' here;
-(amsmath)                trying to recover with `aligned' on input line 210.
-
-[14]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [15 <./img/Coordinates/whellbehind.pdf>]) (Chapters/Chapter2_2.tex [16] [17]
+ [14 <./img/Coordinates/whellbehind.pdf>]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 186.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 186.
+
+
+Package amsmath Warning: Cannot use `split' here;
+(amsmath)                trying to recover with `aligned' on input line 201.
+
+
+Package amsmath Warning: Cannot use `split' here;
+(amsmath)                trying to recover with `aligned' on input line 211.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15]) (Chapters/Chapter2_2.tex [16] [17]
 
 pdfTeX warning: pdflatex (file ./img/Coordinates/ONLYREAR.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<img/Coordinates/ONLYREAR.pdf, id=915, 845.0471pt x 597.50829pt>
+<img/Coordinates/ONLYREAR.pdf, id=1048, 845.0471pt x 597.50829pt>
 File: img/Coordinates/ONLYREAR.pdf Graphic file (type pdf)
 <use img/Coordinates/ONLYREAR.pdf>
 Package pdftex.def Info: img/Coordinates/ONLYREAR.pdf  used on input line 53.
@@ -1323,88 +1365,82 @@ Package pdftex.def Info: img/Coordinates/ONLYREAR.pdf  used on input line 53.
 
 
 pdfTeX warning: pdflatex (file ./img/Coordinates/ONLYRIDER.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<img/Coordinates/ONLYRIDER.pdf, id=916, 845.0471pt x 597.50829pt>
+<img/Coordinates/ONLYRIDER.pdf, id=1049, 845.0471pt x 597.50829pt>
 File: img/Coordinates/ONLYRIDER.pdf Graphic file (type pdf)
 <use img/Coordinates/ONLYRIDER.pdf>
 Package pdftex.def Info: img/Coordinates/ONLYRIDER.pdf  used on input line 72.
 (pdftex.def)             Requested size: 227.62204pt x 160.94646pt.
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
 
 pdfTeX warning: pdflatex (file ./img/Coordinates/STEER.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<img/Coordinates/STEER.pdf, id=917, 845.0471pt x 597.50829pt>
+<img/Coordinates/STEER.pdf, id=1050, 845.0471pt x 597.50829pt>
 File: img/Coordinates/STEER.pdf Graphic file (type pdf)
 <use img/Coordinates/STEER.pdf>
 Package pdftex.def Info: img/Coordinates/STEER.pdf  used on input line 93.
 (pdftex.def)             Requested size: 273.14922pt x 193.13028pt.
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+Underfull \vbox (badness 1163) has occurred while \output is active []
 
+ [18 <./img/Coordinates/ONLYREAR.pdf> <./img/Coordinates/ONLYRIDER.pdf
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [18 <./img/Coordinates/ONLYREAR.pdf>]
+pdfTeX warning: pdflatex (file ./img/Coordinates/ONLYRIDER.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
 
 pdfTeX warning: pdflatex (file ./img/Coordinates/SWINGARMONLY.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<img/Coordinates/SWINGARMONLY.pdf, id=950, 845.0471pt x 597.50829pt>
+<img/Coordinates/SWINGARMONLY.pdf, id=1103, 845.0471pt x 597.50829pt>
 File: img/Coordinates/SWINGARMONLY.pdf Graphic file (type pdf)
 <use img/Coordinates/SWINGARMONLY.pdf>
 Package pdftex.def Info: img/Coordinates/SWINGARMONLY.pdf  used on input line 115.
 (pdftex.def)             Requested size: 273.14922pt x 193.13028pt.
+[19 <./img/Coordinates/STEER.pdf> <./img/Coordinates/SWINGARMONLY.pdf
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \vbox (badness 8094) has occurred while \output is active []
-
- [19 <./img/Coordinates/ONLYRIDER.pdf> <./img/Coordinates/STEER.pdf
-
-pdfTeX warning: pdflatex (file ./img/Coordinates/STEER.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->]
-Underfull \vbox (badness 2486) has occurred while \output is active []
-
- [20 <./img/Coordinates/SWINGARMONLY.pdf>] [21] [22] [23]
+pdfTeX warning: pdflatex (file ./img/Coordinates/SWINGARMONLY.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] [20] [21] [22]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [24]
+ [23]
 
 pdfTeX warning: pdflatex (file ./img/Coordinates/wheelforces.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<img/Coordinates/wheelforces.pdf, id=1074, 845.0471pt x 597.50829pt>
+<img/Coordinates/wheelforces.pdf, id=1195, 845.0471pt x 597.50829pt>
 File: img/Coordinates/wheelforces.pdf Graphic file (type pdf)
 <use img/Coordinates/wheelforces.pdf>
 Package pdftex.def Info: img/Coordinates/wheelforces.pdf  used on input line 426.
 (pdftex.def)             Requested size: 455.24408pt x 321.89293pt.
-) (Chapters/Chapter2_3.tex [25 <./img/Coordinates/wheelforces.pdf>]
+) (Chapters/Chapter2_3.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [26]) (Chapters/Chapter2_4.tex
+ [24]
+Underfull \vbox (badness 2529) has occurred while \output is active []
+
+ [25 <./img/Coordinates/wheelforces.pdf>]) (Chapters/Chapter2_4.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [26]
 
 pdfTeX warning: pdflatex (file ./img/Coordinates/SingleTrackRed.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<img/Coordinates/SingleTrackRed.pdf, id=1123, 845.0471pt x 597.50829pt>
+<img/Coordinates/SingleTrackRed.pdf, id=1254, 845.0471pt x 597.50829pt>
 File: img/Coordinates/SingleTrackRed.pdf Graphic file (type pdf)
 <use img/Coordinates/SingleTrackRed.pdf>
-Package pdftex.def Info: img/Coordinates/SingleTrackRed.pdf  used on input line 25.
+Package pdftex.def Info: img/Coordinates/SingleTrackRed.pdf  used on input line 24.
 (pdftex.def)             Requested size: 455.24408pt x 321.89293pt.
 )) (Chapters/Chapter3.tex [27] [28 <./img/Coordinates/SingleTrackRed.pdf>]
 Chapter 3.
-<img/Pacejka/LongFrontFz.pdf, id=1167, 557.08125pt x 346.29375pt>
+<img/Pacejka/LongFrontFz.pdf, id=1296, 557.08125pt x 346.29375pt>
 File: img/Pacejka/LongFrontFz.pdf Graphic file (type pdf)
 <use img/Pacejka/LongFrontFz.pdf>
 Package pdftex.def Info: img/Pacejka/LongFrontFz.pdf  used on input line 12.
 (pdftex.def)             Requested size: 227.62204pt x 141.48993pt.
-<img/Pacejka/LongRearFz.pdf, id=1168, 557.08125pt x 344.28625pt>
+<img/Pacejka/LongRearFz.pdf, id=1297, 557.08125pt x 344.28625pt>
 File: img/Pacejka/LongRearFz.pdf Graphic file (type pdf)
 <use img/Pacejka/LongRearFz.pdf>
 Package pdftex.def Info: img/Pacejka/LongRearFz.pdf  used on input line 17.
 (pdftex.def)             Requested size: 227.62204pt x 140.66971pt.
-<img/Pacejka/LongFrontAlpha.pdf, id=1169, 557.08125pt x 346.29375pt>
+<img/Pacejka/LongFrontAlpha.pdf, id=1298, 557.08125pt x 346.29375pt>
 File: img/Pacejka/LongFrontAlpha.pdf Graphic file (type pdf)
 <use img/Pacejka/LongFrontAlpha.pdf>
 Package pdftex.def Info: img/Pacejka/LongFrontAlpha.pdf  used on input line 22.
 (pdftex.def)             Requested size: 227.62204pt x 141.48993pt.
-<img/Pacejka/LongRearAlpha.pdf, id=1170, 557.08125pt x 344.28625pt>
+<img/Pacejka/LongRearAlpha.pdf, id=1299, 557.08125pt x 344.28625pt>
 File: img/Pacejka/LongRearAlpha.pdf Graphic file (type pdf)
 <use img/Pacejka/LongRearAlpha.pdf>
 Package pdftex.def Info: img/Pacejka/LongRearAlpha.pdf  used on input line 27.
@@ -1412,32 +1448,32 @@ Package pdftex.def Info: img/Pacejka/LongRearAlpha.pdf  used on input line 27.
 [29
 
  <./img/Pacejka/LongFrontFz.pdf> <./img/Pacejka/LongRearFz.pdf> <./img/Pacejka/LongFrontAlpha.pdf> <./img/Pacejka/LongRearAlpha.pdf>]
-<img/Pacejka/LatFrontFz.pdf, id=1190, 557.08125pt x 346.29375pt>
+<img/Pacejka/LatFrontFz.pdf, id=1320, 557.08125pt x 346.29375pt>
 File: img/Pacejka/LatFrontFz.pdf Graphic file (type pdf)
 <use img/Pacejka/LatFrontFz.pdf>
 Package pdftex.def Info: img/Pacejka/LatFrontFz.pdf  used on input line 79.
 (pdftex.def)             Requested size: 227.62204pt x 141.48993pt.
-<img/Pacejka/LatRearFz.pdf, id=1191, 557.08125pt x 344.28625pt>
+<img/Pacejka/LatRearFz.pdf, id=1321, 557.08125pt x 344.28625pt>
 File: img/Pacejka/LatRearFz.pdf Graphic file (type pdf)
 <use img/Pacejka/LatRearFz.pdf>
 Package pdftex.def Info: img/Pacejka/LatRearFz.pdf  used on input line 84.
 (pdftex.def)             Requested size: 227.62204pt x 140.66971pt.
-<img/Pacejka/LatFrontPhi.pdf, id=1192, 557.08125pt x 346.29375pt>
+<img/Pacejka/LatFrontPhi.pdf, id=1322, 557.08125pt x 346.29375pt>
 File: img/Pacejka/LatFrontPhi.pdf Graphic file (type pdf)
 <use img/Pacejka/LatFrontPhi.pdf>
 Package pdftex.def Info: img/Pacejka/LatFrontPhi.pdf  used on input line 89.
 (pdftex.def)             Requested size: 227.62204pt x 141.48993pt.
-<img/Pacejka/LatRearPhi.pdf, id=1193, 557.08125pt x 344.28625pt>
+<img/Pacejka/LatRearPhi.pdf, id=1323, 557.08125pt x 344.28625pt>
 File: img/Pacejka/LatRearPhi.pdf Graphic file (type pdf)
 <use img/Pacejka/LatRearPhi.pdf>
 Package pdftex.def Info: img/Pacejka/LatRearPhi.pdf  used on input line 94.
 (pdftex.def)             Requested size: 227.62204pt x 140.66971pt.
-<img/Pacejka/LatFrontLambda.pdf, id=1194, 557.08125pt x 346.29375pt>
+<img/Pacejka/LatFrontLambda.pdf, id=1324, 557.08125pt x 346.29375pt>
 File: img/Pacejka/LatFrontLambda.pdf Graphic file (type pdf)
 <use img/Pacejka/LatFrontLambda.pdf>
 Package pdftex.def Info: img/Pacejka/LatFrontLambda.pdf  used on input line 99.
 (pdftex.def)             Requested size: 227.62204pt x 141.48993pt.
-<img/Pacejka/LatRearLambda.pdf, id=1195, 557.08125pt x 344.28625pt>
+<img/Pacejka/LatRearLambda.pdf, id=1325, 557.08125pt x 344.28625pt>
 File: img/Pacejka/LatRearLambda.pdf Graphic file (type pdf)
 <use img/Pacejka/LatRearLambda.pdf>
 Package pdftex.def Info: img/Pacejka/LatRearLambda.pdf  used on input line 104.
@@ -1446,22 +1482,22 @@ Package pdftex.def Info: img/Pacejka/LatRearLambda.pdf  used on input line 104.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [32]
-<img/Pacejka/SelfAliFrontFz.pdf, id=1232, 557.08125pt x 346.29375pt>
+<img/Pacejka/SelfAliFrontFz.pdf, id=1361, 557.08125pt x 346.29375pt>
 File: img/Pacejka/SelfAliFrontFz.pdf Graphic file (type pdf)
 <use img/Pacejka/SelfAliFrontFz.pdf>
 Package pdftex.def Info: img/Pacejka/SelfAliFrontFz.pdf  used on input line 164.
 (pdftex.def)             Requested size: 227.62204pt x 141.48993pt.
-<img/Pacejka/SelfAliRearFz.pdf, id=1233, 557.08125pt x 344.28625pt>
+<img/Pacejka/SelfAliRearFz.pdf, id=1362, 557.08125pt x 344.28625pt>
 File: img/Pacejka/SelfAliRearFz.pdf Graphic file (type pdf)
 <use img/Pacejka/SelfAliRearFz.pdf>
 Package pdftex.def Info: img/Pacejka/SelfAliRearFz.pdf  used on input line 169.
 (pdftex.def)             Requested size: 227.62204pt x 140.66971pt.
-<img/Pacejka/SelfAliFrontPhi.pdf, id=1234, 557.08125pt x 346.29375pt>
+<img/Pacejka/SelfAliFrontPhi.pdf, id=1363, 557.08125pt x 346.29375pt>
 File: img/Pacejka/SelfAliFrontPhi.pdf Graphic file (type pdf)
 <use img/Pacejka/SelfAliFrontPhi.pdf>
 Package pdftex.def Info: img/Pacejka/SelfAliFrontPhi.pdf  used on input line 174.
 (pdftex.def)             Requested size: 227.62204pt x 141.48993pt.
-<img/Pacejka/SelfAliRearPhi.pdf, id=1235, 557.08125pt x 344.28625pt>
+<img/Pacejka/SelfAliRearPhi.pdf, id=1364, 557.08125pt x 344.28625pt>
 File: img/Pacejka/SelfAliRearPhi.pdf Graphic file (type pdf)
 <use img/Pacejka/SelfAliRearPhi.pdf>
 Package pdftex.def Info: img/Pacejka/SelfAliRearPhi.pdf  used on input line 179.
@@ -1472,12 +1508,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 222--227
  []
 
 [34]
-<img/Pacejka/EllipseFront50Degrees.pdf, id=1268, 557.08125pt x 336.25626pt>
+<img/Pacejka/EllipseFront50Degrees.pdf, id=1397, 557.08125pt x 336.25626pt>
 File: img/Pacejka/EllipseFront50Degrees.pdf Graphic file (type pdf)
 <use img/Pacejka/EllipseFront50Degrees.pdf>
 Package pdftex.def Info: img/Pacejka/EllipseFront50Degrees.pdf  used on input line 249.
 (pdftex.def)             Requested size: 455.24408pt x 274.79297pt.
-<img/Pacejka/EllipseRear50Degrees.pdf, id=1269, 557.08125pt x 336.25626pt>
+<img/Pacejka/EllipseRear50Degrees.pdf, id=1398, 557.08125pt x 336.25626pt>
 File: img/Pacejka/EllipseRear50Degrees.pdf Graphic file (type pdf)
 <use img/Pacejka/EllipseRear50Degrees.pdf>
 Package pdftex.def Info: img/Pacejka/EllipseRear50Degrees.pdf  used on input line 256.
@@ -1520,7 +1556,7 @@ Chapter 5.
 (Chapters/Chapter5_1.tex [47]) (Chapters/Chapter5_2.tex
 
 pdfTeX warning: pdflatex (file ./img/Coordinates/CurvCoord.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<img/Coordinates/CurvCoord.pdf, id=1364, 845.0471pt x 597.50829pt>
+<img/Coordinates/CurvCoord.pdf, id=1494, 845.0471pt x 597.50829pt>
 File: img/Coordinates/CurvCoord.pdf Graphic file (type pdf)
 <use img/Coordinates/CurvCoord.pdf>
 Package pdftex.def Info: img/Coordinates/CurvCoord.pdf  used on input line 5.
@@ -1532,7 +1568,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [49 <./img/Coordinates/CurvCoord.pdf>]) (Chapters/Chapter5_3.tex [50] [51]) (Chapters/Chapter5_4.tex [52] [53]) (Chapters/Chapter5_5.tex [54]
-<img/MaxTorque/maxT_wr.pdf, id=1469, 419.52483pt x 312.35081pt>
+<img/MaxTorque/maxT_wr.pdf, id=1599, 419.52483pt x 312.35081pt>
 File: img/MaxTorque/maxT_wr.pdf Graphic file (type pdf)
 <use img/MaxTorque/maxT_wr.pdf>
 Package pdftex.def Info: img/MaxTorque/maxT_wr.pdf  used on input line 38.
@@ -1547,24 +1583,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--10
  []
 
 [62]) (Chapters/Chapter6_4.tex [63]
-<img/OCI/Track_Problem0.pdf, id=1578, 375.0893pt x 127.60538pt>
+<img/OCI/Track_Problem0.pdf, id=1707, 375.0893pt x 127.60538pt>
 File: img/OCI/Track_Problem0.pdf Graphic file (type pdf)
 <use img/OCI/Track_Problem0.pdf>
 Package pdftex.def Info: img/OCI/Track_Problem0.pdf  used on input line 66.
 (pdftex.def)             Requested size: 455.24408pt x 154.8839pt.
  [64 <./img/OCI/Track_Problem0.pdf>]
-<img/OCI/Track_Problem1.pdf, id=1596, 375.0893pt x 127.60538pt>
+<img/OCI/Track_Problem1.pdf, id=1725, 375.0893pt x 127.60538pt>
 File: img/OCI/Track_Problem1.pdf Graphic file (type pdf)
 <use img/OCI/Track_Problem1.pdf>
 Package pdftex.def Info: img/OCI/Track_Problem1.pdf  used on input line 86.
 (pdftex.def)             Requested size: 455.24408pt x 154.8839pt.
  [65 <./img/OCI/Track_Problem1.pdf>]
-<img/OCI/Track_Problem2.pdf, id=1610, 375.0893pt x 127.60538pt>
+<img/OCI/Track_Problem2.pdf, id=1740, 375.0893pt x 127.60538pt>
 File: img/OCI/Track_Problem2.pdf Graphic file (type pdf)
 <use img/OCI/Track_Problem2.pdf>
 Package pdftex.def Info: img/OCI/Track_Problem2.pdf  used on input line 106.
 (pdftex.def)             Requested size: 455.24408pt x 154.8839pt.
-<img/OCI/Track_Problem3.pdf, id=1612, 375.0893pt x 127.60538pt>
+<img/OCI/Track_Problem3.pdf, id=1742, 375.0893pt x 127.60538pt>
 File: img/OCI/Track_Problem3.pdf Graphic file (type pdf)
 <use img/OCI/Track_Problem3.pdf>
 Package pdftex.def Info: img/OCI/Track_Problem3.pdf  used on input line 125.
@@ -1573,13 +1609,13 @@ Package pdftex.def Info: img/OCI/Track_Problem3.pdf  used on input line 125.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<img/OCI/Track_Problem4.pdf, id=1614, 375.0893pt x 127.60538pt>
+<img/OCI/Track_Problem4.pdf, id=1744, 375.0893pt x 127.60538pt>
 File: img/OCI/Track_Problem4.pdf Graphic file (type pdf)
 <use img/OCI/Track_Problem4.pdf>
 Package pdftex.def Info: img/OCI/Track_Problem4.pdf  used on input line 136.
 (pdftex.def)             Requested size: 455.24408pt x 154.8839pt.
 [66 <./img/OCI/Track_Problem2.pdf>]
-<img/OCI/Track_problemCompare.pdf, id=1628, 397.16321pt x 134.06339pt>
+<img/OCI/Track_problemCompare.pdf, id=1758, 397.16321pt x 134.06339pt>
 File: img/OCI/Track_problemCompare.pdf Graphic file (type pdf)
 <use img/OCI/Track_problemCompare.pdf>
 Package pdftex.def Info: img/OCI/Track_problemCompare.pdf  used on input line 147.
@@ -1594,12 +1630,12 @@ pdfTeX warning: pdflatex (file ./img/OCI/Track_Problem4.pdf): PDF inclusion: mul
 >] [68 <./img/OCI/Track_problemCompare.pdf>]
 Chapter 7.
 (Chapters/Chapter7_1.tex
-<img/Straight/u_straight_confront.pdf, id=1668, 403.95448pt x 311.3pt>
+<img/Straight/u_straight_confront.pdf, id=1797, 403.95448pt x 311.3pt>
 File: img/Straight/u_straight_confront.pdf Graphic file (type pdf)
 <use img/Straight/u_straight_confront.pdf>
 Package pdftex.def Info: img/Straight/u_straight_confront.pdf  used on input line 15.
 (pdftex.def)             Requested size: 227.62204pt x 175.40982pt.
-<img/Straight/s_f_straight_confront.pdf, id=1669, 411.90337pt x 311.3pt>
+<img/Straight/s_f_straight_confront.pdf, id=1798, 411.90337pt x 311.3pt>
 File: img/Straight/s_f_straight_confront.pdf Graphic file (type pdf)
 <use img/Straight/s_f_straight_confront.pdf>
 Package pdftex.def Info: img/Straight/s_f_straight_confront.pdf  used on input line 20.
@@ -1607,27 +1643,27 @@ Package pdftex.def Info: img/Straight/s_f_straight_confront.pdf  used on input l
  [69
 
 ]
-<img/Straight/Fzf_straight_confront.pdf, id=1674, 413.39444pt x 311.3pt>
+<img/Straight/Fzf_straight_confront.pdf, id=1803, 413.39444pt x 311.3pt>
 File: img/Straight/Fzf_straight_confront.pdf Graphic file (type pdf)
 <use img/Straight/Fzf_straight_confront.pdf>
 Package pdftex.def Info: img/Straight/Fzf_straight_confront.pdf  used on input line 30.
 (pdftex.def)             Requested size: 227.62204pt x 171.40553pt.
-<img/Straight/Fzr_straight_confront.pdf, id=1675, 413.39444pt x 311.3pt>
+<img/Straight/Fzr_straight_confront.pdf, id=1804, 413.39444pt x 311.3pt>
 File: img/Straight/Fzr_straight_confront.pdf Graphic file (type pdf)
 <use img/Straight/Fzr_straight_confront.pdf>
 Package pdftex.def Info: img/Straight/Fzr_straight_confront.pdf  used on input line 35.
 (pdftex.def)             Requested size: 227.62204pt x 171.40553pt.
-<img/Straight/Fxf_straight_confront.pdf, id=1682, 421.17226pt x 311.3pt>
+<img/Straight/Fxf_straight_confront.pdf, id=1811, 421.17226pt x 311.3pt>
 File: img/Straight/Fxf_straight_confront.pdf Graphic file (type pdf)
 <use img/Straight/Fxf_straight_confront.pdf>
 Package pdftex.def Info: img/Straight/Fxf_straight_confront.pdf  used on input line 49.
 (pdftex.def)             Requested size: 227.62204pt x 168.24675pt.
-<img/Straight/Fxr_straight_confront.pdf, id=1683, 416.17224pt x 312.41954pt>
+<img/Straight/Fxr_straight_confront.pdf, id=1812, 416.17224pt x 312.41954pt>
 File: img/Straight/Fxr_straight_confront.pdf Graphic file (type pdf)
 <use img/Straight/Fxr_straight_confront.pdf>
 Package pdftex.def Info: img/Straight/Fxr_straight_confront.pdf  used on input line 54.
 (pdftex.def)             Requested size: 227.62204pt x 170.87785pt.
-<img/Straight/Torque_straight_confront.pdf, id=1687, 416.7323pt x 311.86005pt>
+<img/Straight/Torque_straight_confront.pdf, id=1816, 416.7323pt x 311.86005pt>
 File: img/Straight/Torque_straight_confront.pdf Graphic file (type pdf)
 <use img/Straight/Torque_straight_confront.pdf>
 Package pdftex.def Info: img/Straight/Torque_straight_confront.pdf  used on input line 69.
@@ -1647,26 +1683,203 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [71 <./img/Straight/Fxf_straight_confront.pdf> <./img/Straight/Fxr_straight_confront.pdf
 
 pdfTeX warning: pdflatex (file ./img/Straight/Fxr_straight_confront.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->]) (Chapters/Chapter7_3.tex) (Chapters/Chapter7_4.tex [72 <./img/Straight/Torque_straight_confront.pdf>]) (Chapters/Chapter7_5.tex) (Chapters/Chapter7_6.tex)) (Chapters/Conclusions.tex [73] [74
+>]
+<img/U-turn/u_U_confront.pdf, id=1917, 403.95448pt x 311.3pt>
+File: img/U-turn/u_U_confront.pdf Graphic file (type pdf)
+<use img/U-turn/u_U_confront.pdf>
+Package pdftex.def Info: img/U-turn/u_U_confront.pdf  used on input line 18.
+(pdftex.def)             Requested size: 227.62204pt x 175.40982pt.
+<img/U-turn/v_U_confront.pdf, id=1918, 414.51006pt x 311.3pt>
+File: img/U-turn/v_U_confront.pdf Graphic file (type pdf)
+<use img/U-turn/v_U_confront.pdf>
+Package pdftex.def Info: img/U-turn/v_U_confront.pdf  used on input line 23.
+(pdftex.def)             Requested size: 227.62204pt x 170.94478pt.
+<img/U-turn/phi_U_confront.pdf, id=1919, 406.17221pt x 311.3pt>
+File: img/U-turn/phi_U_confront.pdf Graphic file (type pdf)
+<use img/U-turn/phi_U_confront.pdf>
+Package pdftex.def Info: img/U-turn/phi_U_confront.pdf  used on input line 33.
+(pdftex.def)             Requested size: 227.62204pt x 174.45981pt.
+<img/U-turn/n_U_confront.pdf, id=1920, 406.17221pt x 311.3pt>
+File: img/U-turn/n_U_confront.pdf Graphic file (type pdf)
+<use img/U-turn/n_U_confront.pdf>
+Package pdftex.def Info: img/U-turn/n_U_confront.pdf  used on input line 38.
+(pdftex.def)             Requested size: 227.62204pt x 174.45981pt.
+<img/U-turn/Track_U_confront.pdf, id=1926, 596.57278pt x 353.63594pt>
+File: img/U-turn/Track_U_confront.pdf Graphic file (type pdf)
+<use img/U-turn/Track_U_confront.pdf>
+Package pdftex.def Info: img/U-turn/Track_U_confront.pdf  used on input line 51.
+(pdftex.def)             Requested size: 455.24408pt x 269.8615pt.
+<img/U-turn/EFront_U_confront.pdf, id=1929, 330.24762pt x 311.86005pt>
+File: img/U-turn/EFront_U_confront.pdf Graphic file (type pdf)
+<use img/U-turn/EFront_U_confront.pdf>
+Package pdftex.def Info: img/U-turn/EFront_U_confront.pdf  used on input line 60.
+(pdftex.def)             Requested size: 227.62204pt x 214.95525pt.
+<img/U-turn/ERear_U_confront.pdf, id=1930, 239.81943pt x 311.86005pt>
+File: img/U-turn/ERear_U_confront.pdf Graphic file (type pdf)
+<use img/U-turn/ERear_U_confront.pdf>
+Package pdftex.def Info: img/U-turn/ERear_U_confront.pdf  used on input line 65.
+(pdftex.def)             Requested size: 227.62204pt x 296.00363pt.
+) (Chapters/Chapter7_3.tex [72 <./img/Straight/Torque_straight_confront.pdf>] [73 <./img/U-turn/u_U_confront.pdf> <./img/U-turn/v_U_confront.pdf
 
-]) (Thesis.bbl [75] [76
+pdfTeX warning: pdflatex (file ./img/U-turn/v_U_confront.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./img/U-turn/phi_U_confront.pdf
 
-] [77] [78]) (Chapters/Appendix.tex (Chapters/AppendixA.tex [79] [80
+pdfTeX warning: pdflatex (file ./img/U-turn/phi_U_confront.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./img/U-turn/n_U_confront.pdf
 
-]
-Appendix A.
-[81] [82] [83]
+pdfTeX warning: pdflatex (file ./img/U-turn/n_U_confront.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+Underfull \vbox (badness 1168) has occurred while \output is active []
+
+ [74 <./img/U-turn/Track_U_confront.pdf>]
+<img/S-turn/Track_S_confront.pdf, id=2015, 596.57278pt x 156.19585pt>
+File: img/S-turn/Track_S_confront.pdf Graphic file (type pdf)
+<use img/S-turn/Track_S_confront.pdf>
+Package pdftex.def Info: img/S-turn/Track_S_confront.pdf  used on input line 18.
+(pdftex.def)             Requested size: 455.24408pt x 119.1939pt.
+<img/S-turn/phi_S_confront.pdf, id=2019, 418.95001pt x 311.3pt>
+File: img/S-turn/phi_S_confront.pdf Graphic file (type pdf)
+<use img/S-turn/phi_S_confront.pdf>
+Package pdftex.def Info: img/S-turn/phi_S_confront.pdf  used on input line 28.
+(pdftex.def)             Requested size: 227.62204pt x 169.13501pt.
+<img/S-turn/n_S_confront.pdf, id=2020, 406.17221pt x 311.3pt>
+File: img/S-turn/n_S_confront.pdf Graphic file (type pdf)
+<use img/S-turn/n_S_confront.pdf>
+Package pdftex.def Info: img/S-turn/n_S_confront.pdf  used on input line 33.
+(pdftex.def)             Requested size: 227.62204pt x 174.45981pt.
+<img/S-turn/u_S_confront.pdf, id=2021, 403.95448pt x 311.3pt>
+File: img/S-turn/u_S_confront.pdf Graphic file (type pdf)
+<use img/S-turn/u_S_confront.pdf>
+Package pdftex.def Info: img/S-turn/u_S_confront.pdf  used on input line 43.
+(pdftex.def)             Requested size: 227.62204pt x 175.40982pt.
+<img/S-turn/v_S_confront.pdf, id=2022, 406.73225pt x 311.3pt>
+File: img/S-turn/v_S_confront.pdf Graphic file (type pdf)
+<use img/S-turn/v_S_confront.pdf>
+Package pdftex.def Info: img/S-turn/v_S_confront.pdf  used on input line 48.
+(pdftex.def)             Requested size: 227.62204pt x 174.21756pt.
+<img/S-turn/EFront_S_confront.pdf, id=2023, 414.51006pt x 264.46527pt>
+File: img/S-turn/EFront_S_confront.pdf Graphic file (type pdf)
+<use img/S-turn/EFront_S_confront.pdf>
+Package pdftex.def Info: img/S-turn/EFront_S_confront.pdf  used on input line 58.
+(pdftex.def)             Requested size: 227.62204pt x 145.22633pt.
+<img/S-turn/ERear_S_confront.pdf, id=2024, 329.80487pt x 311.86005pt>
+File: img/S-turn/ERear_S_confront.pdf Graphic file (type pdf)
+<use img/S-turn/ERear_S_confront.pdf>
+Package pdftex.def Info: img/S-turn/ERear_S_confront.pdf  used on input line 63.
+(pdftex.def)             Requested size: 227.62204pt x 215.24077pt.
+<img/S-turn/Fzf_S_confront.pdf, id=2034, 413.39444pt x 311.3pt>
+File: img/S-turn/Fzf_S_confront.pdf Graphic file (type pdf)
+<use img/S-turn/Fzf_S_confront.pdf>
+Package pdftex.def Info: img/S-turn/Fzf_S_confront.pdf  used on input line 79.
+(pdftex.def)             Requested size: 227.62204pt x 171.40553pt.
+<img/S-turn/Fzr_S_confront.pdf, id=2035, 413.39444pt x 311.3pt>
+File: img/S-turn/Fzr_S_confront.pdf Graphic file (type pdf)
+<use img/S-turn/Fzr_S_confront.pdf>
+Package pdftex.def Info: img/S-turn/Fzr_S_confront.pdf  used on input line 84.
+(pdftex.def)             Requested size: 227.62204pt x 171.40553pt.
+) (Chapters/Chapter7_4.tex [75 <./img/U-turn/EFront_U_confront.pdf> <./img/U-turn/ERear_U_confront.pdf
+
+pdfTeX warning: pdflatex (file ./img/U-turn/ERear_U_confront.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] [76 <./img/S-turn/Track_S_confront.pdf> <./img/S-turn/phi_S_confront.pdf
+
+pdfTeX warning: pdflatex (file ./img/S-turn/phi_S_confront.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./img/S-turn/n_S_confront.pdf
+
+pdfTeX warning: pdflatex (file ./img/S-turn/n_S_confront.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./img/S-turn/u_S_confront.pdf
+
+pdfTeX warning: pdflatex (file ./img/S-turn/u_S_confront.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./img/S-turn/v_S_confront.pdf
+
+pdfTeX warning: pdflatex (file ./img/S-turn/v_S_confront.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+<img/Circuit/adria_vettoriale.png, id=2137, 501.875pt x 301.125pt>
+File: img/Circuit/adria_vettoriale.png Graphic file (type png)
+<use img/Circuit/adria_vettoriale.png>
+Package pdftex.def Info: img/Circuit/adria_vettoriale.png  used on input line 8.
+(pdftex.def)             Requested size: 318.66946pt x 191.21223pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [77 <./img/S-turn/EFront_S_confront.pdf> <./img/S-turn/ERear_S_confront.pdf
+
+pdfTeX warning: pdflatex (file ./img/S-turn/ERear_S_confront.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./img/S-turn/Fzf_S_confront.pdf
+
+pdfTeX warning: pdflatex (file ./img/S-turn/Fzf_S_confront.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./img/S-turn/Fzr_S_confront.pdf
+
+pdfTeX warning: pdflatex (file ./img/S-turn/Fzr_S_confront.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] [78 <./img/Circuit/adria_vettoriale.png (PNG copy)>]
+<img/Circuit/u_P_confront.pdf, id=2211, 717.60626pt x 211.13377pt>
+File: img/Circuit/u_P_confront.pdf Graphic file (type pdf)
+<use img/Circuit/u_P_confront.pdf>
+Package pdftex.def Info: img/Circuit/u_P_confront.pdf  used on input line 31.
+(pdftex.def)             Requested size: 455.24408pt x 133.94281pt.
+<img/Circuit/phi_P_confront.pdf, id=2214, 732.6018pt x 211.13377pt>
+File: img/Circuit/phi_P_confront.pdf Graphic file (type pdf)
+<use img/Circuit/phi_P_confront.pdf>
+Package pdftex.def Info: img/Circuit/phi_P_confront.pdf  used on input line 40.
+(pdftex.def)             Requested size: 455.24408pt x 131.19797pt.
+<img/Circuit/n_P_confront.pdf, id=2215, 719.82402pt x 211.13377pt>
+File: img/Circuit/n_P_confront.pdf Graphic file (type pdf)
+<use img/Circuit/n_P_confront.pdf>
+Package pdftex.def Info: img/Circuit/n_P_confront.pdf  used on input line 48.
+(pdftex.def)             Requested size: 455.24408pt x 133.53044pt.
+<img/Circuit/EFront_P_confront.pdf, id=2218, 414.51006pt x 248.66537pt>
+File: img/Circuit/EFront_P_confront.pdf Graphic file (type pdf)
+<use img/Circuit/EFront_P_confront.pdf>
+Package pdftex.def Info: img/Circuit/EFront_P_confront.pdf  used on input line 57.
+(pdftex.def)             Requested size: 273.14922pt x 163.86542pt.
+<img/Circuit/ERear_P_confront.pdf, id=2219, 352.93529pt x 315.36034pt>
+File: img/Circuit/ERear_P_confront.pdf Graphic file (type pdf)
+<use img/Circuit/ERear_P_confront.pdf>
+Package pdftex.def Info: img/Circuit/ERear_P_confront.pdf  used on input line 64.
+(pdftex.def)             Requested size: 273.14922pt x 244.08414pt.
+<img/Circuit/Torque_P_confront.pdf, id=2222, 618.36563pt x 322.98964pt>
+File: img/Circuit/Torque_P_confront.pdf Graphic file (type pdf)
+<use img/Circuit/Torque_P_confront.pdf>
+Package pdftex.def Info: img/Circuit/Torque_P_confront.pdf  used on input line 86.
+(pdftex.def)             Requested size: 364.19664pt x 190.23203pt.
+<img/Circuit/Track_P_confront.pdf, id=2224, 1164.44312pt x 689.19629pt>
+File: img/Circuit/Track_P_confront.pdf Graphic file (type pdf)
+<use img/Circuit/Track_P_confront.pdf>
+Package pdftex.def Info: img/Circuit/Track_P_confront.pdf  used on input line 96.
+(pdftex.def)             Requested size: 1164.44028pt x 689.1946pt.
+ [79 <./img/Circuit/u_P_confront.pdf> <./img/Circuit/phi_P_confront.pdf
+
+pdfTeX warning: pdflatex (file ./img/Circuit/phi_P_confront.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] [80 <./img/Circuit/n_P_confront.pdf> <./img/Circuit/EFront_P_confront.pdf
+
+pdfTeX warning: pdflatex (file ./img/Circuit/EFront_P_confront.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./img/Circuit/ERear_P_confront.pdf
+
+pdfTeX warning: pdflatex (file ./img/Circuit/ERear_P_confront.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (Chapters/AppendixB.tex [84] [85] [86
+[81 <./img/Circuit/Torque_P_confront.pdf>] [82 <./img/Circuit/Track_P_confront.pdf>]) (Chapters/Chapter7_5.tex) (Chapters/Chapter7_6.tex)) (Chapters/Conclusions.tex) (Thesis.bbl [83
+
+
+] [84
+
+] [85] [86]) (Chapters/Appendix.tex (Chapters/AppendixA.tex [87] [88
+
+]
+Appendix A.
+[89] [90] [91]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (Chapters/AppendixB.tex [92] [93] [94
 
 ]
 Appendix B.
 
 
 pdfTeX warning: pdflatex (file ./img/Coordinates/DPendulum.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<img/Coordinates/DPendulum.pdf, id=1867, 845.0471pt x 597.50829pt>
+<img/Coordinates/DPendulum.pdf, id=2393, 845.0471pt x 597.50829pt>
 File: img/Coordinates/DPendulum.pdf Graphic file (type pdf)
 <use img/Coordinates/DPendulum.pdf>
 Package pdftex.def Info: img/Coordinates/DPendulum.pdf  used on input line 9.
@@ -1682,7 +1895,7 @@ Package amsmath Warning: Cannot use `split' here;
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [87]
+ [95]
 
 Package amsmath Warning: Cannot use `split' here;
 (amsmath)                trying to recover with `aligned' on input line 63.
@@ -1694,21 +1907,440 @@ Package amsmath Warning: Cannot use `split' here;
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [88 <./img/Coordinates/DPendulum.pdf>]
+ [96 <./img/Coordinates/DPendulum.pdf>]
 Underfull \vbox (badness 1430) has occurred while \output is active []
 
- [89]) (Chapters/AppendixC.tex [90]
+ [97]) (Chapters/AppendixC.tex [98]
 Appendix C.
-)) [91
+<img/Circuit/u_P_SCell.pdf, id=2447, 717.60626pt x 211.13377pt>
+File: img/Circuit/u_P_SCell.pdf Graphic file (type pdf)
+<use img/Circuit/u_P_SCell.pdf>
+Package pdftex.def Info: img/Circuit/u_P_SCell.pdf  used on input line 10.
+(pdftex.def)             Requested size: 455.24408pt x 133.94281pt.
+<img/Circuit/v_P_SCell.pdf, id=2448, 720.3841pt x 211.76888pt>
+File: img/Circuit/v_P_SCell.pdf Graphic file (type pdf)
+<use img/Circuit/v_P_SCell.pdf>
+Package pdftex.def Info: img/Circuit/v_P_SCell.pdf  used on input line 17.
+(pdftex.def)             Requested size: 455.24408pt x 133.82545pt.
+<img/Circuit/Omega_P_SCell.pdf, id=2449, 728.16187pt x 211.13377pt>
+File: img/Circuit/Omega_P_SCell.pdf Graphic file (type pdf)
+<use img/Circuit/Omega_P_SCell.pdf>
+Package pdftex.def Info: img/Circuit/Omega_P_SCell.pdf  used on input line 24.
+(pdftex.def)             Requested size: 455.24408pt x 132.00015pt.
 
-]
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<img/Circuit/n_P_SCell.pdf, id=2450, 719.82402pt x 211.13377pt>
+File: img/Circuit/n_P_SCell.pdf Graphic file (type pdf)
+<use img/Circuit/n_P_SCell.pdf>
+Package pdftex.def Info: img/Circuit/n_P_SCell.pdf  used on input line 31.
+(pdftex.def)             Requested size: 455.24408pt x 133.53044pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<img/Circuit/phi_P_SCell.pdf, id=2451, 732.6018pt x 211.13377pt>
+File: img/Circuit/phi_P_SCell.pdf Graphic file (type pdf)
+<use img/Circuit/phi_P_SCell.pdf>
+Package pdftex.def Info: img/Circuit/phi_P_SCell.pdf  used on input line 38.
+(pdftex.def)             Requested size: 455.24408pt x 131.19797pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<img/Circuit/delta_P_SCell.pdf, id=2452, 732.6018pt x 212.09877pt>
+File: img/Circuit/delta_P_SCell.pdf Graphic file (type pdf)
+<use img/Circuit/delta_P_SCell.pdf>
+Package pdftex.def Info: img/Circuit/delta_P_SCell.pdf  used on input line 45.
+(pdftex.def)             Requested size: 455.24408pt x 131.7976pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<img/Circuit/Fzf_P_SCell.pdf, id=2453, 727.04625pt x 211.13377pt>
+File: img/Circuit/Fzf_P_SCell.pdf Graphic file (type pdf)
+<use img/Circuit/Fzf_P_SCell.pdf>
+Package pdftex.def Info: img/Circuit/Fzf_P_SCell.pdf  used on input line 52.
+(pdftex.def)             Requested size: 455.24408pt x 132.20313pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<img/Circuit/Fzr_P_SCell.pdf, id=2454, 727.04625pt x 212.07265pt>
+File: img/Circuit/Fzr_P_SCell.pdf Graphic file (type pdf)
+<use img/Circuit/Fzr_P_SCell.pdf>
+Package pdftex.def Info: img/Circuit/Fzr_P_SCell.pdf  used on input line 59.
+(pdftex.def)             Requested size: 455.24408pt x 132.791pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<img/Circuit/EFront_P_SCell.pdf, id=2455, 414.51006pt x 229.7433pt>
+File: img/Circuit/EFront_P_SCell.pdf Graphic file (type pdf)
+<use img/Circuit/EFront_P_SCell.pdf>
+Package pdftex.def Info: img/Circuit/EFront_P_SCell.pdf  used on input line 66.
+(pdftex.def)             Requested size: 227.62204pt x 126.15938pt.
+<img/Circuit/ERear_P_SCell.pdf, id=2456, 379.99641pt x 311.86005pt>
+File: img/Circuit/ERear_P_SCell.pdf Graphic file (type pdf)
+<use img/Circuit/ERear_P_SCell.pdf>
+Package pdftex.def Info: img/Circuit/ERear_P_SCell.pdf  used on input line 71.
+(pdftex.def)             Requested size: 227.62204pt x 186.81291pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<img/Circuit/Track_P_SCell.pdf, id=2457, 1164.44312pt x 689.19629pt>
+File: img/Circuit/Track_P_SCell.pdf Graphic file (type pdf)
+<use img/Circuit/Track_P_SCell.pdf>
+Package pdftex.def Info: img/Circuit/Track_P_SCell.pdf  used on input line 81.
+(pdftex.def)             Requested size: 1164.44028pt x 689.1946pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[99
+
+ <./img/Circuit/u_P_SCell.pdf> <./img/Circuit/v_P_SCell.pdf
+
+pdfTeX warning: pdflatex (file ./img/Circuit/v_P_SCell.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+
+LaTeX Warning: Text page 100 contains only floats.
+
+[100 <./img/Circuit/Omega_P_SCell.pdf> <./img/Circuit/n_P_SCell.pdf
+
+pdfTeX warning: pdflatex (file ./img/Circuit/n_P_SCell.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./img/Circuit/phi_P_SCell.pdf
+
+pdfTeX warning: pdflatex (file ./img/Circuit/phi_P_SCell.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./img/Circuit/delta_P_SCell.pdf
+
+pdfTeX warning: pdflatex (file ./img/Circuit/delta_P_SCell.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] [101 <./img/Circuit/Fzf_P_SCell.pdf> <./img/Circuit/Fzr_P_SCell.pdf
+
+pdfTeX warning: pdflatex (file ./img/Circuit/Fzr_P_SCell.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./img/Circuit/EFront_P_SCell.pdf
+
+pdfTeX warning: pdflatex (file ./img/Circuit/EFront_P_SCell.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./img/Circuit/ERear_P_SCell.pdf
+
+pdfTeX warning: pdflatex (file ./img/Circuit/ERear_P_SCell.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] [102 <./img/Circuit/Track_P_SCell.pdf>]
+<img/Circuit/u_P_TCell.pdf, id=2613, 717.60626pt x 211.13377pt>
+File: img/Circuit/u_P_TCell.pdf Graphic file (type pdf)
+<use img/Circuit/u_P_TCell.pdf>
+Package pdftex.def Info: img/Circuit/u_P_TCell.pdf  used on input line 92.
+(pdftex.def)             Requested size: 455.24408pt x 133.94281pt.
+<img/Circuit/v_P_TCell.pdf, id=2614, 720.3841pt x 211.27548pt>
+File: img/Circuit/v_P_TCell.pdf Graphic file (type pdf)
+<use img/Circuit/v_P_TCell.pdf>
+Package pdftex.def Info: img/Circuit/v_P_TCell.pdf  used on input line 99.
+(pdftex.def)             Requested size: 455.24408pt x 133.51366pt.
+<img/Circuit/Omega_P_TCell.pdf, id=2615, 728.16187pt x 211.13377pt>
+File: img/Circuit/Omega_P_TCell.pdf Graphic file (type pdf)
+<use img/Circuit/Omega_P_TCell.pdf>
+Package pdftex.def Info: img/Circuit/Omega_P_TCell.pdf  used on input line 106.
+(pdftex.def)             Requested size: 455.24408pt x 132.00015pt.
+<img/Circuit/n_P_TCell.pdf, id=2616, 719.82402pt x 211.13377pt>
+File: img/Circuit/n_P_TCell.pdf Graphic file (type pdf)
+<use img/Circuit/n_P_TCell.pdf>
+Package pdftex.def Info: img/Circuit/n_P_TCell.pdf  used on input line 113.
+(pdftex.def)             Requested size: 455.24408pt x 133.53044pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<img/Circuit/phi_P_TCell.pdf, id=2617, 732.6018pt x 211.13377pt>
+File: img/Circuit/phi_P_TCell.pdf Graphic file (type pdf)
+<use img/Circuit/phi_P_TCell.pdf>
+Package pdftex.def Info: img/Circuit/phi_P_TCell.pdf  used on input line 120.
+(pdftex.def)             Requested size: 455.24408pt x 131.19797pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<img/Circuit/delta_P_TCell.pdf, id=2618, 732.6018pt x 212.30753pt>
+File: img/Circuit/delta_P_TCell.pdf Graphic file (type pdf)
+<use img/Circuit/delta_P_TCell.pdf>
+Package pdftex.def Info: img/Circuit/delta_P_TCell.pdf  used on input line 127.
+(pdftex.def)             Requested size: 455.24408pt x 131.92732pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<img/Circuit/Fzf_P_TCell.pdf, id=2619, 727.04625pt x 211.13377pt>
+File: img/Circuit/Fzf_P_TCell.pdf Graphic file (type pdf)
+<use img/Circuit/Fzf_P_TCell.pdf>
+Package pdftex.def Info: img/Circuit/Fzf_P_TCell.pdf  used on input line 134.
+(pdftex.def)             Requested size: 455.24408pt x 132.20313pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<img/Circuit/Fzr_P_TCell.pdf, id=2620, 727.04625pt x 211.13377pt>
+File: img/Circuit/Fzr_P_TCell.pdf Graphic file (type pdf)
+<use img/Circuit/Fzr_P_TCell.pdf>
+Package pdftex.def Info: img/Circuit/Fzr_P_TCell.pdf  used on input line 141.
+(pdftex.def)             Requested size: 455.24408pt x 132.20313pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<img/Circuit/EFront_P_TCell.pdf, id=2621, 414.51006pt x 247.83218pt>
+File: img/Circuit/EFront_P_TCell.pdf Graphic file (type pdf)
+<use img/Circuit/EFront_P_TCell.pdf>
+Package pdftex.def Info: img/Circuit/EFront_P_TCell.pdf  used on input line 148.
+(pdftex.def)             Requested size: 227.62204pt x 136.09256pt.
+<img/Circuit/ERear_P_TCell.pdf, id=2622, 393.36496pt x 311.86005pt>
+File: img/Circuit/ERear_P_TCell.pdf Graphic file (type pdf)
+<use img/Circuit/ERear_P_TCell.pdf>
+Package pdftex.def Info: img/Circuit/ERear_P_TCell.pdf  used on input line 153.
+(pdftex.def)             Requested size: 227.62204pt x 180.46019pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<img/Circuit/Track_P_TCell.pdf, id=2623, 1164.44312pt x 689.19629pt>
+File: img/Circuit/Track_P_TCell.pdf Graphic file (type pdf)
+<use img/Circuit/Track_P_TCell.pdf>
+Package pdftex.def Info: img/Circuit/Track_P_TCell.pdf  used on input line 163.
+(pdftex.def)             Requested size: 1164.44028pt x 689.1946pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[103
+
+ <./img/Circuit/u_P_TCell.pdf> <./img/Circuit/v_P_TCell.pdf
+
+pdfTeX warning: pdflatex (file ./img/Circuit/v_P_TCell.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./img/Circuit/Omega_P_TCell.pdf
+
+pdfTeX warning: pdflatex (file ./img/Circuit/Omega_P_TCell.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+
+LaTeX Warning: Text page 104 contains only floats.
+
+[104 <./img/Circuit/n_P_TCell.pdf> <./img/Circuit/phi_P_TCell.pdf
+
+pdfTeX warning: pdflatex (file ./img/Circuit/phi_P_TCell.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./img/Circuit/delta_P_TCell.pdf
+
+pdfTeX warning: pdflatex (file ./img/Circuit/delta_P_TCell.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./img/Circuit/Fzf_P_TCell.pdf
+
+pdfTeX warning: pdflatex (file ./img/Circuit/Fzf_P_TCell.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] [105 <./img/Circuit/Fzr_P_TCell.pdf> <./img/Circuit/EFront_P_TCell.pdf
+
+pdfTeX warning: pdflatex (file ./img/Circuit/EFront_P_TCell.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./img/Circuit/ERear_P_TCell.pdf
+
+pdfTeX warning: pdflatex (file ./img/Circuit/ERear_P_TCell.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] [106 <./img/Circuit/Track_P_TCell.pdf>]
+<img/Circuit/u_P_SCcomb.pdf, id=2778, 717.60626pt x 211.13377pt>
+File: img/Circuit/u_P_SCcomb.pdf Graphic file (type pdf)
+<use img/Circuit/u_P_SCcomb.pdf>
+Package pdftex.def Info: img/Circuit/u_P_SCcomb.pdf  used on input line 174.
+(pdftex.def)             Requested size: 455.24408pt x 133.94281pt.
+<img/Circuit/v_P_SCcomb.pdf, id=2779, 720.3841pt x 211.13377pt>
+File: img/Circuit/v_P_SCcomb.pdf Graphic file (type pdf)
+<use img/Circuit/v_P_SCcomb.pdf>
+Package pdftex.def Info: img/Circuit/v_P_SCcomb.pdf  used on input line 181.
+(pdftex.def)             Requested size: 455.24408pt x 133.42412pt.
+<img/Circuit/Omega_P_SCcomb.pdf, id=2780, 728.16187pt x 211.13377pt>
+File: img/Circuit/Omega_P_SCcomb.pdf Graphic file (type pdf)
+<use img/Circuit/Omega_P_SCcomb.pdf>
+Package pdftex.def Info: img/Circuit/Omega_P_SCcomb.pdf  used on input line 188.
+(pdftex.def)             Requested size: 455.24408pt x 132.00015pt.
+<img/Circuit/n_P_SCcomb.pdf, id=2781, 719.82402pt x 211.13377pt>
+File: img/Circuit/n_P_SCcomb.pdf Graphic file (type pdf)
+<use img/Circuit/n_P_SCcomb.pdf>
+Package pdftex.def Info: img/Circuit/n_P_SCcomb.pdf  used on input line 195.
+(pdftex.def)             Requested size: 455.24408pt x 133.53044pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<img/Circuit/phi_P_SCcomb.pdf, id=2782, 732.6018pt x 211.13377pt>
+File: img/Circuit/phi_P_SCcomb.pdf Graphic file (type pdf)
+<use img/Circuit/phi_P_SCcomb.pdf>
+Package pdftex.def Info: img/Circuit/phi_P_SCcomb.pdf  used on input line 202.
+(pdftex.def)             Requested size: 455.24408pt x 131.19797pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<img/Circuit/delta_P_SCcomb.pdf, id=2783, 732.6018pt x 211.13377pt>
+File: img/Circuit/delta_P_SCcomb.pdf Graphic file (type pdf)
+<use img/Circuit/delta_P_SCcomb.pdf>
+Package pdftex.def Info: img/Circuit/delta_P_SCcomb.pdf  used on input line 209.
+(pdftex.def)             Requested size: 455.24408pt x 131.19797pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<img/Circuit/Fzf_P_SCcomb.pdf, id=2784, 727.04625pt x 211.13377pt>
+File: img/Circuit/Fzf_P_SCcomb.pdf Graphic file (type pdf)
+<use img/Circuit/Fzf_P_SCcomb.pdf>
+Package pdftex.def Info: img/Circuit/Fzf_P_SCcomb.pdf  used on input line 216.
+(pdftex.def)             Requested size: 455.24408pt x 132.20313pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<img/Circuit/Fzr_P_SCcomb.pdf, id=2785, 727.04625pt x 211.13377pt>
+File: img/Circuit/Fzr_P_SCcomb.pdf Graphic file (type pdf)
+<use img/Circuit/Fzr_P_SCcomb.pdf>
+Package pdftex.def Info: img/Circuit/Fzr_P_SCcomb.pdf  used on input line 223.
+(pdftex.def)             Requested size: 455.24408pt x 132.20313pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<img/Circuit/EFront_P_SCcomb.pdf, id=2786, 414.51006pt x 230.36273pt>
+File: img/Circuit/EFront_P_SCcomb.pdf Graphic file (type pdf)
+<use img/Circuit/EFront_P_SCcomb.pdf>
+Package pdftex.def Info: img/Circuit/EFront_P_SCcomb.pdf  used on input line 230.
+(pdftex.def)             Requested size: 227.62204pt x 126.49953pt.
+<img/Circuit/ERear_P_SCcomb.pdf, id=2787, 351.19292pt x 315.36034pt>
+File: img/Circuit/ERear_P_SCcomb.pdf Graphic file (type pdf)
+<use img/Circuit/ERear_P_SCcomb.pdf>
+Package pdftex.def Info: img/Circuit/ERear_P_SCcomb.pdf  used on input line 235.
+(pdftex.def)             Requested size: 227.62204pt x 204.39952pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<img/Circuit/Track_P_SCcomb.pdf, id=2788, 1164.44312pt x 689.19629pt>
+File: img/Circuit/Track_P_SCcomb.pdf Graphic file (type pdf)
+<use img/Circuit/Track_P_SCcomb.pdf>
+Package pdftex.def Info: img/Circuit/Track_P_SCcomb.pdf  used on input line 245.
+(pdftex.def)             Requested size: 1164.44028pt x 689.1946pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[107
+
+ <./img/Circuit/u_P_SCcomb.pdf> <./img/Circuit/v_P_SCcomb.pdf
+
+pdfTeX warning: pdflatex (file ./img/Circuit/v_P_SCcomb.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./img/Circuit/Omega_P_SCcomb.pdf
+
+pdfTeX warning: pdflatex (file ./img/Circuit/Omega_P_SCcomb.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+
+LaTeX Warning: Text page 108 contains only floats.
+
+[108 <./img/Circuit/n_P_SCcomb.pdf> <./img/Circuit/phi_P_SCcomb.pdf
+
+pdfTeX warning: pdflatex (file ./img/Circuit/phi_P_SCcomb.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./img/Circuit/delta_P_SCcomb.pdf
+
+pdfTeX warning: pdflatex (file ./img/Circuit/delta_P_SCcomb.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./img/Circuit/Fzf_P_SCcomb.pdf
+
+pdfTeX warning: pdflatex (file ./img/Circuit/Fzf_P_SCcomb.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] [109 <./img/Circuit/Fzr_P_SCcomb.pdf> <./img/Circuit/EFront_P_SCcomb.pdf
+
+pdfTeX warning: pdflatex (file ./img/Circuit/EFront_P_SCcomb.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./img/Circuit/ERear_P_SCcomb.pdf
+
+pdfTeX warning: pdflatex (file ./img/Circuit/ERear_P_SCcomb.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] [110 <./img/Circuit/Track_P_SCcomb.pdf>]
+<img/Circuit/u_P_TCcomb.pdf, id=2944, 717.60626pt x 211.13377pt>
+File: img/Circuit/u_P_TCcomb.pdf Graphic file (type pdf)
+<use img/Circuit/u_P_TCcomb.pdf>
+Package pdftex.def Info: img/Circuit/u_P_TCcomb.pdf  used on input line 256.
+(pdftex.def)             Requested size: 455.24408pt x 133.94281pt.
+<img/Circuit/v_P_TCcomb.pdf, id=2945, 720.3841pt x 211.24805pt>
+File: img/Circuit/v_P_TCcomb.pdf Graphic file (type pdf)
+<use img/Circuit/v_P_TCcomb.pdf>
+Package pdftex.def Info: img/Circuit/v_P_TCcomb.pdf  used on input line 263.
+(pdftex.def)             Requested size: 455.24408pt x 133.49634pt.
+<img/Circuit/Omega_P_TCcomb.pdf, id=2946, 728.16187pt x 211.13377pt>
+File: img/Circuit/Omega_P_TCcomb.pdf Graphic file (type pdf)
+<use img/Circuit/Omega_P_TCcomb.pdf>
+Package pdftex.def Info: img/Circuit/Omega_P_TCcomb.pdf  used on input line 270.
+(pdftex.def)             Requested size: 455.24408pt x 132.00015pt.
+<img/Circuit/n_P_TCcomb.pdf, id=2947, 719.82402pt x 211.13377pt>
+File: img/Circuit/n_P_TCcomb.pdf Graphic file (type pdf)
+<use img/Circuit/n_P_TCcomb.pdf>
+Package pdftex.def Info: img/Circuit/n_P_TCcomb.pdf  used on input line 277.
+(pdftex.def)             Requested size: 455.24408pt x 133.53044pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<img/Circuit/phi_P_TCcomb.pdf, id=2948, 732.6018pt x 211.13377pt>
+File: img/Circuit/phi_P_TCcomb.pdf Graphic file (type pdf)
+<use img/Circuit/phi_P_TCcomb.pdf>
+Package pdftex.def Info: img/Circuit/phi_P_TCcomb.pdf  used on input line 284.
+(pdftex.def)             Requested size: 455.24408pt x 131.19797pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<img/Circuit/delta_P_TCcomb.pdf, id=2949, 732.6018pt x 211.13377pt>
+File: img/Circuit/delta_P_TCcomb.pdf Graphic file (type pdf)
+<use img/Circuit/delta_P_TCcomb.pdf>
+Package pdftex.def Info: img/Circuit/delta_P_TCcomb.pdf  used on input line 291.
+(pdftex.def)             Requested size: 455.24408pt x 131.19797pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<img/Circuit/Fzf_P_TCcomb.pdf, id=2950, 727.04625pt x 211.13377pt>
+File: img/Circuit/Fzf_P_TCcomb.pdf Graphic file (type pdf)
+<use img/Circuit/Fzf_P_TCcomb.pdf>
+Package pdftex.def Info: img/Circuit/Fzf_P_TCcomb.pdf  used on input line 298.
+(pdftex.def)             Requested size: 455.24408pt x 132.20313pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<img/Circuit/Fzr_P_TCcomb.pdf, id=2951, 727.04625pt x 211.13377pt>
+File: img/Circuit/Fzr_P_TCcomb.pdf Graphic file (type pdf)
+<use img/Circuit/Fzr_P_TCcomb.pdf>
+Package pdftex.def Info: img/Circuit/Fzr_P_TCcomb.pdf  used on input line 305.
+(pdftex.def)             Requested size: 455.24408pt x 132.20313pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<img/Circuit/EFront_P_TCcomb.pdf, id=2952, 414.51006pt x 249.9519pt>
+File: img/Circuit/EFront_P_TCcomb.pdf Graphic file (type pdf)
+<use img/Circuit/EFront_P_TCcomb.pdf>
+Package pdftex.def Info: img/Circuit/EFront_P_TCcomb.pdf  used on input line 312.
+(pdftex.def)             Requested size: 227.62204pt x 137.25656pt.
+<img/Circuit/ERear_P_TCcomb.pdf, id=2953, 391.51341pt x 311.86005pt>
+File: img/Circuit/ERear_P_TCcomb.pdf Graphic file (type pdf)
+<use img/Circuit/ERear_P_TCcomb.pdf>
+Package pdftex.def Info: img/Circuit/ERear_P_TCcomb.pdf  used on input line 317.
+(pdftex.def)             Requested size: 227.62204pt x 181.31674pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<img/Circuit/Track_P_TCcomb.pdf, id=2954, 1164.44312pt x 689.19629pt>
+File: img/Circuit/Track_P_TCcomb.pdf Graphic file (type pdf)
+<use img/Circuit/Track_P_TCcomb.pdf>
+Package pdftex.def Info: img/Circuit/Track_P_TCcomb.pdf  used on input line 327.
+(pdftex.def)             Requested size: 1164.44028pt x 689.1946pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[111
+
+ <./img/Circuit/u_P_TCcomb.pdf> <./img/Circuit/v_P_TCcomb.pdf
+
+pdfTeX warning: pdflatex (file ./img/Circuit/v_P_TCcomb.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./img/Circuit/Omega_P_TCcomb.pdf
+
+pdfTeX warning: pdflatex (file ./img/Circuit/Omega_P_TCcomb.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+
+LaTeX Warning: Text page 112 contains only floats.
+
+[112 <./img/Circuit/n_P_TCcomb.pdf> <./img/Circuit/phi_P_TCcomb.pdf
+
+pdfTeX warning: pdflatex (file ./img/Circuit/phi_P_TCcomb.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./img/Circuit/delta_P_TCcomb.pdf
+
+pdfTeX warning: pdflatex (file ./img/Circuit/delta_P_TCcomb.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./img/Circuit/Fzf_P_TCcomb.pdf
+
+pdfTeX warning: pdflatex (file ./img/Circuit/Fzf_P_TCcomb.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] [113 <./img/Circuit/Fzr_P_TCcomb.pdf> <./img/Circuit/EFront_P_TCcomb.pdf
+
+pdfTeX warning: pdflatex (file ./img/Circuit/EFront_P_TCcomb.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./img/Circuit/ERear_P_TCcomb.pdf
+
+pdfTeX warning: pdflatex (file ./img/Circuit/ERear_P_TCcomb.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] [114 <./img/Circuit/Track_P_TCcomb.pdf>]))
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 58.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 58.
  (Thesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 58.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 58.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 242D5DC5286BA7F1742755D5A0ED580C;7229.
+(rerunfilecheck)             Checksum: 7E00C437A09A0BF38E685A789BB186D8;7606.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -1716,17 +2348,17 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 58.
  ) 
 Here is how much of TeX's memory you used:
- 34320 strings out of 481545
- 616838 string characters out of 2920469
- 1016156 words of memory out of 3000000
- 48295 multiletter control sequences out of 15000+200000
+ 34901 strings out of 481545
+ 632614 string characters out of 2920469
+ 1020156 words of memory out of 3000000
+ 48722 multiletter control sequences out of 15000+200000
  644980 words of font info for 101 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,21n,69p,999b,2463s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rmtt.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmro10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/T75/AppData/Roaming/MiKTeX/2.9/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on Thesis.pdf (103 pages, 5525264 bytes).
+Output written on Thesis.pdf (128 pages, 7105360 bytes).
 PDF statistics:
- 2120 PDF objects out of 2487 (max. 8388607)
- 400 named destinations out of 1000 (max. 500000)
- 1051 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3322 PDF objects out of 3580 (max. 8388607)
+ 480 named destinations out of 1000 (max. 500000)
+ 1415 words of extra memory for PDF output out of 10000 (max. 10000000)
 

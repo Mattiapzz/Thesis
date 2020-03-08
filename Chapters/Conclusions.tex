@@ -15,3 +15,13 @@
 % - potenziali sviluppi
 %   - driver mobile
 %   - confronto dati reali
+The primary goal of this thesis was to develop a complete sports motorcycle model to solve dynamic minimum-lap-time optimal control problems on 2D tracks.
+The motorcycle model is different from the classic Whipple bicycle. In fact, to accurately describe the complex motion of the vehicle, an $11$ DoF model is used. The degrees of freedom include vehicle’s steering and roll angle behaviour, pitching and heaving motion, as well as the dynamic of wheels and suspensions. The model up to now lacks of the motion of the driver.\\
+AN important aspect of this model is the description of tyre forces and moments through the magic formula\cite{pacejka2012tire} and the definition of a limiting torque with an actual power curve.\\
+It is important to highlight that there are no trace of optimal control problem with a motorcycle dynamic as complex as this. This is partially due to the computational burden of a model so complicated and highly non linear.\\
+The optimal control problem was solved using the indirect approach which is, as far as the author know, not common in literature. In fact, the software PINS, is one of the few if not the only one, that exploits Pontryagin minimum principle to solve OCP.\\
+The motorcycle model has been tested considering two different sets of control variables: the slip control and the torque control. Both cases are investigated with the complete magic formula and with the limiting adherence defined in a constraints. The four devised models have been tested in various tracks with increasing complexity. The simplest one was a straight line. Then it was tested in a U-shaped turn and in a chicane manoeuvre. At the end all were tested in the Adria International Raceway circuit.\\
+A further development of the work presented would be the inclusion of the driver motion as an additional degree of freedom. The next natural continuation could be the comparison of the optimal control manoeuvre with real telemetry to validate furthermore the developed model.\\
+Another important investigation would be the inclusion of a more realistic model for the drag force and the inclusion of tyre deterioration models\cite{leonelli2019optimal}.
+%%%
+

@@ -1,14 +1,14 @@
 \section{Dynamic Model}
 %
-In the previous section all variables describing the motion have been introduced. One can globally consider how many degrees of freedom the motorcycle will have in the space. The vehicle as a body will have 6 DoF. The first 3 are translations identified in the quasi-coordinate $u(t)$, $v(t)$ (longitudinal and lateral velocity) and the vertical translation $h(t)$. The other DoF are the rotation around 3 axis. The first is around the $z$ direction and identified by the quasi-coordinate $\Omega(t)$ (yaw rate) while the others are angle $\phi(t)$ (roll) and $\theta(t)$(pitch).\\
+In the previous section, all variables describing the motion have been introduced. One can globally consider how many degrees of freedom the motorcycle will have in the space. The vehicle as a body will have 6 DoF. The first 3 are translations identified in the quasi-coordinate $u(t)$, $v(t)$ (longitudinal and lateral velocity) and the vertical translation $h(t)$. The others DoF are the rotation around 3 axes. The first is around the $z$ direction and identified by the quasi-coordinate $\Omega(t)$ (yaw rate) while the others are angle $\phi(t)$ (roll) and $\theta(t)$(pitch).\\
 In addition to those "external" degrees of freedom, the motorcycle is described by a set of "internal" variables. The word internal is used because the variables describe a motion between parts of the motorcycle. Fist of all the degree of freedom of the steer ($\delta(t)$). Then there is the motion of the front suspension $s_f(t)$ and the one of the rear suspension ($\eta(t)$). Finally the two DoF of the spinning wheels, $\omega_r(t)$ and $\omega_f(t)$.\\
-From the previous description about DoF it is clear that the motorcycle model have $11$ degrees of freedom, therefore $11$ equation of motion are needed.
+From the previous description about DoF, it is clear that the motorcycle model has $11$ degrees of freedom, therefore $11$ equations of motion are needed.
 %
 \subsection{Motorcycle rigid body}
 %
-One techniques to write equation of motion in an efficient ("smart") way is to define a body that describe the whole motorcycle as a rigid body and then add only the dynamic contribute of the internal motion of the other bodies.\\
+One technique to write the equations of motion in an efficient ("smart") way is to define a body that describes the whole motorcycle as a rigid body and then add only the dynamic contribution of the internal motion of the other bodies.\\
 A simple example with a double pendulum is reported in appendix \ref{app:AntiBody} to demonstrate the advantages of this method.\\
-The motorcycle as a rigid body is composed by the following bodies:
+The motorcycle as a rigid body is composed of the following bodies:
 \begin{itemize}
     \setlength{\itemsep}{0pt}
     \item the rear frame (main body)
@@ -143,13 +143,13 @@ The two body of the wheels have their CoM in the origin of the attached spinning
     \; \text{in} \; RF_{RWspin}
 \end{equation}
 %
-The last body is the unsprung front suspension. However, the mass of this element is small compared to the other and it can be eventually integrated in the mass of the front wheel. The body of the unsprung suspension has as a virtual centre of mass the centre of the front wheel, wont have mass (mass$=0$) and has no inertia. This is a modelling expedient to derive the equation of motions and to transmit the reaction forces.\\
+The last body is the unsprung front suspension. However, the mass of this element is small compared to the other and it can be eventually integrated into the mass of the front wheel. The body of the unsprung suspension has as a virtual centre of mass the centre of the front wheel, won't have mass (mass$=0$) and has no inertia. This is a modelling expedient to derive the equation of motions and to transmit the reaction forces.\\
 From all the previously defined centre of gravity one can define the six bodies at play with their inertial properties, mass and moment of inertia.\\
-In the following sections masses and moment of inertia belonging to bodies will appear. The notation used in this thesis follow the subsequent rule. Masses and inertia are indicated with symbols $m$ and $Ix$, $Iy$, $Iz$, $Cxy$, $Cxz$, $Cyz$ in general. When addressed to a specific one a suffix is added to represent the body or the reference frame. For instance the mass of the steering assembly will be $m_\delta$.
+In the following sections, masses and moment of inertia belonging to bodies will appear. The notation used in this thesis follows the subsequent rule. Masses and inertia are indicated with symbols $m$ and $Ix$, $Iy$, $Iz$, $Cxy$, $Cxz$, $Cyz$ in general. When addressed to a specific one a suffix is added to represent the body or the reference frame. For instance, the mass of the steering assembly will be $m_\delta$.
 %
 \subsubsection{Centre of Mass of the motorcycle}
 %
-The CoM of the motorcycle can be simply computed as the weighted average sum of the masses of all the parts. This mean yields a vector of 3 components that can be projected in the rolled reference frame $RF_\phi$. Once substituted the relationship of the previous paragraph for the freezed DoF, the values of the vector are the coordinate of the CoM of the motorcycle in the rolled reference frame. 
+The CoM of the motorcycle can be simply computed as the weighted average sum of the masses of all the parts. This mean yields a vector of 3 components that can be projected in the rolled reference frame $RF_\phi$. Once substituted the relationship of the previous paragraph for the frozen DoF, the values of the vector are the coordinate of the CoM of the motorcycle in the rolled reference frame. 
 \begin{equation}
     \label{eq:CoM}
     G_{moto} = 
@@ -164,8 +164,8 @@ However, the definition of $YG$ is simple and evaluated is equal to zero. This i
 %
 \subsubsection{Moment of Inertia of the motorcycle}
 %
-The moment of inertia of the whole motorcycle, can be computed in a similar way as the CoM.
-The fist thing to derive is the angular velocity of the rolled reference frame $RF_\phi$. This will not contain angle $\theta$ because is considered as freezed.\\
+The moment of inertia of the whole motorcycle can be computed similarly as the CoM.
+The fist thing to derive is the angular velocity of the rolled reference frame $RF_\phi$. This will not contain angle $\theta$ because is considered as frozen.\\
 The three components of the angular velocity are 
 %
 \begin{equation}
@@ -180,7 +180,7 @@ The three components of the angular velocity are
 \end{equation}
 %
 Proceeding with the equation derivation the angular momentum of the whole motorcycle ic computed. The angular momentum is additive, therefore it can be calculated as the sum of all the angular momentums. Those should be calculated using as a pole the CoM of the motorcycle. The obtained vector is projected in the rolled reference frame to get rid off almost all the contribute of 
-$\phi$ and evaluated considering the freezeed DoF.\\
+$\phi$ and evaluated considering the frozen DoF.\\
 At this point the previous relationship \ref{eq:ang_vel} can be exploited and substituted. Therefore the angular momentum can be used to generate the inertia matrix collecting $\omega_{x}$, $\omega_{y}$ and $\omega_{z}$.
 %
 \begin{equation}
@@ -196,13 +196,13 @@ At this point the previous relationship \ref{eq:ang_vel} can be exploited and su
 \end{equation}
 %
 where $I_{tot}$ is the matrix of inertia of the whole motorcycle, $\mathbf{A_M}$ is the vector of the angular momentum and $\mathbf{res}$ is the vector of residual from the matrix generation. This should be checked to be equal to zero and it is.
-With the previously computed data a body can be created. This have the centre of gravity in the point of equation \ref{eq:CoM}, mass equal to the sum of all masses ($M_{tot}$) and the moment of inertia $I_{tot}$.  
+With the previously computed data, a body can be created. This has the centre of gravity in the point of equation \ref{eq:CoM}, mass equal to the sum of all masses ($M_{tot}$) and the moment of inertia $I_{tot}$.  
 %
 \subsection{Dummy bodies}
 \label{subsec:Dummy}
 %
-The moment of inertia and the masses of the different parts of the motorcycle are already inside the definition of the rigid body of the previous section. Therefore in the derivation of the equation of motion we should only consider the effect of the motion of the parts. In fact in the rigid body all the pats are frezed and considered as static. However, the dynamic component plays a great role in the motion.\\ 
-One solution is to take into account only those components is to introduce a set of dummy bodies also known as anti-bodies. This bodies are defined for each moving component of the motorcycle. The dummy body has as a centre of gravity the body they are referred to, but evaluated with the internal DoF freezed. The anti-bodies, as the name suggest, has inertial properties that are the one of the real body with changed sign. This means that all dummy bodies have negative mass and negative inertia. \\
+The moment of inertia and the masses of the different parts of the motorcycle are already inside the definition of the rigid body of the previous section. Therefore in the derivation of the equation of motion, we should only consider the effect of the motion of the parts. In fact, in the rigid body, all the parts are frozen and considered as static. However, the dynamic component plays a great role in the motion.\\ 
+One solution is to take into account only those components is to introduce a set of dummy bodies also known as anti-bodies. These bodies are defined for each moving component of the motorcycle. The dummy body has as a centre of gravity the body they are referred to but evaluated with the internal DoF frozen. The anti-bodies, as the name suggest, has inertial properties that are the one of the real body with changed sign. This means that all dummy bodies have negative mass and negative inertia. \\
 The concept of negative mass and negative inertia have no meaning in physical and real life. However, is a modelling trick to simplify the resulting equations of motion. A simple example with a double pendulum is reported in appendix \ref{app:AntiBody} to demonstrate the advantages of this method.\\
 Here is reported a list of dummy bodies that have to be defined.
 %
@@ -216,13 +216,13 @@ Here is reported a list of dummy bodies that have to be defined.
     \item anti rear wheel
 \end{itemize}
 %
-There is no need to create the antibody for the unsprung front suspension since it does not have mass nor inertia. If the model consider also mass and inertia of this body then an antibody must be created to be consistent.
+There is no need to create the antibody for the unsprung front suspension since it does not have mass nor inertia. If the model considers also mass and inertia of this body then an antibody must be created to be consistent.
 %
 \subsection{Forces}
 %
 First of all the force of gravity is acting on all bodies and the acceleration of gravity is set as a vector in the negative $z$ direction due to convention choices.\\
 The other external forces acting on the motorcycle are the aerodynamic drag and the force exchanged by the tyre with the ground.\\
-The drag is modelled with a simple law that scale with the squared of the longitudinal velocity. It has only component in the $x$ direction in the rolled reference frame. The force act on the motorcycle rigid body.
+The drag is modelled with a simple law that scale with the squared of the longitudinal velocity. It has the only component in the $x$ direction in the rolled reference frame. The force act on the motorcycle rigid body.
 %
 \begin{equation}
     F_a = 
@@ -236,7 +236,7 @@ The drag is modelled with a simple law that scale with the squared of the longit
     \text{in} \; RF_\phi
 \end{equation}
 %
-Where $C_a$ is this case is a constant, but in theory and reality it is not. This coefficient depend on multiple thermodynamic factors and more important for this application the resisting cross section of the motorcycle and the rider. The motorcycle profile is constant, but the pilot is moving leaning forward and opening the knee at curve entrance. 
+Where $C_a$ is this case is a constant, but in theory and reality, it is not. This coefficient depends on multiple thermodynamic factors and more important for this application the resisting cross-section of the motorcycle and the rider. The motorcycle profile is constant, but the pilot is moving leaning forward and opening the knee at curve entrance. 
 % This leads in a change up to $50\%$ in the drag coefficient. \cite{}
 Moreover, the drag force has an application point which is constant in this model, but in reality change with changing configuration (position) of the driver.
 %

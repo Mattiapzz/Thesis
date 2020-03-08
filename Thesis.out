@@ -88,8 +88,8 @@
 \BOOKMARK [1][-]{section.7.4}{Adria\040Track}{chapter.7}% 88
 \BOOKMARK [2][-]{subsection.7.4.1}{Solution\040approach}{section.7.4}% 89
 \BOOKMARK [2][-]{subsection.7.4.2}{Results\040and\040comparison}{section.7.4}% 90
-\BOOKMARK [0][-]{chapter*.46}{Conclusions}{}% 91
-\BOOKMARK [0][-]{chapter*.47}{Bibliography}{}% 92
+\BOOKMARK [0][-]{chapter*.60}{Conclusions}{}% 91
+\BOOKMARK [0][-]{chapter*.61}{Bibliography}{}% 92
 \BOOKMARK [0][-]{appendix.A}{Data\040and\040parameters}{}% 93
 \BOOKMARK [1][-]{section.A.1}{Motorcycle\040Data}{appendix.A}% 94
 \BOOKMARK [1][-]{section.A.2}{Tyre\040data}{appendix.A}% 95
@@ -98,5 +98,8 @@
 \BOOKMARK [1][-]{section.B.1}{Straight\040forward\040derivation}{appendix.B}% 98
 \BOOKMARK [1][-]{section.B.2}{Dummy\040body\040techniques}{appendix.B}% 99
 \BOOKMARK [1][-]{section.B.3}{Comparison}{appendix.B}% 100
-\BOOKMARK [0][-]{appendix.C}{Results}{}% 101
-\BOOKMARK [1][-]{section.C.1}{Plots}{appendix.C}% 102
+\BOOKMARK [0][-]{appendix.C}{Adria\040International\040Raceway\040results}{}% 101
+\BOOKMARK [1][-]{section.C.1}{Slip\040Control\040Adherence\040Ellipse\040Constraint}{appendix.C}% 102
+\BOOKMARK [1][-]{section.C.2}{Torque\040Control\040Adherence\040Ellipse\040Constraint}{appendix.C}% 103
+\BOOKMARK [1][-]{section.C.3}{Slip\040Control\040Combined\040Tyre\040Model}{appendix.C}% 104
+\BOOKMARK [1][-]{section.C.4}{Torque\040Control\040Combined\040Tyre\040Model}{appendix.C}% 105
